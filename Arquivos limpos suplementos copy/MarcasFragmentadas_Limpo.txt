@@ -1,0 +1,1121 @@
+--- Página 1 ---
+PLAYTEST
+Suplemento feito por fãs
+
+--- Página 3 ---
+AGRADECIMENTOS
+O projeto do universo Marcas Fragmentadas surgiu com o anúncio
+do sistema oficial de Ordem Paranormal, desenvolvido e publicado
+pela Jambô Editora em novembro de 2021. A ideia desde o início
+era só fazer uma história compartilhada, sendo contada a partir de
+RPGs ao vivo e que alguma hora iriam se conectar.
+Após alguns meses, surgiu a ideia de transformar essa história em
+um universo alternativo, que resgata algumas características da
+série e cria novas formas de ver esse mundo, além de novos personagens, e o mais importante: Novas organizações. Assim, Marcas
+Fragmentadas formou a base do que ele é hoje, mas esse universo
+não seria o mesmo se não fossem vocês.
+Vocês fazem parte da história desse projeto, desde o apoio inicial as
+campanhas “Devaneios de Energia” e “ Amanhecer Fantástico” até
+na ajuda no financiamento de um dos projetos mais importantes
+das nossas vidas. Agradecemos imensamente a confiança no nosso
+trabalho e no incentivo a contar nossas histórias e esperamos que,
+com o lançamento deste livro, vocês possam contar suas próprias
+histórias nesse universo que amamos tanto.
+Por fim, compartilhem o que vocês criam conosco, sempre nos
+deem feedback do que podemos melhorar e corrigir e acompanhem o desenvolvimento dessa história com a gente, afinal, Marcas
+Fragmentadas é um projeto em conjunto com aqueles que amam
+essa atividade única que é jogar RPG.
+- SirCrazy, Bif e GGtonho em nome da equipe.
+
+--- Página 4 ---
+ORIGENS
+ADESTRADOR
+ADEPTO AO P ARANORMAL
+APOSTADORÀs vezes animais são melhores que pessoas, talvez por isso que você tenha
+dedicado sua vida a eles. A certeza é que você sabe como essas criaturas
+pensam e agem, e com elas, você se fortalece e têm aliados formidáveis,
+agindo e protegendo por instinto. Desde um adestrador de cachorros até
+alguém com um amigo inusitado. O seu caminho em algum momento
+cruzou com feras totalmente diferentes de tudo o que você já viu naz vida.
+Perícias treinadas. Adestramento e Diplomacia.
+Um amigo. Você tem um animal que é considerado um aliado de um
+tipo a sua escolha (veja a página 170 do livro base).
+O Outro Lado constantemente te chama, te seduz, te oferece o acesso a insanidade do paranormal em troca de poderes inigualáveis e
+você sem pensar duas vezes aceita. E se for para entrar nisso, você vai
+entrar de cabeça. De alguma forma você criou uma facilidade para
+acessar o Outro Lado sem que ele te consuma de volta tão facilmente,
+talvez isso venha dos seus anos de estudo ou até alguma predisposição
+esquisita, mas aconteceu.
+Perícias treinadas. Ocultismo e Vontade.
+Mente preparada. Você recebe +5 no teste de Ocultismo para o
+“Custo do Paranormal” .
+Às cartas estão na mesa, afinal isso tudo sempre foi um grande jogo
+pra você. Talvez essa adrenalina, incerteza ou até a emoção dos resultados à medida que as cartas são viradas te faça o que tu é nos dias
+de hoje. As inúmeras mesas de cassinos clandestinos ou bares te fizeram aprender uma coisa, enganar ou ser enganado. As pessoas são
+bem previsíveis se você souber ler elas. Mas talvez a sua maior aposta
+tenha sido entrar no mundo do paranormal, será que essa foi a melhor
+decisão, será que a sorte vai estar ao seu favor?
+Perícias treinadas. Intuição e Enganação.
+Tiro de sorte. Com o gasto de 2 PE você pode obter +5 em uma
+rolagem a sua escolha, exceto rolagens com base de Presença e Intelecto, porém, essa rolagem tem 50% de chance de falhar (Role
+1d20, se tirar 10 para baixo é uma falha automática).
+
+--- Página 5 ---
+ESCRITOR P ARANORMAL
+F AZ- TUDO
+INFLUENCIADORHistórias devem ser contadas. Você sempre contou elas, afinal são só
+histórias. Mas e quando elas podem voltar contra você? Se as histórias
+escritas por você se tornam realidade e começam a trazer mortes, sofrimento e medo nas pessoas. O que fazer? Acabar com a história. Mas resta
+ao autor finalizar esse livro com um fim trágico ou não.
+Perícias treinadas. Atualidades e Ocultismo.
+Nas entre linhas. Ao ser bem-sucedido ao realizar um teste de “Identificar Criatura” , você pode gastar 2 PE para fazer uma anotação sobre
+ela, para cada anotação, você pode escolher um número de alvos que
+possam te ouvir (incluindo você) igual seu valor de Intelecto para ganhar um bônus de +2 em testes de resistência contra essa criatura, esse
+valor é acumulável e permanente.
+É tudo você nesse mundo, as tarefas difíceis sempre acabam caindo sob você, mas fazer o que, você sempre está ali para ajudar. Seja
+gerenciando um estoque da sua loja ou o armamento de uma organização, é com seu esforço que o seu local de trabalho continua em pé,
+seja onde for.
+Perícias treinadas. Profissão e Tecnologia.
+Pau pra toda obra. Você tem +5 espaços de inventário.
+Ser influenciador não é fácil, você tem que manter seu público engajado para que alguma plataforma virtual não te jogue em um limbo muito pior que o Outro Lado. Você dificilmente vai conseguir
+usar suas habilidades profissionais contra os terrores do paranormal, mas talvez consiga uma satisfação de ver que seu trabalho está
+andando ainda.
+Perícias treinadas. Atualidades e Diplomacia.
+Algoritmo. Você agora tem a ação “Criar Conteúdo” em um interlúdio quando tiver acesso a internet, você deve rolar d20, se você
+tirar de 1 a 5, você não recupera sanidade, de 6 a 10 você recupera
+seu Limite de PE em sanidade, de 11 a 15 você recupera seu Limite
+de PE + 5 em sanidade e de 16 a 20 você recupera seu Limite de PE
++ 10 em sanidade. Ao atingir o NEX de 30%, você ganha +5 no teste
+desta ação.
+
+--- Página 6 ---
+JORNALISTA
+MÉDICO 24 HORAS
+P ALESTRINHAEm um mundo de fofocas, escândalos, rumores e furos de reportagem,
+você, como um bom jornalista, tem um talento nato: Saber de informações
+antes dos outros, ou ao menos sabe onde procurá-las. Em algum momento essa sua curiosidade faz com que você chegasse em buracos muito mais
+fundos do que você se quer poderia imaginar, um fundo do poço onde não
+pode mais sair.
+Perícias treinadas. Diplomacia e Enganação.
+Fofoca. Uma vez por sessão, quando você possui uma nova informação
+sobre o caso em que está investigando, pode gastar uma ação de interlúdio para procurar um algum caso reportado na mídia, alguma fofoca
+de um famoso ou algum boato que esteja circulando a respeito de algum
+assunto que auxilie a investigação. Antes de utilizar essa habilidade, fica
+a critério do mestre se essa habilidade é possível de ser utilizada ou não.
+O que é uma hora de sono a menos e uma a mais no trabalho? Enfim,
+você está salvando vidas. Após o seu contato com o paranormal, você
+não deixou de perder seu descanso para auxiliar seus aliados a se recuperarem de seus danos de batalha. Quase nada mudou, você ainda
+está salvando vidas.
+Perícias treinadas. Medicina e percepção.
+Plantão. Você pode realizar “Cuidados Prolongados” da perícia
+Medicina, a partir do Grau de Treinamento Treinado, além disso,
+“Cuidados Prolongados” agora também dobram a recuperação de
+PE pela ação de dormir de aliados afetados. Adicionalmente, ao
+chegar a NEX 35%, aliados afetados por “Cuidados Prolongados”
+recuperam uma quantidade de Sanidade igual o seu Intelecto ao
+usarem a ação dormir.
+O paranormal não existe, quer dizer, ele existe, mas isso não tem que
+afetar sua cabeça, você só precisa preparar sua mente, de alguma
+forma, para que ele se torne algo secundário comparado aos objetivos da sua vida, que possivelmente é se manter vivo no seu estado
+atual. Você pode não ter a mente mais estável e muito menos pautar
+suas falas em fontes confiáveis mas ao menos você vai tentar manter
+o ânimo e foco de seus colegas como sempre fez, só que dessa vez
+não vai ganhar tanto dinheiro com isso.
+Perícias treinadas. Diplomacia e Enganação.
+Mudança de mindset. Todos os aliados que em uma cena de interlúdio gastarem uma ação para “Ler” junto a você, recebem 2d6 ao
+invés de 1d6 em uma rolagem de Intelecto ou Presença.
+
+--- Página 7 ---
+PESQUISADOR P ARANORMAL
+PILOTO
+PSICÓLOGOO mundo e seus aspectos às vezes parecem se tornar entediantes comparados ao inexplicável e o assombrado, entender o incompreensível se
+tornou uma atividade muito interessante para você. No final do dia, ver
+uma criatura não será um motivo de pavor, mas sim de curiosidade e entusiasmo, ou não.
+Perícias treinadas. Ocultismo e Ciências
+Já vi pior.  Você recebe +5 em testes de Presença Perturbadora, caso
+posteriormente você consiga afinidade com um elemento, esse bônus
+aumenta para +10 com criaturas desse elemento.
+Você é a velocidade. A prática o levou a perfeição quando o assunto é domar o volante. A adrenalina das manobras e a satisfação ao
+ver o medidor de velocidade subindo é o que move você para frente,
+um motor imparável. Agora você utiliza das suas habilidades para o
+benefícios das organizações que sempre vão precisar de um bom piloto, tanto para uma viagem longa ou uma fuga desesperada.
+Perícias treinadas. Pilotagem e Iniciativa.
+Rápido e furioso. Escolha uma opção entre veículos de grande
+porte (como caminhões e vans), veículos de médio porte (como carros e motos) e veículos de pequeno porte (como skates, patins, patinetes, etc.), você tem +5 em testes de pilotagem com esses veículos.
+Lidar com o paranormal é extremamente desgastante e danoso para
+a mente, compreender os horrores do Outro Lado pode facilmente
+fazer um ser humano normal perder a cabeça. É por isso que, no
+limite do possível, você tenta ajudar seus aliados a lidar com as situações bizarras do dia-a-dia ao mesmo tempo que mantém sua sanidade no lugar.
+Perícias treinadas. Diplomacia e Intuição.
+Sessão de terapia. Durante uma cena de interlúdio, você pode gastar uma de suas ações para ter uma sessão de terapia com até uma
+pessoa por ponto de Intelecto, fazendo  elas recuperam o dobro de
+sanidade pela ação relaxar neste interlúdio.
+
+--- Página 8 ---
+QUÍMICO
+TREINADOR
+ZELADORSaber muito é poder fazer um monte de coisa, perigosa ou não. Seus estudos agora te dão possibilidade de fazer muitos experimentos que você foi
+ensinado a fazer mas não recomendado, até porque não é legal.
+Perícias treinadas. Ciências e Tecnologia.
+Você sabe demais. Você pode gastar uma ação em um Interlúdio para
+fazer um veneno que tenha sua DT de resistência de até 15. em 30%
+você pode fazer até dois venenos que tenham sua DT de resistência até
+20 e em 50% você pode fazer até três venenos que tenham sua DT de
+resistência até 25.
+Segunda-feira: Treino. Terça-feira: Treino. Quarta-feira: Treino.
+Quinta-feira: Treino. Sexta-feira… Treino. Você achou mesmo que o
+paranormal ia te parar? Ia acabar com seu estilo de vida? Não, muito
+pelo contrário, ele só o fez… treinar mais forte? O que importa é que
+seu físico não vai ficar para trás, e você vai fazer seu esforço para
+colocar todos os seus aliados no mesmo ritmo.
+Perícias treinadas. Atletismo e Luta.
+Malhe enquanto eles dormem. Todos os aliados que em uma
+cena de interlúdio gastarem uma ação para “Exercitar” junto a
+você, recebem 2d6 ao invés de 1d6 em uma rolagem de Agilidade, Força ou Vigor.
+Ser um zelador não é fácil, você possivelmente já presenciou todos
+os terrores da nossa realidade, mas mesmo assim não larga o posto,
+sempre fazendo seu trabalho com perfeição. Seu olhar atento e perfeccionismo te perseguem e incrivelmente podem ser úteis para investigar as mais sinistras bagunças que possa imaginar. É fato: Toda
+organização ou culto precisa de um zelador.
+Perícias treinadas. Atletismo e Percepção
+Casa suja chão sujo. Você pode gastar 1 PE para ter +5 em investigação para achar resíduos em cenas de investigação. Além disso,
+caso limpe uma cena de investigação, a critério do mestre, você recebe 3 de PE temporários até o seu próximo descanso.
+
+--- Página 9 ---
+PODERES
+PARANORMAISPODERES
+PARANORMAIS
+ CONHECIMENTO
+Antecipar
+Você consegue usar a reação bloqueio para
+ataques a distância.
+Pré-Requisito: Conhecimento 1.
+Afinidade: além disso, você tem duas
+reações especiais de defesa por turno ao invés de uma.
+Ocultar nas sombras
+Você tem o dobro de sua presença em espaços de inventário adicionais, além disso,
+você pode escolher um tipo de componente
+de ritual para ocupar 0 espaços em você.
+Afinidade: você pode escolher um tipo adicional de componente de ritual para a habilidade anterior.
+Devaneio
+Ao realizar uma ação de “Identificar Criatura” , você recebe uma informação adicional
+sobre a criatura analisada caso tenha sucesso no teste.
+Afinidade: adicionalmente, você pode realizar essa a ação de “Identificar Criatura”
+agora como ação de movimento, além disso,
+você recebe +5 na defesa contra ataque de
+uma criatura que você tenha analisado com
+sucesso.Condicionamento
+Você ganha mais +3m de movimento e tem
++2 em Atletismo.
+Afinidade: você se torna imune a terreno
+difícil e recebe +1,5m
+Último suspiro
+A primeira vez que um ser reduzir seus pontos de vida a 0 em uma cena, você pode gastar 2 PE e uma reação para causar um 2d6+5
+pontos de dano de morte de volta, desde que
+seu alvo esteja em alcance curto.
+Pré-Requisito: Morte 1
+Afinidade: o dano da habilidade anterior
+sobe para 4d6+5 pontos de dano de morte,
+adicionalmente, você tem a opção de curar
+um aliado em alcance curto em 4d6+5 pontos de vida ao invés de causar dano em um
+inimigo ao usar essa habilidade.
+Desespero
+Ao chegar a 0 PE, você pode escolher um
+atributo a sua escolha para ganhar um dado
+extra em todas as suas rolagens até o fim da
+cena.
+Pré-Requisito: Morte 1.
+Afinidade: agora você ganha dois dados extras ao invés de um no atributo escolhido.MORTE
+
+--- Página 10 ---
+ENERGIA
+Queimar a largada
+No primeiro turno de todo combate você
+age primeiro, independente do valor tirado na rolagem de iniciativa, após esse turno
+você volta a ordem normal de iniciativa.
+Afinidade: além disso, você tem +d20 e +5
+em testes de Iniciativa.
+Forma fantasmagórica
+Ao entrar no estado perturbado, você pode
+gastar 3 PE para ganhar resistência a dano
+5 (exceto para dano de conhecimento) pela
+cena. Seu corpo, em algumas partes, começa
+a ficar translúcido.
+Pré-Requisito: Energia 1.
+Afinidade: a resistência sobe para 10.
+Sinucada
+Uma vez por cena, você pode gastar 2 PE
+e uma reação para se teletransportar para
+frente de um ataque que for realizado contra
+um aliado em alcance curto, sendo acertado automaticamente e tomando o dano no
+lugar dele.
+Pré-Requisito: Energia 2.
+Afinidade: Agora você pode usar esse poder três vezes por cena ao invés de uma.
+SANGUE
+Devorar
+Permite seu usuário, ao realizar um golpe
+final em uma vítima, consumir sua carne e
+sangue com uma reação, ganhando 2d8+2 pontos de vida temporários até o próximo
+descanso do personagem e gastando 2 PE.
+Essa habilidade não é acumulável. Ao usar
+essa habilidade pela primeira vez, você recebe 3d6 de dano mental e partir da segunda
+você passa a receber 1d6.
+Pré-Requisito: Sangue 1.
+Afinidade: aumenta a vida temporária
+ganha para 4d8+2.
+Chacinar
+Ao atacar um ser que esteja machucado,
+você recebe +2 de dano no ataque e reduz 1
+na sua margem de ameaça.
+Afinidade: o dano aumenta para +5 e a margem de ameaça agora é reduzida em 2.
+Laços da Irmandade
+Ao adquirir este poder, você deve um escolher um aliado voluntário para se tornar o
+seu “parceiro” , cada um pode ter apenas um
+parceiro, ou seja, não pode usar o mesmo
+poder em outra pessoa, você pode mudar o
+parceiro caso ele morra ou caso queira encerrar essa relação, porém, dessa forma você
+pode ter um novo parceiro dentro de uma
+semana. Você e seu parceiro sempre sabem
+a direção em que o outro está, além disso,
+como uma ação livre você pode transmitir
+uma emoção para ele. Ao ver o seu parceiro ser atacado, você pode gastar 2 PE e uma
+reação para ele ganhar uma resistência igual
+seu Vigor a esse dano.
+Afinidade: adicionalmente, ao ver o seu
+parceiro recebendo dano mental, você pode
+gastar 4 PE para que o dano seja divido igualmente entre vocês dois.
+
+--- Página 11 ---
+RITUAIS
+Execução: Padrão
+Alcance: Curto
+Duração:  Instantânea
+Resistência: Fortitude reduz a metade.
+Quando não se sabe o que fazer, deixe na
+mão do Outro Lado. Três raios saem do seu
+peito e acertam alvos aleatórios a sua volta,
+para cada raio você deve rolar um d20, caso
+o resultado sair menor 10 ou menor ele acerta um aliado (a critério do mestre) e caso
+seja maior acerta um inimigo a sua escolha,
+caso não haja alvos disponíveis, o disparo é descartado. Um inimigo não pode ser
+acertado por mais de um raio. O raio causa
+3d10+5 de Energia.
+Discente (+2 PE):  Muda o ritual para 1 raio e
+causa agora 5d10+10 de dano.
+Requer 2° Círculo.
+Execução: Padrão
+Alcance:  Curto
+Alvo:  1 ser
+Duração:  Instantânea
+Você dispara um raio em direção a uma ferida
+de seu alvo, a cauterizando. O alvo recupera
+2d6+2 PV, mas por conta da dor, perde 2 ponto
+de sanidade automaticamente.
+Discente (+2 PE):  Aumenta a cura para 4d6+3.
+Requer 2º círculo.
+
+--- Página 12 ---
+Execução: Padrão
+Alcance: Pessoal
+Alvo: 1 ser
+Duração:  Cena
+Você consegue usar seu próprio sangue
+para criar um objeto útil que não cause dano
+e de categoria 0 (Em termos de sistema isso
+pode ser qualquer item operacional que não
+tenha pólvora ou propriedades explosivas),
+ao fim da cena o objeto se desmancha. Você
+só pode ter um item gerado por esse ritual
+ativo por cena.
+Discente (+2 PE): Você consegue usar seu
+próprio sangue para criar um objeto útil
+que não cause dano e de categoria 0 (Em
+termos de sistema isso pode ser qualquer
+item operacional que não tenha pólvora ou
+propriedades explosivas), ao fim da cena o
+objeto se desmancha. Você só pode ter um
+item gerado por esse ritual ativo por cena.
+Verdadeiro (+3 PE): agora você pode gerar
+armas de fogo por meio desse ritual. Adicionalmente, você pode gastar 20 pontos de
+vida para subir o limite de categoria para os
+objetos gerados em I, podendo chegar até
+IV. Requer 3º Círculo.
+Execução: Padrão
+Alcance: Pessoal
+Alvo: 1 ser
+Duração:  Cena
+Seu corpo é recoberto por uma casca grossa e afiada, você recebe 15 pontos de vida
+temporários, porém, você não pode ser
+curado enquanto tiver esse bônus. Inimigos
+que te derem dano corpo-a-corpo recebem
+um dano de sangue equivalente a quantos
+pontos de vida temporária forem retirados.
+Discente (+2 PE): Muda o alcance do ritual
+para “toque”.
+Verdadeiro (+3 PE):  Muda o alcance do ritual
+para “toque”. Requer 4º círculo.
+
+--- Página 13 ---
+Execução: Padrão
+Alcance: Pessoal
+Duração:  Cena
+Uma mão etérea surge ao seu lado e está
+a sua disposição, ela pode ser usada para
+qualquer função que uma mão extra teria.
+Discente (+3 PE):  Você ganhar +1 mão extra.
+Requer 2º círculo.
+Execução:  Ação
+Alcance: Toque
+Alvo: 1 Pessoa voluntária
+Duração: Instantânea
+O conhecimento invade a mente e perturba suas
+memórias fazendo você esquecer das imagens horríveis que viu num período de 24 horas, mas em
+contrapartida, outra pessoa absorve essas visões
+terríveis. O alvo recupera 2d8+3 pontos de sanidade,
+porém como preço adicional, o usuário do ritual recebe metade do dano curado em dano mental.
+Discente (+2 PE):  Aumenta a cura para 4d8+5 mas
+faz com que o alvo esqueça completamente as últimas 24 horas. Requer 2º círculo.
+Verdadeiro (+5 PE): Você não recebe nenhum dano
+mental ao utilizar esse ritual. Requer 3º círculo.
+
+--- Página 14 ---
+Execução: Padrão
+Alcance: Curto
+Alvo: 1 ser
+Duração:  Instantânea
+Resistência: Fortitude parcial
+O corpo fica mais pesado e o tempo não passa,
+seu alvo tem mais tempo de pensar suas ações
+mas menos tempo para agir. Seu alvo fica enjoado, se passar na resistência fica apenas debilitado.
+Discente (+3 PE): Muda o alvo para “3 seres”.
+Requer 3º círculo.
+Verdadeiro (+7 PE): agora o alvo fica atordoado,
+se passar na resistência fica enjoado. Requer
+4º círculo.
+Execução: Padrão
+Alcance: Curto
+Alvo: 1 ser
+Duração:  Cena
+O seu corpo solta um enxame de pragas em um
+ser, essas pragas começam a circular e devorar
+o corpo do alvo. No início de cada um dos turnos
+do alvo, ele recebe 1d4+1 de dano de Morte. O efeito desse ritual é acumulativo, podendo ser utilizado até 4 vezes no mesmo alvo, aumentando
+o dano contínuo, a partir da primeira conjuração,
+não é necessário aplicar os mesmos aprimoramentos no ritual para acumular o mesmo efeito
+no mesmo alvo. Existe a opção do alvo de tirar 1
+acúmulo desse ritual com uma ação padrão.
+Discente (+3 PE): Muda o dano do ritual para
+1d6+2 por acúmulo. Requer 2º círculo.
+Verdadeiro (+7 PE): muda o alvo para “área: nuvem com raio de 12m” e o máximo de acúmulo
+para 6. Agora o enxame se torna uma nuvem que
+dá dano em seres dentro dela exceto você, podendo utilizar o ritual mais de uma vez enquanto estiver dentro da área para gerar acúmulos,
+e é necessário agora de uma ação completa e
+estar dentro da área para que um alvo tire um
+acúmulo do ritual. Você pode mover essa nuvem
+com uma ação padrão e 2 PE até 6m a partir do
+centro dela. Requer 3º círculo.
+
+--- Página 15 ---
+TRANSFORMADO
+Tendo sua forma e alma alterada para conseguir habilidades
+além da capacidade humana,
+O Transformado sacrifica
+algo em troca de poder insano. Ele vai além do ocultista, para se combater o
+Outro Lado tem que se
+tornar o Outro Lado.
+O Transformado é uma classe
+complexa, os jogadores dos transformados devem estar preparados para perder
+personagens com facilidade, mas sabendo que
+o objetivo da classe não
+é vencer a campanha
+e sim criar momentos narrativos impactantes.
+Então deixando claro
+que o transformado
+não é para todo jogador
+e também não é para todo
+grupo ou campanha, algumas
+pessoas não vão estar interessadas em lidar com os
+conflitos gerados por um monstro descontrolado
+ou uma campanha não tem espaço para desenvolver a melancolia da não-existência de um etéreo.
+Então se você planeja jogar com um Transformado
+antes converse com o grupo e o mestre para tudo
+ficar certo.
+Falando em conversa, o Transformado por ser uma
+classe abstratamente narrativa ela precisa de uma
+conversa constante entre mestre e jogador, tanto
+para limites da segurança mental do grupo quanto
+para entender mais sobre o personagem e seu estado. É importante uma conversa especificamente
+para a loucura e insanidade do personagem, ter
+uma dinâmica onde o mestre pode confiar no jogador a ter controle parcial ou total do personagem
+mesmo em casos de insanidade é recomendável
+para aproveitar 100% do Transformado, mas isso
+necessita de esforço e dialogo para a história ser
+contata de uma maneira satisfatória para todos.
+
+--- Página 16 ---
+CARACTERÍSTICAS
+PONTO DE VIDA INICIAL
+PONTOS DE ESFORÇO
+INICIAIS
+SANIDADE INICIAL
+PERÍCIAS TREINADAS
+PROFICIÊNCIAS3 PV (+VIG) POR NEX16 + VIGOR
+5 PE (+PRE) POR NEX
++2 POR NEX
+BASEADA NA HABILIDADE ALÉM DA
+CRIATURA
+ BASEADO NA HABILIDADE ALÉM DA
+CRIATURA5 + PRESENÇA
+8
+V ocê foi profundamente afetado pelo paranormal. V ocê sabia que nunca voltaria a ser o que
+era, mas o seu corpo agora está diferente, talvez
+sentindo um tormento sem fim em sua cabeça, uma vontade insaciável de consumir
+ou até esteja sentindo a sua existência se esvaindo. V ocê era um ser humano, agora você
+é um Transformado .
+
+--- Página 17 ---
+5%ALÉM DA CRIATURA
+
+Uma pessoa não é definida apenas
+pelos seus piores momentos, além de
+transformado você é uma pessoa, ou
+algo próximo disso.
+
+Escolha uma classe além do Transformado
+para obter uma de suas habilidades entre
+as opções: Escolhido pelo Outro Lado
+(Ocultista), Perito (Especialista) ou Ataque
+Especial (Combatente). Essas habilidades
+escalam seu poder como na classe original
+no NEX 25%, 55% e 85%. Você também ganha as
+perícias e proficiências da classe escolhida.
+MENTE INSTÁVEL
+O Transformado pode gastar 1 + Metade
+do seu Limite de PE arredondado para cima
+em pontos de Sanidade para dobrar o seu
+Limite de PE até o final do próximo turno.
+Por exemplo, em NEX 20%, seu Limite de PE é
+4, você pode gastar 3 de sanidade (1 + 2) para
+que seu Limite agora seja 8 até o final do
+próximo turno. Esse dano ignora resistência
+mental. Adicionalmente, Transformados
+demoram 5 turnos enlouquecendo até
+entrar no estado Insano ao invés de 3.
+SEM VOLTA
+Em NEX 5% a sua trilha deve ser
+escolhida. Isso define certos detalhes
+da sua aparência que com investigação
+revelam você como Transformado. Você
+recebe um novo poder da trilha escolhida
+em NEX 10%, 40%, 65% e 99%.
+PODER DE TRANSFORMADO.
+Em NEX 15%, você recebe um poder de
+transformado à sua escolha. Você recebe
+um novo poder de transformado em NEX
+30% e a cada 15% de NEX subsequentes,
+conforme indicado na tabela. Veja a
+sessão de “Poderes de Transformado” .
+AUMENTO DE ATRIBUTO.
+Em NEX 20%, e novamente em NEX 50%,
+80% e 95%, aumente um atributo a sua
+escolha em +1. Você não pode aumentar um
+atributo além de 5 desta forma.
+GRAU DE TREINAMENTO.
+Em NEX 35%, e novamente em NEX 70%,
+escolha um número de perícias treinadas
+igual a 2 + Int. Seu grau de treinamento
+nessas perícias aumenta em um (de treinado
+para veterano ou de veterano para expert).
+VERSATILIDADE NOSTÁLGICA.
+Em NEX 50%, escolha entre receber um
+poder de transformado ou o primeiro poder
+de uma trilha referente a classe que você
+escolheu no Além da Criatura. Você pode
+pegar o segundo habilidade dessa mesma
+trilha em NEX 70% ou um aprimoramento no
+Grau de Treinamento.HABILIDADES
+
+--- Página 18 ---
+PODERES DE
+TRANSFORMADO
+Respirar é obsoleto:  Você não precisa respirar.
+Cambiante:  Altera sua aparência de inumana
+para se camuflar no ambiente. Você recebe +5 em
+Furtividade e pode fazer o teste sem precisar estar
+escondido, porém seres podem usar Ocultismo ao
+invés de Percepção para te encontrarem.
+Olhos da Noite:  Você recebe +5 em testes de
+percepção para enxergar e recebe Visão no Escuro.
+Você fica imune a condição de Cego.
+Sentidos Quimericos:  Você agora ganha
++5 em testes de percepção para ouvir. Você fica imune a condição Surdo.
+Pré-requisito: Olhos da Noite
+Passo Vertical : Você ganha Deslocamento
+de Escalada igual seu Deslocamento Normal, mas
+se deslocar dessa forma conta como terreno difícil.
+Movimentação Aguçada:  Ignora terreno
+difícil.
+Faro Paranormal:  Pode rolar ocultismo
+para tentar detectar o paranormal e tem +5 para
+esse teste.
+Físico Impossível:  Você ganha RD 3 em dois
+tipos a seguir: Eletricidade, Fogo, Frio e Químico.
+Face Amedrontadora:  Você ganha +10 e
++1d20 em intimidação quando sua transformação
+é obvia.
+Fluidos Tóxicos: Ao ser acertado por um
+ataque corpo-a-corpo pode gastar 1PE para dar 1d6
+de dano químico ao atacante.
+Paladar Morto:  Seu paladar é estranho,
+você se alimenta de maneiras bizarras. Durante cenas de Inteludio você pode se alimentar uma vez
+sem gastar uma ação.
+Toque Amaldiçoado: Escolha um ele-mento. Seus ataques Corpo-a-corpo dão +1d4 de
+dano do elemento escolhido.
+Toque Maldito: Aumenta o dano do Toque
+Amaldiçoado para 1d10 do elemento escolhido
+anteriormente.
+Pré-requisito: Toque Amaldiçoado e afinidade
+em um elemento
+Mente Perturbada:  +10 no teste de Vontade para resistir a presença perturbadora.
+Treinamento Avançado:  Pode pegar
+um poder da classe escolhida no além da criatura.
+Sintonia Paranormal:  Você aprende a
+língua do outro lado, lhe dando a capacidade de
+se camuflar no meio de suas criaturas. Você pode
+realizar um teste de enganação contra um teste
+de intuição de uma criatura que possa te ver, caso
+tenha sucesso você não é considerado um inimigo até realizar uma ação hostil. Essa ação pode
+ser utilizada somente uma vez por cena.
+Sonhos do Outro Lado: Durante o Interlúdio você agora tem a ação de Comunhão,
+onde você pode focar para se comunicar com o
+outro lado e receber previsões proféticas. Escolha um curso de ação ou algo mais geral como o
+dia seguinte e o mestre pode te informar em até
+10 palavras uma previsão sobre. O Outro Lado
+não é direto e não quer te ajudar, então tome cuidado com a interpretação dessas previsões.
+Pré-requisito Sintonia Paranormal
+Transcender: Escolha um poder paranormal. Você recebe o poder escolhido, mas não
+ganha Sanidade neste aumento de NEX.
+Você pode escolher este poder várias vezes.
+Treinamento em Perícia: Escolha duas
+perícias. Você se torna treinado nessas perícias.
+A partir de NEX 35%, você pode escolher perícias
+nas quais já é treinado para se tornar veterano.
+A partir de NEX 70%, pode escolher perícias nas
+quais já é veterano para se tornar expert. Você
+pode escolher este poder várias vezes.
+
+--- Página 19 ---
+TRILHAS DE
+TRANSFORMADO
+O MONSTRO
+Existe algo que rasteja embaixo da sua pele
+querendo sair, e o que te mantém acordado
+a noite é que esse algo é a sua nova forma
+verdadeira. Seu corpo uma arma feito para
+ir além do limite humano, se transformando em uma maquina de fúria descontrolada
+que você tenta segurar enquanto sua mente
+racha sob a pressão da besta. Lobisomens,
+cientistas que viram enormes monstros
+musculosos e outras criaturas que se alteram entram como O Monstro.
+NEX 5% - A Maldição do Controle.
+Existe uma condição específica, um Gatilho, por exemplo, ver a lua cheia, uma emoção extrema ou uma fobia.
+Decida essa condição com o Mestre. Essa condição necessita ter algum impacto na campanha. Quando esse
+Gatilho ocorre role um teste de Vontade (DT 10 + 5
+por cada vez, incluindo a primeira, que você presenciou
+essa condição), este teste volta a sua dificuldade inicial
+após uma cena de interlúdio. Ao falhar nesse teste entra em Descontrole. Sendo considerado sobre o efeito
+do Ritual Ódio Incontrolável até o fim da cena. Você
+também ganha um ataque extra enquanto estiver descontrolado. Você também não consegue usar nenhum
+equipamento nessa forma.
+O Mestre pode permitir soluções narrativas para a resolução do descontrole, permitindo o Transformado rolar novamente o teste de Vontade. Por exemplo, relembrar
+a humanidade do personagem trazendo memórias ou interações durante que ocorreram ao longo da campanha.
+NEX 10% - Metamorfose.
+Você agora pode se transformar no Monstro. Você decide a aparência dele, como por exemplo, uma mistura
+entre homem e besta, músculos e ossos crescendo disformemente ou energia e tecnologia te tornando algo
+além de humano.
+“O seu personagem tem algo escondido embaixo
+da pele querendo constantemente sair, e agora
+você pode permitir a criatura se tornar real. ”Como ação padrão você pode se transformar no Monstro.
+Enquanto um Monstro você é considerado estar sobre o
+efeito do Descontrole descrito em A Maldição do Controle. O Monstro pode gastar 1 PE no começo do turno
+para ignorar a regra na qual o alvo não pode fazer nenhuma ação que exige calma ou concentração (como usar a
+perícia Furtividade ou conjurar rituais) e que o força atacar
+em todo turno, mas em contrapartida também remove o
+seu ataque extra. Você pode ativar ou desativar o Descontrole como preferir enquanto tiver pelo menos um ponto
+de sanidade ou não está na presença do seu Gatilho. O Descontrole dura até a cena acabar.
+Adicionalmente, escolha um arma de categoria I ou
+menor que você tenha proficiência para representar sua
+Mutação, esse equipamento equivale a garras, presas ou
+projeteis provindos da sua transformação. Armas de fogo
+não necessitam de munição, armas corpo a corpo tem a
+margem de ameaça aumentada em +1.
+Durante o seu Descontrole, o Monstro continua usando
+armadura e ganhando seus bônus e ele pode usar equipamento normalmente enquanto estiver usando PE
+para evitar os efeitos do Descontrole.
+NEX 40% - Predador.
+Você agora pode escolher uma arma de categoria 2, ou
+uma arma de categoria 1 e um equipamento de categoria
+1 para substituir sua Mutação. Armas corpo-a-corpo da
+sua mutação agora tem a margem de ameaça aumentada em +2. Adicionalmente, uma vez por cena pode usar
+uma ação padrão para gastar até o seu Limite de PE para
+ganhar seu NEX em pontos de vida temporários, se você
+estiver sob o efeito da habilidade do “Mente Estável” você
+tem a opção de gastar o seu Limite de PE dobrado para
+ganhar o dobro de pontos de vida. Por exemplo, ao usar
+essa habilidade em NEX 50%, você gasta 10 PE para ganhar 25 pontos de vida temporários, com Mente Estável
+ativada, você pode optar por gastar 20 PE para obter 50
+pontos de vida temporários.
+NEX 65% - Indomável.
+Você pode usar a habilidade de ganhar pontos de vida
+temporários de “Predador” quantas vezes você quiser
+por cena, ainda tendo que pagar o preço requerido. Além
+disso, estar em Descontrole é considerado como se você
+estivesse sob o efeito do ritual de Ódio Incontrolável em
+sua forma Discente.
+NEX 99% - Criatura.
+Estar controlado como Monstro agora é considerado estar sob o efeito do Ritual de Ódio Incontrolável
+Discente e a forma descontrolada é considerada como
+Ódio Incontrolável Verdadeiro.
+
+--- Página 20 ---
+O RÉQUIEM
+O seu corpo não é mais inteiro, ele é feito de
+pedaços como um boneco, mas algo conecta ele de maneira impossível, algo conhecido como o Ícor. Talvez você era um agente
+que caiu em combate e agora é uma colcha
+de retalhos de pedaços costurados mantidos
+vivo por químicos e rituais malditos ou você
+é feito de mecanismos e engrenagens que
+se encaixam com precisão. O que importa
+é: Você agora não é mais um todo, apenas
+partes, e essas partes te dão ferramentas que
+ninguém mais possui.
+NEX 5% - A maldição do Ícor.
+Algo te mantém inteiro, mesmo que isso seja de
+qualquer forma lógica impossível. Pode ser eletricidade, algum químico ou alguma outra substancia.
+O Réquiem toma apenas metade do dano de acertos
+críticos e danos massivos. Toda vez que levar um crítico ou dano massivo o Réquiem é Desmembrado, e
+perde um de seus membros aleatoriamente. Role um
+d6, 1- 2 cai um dos braços, 3 - 4 uma das pernas, 5 - 6
+cai a cabeça, se há mais do membro, ignore esse efeito.
+O Torso funciona como a parte principal do Réquiem,
+não a cabeça. Ao sofrer o Desmembramento o membro vai em uma direção aleatória por conta do impacto. O membro arrancado cai a 4,5m em uma direção
+aleatória (role 1d8 para decidir a direção). Cada membro separado, exceto o torso, tem 1/2 dos seus pontos
+de vida máximos como pontos de vida.
+Cada perda de membro acarreta em um efeito:
+Cabeça: O resto do corpo ganha a condição de
+Cego. O Ícor em seu corpo mantendo ele vivo faz
+com que seu você ainda entenda as vibrações sonoras como voz então não se ganha a condição de
+Surdo.
+Braços: Cada perda de braço impossibilita seu uso.
+Perder os dois impossibilita o uso de rituais.
+Pernas: Perdendo uma ganha a condição de Lento. Perdendo duas você perde completamente seu
+movimento, mas se ainda tiver braços pode gastar
+uma ação padrão para rolar Atletismo (DT 10) para
+se mover metade do seu movimento no seu turno.
+O Réquiem ganha a ação de Enxerto, onde gastando 2
+PE e uma ação padrão, durante esse turno, você pode
+reconectar todos os membros que você alcançar com
+o seu movimento, sendo necessário chegar adjacente
+a ele para a reconexão. O Réquiem não pode Enxertar
+mais membros do que os originais 5 dele. Se o membro chegou a 0 pontos de vida e não foi completamente
+destruído narrativamente, ele pode ser colocado de
+volta com a ação de Enxerto, mas perde totalmente sua
+função até a próxima cena de interlúdio.
+NEX 10% - Controle Remoto.
+Gastando 1 PE por membro o Réquiem consegue manter controle sobre ele durante o turno se eles ainda tiverem pontos de vida. Você pode escolher controlar
+quando preferir durante o turno. Durante a ação de
+movimento o Réquiem além de si mesmo (O torso e
+membros acoplados) pode mover um de seus membros removidos 4,5m de distancia. Ações que necessitam dos membros podem ser feitas pelo Réquiem
+como se estivesse lá. Se o Réquiem não tem visão direta
+dos membros enquanto eles fazem ações que necessitam de visão considere essas ações sendo afetadas pela
+condição de Cego. Agora o Réquiem pode remover um
+de seus membros como ação movimento, como parte
+dessa você pode mover o membro retirado.
+Você também pode gastar uma ação completa e 2 de
+sanidade para reviver todos os membros enxertados
+que estão com 0 pontos de vida.
+NEX 40% - Autotomia.
+Pode mover os membros agora 9m, ou dividir entre dois
+membros 4,5m. Ao usar a reação de esquiva você pode
+se desmembrar propositalmente para dificultar o acerto. A cada membro desmembrado adiciona +5 na sua
+defesa. Adicionalmente, você pode enxertar membros
+de outras pessoas no lugar dos seus perdidos, gastando
+3 de sanidade por membro, também é possível colocar
+membros de criaturas por 6 de sanidade.
+NEX 65% - Ventriloquismo.
+Agora você pode usar a ação de Enxerto para conectar
+sua cabeça em outras coisas além do seu Torso, especificamente eletrônicos e criaturas mortas. O resto do
+seu corpo fica Desprevenido enquanto controlar outra
+criatura. Ao fazer isso você tem as seguintes opções:
+Você ganha um bônus +5 para testes de uso do
+eletrônico enquanto conectado em um.
+Você pode apenas controlar criaturas mortas de
+VD até no máximo igual duas vezes o seu NEX.
+Controlar qualquer coisa causa um custo de 3
+
+--- Página 21 ---
+Algum acidente ou experimento fez com
+que a existência te odeie, você está errado e você deve ser apagado, mas você luta
+constantemente contra isso. Nem tudo é
+perdição, não existir significa entender o
+que realmente é o limiar entre ser e não
+ser, e saber usar isso ao seu favor te permite barganhar com si mesmo por um estado avançado de não existência.
+NEX 5% - A Maldição da Existência.
+O Etéreo luta contra a própria forma que quer parar
+de existir, tendo que se concentrar para se manter fisicamente. O Etéreo está a um passo de deixar de ser.
+As rodadas que você perde quando entra em morrendo são permanentemente perdidas, ou seja, caso
+você perca duas rodadas morrendo a próxima vez
+que você entrar em morrendo você tem apenas uma
+rodada. Você é imune a Golpe Final e a dano quando
+estiver morrendo. Caso sua vida máxima chegue a 0
+ou você morra você deixa de existir.
+NEX 10% - Físico Fantasmagórico.
+O Etéreo tem a habilidade de atravessar inimigos e
+aliados como se eles não estivessem lá. O Etéreo pode
+gastar 2 PE para dobrar seu movimento e causar a
+condição abalado por uma rodada a um dos alvos
+atravessados. O Etéreo pode gastar reflexivamente 2
+PE para adicionar +5 para um teste de Reflexos. O ETÉREOsanidade por turno, e criaturas do outro lado
+custam 6. Seu turno se torna inteiramente controlar a criatura, ou seja, seu corpo fica inerte.
+Sair do controle é uma ação livre.
+NEX 99% - Hecatônquiros.
+O Réquiem pode usar a ação de Enxerto para adicionar
+mais membros do que o limite original. Cada membro
+mantido, além do limite, desmembrado ou não, o Réquiem tem que gastar 5PE para manter por uma rodada.
+Cada perna nova adiciona 1,5m de movimento.
+Cada par de braço adiciona uma ação padrão extra no turno.
+Cada cabeça nova permite um uso extra da habilidade de Ventriloquismo.
+A cada 2 membros além do limite enxertados
+você cresce uma categoria de tamanho.O Etéreo pode aceitar sua inexistência para conseguir fazer coisas além do físico. Uma vez por turno
+como ação padrão você pode gastar até o seu valor
+de Limite de PE em PV máximo para ganhar o dobro
+do valor em PE atual. Anote esse valor gasto pois eles
+estão temporariamente bloqueados. Durante cenas
+de interlúdio você agora tem a ação de Re-Existir, que
+recupera os PV máximos gastos. Essa ação também
+recupera as rodadas perdidas enquanto morrendo.
+NEX 40% - Detetive do Passado.
+Como ação de investigação o Etéreo pode gastar 2PE
+para ver o passado de um objeto ou cadáver relacionado a investigação decidido pelo mestre. A visão
+não é necessariamente nítida o bastante para discernir detalhes, como rostos ou textos. A condição
+da habilidade de Movimento Fantasmagórico ignora
+a imunidade a condições de medo das criaturas.
+“Com esse conhecimento sobre inexistência
+o Etéreo consegue passar visões para até os
+mais rígidos dos monstros. ”
+NEX 65% - Desfazer.
+Se o Etéreo já tiver bloqueado metade da sua vida
+máxima com a habilidade Físico Fantasmagórico ele
+pode entrar em uma forma completamente fantasmagórica. Como ação completa você pode entrar no
+seu Estado Fantasma. Durante essa forma você fica
+intangível, podendo atravessar objetos e estruturas
+como se elas não estivessem lá. Você fica imune a
+dano físico e leva apenas metade dano Paranormal.
+Todo turno que você terminar usando essa habilidade role 1d6+2 e perca esse valor em PV máximo.
+Desfazer a forma é uma ação padrão.
+Temporariamente o Etéreo pode aceitar sua
+condição e arriscar perder tudo, se tornando
+um com a falta de ser.
+NEX 99% - Inexistência completa.
+Pode se tornar invisível como ação padrão, gastando 2 PE no fim de todo turno que se manter assim.
+Você ganha o ritual Inexistir e pode usar ele uma vez
+por cena sem gastar nenhum PE. Podendo usar ele
+de formas mais fortes por um custo, o uso da forma
+Discente tem 25% de chance de remover 1/4 dos seus
+pontos de vida máximos e a forma Verdadeira tem
+50% de chance de remover todos seus pontos de vida
+mas o inimigo rola o teste com três desvantagens.
+O Etéreo finalmente fica em harmonia com
+sua não existência e pode forçar ela nos outros.
+
+--- Página 23 ---
+Uma besta incontrolável que surge
+a partir da perda de uma pessoa
+querida durante noite. Alguns dizem
+que essa criatura só surge
+exclusivamente sob a lua cheia, mas
+isso é apenas mais uma versão do
+que se diz ser a história de origem de
+um Uivante.  Baseado nos contos
+sobre lobisomens e licantropos, o
+Uivante é uma versão distorcida e
+assustadora de um javali, cão ou lobo
+humanoide com dentes
+desproporcionais e grossas veias
+vermelhas que ficam expostas
+acima da pele.
+Um
+Uivante
+é uma
+criatura
+imprevisível,
+pois tem diferentes
+formas de expressar seu luto,
+assim sendo necessário analisar
+profundamente suas ações e
+métodos antes de um confronto direto.
+Algo importante de se ressaltar é que, por
+mais que irracional, seus instintos
+estão diretamente ligados com suas
+memórias afetivas anteriores,
+podendo até mesmo ser
+derrotado caso seja
+acertado com um objeto
+que o lembre de seu
+trágico passado.
+Uivante
+
+--- Página 24 ---
+O Uivante é extremamente emocional,
+assim, sempre tendo seu covil onde
+ele protege aquilo que já foi
+importante para ele, enquanto
+estiver nesse covil, ele perde 3m
+de movimento, -2 de dano, 5 de
+defesa e suas resistências diminuem
+em 5.
+Além disso, é dito que seu
+sofrimento constante pode ser
+terminado instantaneamente caso
+seja perfurado com um objeto
+metálico que pertencia ao seu
+amado, porém, essa ação pode tirar
+apenas 1 gota de sangue (Com um
+teste de Crime DT 25 ou Medicina DT
+30, essa diﬁculdade desce em 1 a
+cada 10 de vida perdida).20Uivante
+sangue
+CRIATURA    MÉDIO60
+PRESENÇA PERTUBADORA
+SENTIDOS
+DEFESADT20    3D6 mental
+PERCEPÇÃO 2+10
+20 INICIATIVA 2+10Percepção às cegas
+20 FORTITUDE 3+10
+20 REFLEXOS 2+5
+20 VONTADE 2+325
+PONTOS DE VIDA 150 75 machucado
+RESISTÊNCIAS
+VULNERABILIDADESBalístico, impacto e perfuração 10
+e Sangue 15
+Morte
+ATRIBUTOS
+AGI FOR INT PRE VIG 2 3 1 2 3
+DESLOCAMENTO 12 m 8PERÍCIAS 20 ATLETISMO 3+5
+20 ACROBACIA 3+5
+TORMENTA
+Na origem de um Uivante, ele se liga fortemente
+a uma emoção que define o modo dele de agir,
+assim, em sua criação você deve escolher uma
+das seguintes opções:
+IRA
+O Uivante deseja a destruição para saciar sua dor,
+mesmo que seja sem sentido. Ele estará em
+constante caçada, matando e após isso voltando
+para seu covil. Uivantes de Ira dão +1d6 de dano
+em um ataque uma vez por turno, além disso, todo
+o dano que ele dá é de Sangue.
+MELANCOLIA
+O passado já causou dor demais, um Uivante
+melancólico nunca saíra por conta própria de seu
+covil. Ele recebe +5 de todas as suas resistências,
+além de imunidade a condições de paralisia. A
+criatura ganha o elemento secundário de Morte.
+DESESPERADO
+Desde o momento de sua morte, tudo a sua volta
+parece gritar desesperadamente, é um caos sem
+fim, um poço sem fundo em sua mente. Um
+Uivante desesperado apenas sai correndo por aí,
+nunca entrando em seu covil mas também não se
+afastando muito, suas ações não podem ser
+explicadas ou previstas. Ele recebe +3m de
+movimento e +1 ataque em suas garras , porém,
+não é possível ele atacar mais de uma vezes o
+mesmo ser, além de poder dividir seu movimento
+entre os ataques. A criatura ganha o elemento
+secundário de Energia.AÇÕES
+PADRÃO     AGREDIR
+GARRAS Corpo a corpo 2x
+TESTE              |DANO 2d6+5 Corte 203+10
+203+10
+LIVRE    SEDE DE SANGUE
+Ao acertar um ataque de mordida, o Uivante pressiona
+as presas dele em seu corpo, necessitando de um
+teste de Fortitude (DT 15) para evitar entrar no estado
+de Sangrando.MORDIDA  Corpo a corpo
+TESTE              |DANO 2d8+5 Perfuração
+REAÇÃO    SOCO PODEROSO
+Ao acertar uma acerto crítico em um ataque, o Uivante
+empurra o alvo 6 metros para qualquer direção, dando
+1d6 de dano a mais caso o alvo colida em uma estrutura.
+MOVIMENTO    AUUUUUU
+O Uivante uiva ferozmente, alvos no raio de 6 metros
+devem fazer um teste de Vontade (DT15) para não
+ficarem Abalados por 1 turno.
+COMPLETA     INVESTIDA
+O Uivante pode realizar uma ação de investida contra
+um alvo, se acertar o ataque ele empurra o alvo em
+linha reta até o final do movimento, se acertar uma
+estrutura causa +2d6 de dano de impacto, caso erre ele
+segue reto pelo alvo sem levá-lo e caso acerte uma
+estrutura ele mesmo toma o dano.MedoVD
+NEX 35+ é imune
+
+--- Página 25 ---
+Avarento
+CRIATURA    MÉDIO
+PRESENÇA PERTUBADORA
+SENTIDOS
+DEFESADT30    6D6 mental
+PERCEPÇÃO 2+10
+20 INICIATIVA 4+15Visão no escuro
+20 FORTITUDE 4+15
+20 REFLEXOS 4+15
+20 VONTADE 2+1034
+PONTOS DE VIDA 420 210 machucado
+RESISTÊNCIAS
+VULNERABILIDADESBalístico, corte e perfuração 10
+e Energia 20
+Conhecimento
+ATRIBUTOS
+AGI FOR INT PRE VIG 4 3 2 2 4
+DESLOCAMENTO 12 m 8PERÍCIAS 20
+FURTIVIDADE4+15
+CRIME
+4+15
+O QUE É MEU É MEU
+A cada 30 de vida que o Avarento perder, ele vai
+soltar um item que está em seu ninho, este item
+caíra logo abaixo dele, role 1d8 na tabela abaixo:
+Uma granada de fragmentação cai ativada no
+chão, explodindo, é necessário um teste de
+Reflexos (DT 23) para receber metade do dano.
+Uma granada de atordoamento cai ativada no
+chão, é necessário um teste de Reflexos (DT 23)
+para receber o efeito parcialmente.
+Uma corda.
+Um cicatrizante.
+Uma arma de fogo de uma mão de no máximo
+categoria I, escolhida pelo último jogador que
+deu dano na criatura.
+Uma corpo a corpo de no máximo categoria I,
+escolhida pelo último jogador que deu dano na
+criatura.
+Um escudo.AÇÕES
+PADRÃO      AGREDIR
+SOCO Corpo a corpo 2x
+TESTE              |DANO 2d8+10 Impacto 203+15
+204+15
+PADRÃO    PROTEGER PATRIMÔNIO
+Dentro de seu corpo, os itens engolidos se dispõem
+para proteger seu corpo, o Avarento ganha 1 de
+resistência a danos físicos para cada 1 item ou melhoria
+engolidos, este efeito dura até o início do próximo turno.BICADA Corpo a corpo
+TESTE              |DANO 3d12+10 Perfuração
+REAÇÃO    O QUE É SEU É MEU TAMBÉM
+Ao acertar um soco, o Avarento pode fazer um teste de
+Crime oposto a um teste de Luta de seu alvo, caso passe
+pode engolir uma melhoria da arma do alvo.
+MOVIMENTO    A MÃO INVISÍVEL
+O Avarento pode fazer um teste de Crime oposto a um
+teste de Luta de um alvo adjacente, ao falhar, o alvo perde
+um item que não esteja empunhando no momento, no
+qual é engolido pelo Avarento.
+COMPLETA     ENCERRAR O PAPO
+O Avarento vomita todas as melhorias ou itens que ele
+engoliu nessa cena em uma linha em alcance curto, ele
+causa 2d6+d6 de dano químico para cada item ou
+melhoria engolido nessa cena, essa contagem
+recomeça após usar essa habilidade. É possível realizar
+um teste de Reflexos (DT 25) para reduzir o dano a
+metade. Todos itens e melhorias vomitadas ficam juntas
+no alcance máximo deste ataque, ainda utilizáveis, para
+reequipar uma melhoria é necessário uma ação de
+movimento. NEX 65+ é imune
+1/2
+3
+4
+5
+6
+7
+ESPÓLIOS DA BATALHA
+Após o Avarento morrer, todos os itens ou
+melhorias engolidos são vomitados no chão e
+ele irá gerar 1d3 itens amaldiçoados a critério
+do mestre.
+Morte220VD
+Energia
+
+--- Página 26 ---
+A criação da Anamnese está diretamente ligada as ﬁtas que ela gravou no passado, tendo a
+necessidade que as memórias que nelas estão se mantenham inteiras. Quando todas as ﬁtas
+gravadas pela câmera da Anamnese forem destruídas, ela perde a habilidade Rebobinar, porém,
+ela vai necessitar achar um novo alvo de dependência, procurando um corpo para possuir,
+caso consiga, ela se tornará o Senhor das Recordações Sombrias.Constantemente filmando o sofrimento alheio, as lentes
+dessa câmera já foram, muitas vezes, a última coisa que
+uma pessoa já viu. Se camuflando como uma simples
+câmera, o Anamnese ronda os locais em que opera,
+sempre em busca de novas vítimas para gravar e criar
+memórias. Suas gravações podem se transformar em
+fitas ou rolos de filme que servem para manter aqueles
+momentos de sofrimento intactos. Essa criatura, em sua
+forma original, só se move quando ninguém a observa.
+Caso seja atacada ou perceba que nada está ocorrendo
+no momento, a criatura decide tomar ação e cumprir sua
+função, abrindo seu compartimento e com uma fita de
+filme começa a se mover até criar um redemoinho
+mimicando uma estrutura corporal, criando mãos e
+levantando a câmera para filmar o que está prestes a
+acontecer. O Anamnese irá fazer você sofrer e tornará o
+seu grito apenas mais um dos que ele toca quando se
+transforma.
+Caso o Anamnese seja derrotado, ele volta a sua função
+de câmera e some quando ninguém o observa, voltando
+em outro momento oportuno para atacar.Ao chegar a 0 pontos de vida, as fitas da Anamnese
+se dissipam e a câmera que compõe seu corpo cai
+no chão, voltando a vida após o fim da próxima
+cena da sessão. Após voltar a vida, a Anamnese
+fugirá, procurando uma nova oportunidade de
+matar seus alvos.20Anamnese
+Morte
+CRIATURA    GRANDE200
+PRESENÇA PERTUBADORA
+SENTIDOS
+DEFESADT30    6D6 mental
+PERCEPÇÃO 3+15
+20 INICIATIVA 3+15Percepção às cegas
+20 FORTITUDE 4+15
+20 REFLEXOS 3+15
+20 VONTADE 3+1535
+PONTOS DE VIDA 360 180 machucado
+RESISTÊNCIAS
+VULNERABILIDADESCorte, impacto e perfuração 10
+e Morte 15
+Energia e Fogo
+ATRIBUTOS
+FOR INT PRE VIG 3 4 3 3 4
+DESLOCAMENTO 6 m 4PERÍCIAS 20 FURTIVIDADE 3+15
+REBOBINARAÇÕES
+PADRÃO      AGREDIR
+TAPA DE FITA Corpo a corpo 2x
+TESTE              |DANO 4d10+10 Impacto 204+25
+203+10
+PADRÃO     DRENAR
+A Anamnese aproxima a câmera do rosto do alvo e
+começa a gravá-lo, necessitando de um teste de
+Vontade (DT 30) do alvo, em caso de falha, o alvo tem
+que rolar 1d6 e pegar um dos efeitos abaixo, além disso
+recebe 3d12+15 de dano de Morte
+1   O alvo fica Fatigado por 3 turnos.
+2  O alvo fica Enredado por 3 turnos.
+3  O alvo fica Alquebrado por 3 turnos.
+4  O alvo fica permanentemente 5 anos mais velho.
+5  O alvo fica Confuso por 3 turnos.
+6  O alvo perde 2d10+3 pontos de sanidade.MORDIDA  Corpo a corpo
+TESTE              |DANO 2d8+5 Perfuração
+MOVIMENTO      PUXÃO
+A Anamnese arremessa suas fitas a alcance curto em
+um alvo, esse que deve realizar um teste de Reflexos
+(DT 25), caso falhe, ele é puxado para um espaço
+adjacente ao Anamnese e fica Caído.MedoVD
+NEX 65%+ é imune EnergiaMedo
+

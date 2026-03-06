@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ordem Paranormal — Referência de Suplementos</title>
+  <style>
+    :root {
+      --bg: #0e0e12;
+      --bg2: #16161e;
+      --bg3: #1e1e2a;
+      --border: #2e2e42;
+      --accent: #c0392b;
+      --accent2: #8e44ad;
+      --accent3: #2980b9;
+      --accent4: #27ae60;
+      --text: #d4d4e0;
+      --text-dim: #7f7f9a;
+      --text-bright: #f0f0ff;
+      --tag-sangue: #c0392b;
+      --tag-morte: #6c3483;
+      --tag-energia: #1a5276;
+      --tag-conhecimento: #145a32;
+      --tag-medo: #4d4d00;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', Arial, sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background: linear-gradient(135deg, #0a0a0f 0%, #1a0a0a 100%);
+      border-bottom: 2px solid var(--accent);
+      padding: 28px 32px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.2rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--text-bright);
+    }
+    header h1 span { color: var(--accent); }
+    header p {
+      color: var(--text-dim);
+      margin-top: 6px;
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+    }
+
+    /* ── NAV TABS ── */
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      background: var(--bg2);
+      border-bottom: 1px solid var(--border);
+      gap: 2px;
+      padding: 0 12px;
+    }
+    nav button {
+      background: transparent;
+      border: none;
+      color: var(--text-dim);
+      cursor: pointer;
+      font-size: 0.88rem;
+      letter-spacing: 0.5px;
+      padding: 14px 18px;
+      text-transform: uppercase;
+      transition: color 0.2s, border-bottom 0.2s;
+      border-bottom: 3px solid transparent;
+    }
+    nav button:hover { color: var(--text); }
+    nav button.active {
+      color: var(--accent);
+      border-bottom: 3px solid var(--accent);
+    }
+
+    /* ── MAIN CONTENT ── */
+    main { max-width: 1100px; margin: 0 auto; padding: 28px 20px; }
+    .tab-section { display: none; }
+    .tab-section.active { display: block; }
+
+    /* ── SECTION TITLES ── */
+    .section-title {
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--text-bright);
+      border-left: 4px solid var(--accent);
+      padding-left: 14px;
+      margin-bottom: 20px;
+    }
+    .sub-title {
+      font-size: 1.1rem;
+      color: var(--accent);
+      margin: 24px 0 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* ── CARDS ── */
+    .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; margin-bottom: 24px; }
+    .card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 18px;
+      position: relative;
+    }
+    .card h3 {
+      font-size: 1.05rem;
+      color: var(--text-bright);
+      margin-bottom: 8px;
+    }
+    .card p, .card li { color: var(--text); font-size: 0.88rem; }
+    .card ul { padding-left: 16px; }
+    .card .tag {
+      display: inline-block;
+      font-size: 0.7rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 2px 7px;
+      border-radius: 3px;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+    .tag.sangue { background: var(--tag-sangue); color: #fff; }
+    .tag.morte { background: var(--tag-morte); color: #fff; }
+    .tag.energia { background: var(--tag-energia); color: #fff; }
+    .tag.conhecimento { background: var(--tag-conhecimento); color: #fff; }
+    .tag.medo { background: var(--tag-medo); color: #fff; }
+    .tag.neutro { background: #333; color: #ccc; }
+    .tag.classe { background: #2c3554; color: #a0b4ff; }
+    .tag.origem { background: #2a2215; color: #f0c060; }
+    .tag.criatura { background: #1a1a1a; color: #e74c3c; }
+
+    /* ── TABLE ── */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0 28px;
+      font-size: 0.88rem;
+    }
+    th {
+      background: var(--bg3);
+      color: var(--accent);
+      text-align: left;
+      padding: 10px 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      border-bottom: 2px solid var(--accent);
+    }
+    td {
+      padding: 9px 14px;
+      border-bottom: 1px solid var(--border);
+    }
+    tr:hover td { background: var(--bg3); }
+    td strong { color: var(--text-bright); }
+
+    /* ── CALLOUT BOX ── */
+    .callout {
+      background: var(--bg3);
+      border-left: 4px solid var(--accent2);
+      padding: 14px 18px;
+      border-radius: 4px;
+      margin: 16px 0;
+      font-size: 0.88rem;
+    }
+    .callout.info { border-color: var(--accent3); }
+    .callout.warn { border-color: #e67e22; }
+    .callout.success { border-color: var(--accent4); }
+    .callout strong { color: var(--text-bright); }
+
+    /* ── MONSTER BLOCK ── */
+    .monster-block {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-top: 4px solid var(--accent);
+      border-radius: 6px;
+      padding: 20px;
+      margin-bottom: 24px;
+    }
+    .monster-block h3 {
+      font-size: 1.3rem;
+      color: var(--text-bright);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .monster-block .meta {
+      color: var(--text-dim);
+      font-size: 0.82rem;
+      margin: 4px 0 14px;
+      font-style: italic;
+    }
+    .monster-stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 10px;
+      margin: 12px 0;
+    }
+    .stat-box {
+      background: var(--bg3);
+      border-radius: 4px;
+      padding: 8px 10px;
+      text-align: center;
+    }
+    .stat-box .label { font-size: 0.7rem; text-transform: uppercase; color: var(--text-dim); }
+    .stat-box .value { font-size: 1.1rem; font-weight: bold; color: var(--text-bright); }
+    .action-block {
+      background: var(--bg3);
+      border-radius: 4px;
+      padding: 10px 14px;
+      margin: 8px 0;
+      font-size: 0.87rem;
+    }
+    .action-block .action-title {
+      font-weight: bold;
+      color: var(--accent);
+      text-transform: uppercase;
+      font-size: 0.78rem;
+      letter-spacing: 0.5px;
+    }
+    hr.divider { border: none; border-top: 1px solid var(--border); margin: 22px 0; }
+
+    /* ── POWER LIST ── */
+    .power-list { list-style: none; padding: 0; }
+    .power-list li {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 12px 16px;
+      margin-bottom: 8px;
+    }
+    .power-list li strong { color: var(--text-bright); }
+    .power-list li em { color: var(--text-dim); font-size: 0.82rem; }
+
+    /* ── NEX TIMELINE ── */
+    .nex-timeline { position: relative; padding-left: 24px; border-left: 2px solid var(--border); margin: 12px 0; }
+    .nex-entry { margin-bottom: 16px; position: relative; }
+    .nex-entry::before {
+      content: '';
+      position: absolute;
+      left: -29px;
+      top: 6px;
+      width: 10px;
+      height: 10px;
+      background: var(--accent);
+      border-radius: 50%;
+    }
+    .nex-entry .nex-label { font-size: 0.75rem; color: var(--accent); text-transform: uppercase; letter-spacing: 1px; font-weight: bold; }
+    .nex-entry p { font-size: 0.87rem; margin-top: 3px; }
+
+    /* ── ATRIBUTOS COMPARISON ── */
+    .comparison-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 10px;
+      padding: 10px 14px;
+      background: var(--bg2);
+      border-radius: 4px;
+      border: 1px solid var(--border);
+      font-size: 0.88rem;
+    }
+    .comparison-row .from-sys { flex: 1; color: #f0c060; }
+    .comparison-row .arrow { color: var(--text-dim); font-size: 0.8rem; padding: 0 8px; }
+    .comparison-row .to-sys { flex: 1; color: #a0c4ff; }
+    .comparison-row .note { flex: 2; color: var(--text-dim); font-style: italic; font-size: 0.82rem; }
+
+    /* ── RITUAL BLOCK ── */
+    .ritual-block {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 16px 18px;
+      margin-bottom: 14px;
+    }
+    .ritual-block h4 { color: var(--text-bright); margin-bottom: 6px; }
+    .ritual-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; }
+    .ritual-meta span {
+      background: var(--bg3);
+      border-radius: 3px;
+      padding: 2px 8px;
+      font-size: 0.75rem;
+      color: var(--text-dim);
+    }
+    .ritual-meta span strong { color: var(--text); }
+    .ritual-block .aprimoramento { margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--border); font-size: 0.84rem; }
+    .ritual-block .aprimoramento em { color: var(--accent2); }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Ordem <span>Paranormal</span> — Referência de Suplementos</h1>
+  <p>Adaptação de Feiticeiros &amp; Maldições · Suplemento Marcas Fragmentadas</p>
+</header>
+
+<nav>
+  <button class="active" onclick="showTab('adaptacao', this)">Guia de Adaptação</button>
+  <button onclick="showTab('origens-fm', this)">Origens — F&amp;M</button>
+  <button onclick="showTab('classes-fm', this)">Classes — F&amp;M</button>
+  <button onclick="showTab('origens-mf', this)">Origens — Marcas Fragmentadas</button>
+  <button onclick="showTab('transformado', this)">Classe: Transformado</button>
+  <button onclick="showTab('poderes-mf', this)">Poderes Paranormais</button>
+  <button onclick="showTab('rituais-mf', this)">Rituais (Suplemento)</button>
+  <button onclick="showTab('criaturas-mf', this)">Criaturas</button>
+</nav>
+
+<main>
+
+<!-- ═══════════════════════════════════════════════════════════════════════
+     TAB 1 — GUIA DE ADAPTAÇÃO
+     ═══════════════════════════════════════════════════════════════════════ -->
+<section class="tab-section active" id="tab-adaptacao">
+  <h2 class="section-title">Guia de Adaptação — Feiticeiros &amp; Maldições → Ordem Paranormal</h2>
+
+  <div class="callout warn">
+    <strong>O que é isso?</strong><br>
+    Feiticeiros &amp; Maldições (F&amp;M) é um sistema de RPG baseado em <em>Jujutsu Kaisen</em>, feito por fãs.
+    Ele usa mecânicas muito parecidas com Ordem Paranormal (OP), porém com terminologias e estruturas diferentes.
+    Esta seção mostra como converter conceitos de um para o outro, caso você queira usar conteúdo de F&amp;M em mesas de OP.
+  </div>
+
+  <h3 class="sub-title">Conversão de Atributos</h3>
+  <div class="callout info">
+    F&amp;M usa <strong>6 atributos</strong> (estilo D&D). OP usa <strong>5 atributos</strong>. A conversão abaixo é aproximada.
+  </div>
+
+  <div class="comparison-row"><span class="from-sys">Força (F&amp;M)</span><span class="arrow">→</span><span class="to-sys">Força (OP)</span><span class="note">Mesmo conceito — dano físico, atletismo, levantamento.</span></div>
+  <div class="comparison-row"><span class="from-sys">Destreza (F&amp;M)</span><span class="arrow">→</span><span class="to-sys">Agilidade (OP)</span><span class="note">Reflexos, esquiva, iniciativa, acrobacias.</span></div>
+  <div class="comparison-row"><span class="from-sys">Constituição (F&amp;M)</span><span class="arrow">→</span><span class="to-sys">Vigor (OP)</span><span class="note">Resistência física, PV, fortitude.</span></div>
+  <div class="comparison-row"><span class="from-sys">Inteligência (F&amp;M)</span><span class="arrow">→</span><span class="to-sys">Intelecto (OP)</span><span class="note">Raciocínio, perícias técnicas, conhecimento.</span></div>
+  <div class="comparison-row"><span class="from-sys">Sabedoria (F&amp;M)</span><span class="arrow">→</span><span class="to-sys">Intelecto / Presença (OP)</span><span class="note">Divide-se: percepção/intuição → Intelecto; interação social → Presença.</span></div>
+  <div class="comparison-row"><span class="from-sys">Presença (F&amp;M)</span><span class="arrow">→</span><span class="to-sys">Presença (OP)</span><span class="note">Mesmo conceito — influência, força de personalidade.</span></div>
+
+  <h3 class="sub-title">Conversão de Mecânicas</h3>
+  <table>
+    <thead><tr><th>Feiticeiros &amp; Maldições</th><th>Ordem Paranormal</th><th>Observação</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Pontos de Energia Amaldiçoada (PE)</strong></td><td><strong>Pontos de Esforço (PE)</strong></td><td>Mesmo recurso, mesmo nome abreviado. Uso direto.</td></tr>
+      <tr><td><strong>Pontos de Vida (PV)</strong></td><td><strong>Pontos de Vida (PV)</strong></td><td>Idêntico.</td></tr>
+      <tr><td><strong>Defesa = 10 + Mod.Dex + Nível/2</strong></td><td><strong>Defesa = 10 + Mod.Agi + outros</strong></td><td>Praticamente o mesmo cálculo. Use Agilidade no lugar de Destreza.</td></tr>
+      <tr><td><strong>Nível (1–20)</strong></td><td><strong>NEX % (5%–99%)</strong></td><td>Nível 1–4 ≈ NEX 5–20%. Nível 5–10 ≈ NEX 25–50%. Nível 11–20 ≈ NEX 55–99%.</td></tr>
+      <tr><td><strong>Técnica Inata / Feitiços</strong></td><td><strong>Rituais (Ocultista)</strong></td><td>Feitiços funcionam como Rituais. Custo em PE = custo por Círculo (1/3/6/10 PE).</td></tr>
+      <tr><td><strong>Expansão de Domínio</strong></td><td><strong>Ritual 4º Círculo</strong></td><td>Trate como um Ritual de 4º Círculo (10 PE), efeito de área que não erra.</td></tr>
+      <tr><td><strong>Aptidões Amaldiçoadas</strong></td><td><strong>Poderes de Classe (Ocultista)</strong></td><td>Aptidões de Aura/Domínio/Barreira = poderes do Ocultista + Poderes Paranormais.</td></tr>
+      <tr><td><strong>Shikigamis / Invocações</strong></td><td><strong>Aliados (Regra de Aliados)</strong></td><td>Use as regras de Aliados do Capítulo 13. VD do shikigami ≈ NEX do personagem ÷ 2.</td></tr>
+      <tr><td><strong>Ferramentas Amaldiçoadas</strong></td><td><strong>Armas Malditas (Categoria + Maldição)</strong></td><td>Grau IV = Cat. I; Grau III = Cat. II; Grau II = Cat. III; Grau Especial = Cat. IV c/ Maldição.</td></tr>
+      <tr><td><strong>Graus de Feiticeiro (4–Especial)</strong></td><td><strong>NEX</strong></td><td>Grau 4 ≈ NEX 5–20%; Grau 3 ≈ NEX 25–40%; Grau 2 ≈ NEX 45–65%; Grau 1 ≈ 70–85%; Especial ≈ NEX 90–99%.</td></tr>
+      <tr><td><strong>Integridade da Alma</strong></td><td><strong>Sanidade (SAN)</strong></td><td>Ataques à alma = dano mental. Integridade = PV máx em F&amp;M; em OP use SAN máx.</td></tr>
+      <tr><td><strong>Classe: Lutador</strong></td><td><strong>Combatente</strong></td><td>Foco em combate corpo-a-corpo, armas.</td></tr>
+      <tr><td><strong>Especialista em Combate</strong></td><td><strong>Combatente (variante)</strong></td><td>Mais versatilidade de armas e estilos do que o Lutador.</td></tr>
+      <tr><td><strong>Especialista em Técnica / Controlador</strong></td><td><strong>Ocultista</strong></td><td>Foco em feitiços/rituais e controle de campo.</td></tr>
+      <tr><td><strong>Suporte</strong></td><td><strong>Especialista</strong></td><td>Foco em perícias, suporte e versatilidade fora de combate.</td></tr>
+      <tr><td><strong>Restringido (sem energia)</strong></td><td><strong>Combatente puro</strong></td><td>Zero PE; compensa com físico sobre-humano. Use como Combatente com a habilidade Ataque Especial ampliada.</td></tr>
+    </tbody>
+  </table>
+
+  <h3 class="sub-title">Como usar conteúdo de F&amp;M em uma mesa de OP</h3>
+  <div class="callout success">
+    <strong>Regra Rápida:</strong> Troque os atributos pelos equivalentes de OP (tabela acima), mantenha os valores numéricos de PV, PE, dano e DTs. Técnicas Inatas funcionam como Rituais personalizados do Ocultista. A progressão por Nível pode ser substituída por NEX usando a conversão da tabela.
+  </div>
+  <div class="callout">
+    <strong>Energia Amaldiçoada como Elemento:</strong> Para fins de Rituais e Criaturas Paranormais, trate a Energia Amaldiçoada de JJK como o Elemento <strong>Energia</strong> de OP (caos, força, eletricidade). Espíritos Amaldiçoados são criaturas do Elemento <strong>Medo</strong> ou <strong>Morte</strong>.
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════════════
+     TAB 2 — ORIGENS FEITICEIROS E MALDIÇÕES
+     ═══════════════════════════════════════════════════════════════════════ -->
+<section class="tab-section" id="tab-origens-fm">
+  <h2 class="section-title">Origens — Feiticeiros &amp; Maldições</h2>
+  <div class="callout info">Equivalente às <strong>Origens</strong> de Ordem Paranormal. Ao adaptar, as origens de F&amp;M concedem os mesmos tipos de bônus (atributos + habilidade especial).</div>
+
+  <div class="card-grid">
+    <div class="card">
+      <span class="tag origem">Origem</span>
+      <h3>Inato</h3>
+      <p>Nasceu com uma Técnica Amaldiçoada própria. A mais comum no mundo jujutsu — <em>Nobara Kugisaki, Kento Nanami</em>.</p>
+      <ul style="margin-top: 8px">
+        <li><strong>Bônus de Atributo:</strong> +2 em um, +1 em outro.</li>
+        <li><strong>Talento Natural:</strong> Recebe 1 Talento no 1º nível (e mais 1 a partir do nível 4).</li>
+        <li><strong>Marca Registrada:</strong> Recebe 1 Ritual extra com custo reduzido em 1 PE.</li>
+      </ul>
+      <div style="margin-top:8px; font-size:0.82rem; color:var(--text-dim)">▶ Em OP: equivale a uma Origem com bônus de atributo + poder de Ocultista com 1 PE de desconto.</div>
+    </div>
+    <div class="card">
+      <span class="tag origem">Origem</span>
+      <h3>Herdado</h3>
+      <p>Técnica transmitida por linhagem de sangue. Escolha um Clã ao selecionar esta origem.</p>
+      <ul style="margin-top: 8px">
+        <li><strong>Bônus de Atributo:</strong> depende do Clã escolhido.</li>
+        <li><strong>Treinamentos de Clã:</strong> 2 perícias específicas por Clã.</li>
+        <li><strong>Herança de Clã:</strong> habilidade exclusiva do Clã.</li>
+      </ul>
+      <div style="margin-top:8px; font-size:0.82rem; color:var(--text-dim)">▶ Em OP: Origem específica por clã, equivalente a Origens com bônus temáticos.</div>
+    </div>
+    <div class="card">
+      <span class="tag origem">Origem</span>
+      <h3>Derivado</h3>
+      <p>Poder adquirido de forma não natural — objeto amaldiçoado, alteração da alma. <em>Yuuji Itadori</em>.</p>
+      <ul style="margin-top: 8px">
+        <li><strong>Bônus de Atributo:</strong> +2 em um, +1 em outro.</li>
+        <li><strong>Energia Antinatural:</strong> 1 Aptidão Amaldiçoada de Aura + recupera PE como ação bônus (2× bônus de treinamento, 1×/dia).</li>
+        <li><strong>Desenvolvimento Inesperado:</strong> A cada 4 níveis, +1 ponto de atributo adicional e +1 no limite do atributo escolhido.</li>
+      </ul>
+      <div style="margin-top:8px; font-size:0.82rem; color:var(--text-dim)">▶ Em OP: Origem "Cultista Arrependido" ou "Amnésico" adaptada — PE de emergência + crescimento anômalo.</div>
+    </div>
+    <div class="card">
+      <span class="tag origem">Origem</span>
+      <h3>Restringido</h3>
+      <p>Quase sem energia amaldiçoada. Compensa com físico sobre-humano. <em>Toji Fushiguro</em>.</p>
+      <ul style="margin-top: 8px">
+        <li><strong>Bônus de Atributo:</strong> +1 em Força, Destreza e Constituição, + 2 pontos extras em atributos físicos.</li>
+        <li><strong>Físico Abençoado:</strong> +3m de movimento, imune a doenças mundanas, vantagem vs. venenos.</li>
+        <li><strong>Ápice Corporal Humano:</strong> Limite de Força/Destreza/Constituição = 30. A cada 6 níveis +2 em um deles.</li>
+        <li><strong>Resiliência Imediata:</strong> Reduz dano recebido (número de usos = bônus de treinamento). Pode evitar desmembramentos.</li>
+      </ul>
+      <div style="margin-top:8px; font-size:0.82rem; color:var(--text-dim)">▶ Em OP: Combatente sem PE; use poderes físicos ao invés de rituais.</div>
+    </div>
+    <div class="card">
+      <span class="tag origem">Origem</span>
+      <h3>Feto Amaldiçoado Híbrido</h3>
+      <p>Híbrido entre humano e maldição. Anatomia única. <em>Choso</em>.</p>
+      <ul style="margin-top: 8px">
+        <li><strong>Herança Maldita:</strong> Energia reversa reduzida pela metade, mas pode usar energia normal para curar a si mesmo.</li>
+        <li><strong>Físico Amaldiçoado:</strong> Recebe 1 Característica de Anatomia (e mais 1 a cada 5 níveis).</li>
+        <li><strong>Vigor Maldito:</strong> Cura de emergência (5 + Mod.Con), 1×/descanso longo.</li>
+      </ul>
+      <div style="margin-top:8px; font-size:0.82rem; color:var(--text-dim)">▶ Em OP: similar ao Ocultista com poderes de Sangue + capacidades físicas especiais.</div>
+    </div>
+    <div class="card">
+      <span class="tag origem">Origem</span>
+      <h3>Sem Técnica</h3>
+      <p>Feiticeiro sem técnica inata; compensa com versatilidade e adaptabilidade. Acessa técnicas copiadas ou ferramentas.</p>
+      <div style="margin-top:8px; font-size:0.82rem; color:var(--text-dim)">▶ Em OP: Equivale ao personagem que foca em ferramentas malditas (armas de categoria alta) e perícias, similar ao Especialista.</div>
+    </div>
+    <div class="card">
+      <span class="tag origem">Origem</span>
+      <h3>Corpo Amaldiçoado Mutante</h3>
+      <p>Criado artificialmente como corpo amaldiçoado senciente. <em>Panda</em>.</p>
+      <div style="margin-top:8px; font-size:0.82rem; color:var(--text-dim)">▶ Em OP: Transformado (Marcas Fragmentadas) ou criatura aliada com classe.</div>
+    </div>
+  </div>
+
+  <h3 class="sub-title">Heranças de Clã (Herdado)</h3>
+  <div class="card-grid">
+    <div class="card">
+      <span class="tag neutro">Clã Gojo</span>
+      <h3>Clã Gojo</h3>
+      <p><strong>Atributos:</strong> +2 em Inteligência ou Sabedoria, +1 no outro.<br>
+      <strong>Perícias:</strong> 2 entre Feitiçaria, Percepção e Intuição (ou especialista em 1).<br>
+      <strong>Potencial Lendário:</strong> +1 PE em todo nível par. Feitiço extra no nível 1, e nos níveis 5/10/15/20.</p>
+      <div style="margin-top:8px; font-size:0.82rem; color:var(--text-dim)">▶ Em OP: +Intelecto e +PE ao longo da carreira. Ocultista altíssimo nível.</div>
+    </div>
+    <div class="card">
+      <span class="tag neutro">Clã Inumaki</span>
+      <h3>Clã Inumaki</h3>
+      <p><strong>Atributos:</strong> +2 Inteligência ou Presença, +1 no outro.<br>
+      <strong>Olhos de Cobra e Presas:</strong> Número de vezes = bônus de treinamento, pode dar 1 ação bônus para um aliado (reação).</p>
+      <div style="margin-top:8px; font-size:0.82rem; color:var(--text-dim)">▶ Em OP: Personagem de suporte/controle com habilidades de voz. Origem Especialista.</div>
+    </div>
+    <div class="card">
+      <span class="tag neutro">Clã Kamo</span>
+      <h3>Clã Kamo</h3>
+      <p><strong>Atributos:</strong> +2 Constituição ou Sabedoria, +1 no outro.<br>
+      <strong>Valor do Sangue:</strong> +1 PV máx por nível. A partir do nível 10, soma Mod.Con ao total. Pode rolar vida novamente se menor que a média.</p>
+      <div style="margin-top:8px; font-size:0.82rem; color:var(--text-dim)">▶ Em OP: Combatente tanque com Elemento Sangue. Alta vitalidade.</div>
+    </div>
+    <div class="card">
+      <span class="tag neutro">Clã Zenin</span>
+      <h3>Clã Zenin</h3>
+      <p><strong>Atributos:</strong> +2 em um, +1 em outro (livre).<br>
+      <strong>Foco no Poder:</strong> No 1º nível, 1 Feitiço Focado (dano+1d, cura+1d, alcance dobrado, ou DT+bônus treino). Mais Feitiços Focados nos níveis 5/10/15/20.</p>
+      <div style="margin-top:8px; font-size:0.82rem; color:var(--text-dim)">▶ Em OP: Rituais potencializados. Qualquer classe, foco em personalização de poder.</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════════════
+     TAB 3 — CLASSES DE F&M
+     ═══════════════════════════════════════════════════════════════════════ -->
+<section class="tab-section" id="tab-classes-fm">
+  <h2 class="section-title">Classes (Especializações) — Feiticeiros &amp; Maldições</h2>
+  <div class="callout info">Cada <em>Especialização</em> de F&amp;M equivale a uma <strong>Classe</strong> de OP. A tabela abaixo resume as características base de cada uma.</div>
+
+  <table>
+    <thead><tr><th>Especialização (F&amp;M)</th><th>Equiv. OP</th><th>PV Iniciais</th><th>PE Iniciais</th><th>Dado de Vida</th><th>Foco</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Lutador</strong></td><td>Combatente</td><td>12 + Mod.Con</td><td>4</td><td>d12</td><td>Combate corpo-a-corpo, armas, resistência.</td></tr>
+      <tr><td><strong>Especialista em Combate</strong></td><td>Combatente (versátil)</td><td>12 + Mod.Con</td><td>4</td><td>d10</td><td>Manejo de armas, estilos de combate, duelos.</td></tr>
+      <tr><td><strong>Especialista em Técnica</strong></td><td>Ocultista</td><td>10 + Mod.Con</td><td>6 + Mod.Atrib</td><td>d8</td><td>Feitiços de dano/controle, técnica avançada.</td></tr>
+      <tr><td><strong>Controlador</strong></td><td>Ocultista (controle)</td><td>10 + Mod.Con</td><td>5 + Mod.Atrib</td><td>d8</td><td>Invocações, domínio de campo, shikigamis.</td></tr>
+      <tr><td><strong>Suporte</strong></td><td>Especialista</td><td>10 + Mod.Con</td><td>5 + Mod.Atrib</td><td>d8</td><td>Cura, energia reversa, buffar aliados.</td></tr>
+      <tr><td><strong>Restringido</strong></td><td>Combatente puro (sem PE)</td><td>16 + Mod.Con</td><td>0 (usa Estamina)</td><td>d12</td><td>Físico sobre-humano, ferramentas, artes marciais.</td></tr>
+    </tbody>
+  </table>
+
+  <h3 class="sub-title">Tipos de Aptidões Amaldiçoadas</h3>
+  <p style="margin-bottom:14px; font-size:0.88rem">As Aptidões são similares aos <strong>Poderes de Classe</strong> do Ocultista em OP. Existem 6 categorias:</p>
+  <div class="card-grid">
+    <div class="card">
+      <h3>Aptidões de Aura</h3>
+      <p>Cobrir o corpo com energia amaldiçoada para defesa, força e velocidade. Equivale a buffs pessoais do Ocultista.</p>
+    </div>
+    <div class="card">
+      <h3>Aptidões de Controle e Leitura</h3>
+      <p>Detectar e analisar energia ao redor. Equivale a perícias de Ocultismo ampliadas. Muito útil em investigação.</p>
+    </div>
+    <div class="card">
+      <h3>Aptidões de Domínio</h3>
+      <p>Base para conjurar a Expansão de Domínio. Requer alto nível de maestria. Equivale ao Ritual de 4º Círculo.</p>
+    </div>
+    <div class="card">
+      <h3>Aptidões de Barreira</h3>
+      <p>Erguer e manipular paredes de energia. Equivale a Rituais de Proteção e área (Campos de Energia, Blindagem).</p>
+    </div>
+    <div class="card">
+      <h3>Aptidões de Energia Reversa</h3>
+      <p>Inverter a energia para curar. Exclusiva do Suporte. Equivale a rituais curativos do Ocultista.</p>
+    </div>
+    <div class="card">
+      <h3>Aptidões Especiais</h3>
+      <p>Habilidades únicas e raras, fora das categorias padrão. Equivale aos poderes únicos de trilhas de Ocultista.</p>
+    </div>
+  </div>
+
+  <h3 class="sub-title">Expansão de Domínio — Como usar em OP</h3>
+  <div class="callout warn">
+    <strong>Trate como Ritual de 4º Círculo (10 PE).</strong><br>
+    A Expansão de Domínio cria um espaço separado onde os ataques do conjurador nunca erram (sem necessidade de teste de ataque).
+    Em OP, o efeito narrativo é válido — a criatura ou personagem conjura um "bolsão paranormal" onde os rituais têm
+    <strong>DT automaticamente atingida</strong> por uma cena. Requer NEX 65%+ para conjurar.
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════════════
+     TAB 4 — ORIGENS MARCAS FRAGMENTADAS
+     ═══════════════════════════════════════════════════════════════════════ -->
+<section class="tab-section" id="tab-origens-mf">
+  <h2 class="section-title">Novas Origens — Marcas Fragmentadas</h2>
+  <div class="callout success">Estas origens são <strong>suplemento direto de Ordem Paranormal</strong> — compatíveis 100% com as regras base sem adaptação necessária.</div>
+
+  <div class="card-grid">
+    <div class="card">
+      <span class="tag origem">Origem</span>
+      <h3>Adestrador</h3>
+      <p><strong>Perícias:</strong> Adestramento e Diplomacia.</p>
+      <p><strong>Um amigo:</strong> Possui um animal aliado de um tipo à escolha.</p>
+    </div>
+    <div class="card">
+      <span class="tag origem">Origem</span>
+      <h3>Adepto ao Paranormal</h3>
+      <p><strong>Perícias:</strong> Ocultismo e Vontade.</p>
+      <p><strong>Mente preparada:</strong> +5 no teste de Ocultismo para o "Custo do Paranormal".</p>
+    </div>
+    <div class="card">
+      <span class="tag origem">Origem</span>
+      <h3>Apostador</h3>
+      <p><strong>Perícias:</strong> Intuição e Enganação.</p>
+      <p><strong>Tiro de Sorte:</strong> Gasta 2 PE → +5 em uma rolagem, com 50% de chance de falha automática (rol d20; se ≤10, falha).</p>
+    </div>
+    <div class="card">
+      <span class="tag origem">Origem</span>
+      <h3>Escritor Paranormal</h3>
+      <p><strong>Perícias:</strong> Atualidades e Ocultismo.</p>
+      <p><strong>Nas Entrelinhas:</strong> Ao identificar criatura com sucesso, gasta 2 PE → anota. Número de aliados igual ao Intelecto ganham +2 vs. essa criatura (acumulável, permanente).</p>
+    </div>
+    <div class="card">
+      <span class="tag origem">Origem</span>
+      <h3>Faz-Tudo</h3>
+      <p><strong>Perícias:</strong> Profissão e Tecnologia.</p>
+      <p><strong>Pau pra toda obra:</strong> +5 espaços de inventário.</p>
+    </div>
+    <div class="card">
+      <span class="tag origem">Origem</span>
+      <h3>Influenciador</h3>
+      <p><strong>Perícias:</strong> Atualidades e Diplomacia.</p>
+      <p><strong>Algoritmo:</strong> Ação "Criar Conteúdo" em interlúdio com acesso à internet. Rola d20: 1–5 sem efeito; 6–10 recupera Limite de PE em SAN; 11–15 Limite+5; 16–20 Limite+10. Em NEX 30%: +5 no teste.</p>
+    </div>
+    <div class="card">
+      <span class="tag origem">Origem</span>
+      <h3>Jornalista</h3>
+      <p><strong>Perícias:</strong> Diplomacia e Enganação.</p>
+      <p><strong>Fofoca:</strong> Uma vez por sessão, ao obter nova informação sobre o caso, pode gastar ação de interlúdio para levantar referências na mídia/boatos (a critério do Mestre).</p>
+    </div>
+    <div class="card">
+      <span class="tag origem">Origem</span>
+      <h3>Médico 24 Horas</h3>
+      <p><strong>Perícias:</strong> Medicina e Percepção.</p>
+      <p><strong>Plantão:</strong> Pode usar "Cuidados Prolongados" desde o grau Treinado. Essa ação dobra a recuperação de PE pelo descanso de aliados. Em NEX 35%: aliados afetados também recuperam SAN = Intelecto ao dormir.</p>
+    </div>
+    <div class="card">
+      <span class="tag origem">Origem</span>
+      <h3>Palestrinha</h3>
+      <p><strong>Perícias:</strong> Diplomacia e Enganação.</p>
+      <p><strong>Mudança de mindset:</strong> Aliados que usarem ação "Ler" junto a você num interlúdio rolam 2d6 ao invés de 1d6 em testes de Intelecto ou Presença.</p>
+    </div>
+    <div class="card">
+      <span class="tag origem">Origem</span>
+      <h3>Pesquisador Paranormal</h3>
+      <p><strong>Perícias:</strong> Ocultismo e Ciências.</p>
+      <p><strong>Já vi pior:</strong> +5 em testes de Presença Perturbadora. Com afinidade de elemento: +10 contra criaturas do mesmo elemento.</p>
+    </div>
+    <div class="card">
+      <span class="tag origem">Origem</span>
+      <h3>Piloto</h3>
+      <p><strong>Perícias:</strong> Pilotagem e Iniciativa.</p>
+      <p><strong>Rápido e Furioso:</strong> Escolha porte de veículo (grande/médio/pequeno) → +5 em Pilotagem com aquele porte.</p>
+    </div>
+    <div class="card">
+      <span class="tag origem">Origem</span>
+      <h3>Psicólogo</h3>
+      <p><strong>Perícias:</strong> Diplomacia e Intuição.</p>
+      <p><strong>Sessão de Terapia:</strong> Num interlúdio, gasta 1 ação → até Intelecto aliados fazem sessão de terapia e dobram a recuperação de SAN pela ação "Relaxar".</p>
+    </div>
+    <div class="card">
+      <span class="tag origem">Origem</span>
+      <h3>Químico</h3>
+      <p><strong>Perícias:</strong> Ciências e Tecnologia.</p>
+      <p><strong>Você sabe demais:</strong> Ação de Interlúdio → criar veneno com DT até 15. Em NEX 30%: até 2 venenos DT 20. Em NEX 50%: até 3 venenos DT 25.</p>
+    </div>
+    <div class="card">
+      <span class="tag origem">Origem</span>
+      <h3>Treinador</h3>
+      <p><strong>Perícias:</strong> Atletismo e Luta.</p>
+      <p><strong>Malhe enquanto dormem:</strong> Aliados que fizerem ação "Exercitar" junto a você num interlúdio rolam 2d6 (ao invés de 1d6) em Agilidade, Força ou Vigor.</p>
+    </div>
+    <div class="card">
+      <span class="tag origem">Origem</span>
+      <h3>Zelador</h3>
+      <p><strong>Perícias:</strong> Atletismo e Percepção.</p>
+      <p><strong>Casa suja chão sujo:</strong> Gasta 1 PE → +5 em Investigação para achar resíduos. Se limpar a cena de investigação (a critério do Mestre): 3 PE temporários até o próximo descanso.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════════════
+     TAB 5 — CLASSE TRANSFORMADO
+     ═══════════════════════════════════════════════════════════════════════ -->
+<section class="tab-section" id="tab-transformado">
+  <h2 class="section-title">Nova Classe — Transformado (Marcas Fragmentadas)</h2>
+
+  <div class="callout warn">
+    <strong>Aviso de Roleplay:</strong> O Transformado é uma classe narrativamente complexa. Antes de jogar com ela, converse com o grupo e o Mestre. É indicada para campanhas que querem explorar a melancolia e o horror de perder a humanidade.
+  </div>
+
+  <div class="card-grid" style="grid-template-columns: repeat(auto-fill, minmax(200px,1fr))">
+    <div class="stat-box"><div class="label">PV Iniciais</div><div class="value">16 + Vigor</div></div>
+    <div class="stat-box"><div class="label">PV por NEX</div><div class="value">3 (+VIG)</div></div>
+    <div class="stat-box"><div class="label">PE Iniciais</div><div class="value">5 + PRE</div></div>
+    <div class="stat-box"><div class="label">PE por NEX</div><div class="value">+2</div></div>
+    <div class="stat-box"><div class="label">SAN Inicial</div><div class="value">8</div></div>
+  </div>
+
+  <h3 class="sub-title">Habilidades da Classe</h3>
+  <div class="nex-timeline">
+    <div class="nex-entry"><div class="nex-label">NEX 5%</div><p><strong>Além da Criatura:</strong> Escolhe uma classe secundária (Ocultista, Especialista ou Combatente) e recebe 1 habilidade dela. Também recebe perícias e proficiências da classe escolhida.<br><strong>Sem Volta:</strong> Escolhe sua Trilha (O Monstro / O Réquiem / O Etéreo). Isso define a aparência e os poderes únicos do personagem. Recebe 1 poder da Trilha em NEX 10%, 40%, 65% e 99%.</p></div>
+    <div class="nex-entry"><div class="nex-label">NEX 15%</div><p><strong>Poder de Transformado:</strong> Recebe 1 poder de transformado à escolha. Novos poderes em NEX 30% e a cada 15% subsequentes.</p></div>
+    <div class="nex-entry"><div class="nex-label">NEX 20%</div><p><strong>Aumento de Atributo:</strong> +1 em um atributo à escolha (máx. +5 desta forma via essa habilidade).<br><strong>Mente Instável:</strong> Gasta 1 + (Limite de PE / 2, arredond. p/ cima) em SAN → dobra Limite de PE até o final do próximo turno. Transformados demoram 5 turnos para enlouquecer (ao invés de 3).</p></div>
+    <div class="nex-entry"><div class="nex-label">NEX 35%</div><p><strong>Grau de Treinamento:</strong> Escolhe 2 + Int perícias → grau de treinamento aumenta em 1 (treinado→veterano ou veterano→expert).</p></div>
+    <div class="nex-entry"><div class="nex-label">NEX 50%</div><p><strong>Aumento de Atributo</strong> (2ª vez).<br><strong>Versatilidade Nostálgica:</strong> Escolha entre 1 poder de transformado OU o 1º poder de uma trilha da classe escolhida em "Além da Criatura".</p></div>
+    <div class="nex-entry"><div class="nex-label">NEX 70%</div><p><strong>Grau de Treinamento</strong> (2ª vez) / 2º poder da trilha da classe secundária.</p></div>
+    <div class="nex-entry"><div class="nex-label">NEX 80% e 95%</div><p>Aumentos adicionais de atributo.</p></div>
+  </div>
+
+  <h3 class="sub-title">Poderes de Transformado (seleção)</h3>
+  <ul class="power-list">
+    <li><strong>Respirar é obsoleto:</strong> Não precisa respirar.</li>
+    <li><strong>Cambiante:</strong> +5 em Furtividade, pode usar sem estar escondido. Criaturas podem usar Ocultismo ao invés de Percepção para te encontrar.</li>
+    <li><strong>Olhos da Noite:</strong> +5 em Percepção para enxergar. Visão no Escuro. Imune à condição Cego.</li>
+    <li><strong>Sentidos Quiméricos:</strong> +5 em Percepção para ouvir. Imune à condição Surdo. <em>Pré-req: Olhos da Noite</em></li>
+    <li><strong>Passo Vertical:</strong> Deslocamento de Escalada = Deslocamento Normal (conta como terreno difícil).</li>
+    <li><strong>Movimentação Aguçada:</strong> Ignora terreno difícil.</li>
+    <li><strong>Faro Paranormal:</strong> Pode rolar Ocultismo para detectar o paranormal. +5 no teste.</li>
+    <li><strong>Físico Impossível:</strong> RD 3 em 2 dos seguintes tipos: Eletricidade, Fogo, Frio, Químico.</li>
+    <li><strong>Face Amedrontadora:</strong> +10 e +1d20 em Intimidação quando sua transformação é óbvia.</li>
+    <li><strong>Fluidos Tóxicos:</strong> Ao ser acertado em CaC, gasta 1 PE → 1d6 dano químico ao atacante.</li>
+    <li><strong>Toque Amaldiçoado:</strong> Ataques CaC causam +1d4 de dano de um elemento escolhido.</li>
+    <li><strong>Toque Maldito:</strong> Aumenta para +1d10 do elemento escolhido. <em>Pré-req: Toque Amaldiçoado + Afinidade no elemento</em></li>
+    <li><strong>Mente Perturbada:</strong> +10 no teste de Vontade contra Presença Perturbadora.</li>
+    <li><strong>Treinamento Avançado:</strong> Pode pegar um poder da classe escolhida em "Além da Criatura".</li>
+    <li><strong>Sintonia Paranormal:</strong> Aprende a língua do Outro Lado. Pode tentar passar por não-inimigo (Enganação vs. Intuição da criatura). 1×/cena.</li>
+    <li><strong>Sonhos do Outro Lado:</strong> Ação de Comunhão no interlúdio → previsão do Mestre em até 10 palavras. <em>Pré-req: Sintonia Paranormal</em></li>
+    <li><strong>Transcender:</strong> Recebe 1 poder paranormal, mas não ganha SAN neste aumento de NEX. (Pode escolher várias vezes)</li>
+  </ul>
+
+  <hr class="divider"/>
+
+  <h3 class="sub-title">Trilhas de Transformado</h3>
+
+  <div class="card-grid" style="grid-template-columns: 1fr;">
+    <div class="card">
+      <h3>O Monstro</h3>
+      <p style="color:var(--text-dim); font-size:0.85rem; margin-bottom:12px">Uma besta querendo sair de dentro, o personagem luta contra si mesmo enquanto o monstro cresce. Lobisomens, criaturas que se alteram.</p>
+      <div class="nex-timeline">
+        <div class="nex-entry"><div class="nex-label">NEX 5% — A Maldição do Controle</div><p>Define um <em>Gatilho</em> com o Mestre (lua cheia, emoção extrema, fobia). Ao enfrentar o gatilho: teste de Vontade (DT 10+5 por cada vez que presenciou, reiniciando após interlúdio). Falha → entra em <strong>Descontrole</strong> (efeito de Ódio Incontrolável + 1 ataque extra; não pode usar equipamento).</p></div>
+        <div class="nex-entry"><div class="nex-label">NEX 10% — Metamorfose</div><p>Pode se transformar voluntariamente como ação padrão (ativando o Descontrole). Pode gastar 1 PE no início do turno para ignorar a regra de atacar obrigatoriamente, perdendo o ataque extra. Define uma arma de Categoria I como sua Mutação (garras, presas etc.).</p></div>
+        <div class="nex-entry"><div class="nex-label">NEX 40% — Predador</div><p>Mutação evolui para Categoria 2 (ou Cat. 1 + item Cat. 1). Margem de ameaça CaC +2. Uma vez por cena: gasta até seu Limite de PE → ganha NEX em PV temporários.</p></div>
+        <div class="nex-entry"><div class="nex-label">NEX 65% — Indomável</div><p>Pode usar a habilidade de PV temporários quantas vezes quiser por cena. Descontrole = Ódio Incontrolável Discente.</p></div>
+        <div class="nex-entry"><div class="nex-label">NEX 99% — Criatura</div><p>Forma controlada = Ódio Incontrolável Discente. Descontrole = Ódio Incontrolável Verdadeiro.</p></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>O Réquiem</h3>
+      <p style="color:var(--text-dim); font-size:0.85rem; margin-bottom:12px">Corpo feito de pedaços costurados mantidos por algo impossível (Ícor). Colcha de retalhos, autômato ou boneco.</p>
+      <div class="nex-timeline">
+        <div class="nex-entry"><div class="nex-label">NEX 5% — A Maldição do Ícor</div><p>Toma metade do dano de críticos e dano massivo. Ao levar crítico ou dano massivo, perde um membro aleatório (1d6: braços, pernas ou cabeça). Cada perda tem efeitos distintos (Cego, lento etc.). Ação de Enxerto (2 PE + padrão): reconecta membros ao alcance.</p></div>
+        <div class="nex-entry"><div class="nex-label">NEX 10% — Controle Remoto</div><p>Gasta 1 PE por membro para controlá-lo à distância por 1 turno. Pode mover membros separados 4,5m durante ação de movimento.</p></div>
+        <div class="nex-entry"><div class="nex-label">NEX 40% — Autotomia</div><p>Membros se movem 9m (ou divide entre 2 membros 4,5m). Pode se desmembrar propositalmente na reação de esquiva (+5 Defesa por membro). Pode enxertar membros de outros ou de criaturas (custo de SAN).</p></div>
+        <div class="nex-entry"><div class="nex-label">NEX 65% — Ventriloquismo</div><p>Pode conectar a cabeça em eletrônicos (+5 em testes de uso) ou criaturas mortas (controla criaturas de VD ≤ 2×NEX; custa 3 SAN/turno).</p></div>
+        <div class="nex-entry"><div class="nex-label">NEX 99% — Hecatônquiros</div><p>Pode enxertar membros extras além do limite (custa 5 PE/membro/rodada). Pernas extras: +1,5m de movimento. Braços extras: +1 ação padrão. Cabeças extras: +1 uso de Ventriloquismo. A cada 2 membros extras cresce 1 categoria de tamanho.</p></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>O Etéreo</h3>
+      <p style="color:var(--text-dim); font-size:0.85rem; margin-bottom:12px">A existência o odeia. O personagem luta contra a própria não-existência, usando isso a seu favor.</p>
+      <div class="nex-timeline">
+        <div class="nex-entry"><div class="nex-label">NEX 5% — A Maldição da Existência</div><p>Rodadas de morrendo são reduzidas permanentemente (perde-as ao morrer). Imune a Golpe Final e a dano enquanto morrendo. Se PV máx. chegue a 0 ou morrer: deixa de existir definitivamente.</p></div>
+        <div class="nex-entry"><div class="nex-label">NEX 10% — Físico Fantasmagórico</div><p>Pode atravessar inimigos e aliados (2 PE: dobra movimento + causa condição Abalado em 1 alvo atravessado). Pode gastar 2 PE reflexivamente para +5 em Reflexos. Ação padrão: gasta até Limite de PE em PV máx. para ganhar o dobro em PE. Ação de Re-Existir no interlúdio recupera esses PV máx.</p></div>
+        <div class="nex-entry"><div class="nex-label">NEX 40% — Detetive do Passado</div><p>Ação de investigação + 2 PE: vê o passado de objeto ou cadáver (visão embaçada, sem detalhes finos). Condição de Movimento Fantasmagórico ignora imunidade a medo das criaturas.</p></div>
+        <div class="nex-entry"><div class="nex-label">NEX 65% — Desfazer</div><p>Se tiver bloqueado metade do PV máx.: pode entrar em Estado Fantasma (ação completa). Fica intangível (imune a dano físico, metade de dano Paranormal). A cada turno nessa forma perde 1d6+2 de PV máx.</p></div>
+        <div class="nex-entry"><div class="nex-label">NEX 99% — Inexistência Completa</div><p>Pode ficar invisível (ação padrão; custa 2 PE/turno). Ganha o ritual <em>Inexistir</em> gratuitamente 1×/cena. Discente: 25% de chance de remover ¼ do PV máx. Verdadeiro: 50% de remover todos os PV máx. (inimigo rola com 3 desvantagens).</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════════════
+     TAB 6 — PODERES PARANORMAIS (MARCAS FRAGMENTADAS)
+     ═══════════════════════════════════════════════════════════════════════ -->
+<section class="tab-section" id="tab-poderes-mf">
+  <h2 class="section-title">Novos Poderes Paranormais — Marcas Fragmentadas</h2>
+  <div class="callout info">Estes são poderes adicionais organizados por Elemento, compatíveis com as regras base de OP. Funcionam como os Poderes Paranormais normais — Afinidade amplifica o efeito.</div>
+
+  <h3 class="sub-title"><span class="tag conhecimento">Conhecimento</span></h3>
+  <ul class="power-list">
+    <li><strong>Antecipar —</strong> Pode usar a reação Bloqueio contra ataques à distância. <em>Afinidade: 2 reações especiais de defesa por turno ao invés de 1.</em></li>
+    <li><strong>Ocultar nas Sombras —</strong> Dobra os espaços de inventário (bônus = Presença). Escolhe 1 tipo de componente de ritual que ocupa 0 espaços. <em>Afinidade: escolhe 1 tipo adicional.</em></li>
+    <li><strong>Devaneio —</strong> Ao "Identificar Criatura" com sucesso, recebe 1 informação extra. <em>Afinidade: ação vira de Movimento. +5 Defesa contra criaturas já analisadas.</em></li>
+    <li><strong>Condicionamento —</strong> +3m de movimento e +2 em Atletismo. <em>Afinidade: imune a terreno difícil e +1,5m adicional.</em></li>
+  </ul>
+
+  <h3 class="sub-title"><span class="tag morte">Morte</span></h3>
+  <ul class="power-list">
+    <li><strong>Último Suspiro —</strong> Pré-req: Morte 1. Ao chegar a 0 PV, gasta 2 PE + reação → causa 2d6+5 dano de Morte ao atacante (alcance curto). <em>Afinidade: dano vai para 4d6+5. Pode curar aliado adjacente no lugar do dano.</em></li>
+    <li><strong>Desespero —</strong> Pré-req: Morte 1. Ao chegar a 0 PE, escolhe 1 atributo → dados extras em todas as rolagens até o fim da cena. <em>Afinidade: 2 dados extras ao invés de 1.</em></li>
+  </ul>
+
+  <h3 class="sub-title"><span class="tag energia">Energia</span></h3>
+  <ul class="power-list">
+    <li><strong>Queimar a Largada —</strong> No 1º turno de combate, age primeiro independente do resultado da Iniciativa. Depois volta à ordem normal. <em>Afinidade: +d20 e +5 em testes de Iniciativa.</em></li>
+    <li><strong>Forma Fantasmagórica —</strong> Pré-req: Energia 1. Ao entrar no estado Perturbado, gasta 3 PE → RD 5 por cena (exceto Conhecimento). <em>Afinidade: RD 10.</em></li>
+    <li><strong>Sinucada —</strong> Pré-req: Energia 2. 1×/cena: gasta 2 PE + reação → se teletransporta para frente de um ataque destinado a aliado (alcance curto), sendo acertado automaticamente no lugar dele. <em>Afinidade: 3×/cena.</em></li>
+  </ul>
+
+  <h3 class="sub-title"><span class="tag sangue">Sangue</span></h3>
+  <ul class="power-list">
+    <li><strong>Devorar —</strong> Pré-req: Sangue 1. Ao realizar golpe final em vítima, gasta 2 PE + reação → consome carne/sangue, ganhando 2d8+2 PV temporários (até próximo descanso). Não acumulável. Primeira vez: 3d6 dano mental; subsequentes: 1d6. <em>Afinidade: 4d8+2 PV temporários.</em></li>
+    <li><strong>Chacinar —</strong> Ao atacar ser machucado: +2 dano e -1 na margem de ameaça. <em>Afinidade: +5 dano e -2 na margem de ameaça.</em></li>
+    <li><strong>Laços da Irmandade —</strong> Define 1 aliado voluntário como "parceiro" (1 parceiro por personagem). Ambos sempre sabem a direção um do outro. Ação livre: transmite uma emoção ao parceiro. Ao ver parceiro ser atacado: 2 PE + reação → parceiro ganha Resistência igual ao Vigor do usuário vs. aquele ataque. <em>Afinidade: ao ver parceiro receber dano mental, gasta 4 PE → dano dividido igualmente entre os dois.</em></li>
+  </ul>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════════════
+     TAB 7 — RITUAIS (SUPLEMENTO)
+     ═══════════════════════════════════════════════════════════════════════ -->
+<section class="tab-section" id="tab-rituais-mf">
+  <h2 class="section-title">Rituais — Suplemento Marcas Fragmentadas</h2>
+  <div class="callout info">Rituais baseados nos suplementos, adaptados para as regras de Ordem Paranormal. Custo base por círculo: 1/3/6/10 PE.</div>
+
+  <div class="ritual-block">
+    <span class="tag energia">Energia</span>
+    <h4>Raios Caóticos</h4>
+    <div class="ritual-meta">
+      <span>Execução: <strong>Padrão</strong></span>
+      <span>Alcance: <strong>Curto</strong></span>
+      <span>Duração: <strong>Instantânea</strong></span>
+      <span>Requer: <strong>2º Círculo (3 PE)</strong></span>
+    </div>
+    <p>Três raios saem do seu peito e acertam alvos aleatórios. Para cada raio: rola 1d20. Se ≤10: acerta um aliado (a critério do Mestre); se &gt;10: acerta inimigo à sua escolha. Um inimigo não pode ser acertado por mais de um raio. Cada raio causa <strong>3d10+5 dano de Energia</strong>.</p>
+    <div class="aprimoramento"><em>Discente (+2 PE):</em> Muda para 1 único raio que causa 5d10+10 de dano.</div>
+  </div>
+
+  <div class="ritual-block">
+    <span class="tag energia">Energia</span>
+    <h4>Cauterização Rápida</h4>
+    <div class="ritual-meta">
+      <span>Execução: <strong>Padrão</strong></span>
+      <span>Alcance: <strong>Curto</strong></span>
+      <span>Alvo: <strong>1 ser</strong></span>
+      <span>Requer: <strong>2º Círculo (3 PE)</strong></span>
+    </div>
+    <p>Dispara um raio em uma ferida do alvo, cauterizando-a. O alvo recupera <strong>2d6+2 PV</strong>, mas perde 2 pontos de sanidade pela dor.</p>
+    <div class="aprimoramento"><em>Discente (+2 PE):</em> Cura aumentada para 4d6+3.</div>
+  </div>
+
+  <div class="ritual-block">
+    <span class="tag sangue">Sangue</span>
+    <h4>Forja de Sangue</h4>
+    <div class="ritual-meta">
+      <span>Execução: <strong>Padrão</strong></span>
+      <span>Alcance: <strong>Pessoal</strong></span>
+      <span>Duração: <strong>Cena</strong></span>
+      <span>Requer: <strong>1º Círculo (1 PE)</strong></span>
+    </div>
+    <p>Usa o próprio sangue para criar um objeto útil (não destrutivo, sem pólvora/explosivos) de Categoria 0. Apenas 1 item ativo por cena; desmancha ao fim dela.</p>
+    <div class="aprimoramento"><em>Verdadeiro (+3 PE, req. 3º Círculo):</em> Pode criar armas de fogo. Gasta 20 PV adicionalmente → sobe o limite de categoria dos itens para I, podendo chegar até IV.</div>
+  </div>
+
+  <div class="ritual-block">
+    <span class="tag sangue">Sangue</span>
+    <h4>Armadura Espinhosa</h4>
+    <div class="ritual-meta">
+      <span>Execução: <strong>Padrão</strong></span>
+      <span>Alcance: <strong>Pessoal</strong></span>
+      <span>Duração: <strong>Cena</strong></span>
+      <span>Requer: <strong>1º Círculo (1 PE)</strong></span>
+    </div>
+    <p>Corpo recoberto por casca grossa e afiada. Recebe <strong>15 PV temporários</strong>. Não pode ser curado enquanto os PV temporários existirem. Inimigos que causarem dano CaC recebem dano de Sangue equivalente aos PV temporários removidos.</p>
+    <div class="aprimoramento"><em>Discente (+2 PE):</em> Alcance muda para Toque.<br><em>Verdadeiro (+3 PE, req. 4º Círculo):</em> Alcance Toque.</div>
+  </div>
+
+  <div class="ritual-block">
+    <span class="tag conhecimento">Conhecimento</span>
+    <h4>Mão Etérea</h4>
+    <div class="ritual-meta">
+      <span>Execução: <strong>Padrão</strong></span>
+      <span>Alcance: <strong>Pessoal</strong></span>
+      <span>Duração: <strong>Cena</strong></span>
+      <span>Requer: <strong>1º Círculo (1 PE)</strong></span>
+    </div>
+    <p>Uma mão etérea surge ao lado do conjurador e fica à sua disposição para qualquer função que uma mão extra teria.</p>
+    <div class="aprimoramento"><em>Discente (+3 PE, req. 2º Círculo):</em> Ganha +1 mão extra.</div>
+  </div>
+
+  <div class="ritual-block">
+    <span class="tag conhecimento">Conhecimento</span>
+    <h4>Apagar Memórias</h4>
+    <div class="ritual-meta">
+      <span>Execução: <strong>Ação</strong></span>
+      <span>Alcance: <strong>Toque</strong></span>
+      <span>Alvo: <strong>1 pessoa voluntária</strong></span>
+      <span>Duração: <strong>Instantânea</strong></span>
+      <span>Requer: <strong>1º Círculo (1 PE)</strong></span>
+    </div>
+    <p>O alvo recupera <strong>2d8+3 SAN</strong>, esquecendo imagens horríveis das últimas 24h. O conjurador recebe metade do dano curado como dano mental (as visões passam para ele).</p>
+    <div class="aprimoramento"><em>Discente (+2 PE, req. 2º Círculo):</em> Cura 4d8+5 SAN, mas o alvo esquece completamente as últimas 24h.<br><em>Verdadeiro (+5 PE, req. 3º Círculo):</em> Conjurador não recebe dano mental.</div>
+  </div>
+
+  <div class="ritual-block">
+    <span class="tag morte">Morte</span>
+    <h4>Peso do Tempo</h4>
+    <div class="ritual-meta">
+      <span>Execução: <strong>Padrão</strong></span>
+      <span>Alcance: <strong>Curto</strong></span>
+      <span>Alvo: <strong>1 ser</strong></span>
+      <span>Duração: <strong>Instantânea</strong></span>
+      <span>Resistência: <strong>Fortitude parcial</strong></span>
+      <span>Requer: <strong>2º Círculo (3 PE)</strong></span>
+    </div>
+    <p>O corpo fica mais pesado e o tempo parece parar. O alvo fica com a condição <strong>Enjoado</strong>. Se passar na resistência: fica apenas Debilitado.</p>
+    <div class="aprimoramento"><em>Discente (+3 PE, req. 3º Círculo):</em> Muda alvo para "3 seres".<br><em>Verdadeiro (+7 PE, req. 4º Círculo):</em> Alvo fica Atordoado; se passar na resistência, fica Enjoado.</div>
+  </div>
+
+  <div class="ritual-block">
+    <span class="tag morte">Morte</span>
+    <h4>Praga Devoradora</h4>
+    <div class="ritual-meta">
+      <span>Execução: <strong>Padrão</strong></span>
+      <span>Alcance: <strong>Curto</strong></span>
+      <span>Alvo: <strong>1 ser</strong></span>
+      <span>Duração: <strong>Cena (acumulável)</strong></span>
+      <span>Requer: <strong>2º Círculo (3 PE)</strong></span>
+    </div>
+    <p>Um enxame de pragas devora o alvo. No início de cada turno do alvo: <strong>1d4+1 dano de Morte</strong>. Acumulável até 4 vezes no mesmo alvo. O alvo pode usar ação padrão para remover 1 acúmulo.</p>
+    <div class="aprimoramento"><em>Discente (+3 PE, req. 2º Círculo):</em> Dano muda para 1d6+2 por acúmulo.<br><em>Verdadeiro (+7 PE, req. 3º Círculo):</em> Muda para área (nuvem raio 12m), máximo 6 acúmulos. Pode mover a nuvem 6m como ação padrão + 2 PE.</div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════════════
+     TAB 8 — CRIATURAS
+     ═══════════════════════════════════════════════════════════════════════ -->
+<section class="tab-section" id="tab-criaturas-mf">
+  <h2 class="section-title">Novas Criaturas — Marcas Fragmentadas</h2>
+  <div class="callout info">Criaturas do suplemento Marcas Fragmentadas, totalmente compatíveis com Ordem Paranormal.</div>
+
+  <!-- UIVANTE -->
+  <div class="monster-block">
+    <span class="tag criatura">Criatura Média</span> <span class="tag sangue">Sangue</span>
+    <h3>Uivante</h3>
+    <div class="meta">VD 60 · Elemento: Sangue · NEX recomendado do grupo: 35%+ para imunidade ao medo</div>
+    <p style="margin-bottom:12px; font-size:0.88rem">Uma besta humanoide baseada em lobisomem ou licântropo, surgida da perda de um ente querido. Extremamente emocional, guarda um covil onde protege suas memórias afetivas. Quando no covil: -3m movimento, -2 dano, -5 Defesa, -5 resistências.</p>
+    <div class="monster-stats">
+      <div class="stat-box"><div class="label">Pontos de Vida</div><div class="value">150</div></div>
+      <div class="stat-box"><div class="label">Machucado</div><div class="value">75</div></div>
+      <div class="stat-box"><div class="label">Defesa</div><div class="value">20</div></div>
+      <div class="stat-box"><div class="label">Fortitude</div><div class="value">3+10</div></div>
+      <div class="stat-box"><div class="label">Reflexos</div><div class="value">2+5</div></div>
+      <div class="stat-box"><div class="label">Vontade</div><div class="value">2+3</div></div>
+      <div class="stat-box"><div class="label">Iniciativa</div><div class="value">2+10</div></div>
+      <div class="stat-box"><div class="label">Deslocamento</div><div class="value">12m</div></div>
+      <div class="stat-box"><div class="label">Percepção</div><div class="value">2+10</div></div>
+    </div>
+    <p style="font-size:0.82rem; margin: 4px 0 12px"><strong>Atributos:</strong> AGI 2 · FOR 3 · INT 1 · PRE 2 · VIG 3 &nbsp;|&nbsp; <strong>Perícias:</strong> Atletismo 3+5, Acrobacia 3+5 &nbsp;|&nbsp; <strong>Sentidos:</strong> Percepção às cegas</p>
+    <p style="font-size:0.82rem; margin-bottom:12px"><strong>Resistências:</strong> Balístico, Impacto e Perfuração 10, Sangue 15 &nbsp;|&nbsp; <strong>Vulnerabilidade:</strong> Morte &nbsp;|&nbsp; <strong>Presença Perturbadora:</strong> DT 20 · 3d6 mental</p>
+
+    <div class="action-block"><div class="action-title">Padrão — Agredir</div><p><strong>Garras</strong> (Corpo a Corpo, 2 ataques) · Teste 20 3+10 · Dano 2d6+5 Corte</p></div>
+    <div class="action-block"><div class="action-title">Livre — Sede de Sangue</div><p><strong>Mordida</strong> (Corpo a Corpo) · Dano 2d8+5 Perfuração. Ao acertar: alvo faz Fortitude DT 15 ou entra no estado Sangrando.</p></div>
+    <div class="action-block"><div class="action-title">Reação — Soco Poderoso</div><p>Ao acertar um acerto crítico: empurra o alvo 6m em qualquer direção. Se colidir em estrutura: +1d6 dano de impacto.</p></div>
+    <div class="action-block"><div class="action-title">Movimento — Auuuuuu</div><p>Uiva ferozmente. Alvos em raio 6m fazem Vontade DT 15 ou ficam Abalados por 1 turno.</p></div>
+    <div class="action-block"><div class="action-title">Completa — Investida</div><p>Investida contra um alvo. Se acertar: empurra em linha reta. Se colidir em estrutura: +2d6 impacto. Se errar: segue reto e pode colidir.</p></div>
+
+    <hr class="divider"/>
+    <p style="font-size:0.85rem"><strong>Tormenta (Emocional):</strong> Ao criar o Uivante, escolha sua emoção:</p>
+    <ul style="font-size:0.85rem; padding-left:16px; margin-top:6px">
+      <li><strong>Ira:</strong> +1d6 dano Sangue em 1 ataque/turno. Todo dano é de Sangue. Fica em caçada constante.</li>
+      <li><strong>Melancolia:</strong> +5 em todas as resistências. Imune à condição Paralisado. Ganha elemento secundário Morte. Nunca sai do covil por vontade própria.</li>
+      <li><strong>Desesperado:</strong> +3m movimento, +1 ataque de garras. Não pode atacar o mesmo ser duas vezes. Pode dividir o movimento entre ataques. Ganha elemento secundário Energia.</li>
+    </ul>
+    <div class="callout" style="margin-top:12px">
+      <strong>Condição de Expurgo:</strong> Perfurar com um objeto metálico que pertencia ao ente querido do Uivante pode derrota-lo instantaneamente (teste de Crime DT 25 ou Medicina DT 30, com DT reduzindo em 1 a cada 10 PV perdidos).
+    </div>
+  </div>
+
+  <!-- AVARENTO -->
+  <div class="monster-block" style="border-top-color: var(--accent2)">
+    <span class="tag criatura">Criatura Média</span> <span class="tag morte">Morte</span> <span class="tag energia">Energia (sec.)</span>
+    <h3>Avarento</h3>
+    <div class="meta">VD 220 · Elemento: Morte · NEX recomendado do grupo: 65%+ para imunidade ao medo</div>
+    <p style="margin-bottom:12px; font-size:0.88rem">Criatura que coleciona e engole itens como um ninho interno. Extremamente territorial com suas posses. A cada 30 PV perdidos solta itens do ninho (rola 1d8 na tabela).</p>
+    <div class="monster-stats">
+      <div class="stat-box"><div class="label">Pontos de Vida</div><div class="value">420</div></div>
+      <div class="stat-box"><div class="label">Machucado</div><div class="value">210</div></div>
+      <div class="stat-box"><div class="label">Defesa</div><div class="value">20</div></div>
+      <div class="stat-box"><div class="label">Fortitude</div><div class="value">4+15</div></div>
+      <div class="stat-box"><div class="label">Reflexos</div><div class="value">4+15</div></div>
+      <div class="stat-box"><div class="label">Vontade</div><div class="value">2+10</div></div>
+      <div class="stat-box"><div class="label">Iniciativa</div><div class="value">4+15</div></div>
+      <div class="stat-box"><div class="label">Deslocamento</div><div class="value">12m</div></div>
+    </div>
+    <p style="font-size:0.82rem; margin:4px 0 12px"><strong>Atributos:</strong> AGI 4 · FOR 3 · INT 2 · PRE 2 · VIG 4 &nbsp;|&nbsp; <strong>Sentidos:</strong> Visão no Escuro &nbsp;|&nbsp; <strong>Perícias:</strong> Furtividade 4+15, Crime 4+15</p>
+    <p style="font-size:0.82rem; margin-bottom:12px"><strong>Resistências:</strong> Balístico, Corte e Perfuração 10, Energia 20 &nbsp;|&nbsp; <strong>Vulnerabilidade:</strong> Conhecimento &nbsp;|&nbsp; <strong>Presença Perturbadora:</strong> DT 30 · 6d6 mental</p>
+
+    <div class="action-block"><div class="action-title">Padrão — Agredir</div><p><strong>Soco</strong> (Corpo a Corpo, 2×) · Teste 20 3+15 · Dano 2d8+10 Impacto</p></div>
+    <div class="action-block"><div class="action-title">Padrão — Proteger Patrimônio</div><p>Itens engolidos formam camada defensiva. Ganha 1 de Resistência a danos físicos por item/melhoria engolidos, até o início do próximo turno.</p></div>
+    <div class="action-block"><div class="action-title">Padrão — Bicada</div><p>Teste 20 4+15 · Dano 3d12+10 Perfuração</p></div>
+    <div class="action-block"><div class="action-title">Reação — O que é seu é meu também</div><p>Ao acertar um Soco: faz Crime oposto a Luta do alvo. Se passar: engole uma melhoria da arma do alvo.</p></div>
+    <div class="action-block"><div class="action-title">Movimento — A Mão Invisível</div><p>Faz Crime oposto a Luta de alvo adjacente. Se falhar: alvo perde 1 item não empunhado, que é engolido pelo Avarento.</p></div>
+    <div class="action-block"><div class="action-title">Completa — Encerrar o Papo</div><p>Vomita todos os itens/melhorias engolidos na cena em linha (alcance curto). Causa 2d6+d6 dano Químico por item/melhoria engolido. Reflexos DT 25 → metade. Itens ficam no chão e podem ser reequipados (ação de movimento).</p></div>
+    <p style="font-size:0.82rem; margin-top:12px"><strong>Espólios:</strong> Após morte, vomita todos os itens engolidos + gera 1d3 itens amaldiçoados (a critério do Mestre).</p>
+  </div>
+
+  <!-- ANAMNESE -->
+  <div class="monster-block" style="border-top-color: var(--accent3)">
+    <span class="tag criatura">Criatura Grande</span> <span class="tag morte">Morte</span>
+    <h3>Anamnese</h3>
+    <div class="meta">VD 200 · Elemento: Morte · NEX recomendado do grupo: 65%+ para imunidade ao medo</div>
+    <p style="margin-bottom:12px; font-size:0.88rem">Uma câmera paranormal que filma o sofrimento alheio. Em forma original, só se move quando não é observada. Ao ser atacada, abre seu compartimento e forma um redemoinho de fita criando uma estrutura corporal. Ao chegar a 0 PV: volta à forma de câmera e desaparece quando não observada, retornando ao fim da próxima cena.</p>
+    <div class="monster-stats">
+      <div class="stat-box"><div class="label">Pontos de Vida</div><div class="value">360</div></div>
+      <div class="stat-box"><div class="label">Machucado</div><div class="value">180</div></div>
+      <div class="stat-box"><div class="label">Defesa</div><div class="value">20</div></div>
+      <div class="stat-box"><div class="label">Fortitude</div><div class="value">4+15</div></div>
+      <div class="stat-box"><div class="label">Reflexos</div><div class="value">3+15</div></div>
+      <div class="stat-box"><div class="label">Vontade</div><div class="value">3+15</div></div>
+      <div class="stat-box"><div class="label">Iniciativa</div><div class="value">3+15</div></div>
+      <div class="stat-box"><div class="label">Percepção</div><div class="value">3+15</div></div>
+    </div>
+    <p style="font-size:0.82rem; margin:4px 0 12px"><strong>Atributos:</strong> FOR 3 · INT 4 · PRE 3 · VIG 4 &nbsp;|&nbsp; <strong>Sentidos:</strong> Percepção às cegas</p>
+    <p style="font-size:0.82rem; margin-bottom:12px"><strong>Resistências:</strong> Corte, Impacto e Perfuração 10, Morte 15 &nbsp;|&nbsp; <strong>Vulnerabilidades:</strong> Energia e Fogo &nbsp;|&nbsp; <strong>Presença Perturbadora:</strong> DT 30 · 6d6 mental</p>
+    <div class="callout warn" style="font-size:0.85rem">
+      <strong>Rebobinar (Habilidade Especial):</strong> As fitas gravadas pela Anamnese são sua condição de expurgo. Destruir todas as fitas remove esta habilidade e a força a buscar um novo "alvo de dependência" — um corpo para possuir. Se conseguir possuir, transforma-se no <em>Senhor das Recordações Sombrias</em>.
+    </div>
+  </div>
+
+</section>
+
+</main>
+
+<script>
+  function showTab(id, btn) {
+    document.querySelectorAll('.tab-section').forEach(s => s.classList.remove('active'));
+    document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+    document.getElementById('tab-' + id).classList.add('active');
+    btn.classList.add('active');
+  }
+</script>
+
+</body>
+</html>

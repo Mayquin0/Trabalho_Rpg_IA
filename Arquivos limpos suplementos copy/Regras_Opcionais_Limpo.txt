@@ -1,0 +1,116 @@
+--- Página 1 ---
+REGRAS OPCIONAIS
+Esta seção do Livro Básico apresenta regras que são de uso opcional, podendo
+encaixar ou não em seu jogo de Feiticeiros e Maldições, a depender das
+preferências do Narrador.
+Além das regras presentes aqui, você pode criar as suas próprias regras também,
+desde que tenham como objetivo melhorar a experiência dentro de jogo. A
+principal regra do RPG é a diversão, e ela pode vir de diferentes maneiras para
+diferentes grupos.
+PERSONAGENS DE NÍVEL 0
+A maioria dos feiticeiros algum dia já foram pessoas comuns, ou pelo menos já
+desejaram que fossem ao perceber o mundo ao qual foram presos.
+Algumas histórias podem ter um começo mais interessante acompanhando
+personagens que ainda não despertaram para o jujutsu, o que normalmente
+acontece durante a infância, mas não é uma regra. Esses são os personagens de
+nível 0
+Um personagem de nível 0 não possui Energia Amaldiçoada nem uma
+especialização, e os seus pontos de vida são iguais a 6 + modificador de
+constituição, enquanto outros atributos derivados são calculados normalmente
+(Iniciativa, Defesa, Atenção etc.) e o seu Bônus de Treinamento é +1. Ele ainda
+terá os atributos padrões da distribuição usada, e receberá os benefícios de uma
+origem própria:
+Origem Civil
+Você é uma pessoa comum, um civil como todos os outros, mas está destinado
+a despertar para um mundo peculiar, mesmo que não o saiba. Porém, mesmo
+sendo um humano normal, você ainda é apegado à vida e tem suas qualidades.
+Caso seu personagem seja um civil, ele recebe as seguintes características:
+●​ Talentos e Hobby. Você pode escolher 3 perícias para tratar como se
+tivesse treinado em. Caso você se torne outra origem, você mantém 1 das
+perícias ganhas por este efeito.
+●​ Apego à Vida. Você é apegado à sua vida, e às vezes desse apego surge
+uma força e determinação interior. Enquanto está na Porta da Morte,
+uma vez por cena, você pode escolher suceder na rolagem.
+Após o despertar, a sua origem deixa de ser Civil e você perde ​
+os benefícios dela, recebendo uma nova origem que seja ​
+condizente com o como surgiu a sua capacidade de usar ​
+o jujutsu, e ocorre o processo normal de criação de ​
+personagens, preservando apenas os seus atributos e se ​
+tornando nível 1. O gatilho para esse despertar fica nas ​
+mãos do Narrador, seguindo a história.
+
+--- Página 2 ---
+NÃO-FEITICEIROS
+No entanto, alguns Civis podem nunca despertar, mas ainda assim lutarão para
+derrotar as Maldições, seja por algum tipo de visão de justiça ou por não terem
+escolha. Esses civis são conhecidos como “Não-Feiticeiros”.
+Um Não-Feiticeiro recebe acesso às Especializações Especialista em Combate,
+Lutador e Suporte, tratando sua vida como se fosse de uma delas.
+Não-Feiticeiros não podem escolher Habilidades de Especialização que possuam
+em sua narrativa o uso de Energia Amaldiçoada, como “Precisão Definitiva”, não
+recebem Aptidões, e usam Pontos de Estamina ao invés de Pontos de Energia
+Amaldiçoada.
+Eles recebem um Estilo Marcial e um Fundamento Marcial de Restringido,
+porém podem apenas adquirir até o Nível 2 dessas Habilidades e não podem
+mudá-los ao elevar seu nível, como o comum
+Por fim, um Não-Feiticeiro não pode elevar seu nível acima do nível 10 e ter
+seus atributos acima de 20, sendo esse o máximo que um Não-Feiticeiro é capaz
+de chegar sem técnica ou um físico divino.
+Um Civíl que aumenta seu nível sem despertar como um feiticeiro se torna um
+“Não-Feiticeiro” e muda sua origem para a seguinte:
+Origem Não-Feiticeiro
+Você não é uma pessoa comum. Tendo passado por uma experiência com o
+maldito, você blindou sua própria mente e treinou seu corpo para tentar
+derrotar as Maldições, pelo menos, do jeito que der.
+●​ Bônus em Atributo. Um Não-Feiticeiro aumenta o valor de um Atributo
+Mental em 2 e o valor de um Atributo Físico em 1.
+●​ Habilidade e Artimanhas. Com treinamento mental e físico, você se
+tornou habilidoso e dominou artes marciais e armas para se tornar capaz
+de brigar par a par com as Maldições. Você recebe uma Artimanha no
+nível 1, 5 e 10.
+●​ Vontade Indomável. Após o seu conhecimento próximo com o Jujutsu,
+sua chama de combate nunca mais se apagou. Uma vez a cada
+Descanso Longo, caso você fosse morrer, levante-se com 1 de vida e 5 de
+Exaustão.
+
+--- Página 3 ---
+ARTIMANHAS
+Um Não-Feiticeiro, para se manter de par de igualdade, pelo menos o máximo de
+tempo que consegue, cria artimanhas e planos mirabolantes para derrotar seus
+inimigos mesmo com uma diferença gigantesca de força entre eles e seus
+inimigos. Caso você mude de origem, você perde todas as suas artimanhas
+●​ Grão Mestre em Arma. Você é um grão-mestre em uma arma, algo que
+até mesmo os Feiticeiros têm dificuldade em ser. Em troca da falta de
+energia e do físico, você se masterizou.​
+Escolha uma Arma de qualquer custo. Esta arma é considerada sua Arma
+Masterizada. Você aplica o bônus de treinamento nela se antes não
+aplicava. Caso você já aplicasse, ao invés disso aplique metade do seu
+bônus de treinamento no dano e no acerto.
+●​ ARMA!!!. Você tem um vício descomunal na sua Arma Masterizada. É como
+se você fosse incapaz de viver sem elas. ​
+Sua Arma Masterizada tem sua margem de acerto crítico reduzida em 1 e
+tem seu nível de dano aumentado em +3. Uma vez por combate, você pode
+escolher, gastando 5 de PE, garantir um ataque crítico,  como se você
+tivesse tirado 20.​
+[Pré-Requisito: Nível 5, Grão Mestre em Arma e Armas Escolhidas]
+●​ Planejamentos Assíduos. Você planeja antes de realizar suas missões,
+tendo equipamentos preparados. Recebe o Arsenal do Restringido,
+porém, com apenas um equipamento que evolui, ao invés do normal.
+●​ Conhecimento Inatural. Você estudou o Jujutsu, mesmo que você seja
+incapaz de controlá-lo. Caso você se torne um Feiticeiro, ganhe 1 Nível de
+Aptidão. Essa Artimanha pode ser pega várias vezes.
+●​ Equipamentos Refinados. Você refina seus equipamentos até onde não
+der mais, buscando deixar eles prístinos para o combate contra as
+Maldições.​
+Ao melhorar um item em um Descanso Curto ou Longo com o Kit de
+Ferreiro, enquanto você empunha-lo, adicione metade do bônus de
+treinamento no Dano, caso seja uma arma, ou no RD, caso seja um Escudo.
+●​ Mente Astuta. Com uma mente astuta, você consegue perceber ações
+antes que elas sequer sejam realizadas. ​
+Você agora pode utilizar “Ler Intenções” como ação livre e sempre passa no
+teste.
+●​ Percepção do Invisível. Você é capaz de perceber o que não existe. Você
+ganha a Habilidade de Especialização “Perceber o Ar” e pode ver Maldições
+sem lentes ou óculos.​
+[Pré-Requisito: Nível 10]
+

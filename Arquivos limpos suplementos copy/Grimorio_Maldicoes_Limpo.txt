@@ -1,0 +1,7623 @@
+--- Página 1 ---
+1
+
+--- Página 2 ---
+2
+- FEITICEIROS E MALDIÇÕESGRIMÓRIO DAS MALDIÇÕES
+VERSÃO 1 - F&M 2.5
+
+--- Página 3 ---
+Feiticeiros & Maldições é um projeto criado de fãs para
+fãs, com o único intuito de oferecer uma possibilidade
+de se aventurar no mundo de Jujutsu Kaisen através do
+RPG de mesa.
+Este é um projeto sem qualquer intenção de
+lucro, sendo completamente gratuito.
+Todos os créditos pela criação da obra original, incluindo
+universo, história, sistema de poder, equipamentos e
+arte são dedicados a Gege Akutami.
+Créditos completos são encontrados no final do livro.
+Desenvolvimento
+Setsugiri
+Parker
+Jou
+Justoneblock
+Camelo
+Kamisori
+Bianco
+A1rtur Butler
+Afty
+Artes do Mangá
+Gege Akutami
+Diagramação e Edição
+ Setsugiri
+Você é livre para utilizar de Feiticeiros & Maldições como inspiração ou base para outras
+criações, assim como utilizar de habilidades ou conceitos apresentados, modificando-o
+ou readaptando, desde que dê os devidos créditos ao utilizar algo original dele.
+Não possuímos os direitos de habilidades e ideias originárias de outros jogos de RPG,
+como Dungeons & Dragons 5° Edição, Tormenta20 e Pathfinder 2° Edição.
+CRÉDITOS E
+CONSIDERAÇÕES
+
+--- Página 4 ---
+AVISO IMPORTANTE
+ANTES DE UTILIZAR O GRIMÓRIO, RECOMENDA-SE LER
+Esta versão do Grimório das Maldições que você possui em mãos
+apresenta uma quantidade significativa de efeitos maiores e mais
+complexos que estão a disposição dos inimigos, assim como um
+aumento nos valores gerais que você encontrará.
+Considerando que ainda restam problemas de balanceamento na
+versão 2.5 de Feiticeiros & Maldições, o Grimório traz tais mudanças
+com objetivo de transformar os combates em desafios reais.
+Entretanto, buscando também incluir a grande variabilidade
+em nível de habilidade dos jogadores, alguns valores incluem
+três opções (Iniciante, Intermediário e Experiente), assim como
+mecânicas e complementos para os inimigos que são opcionais.
+A equipe de desenvolvimento já está ciente de alguns problemas e,
+justamente por isso, o Grimório receberá atualizações constantes
+para o polir, otimizar o guia e melhorar a qualidade do livro.
+Tenha noção da maior complexidade e densidade desta versão
+e toda a equipe se desculpa pela complexidade em certas coisas.
+Uma vez que retornemos ao Livro de Regras, é esperado que o
+Grimório seja atualizado logo após a próxima versão, reduzindo a
+complexidade onde for possível.
+Agradecemos de coração a você, seja jogador, narrador ou
+apenas leitor, por se manter acompanhando e jogando o
+sistema no decorrer desses anos e pela paciência no processo
+de desenvolvimento: iremos resolver todos os problemas que
+pudermos!
+
+--- Página 5 ---
+5
+
+--- Página 6 ---
+6
+GUIA DE CRIAÇÃO DE INIMIGOS
+Dentro do Grimório das Maldições, você encontrará diversas fichas já prontas de inimigos,
+mas existe sempre a possibilidade de criar suas próprias ameaças, incorporando ideias
+originais ou montando algo que seja muito específico para o contexto do seu jogo.
+Este capítulo, então, é dedicado a entregar um guia completo para criar seus próprios
+inimigos para Feiticeiros & Maldições, trazendo referências, cálculos, recomendações e
+muito mais.
+PASSO 1: CRIANDO O CONCEITO
+Assim como na criação de personagens, o primeiro passo para criar um inimigo dentro
+de Feiticeiros & Maldições é definir o seu conceito. Você pode, para facilitar o processo,
+realizar certas perguntas a si mesmo:
+•
+O que define a criatura como uma ameaça? Pergunte-se sobre as “armas” e os
+riscos que ela pode oferecer, como ela consegue destruir os outros ou, por exemplo,
+auxiliar outros inimigos para os fortalecer, sendo uma ameaça indireta.
+•
+Quão poderoso o inimigo é? Você pretende que esse inimigo seja descartável,
+vindo em grandes quantidades para encher o campo de batalha, ou que seja um
+inimigo individualmente poderoso e capaz de se manter mesmo lutando contra
+vários oponentes? A partir dessa pergunta, você poderá encaixar o inimigo em um
+Patamar e, também, em uma ND específica.
+•
+Qual sua estratégia em combate? A abordagem e estratégia que um inimigo toma
+são muito importantes para a criação da ficha, encaixando os recursos necessários
+para que ele possa executá-la, através das ações e características.
+Uma vez que tenha as perguntas respondidas, espera-se que você tenha base suficiente
+para iniciar o processo prático de criação, seguindo para o Passo 2: Montando a Ficha
+de Inimigo.
+Entretanto, caso queira se aprofundar desde o conceito, há certos pontos interessantes
+que podem ser trabalhados.
+
+--- Página 7 ---
+7
+PASSO 2: MONTANDO A FICHA DE INIMIGO
+Uma vez que tenha criado e elaborado o conceito do inimigo, é preciso traduzir isso
+para o jogo, montando a ficha de inimigo dele. Utilize o modelo de ficha apresentado
+abaixo e preencha de acordo, seguindo o que está especificado.
+NOME DO INIMIGO
+Tipo do Inimigo e Grau (ND)
+Bônus de Treinamento: +X
+Pontos de Vida: X Defesa: X Pontos de Energia: X
+Tamanho: Médio Deslocamento: X Metros
+Atributos: FOR DES CON INT SAB PRE
+Níveis de Aptidão: EA CL BAR DOM ER
+Testes de Resistência: Astúcia +X Fortitude +X Reflexos +X Vontade +X
+Iniciativa: +X Atenção: X
+Perícias:
+Resistências:
+Imunidades:
+Ações (Possui X Ações)
+Ação 1.
+Ação 2.
+Características
+Característica 1.
+
+--- Página 8 ---
+8
+DEFININDO O GRAU, NÍVEL E PATAMAR
+O primeiro passo é definir qual será o Grau, o Nível de Desafio (ND) e o Patamar do
+inimigo. Cada grau possui certas NDs que estão inclusas dentro dele e define o Bônus
+de Treinamento do inimigo.
+A hierarquia de graus dos seres em Jujutsu Kaisen define o nível de ameaça, o tipo de
+resposta necessária e até a probabilidade de sobrevivência de quem as enfrenta. Cada
+grau não mede apenas força bruta, mas também inteligência, habilidade amaldiçoada,
+resistência e potencial de massacre. O significado de cada Grau, resumidamente, é:
+•
+4° Grau — Fraca, facilmente exorcizada ou derrotada por estudantes iniciantes,
+sendo apenas a base da corrupção do mundo. Exemplos são as maldições menores
+que parasitam pessoas comuns e Humanos com pouco conhecimento Jujutsu.
+•
+3° Grau — Podem matar civis, mas feiticeiros experientes lidam com facilidade.
+Exemplo: Maldições que habitam lugares assombrados e membros de organizações
+Jujutsu.
+•
+2° Grau — Exigem técnica jujutsu sólida; oferecem risco moderado. Exemplo:
+Espíritos em locais densamente povoados e Líderes de pequenas e médias
+organizações Jujutsu.
+•
+1° Grau — Altamente perigosas; só feiticeiros de 1º grau conseguem enfrentá-las.
+Exemplo: Espíritos com inteligência e técnica amaldiçoada e Feiticeiros experientes.
+•
+Grau Especial — Extremamente raras e devastadoras; podem rivalizar com
+feiticeiros lendários. Exemplo: Sukuna, Mahito, Suguru Geto, Satoru Gojo e Yuki
+Tsukumo.
+Após definir o Grau, define-se o Nível de Desafio (ND), sendo a representação numérica
+de uma criatura referente ao nível do jogador. Assim sendo, ND 2 é a mesma coisa que
+um personagem de jogador nível 2.
+Nível de Desafio (ND)
+Bônus de Treinamento
+1 ao 4
++2
+5 ao 8
++3
+9 ao 12
++4
+13 ao 16
++5
+17 ou superior
++6
+O Patamar, por sua vez, define a dificuldade e a quantidade recomendada de jogadores
+para enfrentá-lo: possuir menos jogadores que o especificado aumentar a dificuldade
+em um passo e possuir jogadores a mais diminuirá a dificuldade em um passo.
+Patamar
+Dificuldade
+Jogadores Recomendados
+Lacaio
+Muito Fácil
+1 Jogador
+Capanga
+Fácil
+1 Jogador
+Comum
+Média
+2 Jogadores
+Desafio
+Difícil
+4 Jogadores
+Calamidade
+Experiente
+6 Jogadores
+
+--- Página 9 ---
+9
+ESCOLHENDO A ORIGEM DO INIMIGO
+Os inimigos também podem possuir Origens distintas, representando qual tipo
+de existência é a sua: um espírito amaldiçoado, um feiticeiro, um humano comum
+ou o que seja.
+De acordo com a escolha de Origem, o inimigo receberá certas características e
+mudanças inerentes ao seu tipo.
+ESPÍRITOS AMALDIÇOADOS
+Os Espíritos Amaldiçoados, também conhecidos como Maldições, são seres que surgem
+puramente da negatividade, formando-se a partir de onde o medo se acumula, o ódio se
+perpetua e a dor ecoa por gerações, despertando para assombrar a humanidade.
+São manifestações do inconsciente, emoções, lendas, traumas e pecados. Para criar uma
+maldição, você não deve simplesmente formar uma ficha, mas sim dar forma ao horror e
+voz ao que deveria permanecer silenciado. Existem tipos diferentes de maldições:
+•
+Espíritos Amaldiçoados Comuns: Esses espíritos são caracterizados por
+não possuírem um local exato como seu ninho ou até mesmo um local de
+fortalecimento, vagando sempre a procura de pessoas emocionalmente instáveis
+para se alimentarem e parasitarem seus corpos. Exemplos são as maldições que
+Geto consumia em Jujutsu Kaisen 0 e a pequena maldição a assombrar a atendente
+da padaria no passado de Nanami.
+•
+Espíritos Amaldiçoados de Medo: Esses espíritos são caracterizados por se
+originarem de medos e fobias humanas, possuindo grande poder desde sua
+formação e não precisam parasitar humanos para se fortalecerem, aumentando
+seu poder conforme o medo que lhe formou cresce. Exemplos são as maldições do
+Desastre e Mahito.
+•
+Espíritos
+Amaldiçoados
+Vingativos:
+Esses
+espíritos
+amaldiçoados
+são
+formados quando um humano morre e se torna um espírito amaldiçoado, seja
+por posteriormente ser um xamã e acabar por ser morto sem uso de energia
+amaldiçoada, ou por ter sido amaldiçoado de alguma forma por um xamã, esses
+espíritos possuem uma força impressionante e possuem um aumento considerável
+baseado nas emoções que sentem. Exemplos são Rika Orimoto e Naoya.
+•
+Espíritos Amaldiçoados Vingativos Imaginários: Esses espíritos são formados por
+mitos e lendas que trazem medo a humanidade, como criaturas do folclore, lendas
+urbanas, creepypastas e até mesmo outras formas de espalhar o medo com criaturas
+fantasiosas, elas funcionam basicamente como uma
+quimera dos espíritos vingativos e de medo, tendo locais
+e sentimentos que o fortalecem, mas também, possuindo
+mais poder baseado no medo que os humanos sentem de si.
+Exemplos são Tamamo-no-mae e Kuchisake-Onna.
+•
+Espíritos
+Amaldiçoados
+Enfermos:
+Esses
+espíritos
+amaldiçoados são formados da energia amaldiçoada
+e pensamentos negativos de humanos que estejam
+passando por alguma enfermidade, diferente de espíritos
+amaldiçoados comuns e até mesmo de outras classificações,
+esses espíritos já são formados com seu feitiço inato, sendo
+uma propagação amaldiçoada de sua doença, além de
+serem fortalecidos por quem carrega sua enfermidade.
+Um exemplo é a Maldição da Varíola.
+
+--- Página 10 ---
+10
+Independente do tipo de Espírito Amaldiçoado escolhido, um inimigo com esta origem
+recebe certas habilidades e limitações:
+Imaterialidade. Como um ser imaterial, uma maldição pode atravessar estruturas
+sem energia, não precisam respirar e não podem ser vistos ou percebidos por humanos
+que não sejam feiticeiros, a menos que esteja com as emoções à flor da pele.
+Imunidades Espirituais. Sendo um espírito, uma maldição é imune a doenças e
+venenos mundanos (não sendo considerados os danos biológicos nem o veneno criado
+a partir de Ofício ou Condições, por exemplo), assim como não podem ser finalizados
+por objetos, equipamentos sem energia ou dano de queda.
+Regeneração. Uma maldição é capaz de regenerar e restaurar o próprio corpo a partir
+da sua energia amaldiçoada. É necessária uma Ação Comum ou Ação Rápida para se
+curar, também sendo preciso pagar 4 Pontos de Energia para isso; para curar uma
+Ferida Interna é preciso pagar 8 Pontos de Energia e, para regenerar um membro, é
+preciso pagar 10 Pontos de Energia. Quanto ao valor da cura, siga a tabela abaixo:
+Patamar
+BT +2
+BT +3
+BT +4
+BT +5
+BT +6
+Lacaio
+Não Recebe
+Não Recebe
+Não Recebe
+Não Recebe
+Não Recebe
+Capanga
+Não Recebe
+Não Recebe
+Mod de Con * 4
+Mod de Con * 5
+Mod de Con * 6
+Comum
+Não Recebe
+Mod de Con * 3
+Mod de Con * 4
+Mod de Con * 7
+Mod de Con * 12
+Desafio
+Não Recebe
+Mod de Con * 3
+Mod de Con * 6
+Mod de Con * 10
+Mod de Con * 12
+Calamidade
+Não Recebe
+Mod de Con * 3
+Mod de Con * 6
+Mod de Con * 10
+Mod de Con * 12
+Opcionalmente, você pode conceder a habilidade Aumento de Energia: uma Maldição
+com Aumento de Energia recebe Pontos de Energia adicionais igual ao seu Nível de
+Desafio (ND). Esta habilidade nunca pode ser colocada em Lacaios.
+Além disso, as Maldições possuem certas restrições e pontos fracos: maldições não
+podem ser curadas por energia reversa nem por itens criados a partir de ofícios, são
+considerados vulneráveis ao dano de energia reversa e não podem receber bônus de
+comida e não podem ter/usar equipamentos, exceto armas, armaduras e escudos.
+
+--- Página 11 ---
+11
+FEITICEIROS E CAÇADORES
+Feiticeiros é a nomenclatura entregue aos humanos capazes de manipular e controlar
+energia amaldiçoada, independente de seu grau ou até mesmo o quanto consegue
+manipular energia amaldiçoada, sendo os únicos capazes de exorcizar e enxergar
+espíritos amaldiçoados, porém, pode ser a nomenclatura entregue também a
+humanos que não conseguem controlar sua energia amaldiçoada porém possuem
+conhecimentos do mundo jujutsu.
+Devido a diversos fatores, eles possuem diferentes formas de serem chamados a depender
+da instituição que fazem parte, modo de agir e forma de usar energia amaldiçoada, sendo
+as seguintes variações de feiticeiros sendo apresentadas logo abaixo.
+•
+Feiticeiros Jujutsu: Feiticeiros Jujutsu são aqueles que se graduaram e utilizam
+da energia amaldiçoada dentro das regras e parâmetros do colégio de feiticeiros
+jujutsu, normalmente utilizam de suas capacidades como feiticeiro apenas para
+completar missões e exorcizar espíritos amaldiçoados que estejam causando
+problemas dentro de sua zona de ação, possuindo um sistema de ensino escolar e
+um conjunto de regras de conduta estipulados pela alta cúpula do colégio. Exemplos
+são Itadori, Satoru Gojo e Megumi Fushiguro.
+•
+Usuários de Maldição: Usuários de Maldição são feiticeiros não graduados do colégio
+de feiticeiros jujutsu ou qualquer outro tipo de usuário de energia amaldiçoada
+que utilize de suas capacidades para fins malignos, como rituais, assassinatos e
+outros crimes. Essa formação de feiticeiros possui o costume de fazerem parte de
+organizações e pequenos grupos para sua própria proteção, não possuindo vínculos
+sentimentais em sua grande maioria. Exemplos são a Família do Geto, Organização
+Q e Ryomen Sukuna.
+•
+Não-Feiticeiros: Não feiticeiros são humanos que não possuem capacidade
+de controlar ou manipular sua energia amaldiçoada, porém fazem parte de
+organizações ou até mesmo do colégio jujutsu, atuando como informantes ou
+gerentes auxiliares, possuindo um papel mais burocrático ao invés de ser um
+membro ativo no campo de batalha. Exemplos são Shiu Kong, Misato
+Kuroi e Riko Amanai.
+De acordo com a categoria escolhida, o inimigo recebe certas
+habilidades e características.
+Caso escolha um Feiticeiro Jujutsu ou Usuário de Maldição,
+ele recebe:
+Treinamento Evidente. Sendo treinados dentro do mundo
+jujutsu, a maior capacidade é evidente. O inimigo recebe
+uma quantidade de perícias dominadas adicionais igual ao
+seu BT.
+Frutos da Experiência. No decorrer das experiências que o
+inimigo passou, todo o esforço e estresse traz frutos. Escolha um
+dos seguintes bônus: receber 2 Aptidões adicionais, receber 1 nível
+de aptidão adicional a cada 4 níveis ou receber 1 talento adicional.
+
+--- Página 12 ---
+12
+Caso escolha um Não-Feiticeiro, ele recebe:
+Artimanhas. Mesmo sem o poder do jujutsu, é possível compensar com truques.
+Um Não-Feiticeiro recebe uma quantidade de Artimanhas igual ao seu BT.
+Necessidade de Agir. Diante algum gatilho ou vislumbre do mundo amaldiçoado,
+agir se torna uma necessidade que leva ao crescimento. Um Não-Feiticeiro recebe
+uma quantidade de perícias dominadas adicionais igual ao seu BT.
+Preparo. Uma força menor leva a um preparo maior. Um Não-Feiticeiro recebe uma
+quantidade de itens consumíveis igual ao seu BT.
+ARTIMANHAS
+Um Não-Feiticeiro, para se manter de par de igualdade, pelo menos o máximo de tempo
+que consegue, cria artimanhas e planos mirabolantes para derrotar seus inimigos
+mesmo com uma diferença gigantesca de força entre eles e seus inimigos. Caso você
+mude de origem, você perde todas as suas artimanhas.
+ARMA!!!
+Você tem um vício descomunal na sua
+Arma Masterizada. É como se você fosse
+incapaz de viver sem elas. Sua Arma
+Masterizada tem sua margem de acerto
+crítico reduzida em 1 e tem seu nível de
+dano aumentado em +3. Uma vez por
+combate, você pode escolher, gastando 5
+de PE, garantir um ataque crítico,  como se
+você tivesse tirado 20. [Pré-Requisito: ND
+5 e Grão Mestre em Arma]
+CONHECIMENTO INATURAL
+Você estudou o Jujutsu, mesmo que você
+seja incapaz de controlá-lo. Caso você
+se torne um Feiticeiro, ganhe 1 Nível de
+Aptidão. Essa Artimanha pode ser pega
+várias vezes.
+EQUIPAMENTOS REFINADOS
+Você refina seus equipamentos até onde
+não der mais, buscando deixar eles prístinos
+para o combate contra as Maldições. Ao
+melhorar um item em um Descanso Curto
+ou Longo com o Kit de Ferreiro, enquanto
+você empunhá-lo, adicione metade do
+bônus de treinamento no Dano, caso seja
+uma arma, ou no RD, caso seja um Escudo.
+GRÃO MESTRE EM ARMAS
+Você é um grão-mestre em uma arma,
+algo que até mesmo os Feiticeiros têm
+dificuldade em ser. Em troca da falta de
+energia e do físico, você se masterizou.
+Escolha uma Arma de qualquer custo. Esta
+arma é considerada sua Arma Masterizada.
+Você aplica o bônus de treinamento nela se
+antes não aplicava. Caso você já aplicasse,
+ao invés disso aplique metade do seu bônus
+de treinamento no dano e no acerto.
+MENTE ASTUTA
+Com uma mente astuta, você consegue
+perceber ações antes que elas sequer
+sejam realizadas. Você agora pode utilizar
+“Ler Intenções” como ação livre e sempre
+passa no teste.
+PERCEPÇÃO DO INVISÍVEL
+Você é capaz de perceber o que não existe.
+Você ganha a Habilidade de Especialização
+“Perceber o Ar” e pode ver Maldições sem
+lentes ou óculos. [Pré-Requisito: ND 10]
+PLANEJAMENTO ASSÍDUOS
+Você planeja antes de realizar suas
+missões, tendo equipamentos preparados.
+Recebe o Arsenal do Restringido, porém,
+com apenas um equipamento que evolui,
+ao invés do normal.
+
+--- Página 13 ---
+13
+RESTRITOS CELESTES (RESTRINGIDO)
+Os restritos celestes são humanos que passaram por um voto congênito com o jujutsu
+logo ao nascer, podendo possuir nenhuma ou quase nenhuma energia amaldiçoada,
+em troca de um físico capaz de torná-los tão forte quanto os feiticeiros de alto nível,
+utilizando de um arsenal de armas amaldiçoadas para se equivaler e serem capazes
+de enxergar e exorcizar espíritos amaldiçoados. Exemplos são Toji Fushiguro, Maki
+Zen’In e Tsurugi Okkotsu.
+Caso escolha um Restrito Celeste (Restringido), ele recebe:
+Arsenal Vivo. Reconhecendo a necessidade de manejar armas imbuídas com energia,
+um restringido deve estar preparado para as portar de maneira apropriada. Um
+Restringido recebe a característica Arsenal gratuitamente. Além disso, também é
+possível optar por fazer com que o Restringido receba uma quantidade de equipamentos
+de ofício igual ao seu BT.
+Uso Rápido. Um restringido se mantém pronto para usar certas ferramentas
+rapidamente. Um Restringido pode utilizar um Item de Custo como uma Ação Livre.
+Outros Itens de Custo podem ser utilizados como uma Ação Bônus ou Rápida.
+Resiliência Imediata. Seu corpo é mais resistente do que o padrão humano,
+permitindo-o encarar a dor facilmente. Uma quantidade de vezes igual ao seu BT, um
+Restringido pode evitar um desmembramento que fosse receber.
+Ao atingir ND 10 ou superior, um Restringido pode receber os seguintes benefícios,
+os quais são ativados quando o Narrador achar mais propício.
+•
+Usuários de energia amaldiçoada possuem desvantagem em testes para
+perceber o Restringido.
+•
+O Restringido passa a perceber o traçado da alma, assim como não necessitam
+mais de uma ferramenta amaldiçoada para enxergar maldições.
+•
+O Restringido se torna imune ao acerto garantido de uma Expansão de Domínio,
+podendo também escolher permanecer dentro da Expansão ou sair dela quando ela
+for ativada; caso fique, recebe todos os efeitos ambientais da Expansão; caso decida
+sair, ele fica de frente com a barreira externa.
+
+--- Página 14 ---
+14
+RESTRIÇÃO DE CORPO POR ENERGIA
+A Restrição Celeste corpo por energia, é uma das mais trágicas e ao mesmo tempo
+mais poderosas da obra. Diferente de usuários comuns de Energia Amaldiçoada, ele
+nasceu sob um voto imposto pelo próprio destino, que trocou seu corpo por um poder
+monstruoso. Nascendo com um corpo completamente incapacitado fisicamente,
+sofrendo de: dor constante e extrema, deformações severas, incapacidade de sentir
+o mundo normalmente, dependência total de suporte médico e expectativa de vida
+reduzida.
+Caso escolha um Restrito com Restrição de Corpo por Energia, ele recebe:
+Estoque Expandido. Com um corpo sem integridade alguma, seu estoque de energia é
+extremamente amplo para compensar. O restrito tem seus Pontos de Energia dobrados.
+Alcance Irrestrito. Seu jujutsu é capaz de afetar uma área muito mais extensa. Todas
+as Aptidões e Técnicas do restrito possuem alcance "País", sendo preciso apenas ter
+visão do local.
+Fantoches e Fantoche Supremo. O restrito recebe acesso ao seu fantoche supremo
+e hordas de fantoches. Os fantoches não são simples máquinas. Cada unidade é um
+corpo amaldiçoado artificial, criado para servir como os olhos, mãos e lâminas de seu
+controlador no mundo exterior. Eles existem no ponto exato entre engenharia e feitiçaria,
+unindo metal, selos e energia amaldiçoada em uma única entidade de combate, cada
+fantoche não é apenas uma arma, é um substituto de sua própria existência física. O
+corpo de um fantoche padrão apresenta:
+•
+Forma humanoide metálica, de proporções semelhantes a um adulto.
+•
+Revestimento de metal amaldiçoado reforçado.
+•
+Articulações seladas com inscrições espirituais.
+•
+Núcleo interno onde a energia amaldiçoada é comprimida.
+•
+Superfície marcada por: Talismãs, runas de controle, selos de disparo, defesa e
+autodestruição.
+Seu visual transmite uma mistura de máquina, boneco, amuleto e arma espiritual.
+Os fantoches usam o mesmo guia de criação de criaturas que será descrito logo
+abaixo, mas deve utilizar os PE’s e atributos mentais do controlador sua narrativa
+deve ser atrelada ao seu controlador, ou seja o fantoche não possui pontos de energia
+amaldiçoada e não possui atributos mentais, diferente de seu controlador que possui
+atributos mentais, mas não físicos, então seus fantoches devem realizar ações físicas
+ou no máximo lançar raios laser de suas mãos utilizando selos, um fantoche pode
+carregar uma quantidade de equipamentos (Talismãs, Amuletos, Selos, Remédios,
+Venenos) igual ao seu BT.
+
+--- Página 15 ---
+15
+CORPOS AMALDIÇOADOS
+Os corpos amaldiçoados são uma categoria especial dentro do mundo jujutsu, sendo
+objetos inanimados que são envolvidos com energia amaldiçoada ou um feitiço para
+que ganhem vida.
+Os corpos amaldiçoados por base não possuem consciência ou sequer a capacidade de
+realizar ações por conta própria, exceto pelos corpos amaldiçoados criados pelo feitiço
+de Yaga Masamichi, capaz de colocar almas dentro dos corpos amaldiçoados, dando
+uma real vida para eles. Abaixo teremos os exemplos da obra de corpos amaldiçoados.
+Corpos Amaldiçoados Especiais (Yaga Masamichi): Os corpos amaldiçoados especiais
+de Yaga Masamichi possuem um diferencial muito importante e que separam sua
+categoria dos demais, esses corpos possuem total autonomia e uma ou mais almas em sua
+constituição e criação, tornando-se “pessoas normais” dentro de corpos amaldiçoados,
+possuindo pensamentos críticos e não necessitando de ordens para agir. (Exemplos:
+Panda e Takeru)
+Corpos Amaldiçoados. São seres acima da vida e existência que possuem a capacidade
+de sobreviver a combates longos e possuem estilos diversos, dando a opção de jogo mais
+destrutivo ou versátil.
+Caso escolha um Corpo Amaldiçoado, ele recebe:
+Natureza Artificial. Um Corpo Amaldiçoado não é orgânico, sendo naturalmente
+artificial e incapaz de interagir com certas coisas. O Corpo Amaldiçoado recebe
+imunidade a venenos e não precisa respirar.
+Troca de Núcleo. O Corpo Amaldiçoado recebe a característica "Segunda Fase"
+gratuitamente.
+Estoque Adicional. Como um Corpo Amaldiçoado, há uma certa quantidade de energia
+adicional em seu corpo. Opcionalmente, o Corpo Amaldiçoado recebe uma quantidade
+de Pontos de Energia igual ao seu Nível de Desafio.
+SEGUNDA FASE
+Quando o corpo amaldiçoado atinge ou ativa sua segunda fase ele muda em partes
+o seu conceito (Mago para Combatente, Mago para Lutador, Fogo para gelo, Psíquico
+para físico e por aí vai), recebe um aumento de vida igual a Constituição * (BT * 2) -
+essa vida recebida é OPCIONAL, o narrador não precisa colocá-la caso não queira.
+De resto segue a criação padrão do guia de criação.
+
+--- Página 16 ---
+16
+PREENCHENDO A FICHA
+Após definir o Grau, ND e Patamar, preencha a ficha de inimigo de acordo com as tabelas
+que você encontrará no decorrer dessa seção.
+Uma parte considerável das tabelas contará com três tipos de dificuldade diferentes,
+os quais devem ser considerados para diferentes tipos de jogadores e estilos de mesa:
+•
+As Tabelas Iniciantes possuem uma gama menor de força e são pensadas para
+criaturas que sejam mais fracas e também para uma primeira experiência mais
+divertida dentro do sistema.
+•
+As Tabelas Intermediarias são pensadas nos jogadores casuais que possuem certo
+conhecimento do sistema porém, não desejam otimizar completamente a ficha.
+•
+As Tabelas Experientes são pensadas para os jogadores que costumam otimizar
+muito a ficha e gostariam de combates difíceis e colocarem suas otimizações em
+teste, sendo a forma mais poderosa de criação de criaturas dentro do grimório.
+ATRIBUTOS
+Os atributos definem suas características base, que irá definir suas perícias, testes de
+resistência, acerto entre outras coisas. São divididos em:
+•
+Força. A Força representa o poder muscular, físico e bruto de um personagem,
+sendo usado para aumentar o dano causado por armas, em aplicações de força
+bruta e na definição de quanto peso você levanta, quão alto você pula e muito mais.
+•
+Destreza. A Destreza mede a agilidade, reflexos e rapidez de um personagem, sendo
+usada para manter o equilíbrio, desviar de golpes ou técnicas, manuseando armas
+leves e na realização de acrobacias.
+•
+Constituição. A Constituição mede a resistência e o vigor do personagem, sendo
+aplicada aos pontos de vida, em testes que requerem fortitude, como resistir a
+venenos ou males físicos e para definir aspectos como quanto tempo seu personagem
+consegue segurar o ar ou se manter firme diante o cansaço.
+•
+Inteligência. A Inteligência simboliza o raciocínio e intelecto do personagem,
+permitindo o aprendizado e uso de certas perícias, a assimilação de informações e
+o quão rápida a mente é.
+•
+Sabedoria. A Sabedoria é o conhecimento pela experiência, ligação com o mundo
+ao seu redor e capacidade de observação, medindo o quão atento aos arredores
+você é e é usada em perícias que envolvam o tato para com o mundo.
+•
+Presença. A Presença mede a força da personalidade e presença de um personagem,
+juntamente da sua capacidade de influenciar os outros com suas palavras, gestos,
+simpatia ou beleza, fazendo-se ser notado em meio ao mundo.
+Todos os atributos começam no 10, mas possuem limites máximos:
+Patamar
+Atributos
+Lacaio
+20 + Nível de Desafio - Limite 20.
+Capanga
+20 + Nível de Desafio - Limite 24.
+Comum
+20 + Nível de Desafio + Treinamento - Limite 26.
+Desafio
+25 + ( 2 * Nível de Desafio ) + ( Treinamento * 2 ) - Limite 30.
+Calamidade
+25 + ( 2 * Nível de Desafio ) + ( Treinamento * 2 ) - Limite 32.
+Caso deseje pode reduzir valores de atributo de 10 para 8 (limite máximo), para
+adicionar em outro atributo.
+
+--- Página 17 ---
+17
+TAMANHO
+O tamanho é o espaço que sua criatura vai ocupar no mapa/local de combate e define
+certos bônus e ônus recebidos, juntamente do seu alcance comum.
+Tamanho
+Espaço e Alcance Corpo
+a Corpo
+Manobra/Furtividade
+Exemplo
+Minúsculo
+1,5 Metros
+-5/+5
+Mosca
+Pequeno
+1,5 Metros
+-2/+2
+Cachorro
+Médio
+1,5 Metros
+0/0
+Humano
+Grande
+3 Metros
++2/-2
+Mahoraga
+Enorme
+4,5 Metros
++5/-5
+Ganesha
+Colossal
+9 Metros
++10/-10
+Dragão Arco-Íris
+PONTOS DE VIDA
+O total de pontos de vida do inimigo, medindo a saúde e capacidade de seguir lutando,
+com um inimigo que alcance 0 pontos de vida sendo derrotado ou morto.
+O cálculo de vida foi feito para uma criatura aguentar 3 rodadas inteiras contra
+jogadores, mas caso o mestre deseja ter mais de 3 rodadas pode dobrar a vida da criatura
+ou aumentar em um valor igual:
+Valor de constituição * (Treinamento * 2) * Quantidade de jogadores
+PONTOS DE ENERGIA AMALDIÇOADA (OPCIONAL)
+A quantidade de pontos de energia que um inimigo possui, normalmente sendo gastos
+em habilidades ou certas ações especiais. Nem todo inimigo possuirá pontos de energia
+especificados.
+O cálculo de pontos de energia foi feito para uma criatura aguentar 3 rodadas inteiras
+contra jogadores, mas caso o mestre deseja ter mais de 3 rodadas pode aumentar em
+um valor igual:
+Pontos de Energia Total * 1,5
+
+--- Página 18 ---
+18
+DESLOCAMENTO
+O deslocamento define o quanto uma criatura consegue se movimentar em sua ação de
+movimento. O valor padrão de Deslocamento é baseado no Tamanho da criatura.
+Tamanho
+Deslocamento Padrão
+Minúsculo
+9 Metros
+Pequeno
+9 Metros
+Médio
+9 Metros
+Grande
+12 Metros
+Enorme
+13,5 Metros
+Colossal
+18 Metros
+ATENÇÃO
+É a classe de dificuldade usada para uma criatura enxergar os jogadores quando
+eles tentam entrar em furtividade. A atenção é usada quando a criatura não sabe da
+existência de determinado personagem que esteja na cena.
+DEFESA
+É a capacidade da criatura de se defender e esquivar de ataques que o tem como alvo.
+TESTE DE RESISTÊNCIA
+São os testes usados pelas criaturas para resistir a feitiços de dano e condições aplicadas
+contra ela, são divididos entre: Reflexo e Fortitude (Físico), Vontade e Astúcia (Mental)
+e Integridade (Alma).
+INICIATIVA
+É a velocidade que sua criatura possui para iniciar um combate/ação contra jogadores.
+REDUÇÃO DE DANO GERAL
+É a capacidade da criatura reduzir o dano sofrido por criaturas hostis, essa redução de
+dano pode ser reduzida para aumentar outras, como por exemplo, remover redução
+física para adicionar em elemental ou tirar de impacto para por queimante.
+VIDA TEMPORÁRIA POR ATAQUE
+É uma vida temporária que a criatura recebe ao receber mais de um ataque no mesmo
+turno, cada vez que a criatura é atacada durante um turno de combate ela recebe essa
+vida temporária, ela não se acumula nem soma com a anterior.
+ACERTO
+É a capacidade de causar dano a outra criatura através de feitiços ou ações de ataque.
+CLASSE DE DIFICULDADE
+É o valor que representa a dificuldade de uma ação que force a realização de um Teste
+de Resistência.
+DANO MÉDIO
+É o valor aproximado de dano que um ataque causa em média, considerando os dados
+rolados e modificadores. Ele é usado para equilibrar criaturas, calcular estimativas
+rápidas de combate e criar habilidades sem precisar rolar sempre os dados.
+
+--- Página 19 ---
+19
+ROLAGEM DE DANO
+É o momento em que, depois de acertar um ataque ou ativar uma habilidade, você rola
+dados para determinar quanto dano o alvo sofre. Ela define a força real do golpe e traz
+imprevisibilidade ao combate.
+GUARDA INABALÁVEL
+É a vida temporária que a criatura recebe todo início de rodada.
+RESISTÊNCIA PARCIAL
+É um recurso muito importante e escasso que as criaturas têm para resistir a testes de
+resistência e subir o resultado em 1 passo, falha crítica para falha normal, falha normal
+para sucesso e sucesso para sucesso crítico.
+DESAFIANDO A MORTE
+É o último recurso usado pela criatura para se manter viva e tentar vencer seus
+adversários, ao entrar no desafiando a morte a criatura perde metade de suas ações
+arredondado para cima, todo turno a criatura deve realizar um teste de fortitude com
+a classe de dificuldade: 25 + 1 para cada 50 de vida negativa, caso falhe no teste, ela
+ficará suscetível a finalização, com a criatura devendo gastar uma ação completa para
+finalizá-la. Durante o desafiando a morte, toda ação de cura da criatura é reduzida
+pela metade.
+
+--- Página 20 ---
+20
+OS DOTES
+Toda criatura possui suas próprias habilidades e capacidades únicas que a tornam
+diferentes umas das outras. Mas, apesar de todas terem algum aspecto único, ainda
+existem aspectos e habilidades que algumas compartilham umas com as outras,
+seja por terem uma natureza similar ou terem aprendido em algum lugar. Esse tipo
+de habilidade é denominada “Dotes”. Os Dotes são habilidades que oferecem mais
+recursos e possibilidades ao montar seu inimigo, o tornando uma ameaça maior.
+Diferente de características, os Dotes não são montados pelo Narrador, mas são
+habilidades já feitas, funcionando de forma similar as habilidades de especialização e
+aptidões dos jogadores, mas feitas de forma exclusiva para os inimigos. Existem 2 tipos
+de Dotes, “Dotes Gerais” e “Dotes Amaldiçoados”; os Dotes Gerais são o equivalente a
+habilidades de especialização, sendo diretamente relacionado às capacidades através
+do conhecimento de batalha, sentidos ou até mesmo natureza do inimigo, enquanto os
+“Dotes Amaldiçoados” são relacionados de forma direta a energia amaldiçoada, sendo
+os conceitos e aplicações da mesma, sendo o equivalente às aptidões dos jogadores.
+Cada um dos dotes será explicado com mais detalhes mais a frente.
+Vale destacar que, apesar dos Dotes serem menos versáteis que as características de um
+inimigo, é estritamente necessário que ainda se tenha um certo sentido com o inimigo
+em questão ao se escolher um dote para ele, mesmo que ele preencha os requisitos para
+o dote em questão. Além disso, é completamente opcional a adição de um Dote para seu
+inimigo, mas é recomendado adicioná-los caso você queira fornecer um desafio maior.
+
+--- Página 21 ---
+21
+PERÍCIAS
+Indica as rolagens mais comuns para cada tipo de perícia, podendo também ser
+utilizadas para outros fins a depender da narração e criatividade da criatura que
+realizar a jogada, elas possuem perícias não dominadas e dominadas, uma criatura
+pode ter uma quantidade de igual ao seu maior modificador de atributo mental. Utilizar
+uma perícia é uma Ação Comum.
+Perícia
+Atributo Usado
+Uso Padrão
+Atletismo
+Força
+Utilizado para realizar manobras.
+Acrobacia
+Destreza
+Utilizado para resistir a manobras.
+Furtividade
+Destreza
+Utilizado para usar a ação “Esconder”.
+Prestidigitação
+Destreza
+Movimentos rápidos com as mãos “Furtar”.
+Direção
+Sabedoria
+Utilizado para manobrar veículos e montarias.
+Intuição
+Sabedoria
+Descobrir as verdadeiras intenções de uma
+criatura
+Medicina
+Sabedoria
+Estabilizar e descobrir informações biológicas.
+Percepção
+Sabedoria
+Utilizar os 5 sentidos para perceber algo.
+Ocultismo
+Sabedoria
+Capacidade de discernir simbolismo espiritual.
+Sobrevivência
+Sabedoria
+Capacidade de sobreviver em ambientes
+diversos.
+Investigação
+Inteligência
+Procurar vestígios e ligar pontos na cena.
+História
+Inteligência
+Conhecimento histórico geral.
+Feitiçaria
+Inteligência
+Controle e entendimento da energia
+amaldiçoada.
+Teologia
+Inteligência
+Conhecimento da própria religião.
+Tecnologia
+Inteligência
+Capacidade de manusear e entender
+tecnologia.
+Persuasão
+Presença
+Capacidade de convencer outra criatura.
+Enganação
+Presença
+Capacidade de mentir para outra criatura.
+Intimidação
+Presença
+Capacidade de pôr medo em uma criatura.
+Performance
+Presença
+Capacidade de fazer algo artístico(Ex: Dança).
+
+--- Página 22 ---
+22
+REDUÇÃO DE DANO IRREDUTÍVEL (OPCIONAL)
+A redução de dano irredutível é o limite que não pode ser diminuído da sua redução de
+dano geral e NÃO acumula com a redução de dano geral.
+Exemplo: Redução de dano geral = 50, caso algum jogador diminua sua redução de
+dano geral em 25, mas a sua redução de dano irredutível seja 30, sua redução de dano
+geral se torna 30, não podendo diminuir esse valor.
+IGNORAR REDUÇÃO DE DANO GERAL (OPCIONAL)
+É a capacidade de uma criatura ignorar as reduções de dano de um alvo, independente
+do tipo de dano que a criatura alvo tenha como RD.
+IMUNIDADE, RESISTÊNCIA E VULNERABILIDADE (OPCIONAL)
+Essa tabela é o limitador dos níveis de resistência da criatura, possuindo a quantidade de
+imunidades, resistências e vulnerabilidades que ela possa adquirir, para cada imunidade
+que ela receba, ela deve receber uma vulnerabilidade que seja condizente com sua
+imunidade. Aplicar resistência não interfere nas imunidades ou vulnerabilidades.
+Patamar
+Imunidade
+Resistência
+Vulnerabilidade
+Lacaio
+Não Recebe Nada
+Não Recebe Nada
+Não Recebe Nada
+Capanga
+Não Recebe Nada
+Não Recebe Nada
+Não Recebe Nada
+Comum
+Até 1
+Até 2
+Até 1
+Desafio
+Até 3
+Até 3
+Até 3
+Calamidade
+Até 6
+Até 4
+Até 6
+IMUNIDADE A CONDIÇÕES (OPCIONAL)
+Serve para controlar a quantidade de imunidades a condições, lembrando que não é
+possível ser imune a MANOBRAS, a DESMEMBRAMENTOS e ACERTO GARANTIDO de
+expansão de domínio. Ao adicionar uma imunidade a uma condição, você a torna imune
+de todas as fontes geradas através de ações de ataque/feitiços que apliquem esse efeito.
+Patamar
+Quantidade de Imunidades
+Lacaio
+Não Recebe Nada
+Capanga
+Não Recebe Nada
+Comum
+Recebe 5 imunidades
+Desafio
+Recebe 6 imunidades
+Calamidade
+Recebe 7 imunidades
+Uma criatura pode distribuir suas imunidades seguindo a seguinte métrica:
+Extrema = 1.
+Forte = 2.
+Média = Quantas quiser.
+Fraca = Quantas quiser.
+RESISTÊNCIA TOTAL (OPCIONAL)
+É um recurso muito importante e escasso que as criaturas têm para resistir a testes de
+resistência e receber automaticamente um sucesso para sucesso crítico.
+
+--- Página 23 ---
+23
+REFERÊNCIAS PARA CRIAÇÃO DE CRIATURAS
+Conhecendo cada um dos aspectos presentes em uma ficha de inimigo, a seguir você
+encontrará um conjunto completo de tabelas de referência para ajudá-lo a criar inimigos
+equilibrados para enfrentar seus jogadores.
+As tabelas são modulares: você pega o Nível de Desafio e usa os valores como base para
+vida, ataque, defesa, dano, habilidades e outros aspectos gerais da dificuldade dele.
+CRIAÇÃO DE LACAIOS
+Um Lacaio possui certas considerações gerais:
+•
+Os Atributos possuem um limite de 20.
+•
+A Atenção utiliza apenas o bônus de Percepção, a Iniciativa utiliza apenas o
+Modificador de Destreza e o Deslocamento é o valor padrão.
+•
+Lacaios não recebem RD Irredutível, Vida Temporária por Ataque, Vantagens,
+Resistências e Imunidades.
+ND
+Vida
+RD (Geral)
+Ignorar RD
+Atributos
+PE
+ND 1
+10 + (Valor de Constituição * 2)
+—
+—
+21
+—
+ND 2
+10 + (Valor de Constituição * 2)
+—
+—
+22
+—
+ND 3
+10 + (Valor de Constituição * 2)
+—
+—
+23
+—
+ND 4
+10 + (Valor de Constituição * 2)
+—
+—
+24
+—
+ND 5
+10 + (Valor de Constituição * 2)
+—
+—
+25
+—
+ND 6
+10 + (Valor de Constituição * 2)
+—
+—
+26
+—
+ND 7
+10 + (Valor de Constituição * 2)
+—
+—
+27
+—
+ND 8
+10 + (Valor de Constituição * 2)
+—
+—
+28
+—
+ND 9
+10 + (Valor de Constituição * 2)
+—
+—
+29
+—
+ND 10
+10 + (Valor de Constituição * 2)
+—
+—
+30
+—
+ND
+Quantidade de Perícias
+Perícias Não Dominadas
+Perícias Dominadas
+ND 1
+Maior Mod Mental
+1 + Mod de Atributo
+3 + Mod de Atributo
+ND 2
+Maior Mod Mental
+2 + Mod de Atributo
+4 + Mod de Atributo
+ND 3
+Maior Mod Mental
+3 + Mod de Atributo
+5 + Mod de Atributo
+ND 4
+Maior Mod Mental
+4 + Mod de Atributo
+6 + Mod de Atributo
+ND 5
+Maior Mod Mental
+5 + Mod de Atributo
+8 + Mod de Atributo
+ND 6
+Maior Mod Mental
+6 + Mod de Atributo
+9 + Mod de Atributo
+ND 7
+Maior Mod Mental
+7 + Mod de Atributo
+10 + Mod de Atributo
+ND 8
+Maior Mod Mental
+8 + Mod de Atributo
+11 + Mod de Atributo
+ND 9
+Maior Mod Mental
+9 + Mod de Atributo
+13 + Mod de Atributo
+ND 10
+Maior Mod Mental
+10 + Mod de Atributo
+14 + Mod de Atributo
+VIDA, RD, ATRIBUTOS E PE — LACAIO
+PERÍCIAS — LACAIO
+
+--- Página 24 ---
+24
+ND
+TR
+Defesa
+Acerto
+Dano Médio
+Dado
+CD
+(Iniciante)
+CD (Inter/
+Exp.)
+ND 1
+1 + Mod de
+Atributo
+10 + Mod
+de DEX
+1 + Mod de
+Técn
+3 de Dano
+1d4+1
+1 + Mod de
+Técn / 2
+1 + Mod de
+Técn
+ND 2
+2 + Mod de
+Atributo
+10 + Mod
+de DEX
+2 + Mod de
+Técn
+3 de Dano
+1d4+1
+2 + Mod de
+Técn / 2
+2 + Mod de
+Técn
+ND 3
+3 + Mod de
+Atributo
+10 + Mod
+de DEX
+3 + Mod de
+Técn
+6 de Dano
+1d6+3
+3 + Mod de
+Técn / 2
+3 + Mod de
+Técn
+ND 4
+4 + Mod de
+Atributo
+10 + Mod
+de DEX
+4 + Mod de
+Técn
+7 de Dano
+2d4+3
+4 + Mod de
+Técn / 2
+4 + Mod de
+Técn
+ND 5
+5 + Mod de
+Atributo
+10 + Mod
+de DEX
+5 + Mod de
+Técn
+17 de Dano
+2d10+6
+5 + Mod de
+Técn / 2
+5 + Mod de
+Técn
+ND 6
+6 + Mod de
+Atributo
+10 + Mod
+de DEX
+6 + Mod de
+Técn
+20 de Dano
+2d10+9
+6 + Mod de
+Técn / 2
+6 + Mod de
+Técn
+ND 7
+7 + Mod de
+Atributo
+10 + Mod
+de DEX
+7 + Mod de
+Técn
+23 de Dano
+2d12+10
+7 + Mod de
+Técn / 2
+7 + Mod de
+Técn
+ND 8
+8 + Mod de
+Atributo
+10 + Mod
+de DEX
+8 + Mod de
+Técn
+26 de Dano
+3d8+13
+8 + Mod de
+Técn / 2
+8 + Mod de
+Técn
+ND 9
+9 + Mod de
+Atributo
+10 + Mod
+de DEX
+9 + Mod de
+Técn
+29 de Dano
+3d10+13
+9 + Mod de
+Técn / 2
+9 + Mod de
+Técn
+ND 10
+10 + Mod de
+Atributo
+10 + Mod
+de DEX
+10 + Mod de
+Técn
+32 de Dano
+4d8+14
+10 + Mod de
+Técn / 2
+10 + Mod
+de Técn
+ASPECTOS DE COMBATE — LACAIO
+
+--- Página 25 ---
+25
+CRIAÇÃO DE CAPANGAS
+Um Capanga possui certas considerações gerais:
+•
+Os Atributos possuem um limite de 24.
+•
+A Atenção utiliza o bônus de Percepção + 5 e a Iniciativa utiliza a ND do inimigo
+somado à metade do Mod. de Destreza.
+•
+Capangas não recebem RD Irredutível, Vantagens, Resistências e Imunidades.
+ND
+Vida
+RD
+(Geral)
+Ignorar
+RD
+Atributos
+PE
+Deslocamento
+ND 1
+40 + (Valor de Constituição * 2)
+—
+—
+21
+1
+Deslocamento Padrão
+ND 2
+80 + (Valor de Constituição * 2)
+—
+—
+22
+2
+Deslocamento Padrão
+ND 3
+120 + (Valor de Constituição * 2)
+—
+—
+23
+3
+Deslocamento Padrão
+ND 4
+160 + (Valor de Constituição * 2)
+—
+—
+24
+4
+Deslocamento Padrão
+ND 5
+200 + (Valor de Constituição * 3)
+6
+1
+25
+5
+Deslocamento Padrão * 1,5
+ND 6
+240 + (Valor de Constituição * 3)
+7
+1
+26
+6
+Deslocamento Padrão * 1,5
+ND 7
+280 + (Valor de Constituição * 3)
+8
+1
+27
+7
+Deslocamento Padrão * 1,5
+ND 8
+320 + (Valor de Constituição * 3)
+9
+1
+28
+8
+Deslocamento Padrão *1,5
+ND 9
+360 + (Valor de Constituição * 4)
+10
+2
+29
+9
+Deslocamento Padrão * 2
+ND 10
+400 + (Valor de Constituição * 4)
+11
+2
+30
+10
+Deslocamento Padrão * 2
+ND 11
+440 + (Valor de Constituição * 4)
+12
+2
+31
+11
+Deslocamento Padrão * 2
+ND 12
+480 + (Valor de Constituição * 4)
+13
+2
+32
+12
+Deslocamento Padrão * 2
+ND 13
+520 + (Valor de Constituição * 5)
+14
+3
+33
+13
+Deslocamento Padrão * 2
+ND 14
+560 + (Valor de Constituição * 5)
+15
+3
+34
+14
+Deslocamento Padrão * 2
+ND 15
+600 + (Valor de Constituição * 5)
+16
+3
+35
+15
+Deslocamento Padrão * 2
+ND 16
+640 + (Valor de Constituição * 5)
+17
+3
+36
+16
+Deslocamento Padrão * 2
+ND 17
+680 + (Valor de Constituição * 6)
+18
+4
+37
+17
+Deslocamento Padrão * 3
+ND 18
+720 + (Valor de Constituição * 6)
+19
+4
+38
+18
+Deslocamento Padrão * 3
+ND 19
+760 + (Valor de Constituição * 6)
+20
+4
+39
+19
+Deslocamento Padrão * 3
+ND 20
+800 + (Valor de Constituição * 6)
+21
+4
+40
+20
+Deslocamento Padrão * 3
+VIDA, RD, ATRIBUTOS E PE — CAPANGA
+
+--- Página 26 ---
+26
+ND
+Quantidade de Perícias
+Perícias Não Dom.
+Perícias Dom.
+ND 1
+Maior Mod Mental
+1 + Mod de Atributo
+3 + Mod de Atributo
+ND 2
+Maior Mod Mental
+2 + Mod de Atributo
+4 + Mod de Atributo
+ND 3
+Maior Mod Mental
+3 + Mod de Atributo
+5 + Mod de Atributo
+ND 4
+Maior Mod Mental
+4 + Mod de Atributo
+6 + Mod de Atributo
+ND 5
+Maior Mod Mental
+5 + Mod de Atributo
+8 + Mod de Atributo
+ND 6
+Maior Mod Mental
+6 + Mod de Atributo
+9 + Mod de Atributo
+ND 7
+Maior Mod Mental
+7 + Mod de Atributo
+10 + Mod de Atributo
+ND 8
+Maior Mod Mental
+8 + Mod de Atributo
+11 + Mod de Atributo
+ND 9
+Maior Mod Mental
+9 + Mod de Atributo
+13 + Mod de Atributo
+ND 10
+Maior Mod Mental
+10 + Mod de Atributo
+14 + Mod de Atributo
+ND 11
+Maior Mod Mental
+11 + Mod de Atributo
+15 + Mod de Atributo
+ND 12
+Maior Mod Mental
+12 + Mod de Atributo
+16 + Mod de Atributo
+ND 13
+Maior Mod Mental
+13 + Mod de Atributo
+18 + Mod de Atributo
+ND 14
+Maior Mod Mental
+14 + Mod de Atributo
+19 + Mod de Atributo
+ND 15
+Maior Mod Mental
+15 + Mod de Atributo
+20 + Mod de Atributo
+ND 16
+Maior Mod Mental
+16 + Mod de Atributo
+21 + Mod de Atributo
+ND 17
+Maior Mod Mental
+17 + Mod de Atributo
+23 + Mod de Atributo
+ND 18
+Maior Mod Mental
+18 + Mod de Atributo
+24 + Mod de Atributo
+ND 19
+Maior Mod Mental
+19 + Mod de Atributo
+25 + Mod de Atributo
+ND 20
+Maior Mod Mental
+20 + Mod de Atributo
+26 + Mod de Atributo
+ND
+Vida Temporária por Ataque
+ND
+Vida Temporária por Ataque
+ND 1
+Não Recebe
+ND 11
+4
+ND 2
+Não Recebe
+ND 12
+4
+ND 3
+Não Recebe
+ND 13
+5
+ND 4
+Não Recebe
+ND 14
+5
+ND 5
+Não Recebe
+ND 15
+5
+ND 6
+3
+ND 16
+5
+ND 7
+3
+ND 17
+6
+ND 8
+3
+ND 18
+6
+ND 9
+4
+ND 19
+6
+ND 10
+4
+ND 20
+6
+PERÍCIAS — CAPANGA
+VIDA TEMPORÁRIA POR ATAQUE — CAPANGA
+
+--- Página 27 ---
+27
+ND
+TR
+Defesa
+Acerto
+Dano Médio
+Dado
+CD
+(Iniciante)
+CD (Inter/
+Exp.)
+ND 1
+1 + Mod de
+Atributo
+10 + Mod
+de DEX
+1 + Mod de
+Técn
+5 de Dano
+1d2+4
+1 + Mod de
+Técn / 2
+1 + Mod de
+Técn
+ND 2
+2 + Mod de
+Atributo
+10 + Mod
+de DEX
+2 + Mod de
+Técn
+8 de Dano
+1d4+6
+2 + Mod de
+Técn / 2
+2 + Mod de
+Técn
+ND 3
+3 + Mod de
+Atributo
+10 + Mod
+de DEX
+3 + Mod de
+Técn
+14 de Dano
+2d6+7
+3 + Mod de
+Técn / 2
+3 + Mod de
+Técn
+ND 4
+4 + Mod de
+Atributo
+10 + Mod
+de DEX
+4 + Mod de
+Técn
+17 de Dano
+2d8+8
+4 + Mod de
+Técn / 2
+4 + Mod de
+Técn
+ND 5
+5 + Mod de
+Atributo
+10 + Mod
+de DEX
+5 + Mod de
+Técn
+20 de Dano
+2d10+9
+5 + Mod de
+Técn / 2
+5 + Mod de
+Técn
+ND 6
+6 + Mod de
+Atributo
+10 + Mod
+de DEX
+6 + Mod de
+Técn
+23 de Dano
+2d10+12
+6 + Mod de
+Técn / 2
+6 + Mod de
+Técn
+ND 7
+7 + Mod de
+Atributo
+10 + Mod
+de DEX
+7 + Mod de
+Técn
+26 de Dano
+3d8+13
+7 + Mod de
+Técn / 2
+7 + Mod de
+Técn
+ND 8
+8 + Mod de
+Atributo
+10 + Mod
+de DEX
+8 + Mod de
+Técn
+29 de Dano
+3d10+13
+8 + Mod de
+Técn / 2
+8 + Mod de
+Técn
+ND 9
+9 + Mod de
+Atributo
+10 + Mod
+de DEX
+9 + Mod de
+Técn
+32 de Dano
+3d10+16
+9 + Mod de
+Técn / 2
+9 + Mod de
+Técn
+ND 10
+10 + Mod de
+Atributo
+10 + Mod
+de DEX
+10 + Mod de
+Técn
+36 de Dano
+4d8+18
+10 + Mod de
+Técn / 2
+10 + Mod
+de Técn
+ND 11
+11 + Mod de
+Atributo
+10 + Mod
+de DEX
+11 + Mod de
+Técn
+40 de Dano
+4d10+18
+11 + Mod de
+Técn / 2
+11 + Mod
+de Técn
+ND 12
+12 + Mod de
+Atributo
+10 + Mod
+de DEX
+12 + Mod de
+Técn
+44 de Dano
+4d12+18
+12 + Mod de
+Técn / 2
+12 + Mod
+de Técn
+ND 13
+13 + Mod de
+Atributo
+10 + Mod
+de DEX
+13 + Mod de
+Técn
+48 de Dano
+5d8+26
+13 + Mod de
+Técn / 2
+13 + Mod
+de Técn
+ND 14
+14 + Mod de
+Atributo
+10 + Mod
+de DEX
+14 + Mod de
+Técn
+52 de Dano
+5d8+30
+14 + Mod de
+Técn / 2
+14 + Mod
+de Técn
+ND 15
+15 + Mod de
+Atributo
+10 + Mod
+de DEX
+15 + Mod de
+Técn
+56 de Dano
+5d8+34
+15 + Mod de
+Técn / 2
+15 + Mod
+de Técn
+ND 16
+16 + Mod de
+Atributo
+10 + Mod
+de DEX
+16 + Mod de
+Técn
+61 de Dano
+5d10+34
+16 + Mod de
+Técn / 2
+16 + Mod
+de Técn
+ND 17
+17 + Mod de
+Atributo
+10 + Mod
+de DEX
+17 + Mod de
+Técn
+66 de Dano
+5d10+39
+17 + Mod de
+Técn / 2
+17 + Mod
+de Técn
+ND 18
+18 + Mod de
+Atributo
+10 + Mod
+de DEX
+18 + Mod de
+Técn
+71 de Dano
+6d10+38
+18 + Mod de
+Técn / 2
+18 + Mod
+de Técn
+ND 19
+19 + Mod de
+Atributo
+10 + Mod
+de DEX
+19 + Mod de
+Técn
+76 de Dano
+6d10+43
+19 + Mod de
+Técn / 2
+19 + Mod
+de Técn
+ND 20
+20 + Mod de
+Atributo
+10 + Mod
+de DEX
+20 + Mod de
+Técn
+81 de Dano
+6d12+42
+20 + Mod de
+Técn / 2
+20 + Mod
+de Técn
+ASPECTOS DE COMBATE — CAPANGA
+
+--- Página 28 ---
+28
+Como uma ação bônus a criatura pode aumentar seus status e receber alguns valores
+diversos, lembrando que deve ser usado uma ação bônus e o custo de pontos de energia
+citado abaixo:
+BT
+Custo
+Dano Fixo
+Acerto
+CD
+Alcance
+Área
+Vantagem
++2
+PE
+ND-1
++1
++1
+3 Metros
+1,5 Metros
+PE
++3
+PE
+ND
++2
++2
+4,5 Metros
+3 Metros
+PE
++4
+PE
++5
++3
++3
+6 Metros
+ 3 Metros
+PE
++5
+PE
++9
++4
++4
+7,5 Metros
+4,5 Metros
+PE
++6
+PE
++10
++5
++5
+9 Metros
+4,5 Metros
+PE
+Caso não queira utilizar PE, o narrador perde a ação bônus padrão e  pode aplicar
+os bônus via ação rápida x1 no seu turno.
+Como ação bônus ou reação pode receber também benefícios para resistir mais aos
+ataques, caso use uma ação bônus o bônus dura a rodada toda, caso seja uma reação
+dura apenas 1 turno.
+BT
+Custo
+TR (Especificar)
+Defesa
+Perícias
+Vantagem
++2
+PE
++1
++1
++1
+PE
++3
+PE
++2
++2
++2
+PE
++4
+PE
++3
++3
++3
+PE
++5
+PE
++4
++4
++4
+PE
++6
+PE
++5
++5
++5
+PE
+O custo de PE já é pré-definido por BT, então uma criatura que possui BT +6, deve
+gastar 5 PE para executar suas ações bônus e reações.
+Unificar 2 ações comuns não concede bônus de dano, nem bônus de outras fontes.
+Outras reações são desbloqueadas conforme sobem seus treinamentos, o custo de PE
+para usá-las é igual ao seu BT:
+•
+Treinamento +2: Evitar 1 ataque de oportunidade.
+•
+Treinamento +3: Desengajar.
+•
+Treinamento +4: TR de reflexo contra o acerto, se passar reduz o dano à metade.
+•
+Treinamento +5: Reduzir o dano a metade x1 por rodada
+•
+Treinamento +6: Uma esquiva garantida x1 por rodada.
+Caso não queira utilizar PE, o narrador perde a sua ação bônus durante o turno e
+pode aplicar os bônus via ação rápida x1 no seu turno.
+Caso não queira usar PE na reação, deve usar uma ação rápida no seu lugar e o
+narrador perde tanto a ação rápida quanto a reação, não sendo possível utilizar
+dessa forma caso tenha gasto sua ação rápida previamente.
+
+--- Página 29 ---
+29
+CRIAÇÃO DE INIMIGOS COMUNS
+Um Inimigo Comum possui certas considerações gerais:
+•
+Os Atributos possuem um limite de 26.
+•
+A Atenção utiliza o bônus de Percepção + 10 e a Iniciativa utiliza a ND do inimigo
+somado à metade do Mod. de Destreza.
+ND
+Vida
+RD
+(Geral)
+Ignorar
+RD
+Atributos
+PE
+Deslocamento
+ND 1
+60 + (Valor de Constituição * 2)
+—
+—
+23
+2
+Deslocamento Padrão
+ND 2
+120 + (Valor de Constituição * 2)
+—
+—
+24
+4
+Deslocamento Padrão
+ND 3
+180 + (Valor de Constituição * 2)
+—
+—
+25
+6
+Deslocamento Padrão
+ND 4
+240 + (Valor de Constituição * 2)
+—
+—
+26
+8
+Deslocamento Padrão
+ND 5
+300 + (Valor de Constituição * 3)
+8
+—
+28
+10
+Deslocamento Padrão * 1,5
+ND 6
+360 + (Valor de Constituição * 3)
+9
+—
+29
+12
+Deslocamento Padrão * 1,5
+ND 7
+420 + (Valor de Constituição * 3)
+10
+—
+30
+14
+Deslocamento Padrão * 1,5
+ND 8
+480 + (Valor de Constituição * 3)
+11
+—
+31
+16
+Deslocamento Padrão *1,5
+ND 9
+540 + (Valor de Constituição * 4)
+12
+4
+33
+18
+Deslocamento Padrão * 2
+ND 10
+600 + (Valor de Constituição * 4)
+13
+4
+34
+20
+Deslocamento Padrão * 2
+ND 11
+660 + (Valor de Constituição * 4)
+14
+4
+35
+22
+Deslocamento Padrão * 2
+ND 12
+720 + (Valor de Constituição * 4)
+15
+4
+36
+24
+Deslocamento Padrão * 2
+ND 13
+780 + (Valor de Constituição * 5)
+16
+6
+38
+26
+Deslocamento Padrão * 2
+ND 14
+840 + (Valor de Constituição * 5)
+17
+6
+39
+28
+Deslocamento Padrão * 2
+ND 15
+900 + (Valor de Constituição * 5)
+18
+6
+40
+30
+Deslocamento Padrão * 2
+ND 16
+960 + (Valor de Constituição * 5)
+19
+6
+41
+32
+Deslocamento Padrão * 2
+ND 17
+1020 + (Valor de Constituição *
+6)
+20
+12
+43
+34
+Deslocamento Padrão * 3
+ND 18
+1080 + (Valor de Constituição *
+6)
+21
+12
+44
+36
+Deslocamento Padrão * 3
+ND 19
+1140 + (Valor de Constituição *
+6)
+22
+12
+45
+38
+Deslocamento Padrão * 3
+ND 20
+1200 + (Valor de Constituição *
+6)
+23
+12
+46
+40
+Deslocamento Padrão * 3
+VIDA, RD, ATRIBUTOS, PE E DESLOCAMENTO  — COMUM
+
+--- Página 30 ---
+30
+ND
+Quantidade de Perícias
+Perícias Não Dom.
+Perícias Dom.
+ND 1
+Maior Mod Mental
+3 + Mod de Atributo
+4 + Mod de Atributo
+ND 2
+Maior Mod Mental
+4 + Mod de Atributo
+5 + Mod de Atributo
+ND 3
+Maior Mod Mental
+5 + Mod de Atributo
+6 + Mod de Atributo
+ND 4
+Maior Mod Mental
+6 + Mod de Atributo
+7 + Mod de Atributo
+ND 5
+Maior Mod Mental
+8 + Mod de Atributo
+9 + Mod de Atributo
+ND 6
+Maior Mod Mental
+9 + Mod de Atributo
+10 + Mod de Atributo
+ND 7
+Maior Mod Mental
+10 + Mod de Atributo
+11 + Mod de Atributo
+ND 8
+Maior Mod Mental
+11 + Mod de Atributo
+12 + Mod de Atributo
+ND 9
+Maior Mod Mental
+13 + Mod de Atributo
+15 + Mod de Atributo
+ND 10
+Maior Mod Mental
+14 + Mod de Atributo
+16 + Mod de Atributo
+ND 11
+Maior Mod Mental
+15 + Mod de Atributo
+17 + Mod de Atributo
+ND 12
+Maior Mod Mental
+16 + Mod de Atributo
+18 + Mod de Atributo
+ND 13
+Maior Mod Mental
+18 + Mod de Atributo
+20 + Mod de Atributo
+ND 14
+Maior Mod Mental
+19 + Mod de Atributo
+21 + Mod de Atributo
+ND 15
+Maior Mod Mental
+20 + Mod de Atributo
+22 + Mod de Atributo
+ND 16
+Maior Mod Mental
+21 + Mod de Atributo
+23 + Mod de Atributo
+ND 17
+Maior Mod Mental
+23 + Mod de Atributo
+26 + Mod de Atributo
+ND 18
+Maior Mod Mental
+24 + Mod de Atributo
+27 + Mod de Atributo
+ND 19
+Maior Mod Mental
+25 + Mod de Atributo
+28 + Mod de Atributo
+ND 20
+Maior Mod Mental
+26 + Mod de Atributo
+29 + Mod de Atributo
+PERÍCIAS — COMUM
+
+--- Página 31 ---
+31
+ND
+RD (Irredutível)
+Vida
+Temporária
+por Ataque
+Imunidade
+(Condição)
+Vantagem
+(Condição)
+Resistências
+Imunidades
+ND 1
+Não Recebe
+Não Recebe
+2
+2
+2
+1
+ND 2
+Não Recebe
+Não Recebe
+2
+2
+2
+1
+ND 3
+Não Recebe
+Não Recebe
+2
+2
+2
+1
+ND 4
+Não Recebe
+Não Recebe
+2
+2
+2
+1
+ND 5
+2
+3
+3
+3
+2
+1
+ND 6
+3
+3
+3
+3
+2
+1
+ND 7
+3
+3
+3
+3
+2
+1
+ND 8
+4
+3
+3
+3
+2
+1
+ND 9
+4
+4
+4
+4
+3
+1
+ND 10
+5
+4
+4
+4
+3
+1
+ND 11
+5
+4
+4
+4
+3
+1
+ND 12
+6
+4
+4
+4
+3
+2
+ND 13
+6
+5
+5
+5
+3
+2
+ND 14
+7
+5
+5
+5
+3
+2
+ND 15
+7
+5
+5
+5
+3
+2
+ND 16
+8
+5
+5
+5
+3
+2
+ND 17
+8
+6
+5
+5
+3
+2
+ND 18
+9
+6
+5
+5
+3
+2
+ND 19
+9
+6
+5
+5
+3
+2
+ND 20
+10
+6
+5
+5
+3
+2
+RESISTÊNCIAS ESPECIAIS — COMUM
+
+--- Página 32 ---
+32
+ND
+Guarda
+Inabalável
+Resistência Parcial
+Resistência Total
+Dotes
+Aptidões
+Nível de
+Aptidão
+ND 1
+2
+2 + 1 a cada 10 Níveis
+2 + 1 a cada 15 Níveis
+1
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 2
+4
+2 + 1 a cada 10 Níveis
+2 + 1 a cada 15 Níveis
+1
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 3
+6
+2 + 1 a cada 10 Níveis
+2 + 1 a cada 15 Níveis
+1
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 4
+8
+2 + 1 a cada 10 Níveis
+2 + 1 a cada 15 Níveis
+1
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 5
+10
+2 + 1 a cada 10 Níveis
+2 + 1 a cada 15 Níveis
+2
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 6
+12
+2 + 1 a cada 10 Níveis
+2 + 1 a cada 15 Níveis
+2
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 7
+14
+2 + 1 a cada 10 Níveis
+2 + 1 a cada 15 Níveis
+2
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 8
+16
+2 + 1 a cada 10 Níveis
+2 + 1 a cada 15 Níveis
+2
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 9
+18
+2 + 1 a cada 10 Níveis
+2 + 1 a cada 15 Níveis
+3
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 10
+20
+2 + 1 a cada 10 Níveis
+2 + 1 a cada 15 Níveis
+3
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 11
+22
+2 + 1 a cada 10 Níveis
+2 + 1 a cada 15 Níveis
+3
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 12
+24
+2 + 1 a cada 10 Níveis
+2 + 1 a cada 15 Níveis
+3
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 13
+26
+2 + 1 a cada 10 Níveis
+2 + 1 a cada 15 Níveis
+4
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 14
+28
+2 + 1 a cada 10 Níveis
+2 + 1 a cada 15 Níveis
+4
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 15
+30
+2 + 1 a cada 10 Níveis
+2 + 1 a cada 15 Níveis
+4
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 16
+32
+2 + 1 a cada 10 Níveis
+2 + 1 a cada 15 Níveis
+4
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 17
+34
+2 + 1 a cada 10 Níveis
+2 + 1 a cada 15 Níveis
+5
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 18
+36
+2 + 1 a cada 10 Níveis
+2 + 1 a cada 15 Níveis
+5
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 19
+38
+2 + 1 a cada 10 Níveis
+2 + 1 a cada 15 Níveis
+5
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 20
+40
+2 + 1 a cada 10 Níveis
+2 + 1 a cada 15 Níveis
+5
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ASPECTOS DE COMBATE — COMUM
+
+--- Página 33 ---
+33
+ND
+Defesa (Iniciante)
+Defesa (Intermediário)
+Defesa (Experiente)
+ND 1
+11 + Mod de Dex
+13 + Mod de Dex
+15 + Mod de Dex
+ND 2
+12 + Mod de Dex
+14 + Mod de Dex
+16 + Mod de Dex
+ND 3
+13 + Mod de Dex
+15 + Mod de Dex
+17 + Mod de Dex
+ND 4
+14 + Mod de Dex
+16 + Mod de Dex
+18 + Mod de Dex
+ND 5
+15 + Mod de Dex
+17 + Mod de Dex
+19 + Mod de Dex
+ND 6
+16 + Mod de Dex
+18 + Mod de Dex
+20 + Mod de Dex
+ND 7
+17 + Mod de Dex
+19 + Mod de Dex
+21 + Mod de Dex
+ND 8
+18 + Mod de Dex
+20 + Mod de Dex
+22 + Mod de Dex
+ND 9
+19 + Mod de Dex
+21 + Mod de Dex
+23 + Mod de Dex
+ND 10
+20 + Mod de Dex
+22 + Mod de Dex
+24 + Mod de Dex
+ND 11
+21 + Mod de Dex
+23 + Mod de Dex
+25 + Mod de Dex
+ND 12
+22 + Mod de Dex
+24 + Mod de Dex
+26 + Mod de Dex
+ND 13
+23 + Mod de Dex
+25 + Mod de Dex
+33 + Mod de Dex
+ND 14
+24 + Mod de Dex
+26 + Mod de Dex
+34 + Mod de Dex
+ND 15
+25 + Mod de Dex
+27 + Mod de Dex
+35 + Mod de Dex
+ND 16
+26 + Mod de Dex
+28 + Mod de Dex
+36 + Mod de Dex
+ND 17
+27 + Mod de Dex
+29 + Mod de Dex
+37 + Mod de Dex
+ND 18
+28 + Mod de Dex
+30 + Mod de Dex
+38 + Mod de Dex
+ND 19
+29 + Mod de Dex
+31 + Mod de Dex
+39 + Mod de Dex
+ND 20
+30 + Mod de Dex
+32 + Mod de Dex
+40 + Mod de Dex
+DEFESA — COMUM
+
+--- Página 34 ---
+34
+ND
+CD (Inic.)
+CD (Inter.)
+CD (Exp.)
+TR (Inic.)
+TR (Inter.)
+TR (Exp.)
+ND 1
+1 + Mod de
+Técn / 2
+6 + Mod de
+Técn
+14 + Mod
+de Técn
+2 + Mod de
+Atributo
+3 + Mod de
+Atributo
+4 + Mod de
+Atributo
+ND 2
+2 + Mod de
+Técn / 2
+7 + Mod de
+Técn
+15 + Mod
+de Técn
+3 + Mod de
+Atributo
+4 + Mod de
+Atributo
+5 + Mod de
+Atributo
+ND 3
+3 + Mod de
+Técn / 2
+8 + Mod de
+Técn
+16 + Mod
+de Técn
+4 + Mod de
+Atributo
+5 + Mod de
+Atributo
+6 + Mod de
+Atributo
+ND 4
+4 + Mod de
+Técn / 2
+9 + Mod de
+Técn
+17 + Mod
+de Técn
+5 + Mod de
+Atributo
+6 + Mod de
+Atributo
+7 + Mod de
+Atributo
+ND 5
+5 + Mod de
+Técn / 2
+10 + Mod
+de Técn
+18 + Mod
+de Técn
+6 + Mod de
+Atributo
+8 + Mod de
+Atributo
+9 + Mod de
+Atributo
+ND 6
+6 + Mod de
+Técn / 2
+11 + Mod
+de Técn
+19 + Mod
+de Técn
+7 + Mod de
+Atributo
+9 + Mod de
+Atributo
+10 + Mod de
+Atributo
+ND 7
+7 + Mod de
+Técn / 2
+12 + Mod
+de Técn
+20 + Mod
+de Técn
+8 + Mod de
+Atributo
+10 + Mod de
+Atributo
+11 + Mod de
+Atributo
+ND 8
+8 + Mod de
+Técn / 2
+13 + Mod
+de Técn
+21 + Mod
+de Técn
+9 + Mod de
+Atributo
+11 + Mod de
+Atributo
+12 + Mod de
+Atributo
+ND 9
+9 + Mod de
+Técn / 2
+14 + Mod
+de Técn
+22 + Mod
+de Técn
+11 + Mod de
+Atributo
+13 + Mod de
+Atributo
+15 + Mod de
+Atributo
+ND 10
+10 + Mod de
+Técn / 2
+15 + Mod
+de Técn
+23 + Mod
+de Técn
+12 + Mod de
+Atributo
+14 + Mod de
+Atributo
+16 + Mod de
+Atributo
+ND 11
+11 + Mod de
+Técn / 2
+16 + Mod
+de Técn
+24 + Mod
+de Técn
+13 + Mod de
+Atributo
+15 + Mod de
+Atributo
+17 + Mod de
+Atributo
+ND 12
+12 + Mod de
+Técn / 2
+17 + Mod
+de Técn
+25 + Mod
+de Técn
+14 + Mod de
+Atributo
+16 + Mod de
+Atributo
+18 + Mod de
+Atributo
+ND 13
+13 + Mod de
+Técn / 2
+18 + Mod
+de Técn
+26 + Mod
+de Técn
+15 + Mod de
+Atributo
+18 + Mod de
+Atributo
+20 + Mod de
+Atributo
+ND 14
+14 + Mod de
+Técn / 2
+19 + Mod
+de Técn
+27 + Mod
+de Técn
+16 + Mod de
+Atributo
+19 + Mod de
+Atributo
+21 + Mod de
+Atributo
+ND 15
+15 + Mod de
+Técn / 2
+20 + Mod
+de Técn
+28 + Mod
+de Técn
+17 + Mod de
+Atributo
+20 + Mod de
+Atributo
+22 + Mod de
+Atributo
+ND 16
+16 + Mod de
+Técn / 2
+21 + Mod
+de Técn
+29 + Mod
+de Técn
+18 + Mod de
+Atributo
+21 + Mod de
+Atributo
+23 + Mod de
+Atributo
+ND 17
+17 + Mod de
+Técn / 2
+22 + Mod
+de Técn
+30 + Mod
+de Técn
+20 + Mod de
+Atributo
+23 + Mod de
+Atributo
+26 + Mod de
+Atributo
+ND 18
+18 + Mod de
+Técn / 2
+23 + Mod
+de Técn
+31 + Mod
+de Técn
+21 + Mod de
+Atributo
+24 + Mod de
+Atributo
+27 + Mod de
+Atributo
+ND 19
+19 + Mod de
+Técn / 2
+24 + Mod
+de Técn
+32 + Mod
+de Técn
+22 + Mod de
+Atributo
+25 + Mod de
+Atributo
+28 + Mod de
+Atributo
+ND 20
+20 + Mod de
+Técn / 2
+25 + Mod
+de Técn
+33 + Mod
+de Técn
+23 + Mod de
+Atributo
+26 + Mod de
+Atributo
+29 + Mod de
+Atributo
+CDs e TRs — COMUM
+
+--- Página 35 ---
+35
+ND
+Dano Médio
+Dados de Dano
+Acerto (Inic.)
+Acerto (Inter.)
+Acerto (Exp.)
+ND 1
+5 de Dano
+1d2+4
+3 + Mod de
+Atributo
+5 + Mod de
+Atributo
+8 + Mod de
+Atributo
+ND 2
+8 de Dano
+1d4+6
+4 + Mod de
+Atributo
+6 + Mod de
+Atributo
+9 + Mod de
+Atributo
+ND 3
+14 de Dano
+2d6+7
+5 + Mod de
+Atributo
+8 + Mod de
+Atributo
+10 + Mod de
+Atributo
+ND 4
+17 de Dano
+2d8+8
+6 + Mod de
+Atributo
+9 + Mod de
+Atributo
+11 + Mod de
+Atributo
+ND 5
+20 de Dano
+2d10+9
+8 + Mod de
+Atributo
+10 + Mod de
+Atributo
+14 + Mod de
+Atributo
+ND 6
+23 de Dano
+2d10+12
+9 + Mod de
+Atributo
+11 + Mod de
+Atributo
+15 + Mod de
+Atributo
+ND 7
+26 de Dano
+3d8+13
+10 + Mod de
+Atributo
+13 + Mod de
+Atributo
+16 + Mod de
+Atributo
+ND 8
+29 de Dano
+3d10+13
+11 + Mod de
+Atributo
+14 + Mod de
+Atributo
+17 + Mod de
+Atributo
+ND 9
+32 de Dano
+3d10+16
+13 + Mod de
+Atributo
+15 + Mod de
+Atributo
+18 + Mod de
+Atributo
+ND 10
+36 de Dano
+4d8+18
+14 + Mod de
+Atributo
+16 + Mod de
+Atributo
+19 + Mod de
+Atributo
+ND 11
+40 de Dano
+4d10+18
+15 + Mod de
+Atributo
+17 + Mod de
+Atributo
+20 + Mod de
+Atributo
+ND 12
+44 de Dano
+4d12+18
+16 + Mod de
+Atributo
+18 + Mod de
+Atributo
+21 + Mod de
+Atributo
+ND 13
+48 de Dano
+5d8+26
+18 + Mod de
+Atributo
+19 + Mod de
+Atributo
+22 + Mod de
+Atributo
+ND 14
+52 de Dano
+5d8+30
+19 + Mod de
+Atributo
+20 + Mod de
+Atributo
+23 + Mod de
+Atributo
+ND 15
+56 de Dano
+5d8+34
+20 + Mod de
+Atributo
+25 + Mod de
+Atributo
+29 + Mod de
+Atributo
+ND 16
+61 de Dano
+5d10+34
+21 + Mod de
+Atributo
+26 + Mod de
+Atributo
+30 + Mod de
+Atributo
+ND 17
+66 de Dano
+5d10+39
+23 + Mod de
+Atributo
+28 + Mod de
+Atributo
+32 + Mod de
+Atributo
+ND 18
+71 de Dano
+6d10+38
+24 + Mod de
+Atributo
+29 + Mod de
+Atributo
+33 + Mod de
+Atributo
+ND 19
+76 de Dano
+6d10+43
+25 + Mod de
+Atributo
+30 + Mod de
+Atributo
+34 + Mod de
+Atributo
+ND 20
+81 de Dano
+6d12+42
+26 + Mod de
+Atributo
+31 + Mod de
+Atributo
+35 + Mod de
+Atributo
+DANO E ACERTO — COMUM
+
+--- Página 36 ---
+36
+Como uma ação bônus a criatura pode aumentar seus status e receber alguns valores
+diversos, lembrando que deve ser usado uma ação bônus e o custo de pontos de energia
+citado abaixo:
+BT
+Custo
+Dano Fixo
+Acerto
+CD
+Alcance
+Área
+Vantagem
++2
+PE
+ND-1
++1
++1
+3 Metros
+1,5 Metros
+PE
++3
+PE
+ND
++2
++2
+4,5 Metros
+3 Metros
+PE
++4
+PE
++5
++3
++3
+6 Metros
+ 3 Metros
+PE
++5
+PE
++9
++4
++4
+7,5 Metros
+4,5 Metros
+PE
++6
+PE
++10
++5
++5
+9 Metros
+4,5 Metros
+PE
+Caso não queira utilizar PE, o narrador perde a ação bônus padrão e  pode aplicar
+os bônus via ação rápida x1 no seu turno.
+Como ação bônus ou reação pode receber também benefícios para resistir mais aos
+ataques, caso use uma ação bônus o bônus dura a rodada toda, caso seja uma reação
+dura apenas 1 turno.
+BT
+Custo
+TR (Especificar)
+Defesa
+Perícias
+Vantagem
++2
+PE
++1
++1
++1
+PE
++3
+PE
++2
++2
++2
+PE
++4
+PE
++3
++3
++3
+PE
++5
+PE
++4
++4
++4
+PE
++6
+PE
++5
++5
++5
+PE
+O custo de PE já é pré-definido por BT, então uma criatura que possui BT +6, deve
+gastar 5 PE para executar suas ações bônus e reações.
+Unificar 2 ações comuns não concede bônus de dano, nem bônus de outras fontes.
+Outras reações são desbloqueadas conforme sobem seus treinamentos, o custo de PE
+para usá-las é igual ao seu BT:
+•
+Treinamento +2: Evitar 1 ataque de oportunidade.
+•
+Treinamento +3: Desengajar.
+•
+Treinamento +4: TR de reflexo contra o acerto, se passar reduz o dano à metade.
+•
+Treinamento +5: Reduzir o dano a metade x1 por rodada
+•
+Treinamento +6: Uma esquiva garantida x1 por rodada.
+Caso não queira utilizar PE, o narrador perde a sua ação bônus durante o turno e
+pode aplicar os bônus via ação rápida x1 no seu turno.
+Caso não queira usar PE na reação, deve usar uma ação rápida no seu lugar e o
+narrador perde tanto a ação rápida quanto a reação, não sendo possível utilizar
+dessa forma caso tenha gasto sua ação rápida previamente.
+
+--- Página 37 ---
+37
+CRIAÇÃO DE INIMIGOS DESAFIOS
+Um Inimigo Desafio possui certas considerações gerais:
+•
+Os Atributos possuem um limite de 30.
+•
+A Atenção utiliza o bônus de Percepção + 15 e a Iniciativa utiliza a ND do inimigo
+somado à metade do Mod. de Destreza.
+ND
+Vida
+RD
+(Geral)
+Ignorar
+RD
+Atributos
+PE
+Deslocamento
+ND 3
+270 + (Valor de Constituição * 2)
+—
+—
+35
+9
+Deslocamento Padrão
+ND 4
+360 + (Valor de Constituição * 2)
+—
+—
+37
+12
+Deslocamento Padrão
+ND 5
+450 + (Valor de Constituição * 3)
+—
+—
+41
+15
+Deslocamento Padrão * 1,5
+ND 6
+540 + (Valor de Constituição * 3)
+4
+—
+43
+18
+Deslocamento Padrão * 1,5
+ND 7
+630 + (Valor de Constituição * 3)
+5
+—
+45
+21
+Deslocamento Padrão * 1,5
+ND 8
+720 + (Valor de Constituição * 3)
+6
+—
+47
+24
+Deslocamento Padrão *1,5
+ND 9
+810 + (Valor de Constituição * 4)
+7
+4
+51
+27
+Deslocamento Padrão * 2
+ND 10
+900 + (Valor de Constituição * 4)
+10
+4
+53
+30
+Deslocamento Padrão * 2
+ND 11
+990 + (Valor de Constituição * 4)
+10
+4
+55
+33
+Deslocamento Padrão * 2
+ND 12
+1080 + (Valor de Constituição *
+4)
+10
+4
+57
+36
+Deslocamento Padrão * 2
+ND 13
+1170 + (Valor de Constituição *
+5)
+10
+10
+61
+39
+Deslocamento Padrão * 2
+ND 14
+1260 + (Valor de Constituição *
+5)
+11
+10
+63
+42
+Deslocamento Padrão * 2
+ND 15
+1350 + (Valor de Constituição *
+5)
+12
+10
+65
+45
+Deslocamento Padrão * 2
+ND 16
+1440 + (Valor de Constituição *
+5)
+13
+10
+67
+48
+Deslocamento Padrão * 2
+ND 17
+1530 + (Valor de Constituição *
+6)
+20
+15
+71
+51
+Deslocamento Padrão * 3
+ND 18
+1620 + (Valor de Constituição *
+6)
+20
+15
+73
+54
+Deslocamento Padrão * 3
+ND 19
+1710 + (Valor de Constituição *
+6)
+20
+15
+75
+57
+Deslocamento Padrão * 3
+ND 20
+1900 + (Valor de Constituição *
+6)
+20
+15
+77
+60
+Deslocamento Padrão * 3
+VIDA, RD, ATRIBUTO, PE E DESLOCAMENTO — DESAFIOS
+
+--- Página 38 ---
+38
+ND
+Quantidade de Perícias
+Perícias Não Dom.
+Perícias Dom.
+ND 3
+Maior Mod Mental
+5 + Mod de Atributo
+7 + Mod de Atributo
+ND 4
+Maior Mod Mental
+6 + Mod de Atributo
+8 + Mod de Atributo
+ND 5
+Maior Mod Mental
+8 + Mod de Atributo
+11 + Mod de Atributo
+ND 6
+Maior Mod Mental
+9 + Mod de Atributo
+12 + Mod de Atributo
+ND 7
+Maior Mod Mental
+10 + Mod de Atributo
+13 + Mod de Atributo
+ND 8
+Maior Mod Mental
+11 + Mod de Atributo
+14 + Mod de Atributo
+ND 9
+Maior Mod Mental
+13 + Mod de Atributo
+17 + Mod de Atributo
+ND 10
+Maior Mod Mental
+14 + Mod de Atributo
+18 + Mod de Atributo
+ND 11
+Maior Mod Mental
+15 + Mod de Atributo
+19 + Mod de Atributo
+ND 12
+Maior Mod Mental
+16 + Mod de Atributo
+20 + Mod de Atributo
+ND 13
+Maior Mod Mental
+18 + Mod de Atributo
+23 + Mod de Atributo
+ND 14
+Maior Mod Mental
+19 + Mod de Atributo
+24 + Mod de Atributo
+ND 15
+Maior Mod Mental
+20 + Mod de Atributo
+25 + Mod de Atributo
+ND 16
+Maior Mod Mental
+21 + Mod de Atributo
+26 + Mod de Atributo
+ND 17
+Maior Mod Mental
+23 + Mod de Atributo
+29 + Mod de Atributo
+ND 18
+Maior Mod Mental
+24 + Mod de Atributo
+30 + Mod de Atributo
+ND 19
+Maior Mod Mental
+25 + Mod de Atributo
+31 + Mod de Atributo
+ND 20
+Maior Mod Mental
+26 + Mod de Atributo
+32 + Mod de Atributo
+PERÍCIAS — DESAFIOS
+
+--- Página 39 ---
+39
+ND
+RD (Irredutível)
+Vida
+Temporária
+por Ataque
+Imunidade
+(Condição)
+Vantagem
+(Condição)
+Resistências
+Imunidades
+ND 3
+Não Recebe
+Não Recebe
+2
+2
+2
+1
+ND 4
+Não Recebe
+Não Recebe
+2
+2
+2
+1
+ND 5
+Não Recebe
+Não Recebe
+2
+2
+2
+1
+ND 6
+Não Recebe
+5
+2
+2
+2
+1
+ND 7
+Não Recebe
+5
+3
+3
+2
+1
+ND 8
+Não Recebe
+5
+3
+3
+2
+1
+ND 9
+5
+5
+3
+3
+2
+1
+ND 10
+6
+6
+3
+3
+2
+1
+ND 11
+7
+6
+4
+4
+3
+1
+ND 12
+8
+6
+4
+4
+3
+1
+ND 13
+9
+8
+4
+4
+3
+1
+ND 14
+10
+8
+4
+4
+3
+2
+ND 15
+11
+8
+5
+5
+3
+2
+ND 16
+12
+8
+5
+5
+3
+2
+ND 17
+15
+10
+5
+5
+3
+2
+ND 18
+15
+10
+5
+5
+3
+2
+ND 19
+16
+10
+5
+5
+3
+2
+ND 20
+18
+10
+5
+5
+3
+2
+RESISTÊNCIAS ESPECIAIS — DESAFIOS
+
+--- Página 40 ---
+40
+ND
+Guarda
+Inabalável
+Resistência Parcial
+Resistência Total
+Dotes
+Aptidões
+Nível de
+Aptidão
+ND 3
+9
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+1
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 4
+12
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+1
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 5
+15
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+2
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 6
+18
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+2
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 7
+21
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+2
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 8
+24
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+2
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 9
+27
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+3
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 10
+30
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+3
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 11
+33
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+3
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 12
+36
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+3
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 13
+39
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+4
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 14
+42
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+4
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 15
+45
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+4
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 16
+48
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+4
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 17
+51
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+5
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 18
+54
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+5
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 19
+57
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+5
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ND 20
+60
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+5
+1 a cada 2
+Níveis
+1 a cada 2 Níveis
+ASPECTOS DE COMBATE — DESAFIOS
+
+--- Página 41 ---
+41
+ND
+Defesa (Iniciante)
+Defesa (Intermediário)
+Defesa (Experiente)
+ND 3
+10 + Mod de Dex
+18 + Mod de Dex
+23 + Mod de Dex
+ND 4
+11 + Mod de Dex
+19 + Mod de Dex
+24 + Mod de Dex
+ND 5
+12 + Mod de Dex
+20 + Mod de Dex
+25 + Mod de Dex
+ND 6
+13 + Mod de Dex
+21 + Mod de Dex
+26 + Mod de Dex
+ND 7
+14 + Mod de Dex
+22 + Mod de Dex
+27 + Mod de Dex
+ND 8
+15 + Mod de Dex
+23 + Mod de Dex
+28 + Mod de Dex
+ND 9
+16 + Mod de Dex
+24 + Mod de Dex
+29 + Mod de Dex
+ND 10
+17 + Mod de Dex
+25 + Mod de Dex
+30 + Mod de Dex
+ND 11
+20 + Mod de Dex
+26 + Mod de Dex
+31 + Mod de Dex
+ND 12
+21 + Mod de Dex
+27 + Mod de Dex
+32 + Mod de Dex
+ND 13
+22 + Mod de Dex
+28 + Mod de Dex
+33 + Mod de Dex
+ND 14
+23 + Mod de Dex
+29 + Mod de Dex
+34 + Mod de Dex
+ND 15
+24 + Mod de Dex
+30 + Mod de Dex
+35 + Mod de Dex
+ND 16
+25 + Mod de Dex
+31 + Mod de Dex
+36 + Mod de Dex
+ND 17
+27 + Mod de Dex
+32 + Mod de Dex
+37 + Mod de Dex
+ND 18
+28 + Mod de Dex
+33 + Mod de Dex
+38 + Mod de Dex
+ND 19
+29 + Mod de Dex
+34 + Mod de Dex
+39 + Mod de Dex
+ND 20
+30 + Mod de Dex
+35 + Mod de Dex
+40 + Mod de Dex
+DEFESA — DESAFIOS
+
+--- Página 42 ---
+42
+ND
+CD (Inic.)
+CD (Inter.)
+CD (Exp.)
+TR (Inic.)
+TR (Inter.)
+TR (Exp.)
+ND 3
+11 + Mod de
+Atributo
+13 + Mod
+de Atributo
+15 + Mod de
+Atributo
+5 + Mod de
+Atributo
+6 + Mod de
+Atributo
+7 + Mod de
+Atributo
+ND 4
+12 + Mod de
+Atributo
+14 + Mod
+de Atributo
+16 + Mod de
+Atributo
+6 + Mod de
+Atributo
+7 + Mod de
+Atributo
+8 + Mod de
+Atributo
+ND 5
+13 + Mod de
+Atributo
+16 + Mod
+de Atributo
+18 + Mod de
+Atributo
+8 + Mod de
+Atributo
+9 + Mod de
+Atributo
+11 + Mod de
+Atributo
+ND 6
+14 + Mod de
+Atributo
+17 + Mod
+de Atributo
+19 + Mod de
+Atributo
+9 + Mod de
+Atributo
+10 + Mod de
+Atributo
+12 + Mod de
+Atributo
+ND 7
+15 + Mod de
+Atributo
+18 + Mod
+de Atributo
+20 + Mod de
+Atributo
+10 + Mod de
+Atributo
+11 + Mod de
+Atributo
+13 + Mod de
+Atributo
+ND 8
+17 + Mod de
+Atributo
+19 + Mod
+de Atributo
+21 + Mod de
+Atributo
+11 + Mod de
+Atributo
+12 + Mod de
+Atributo
+14 + Mod de
+Atributo
+ND 9
+19 + Mod de
+Atributo
+19 + Mod
+de Atributo
+23 + Mod de
+Atributo
+13 + Mod de
+Atributo
+16 + Mod de
+Atributo
+18 + Mod de
+Atributo
+ND 10
+19 + Mod de
+Atributo
+20 + Mod
+de Atributo
+24 + Mod de
+Atributo
+14 + Mod de
+Atributo
+17 + Mod de
+Atributo
+19 + Mod de
+Atributo
+ND 11
+21 + Mod de
+Atributo
+23 + Mod
+de Atributo
+25 + Mod de
+Atributo
+15 + Mod de
+Atributo
+18 + Mod de
+Atributo
+20 + Mod de
+Atributo
+ND 12
+22 + Mod de
+Atributo
+24 + Mod
+de Atributo
+26 + Mod de
+Atributo
+16 + Mod de
+Atributo
+19 + Mod de
+Atributo
+21 + Mod de
+Atributo
+ND 13
+23 + Mod de
+Atributo
+26 + Mod
+de Atributo
+28 + Mod de
+Atributo
+18 + Mod de
+Atributo
+21 + Mod de
+Atributo
+23 + Mod de
+Atributo
+ND 14
+24 + Mod de
+Atributo
+27 + Mod
+de Atributo
+29 + Mod de
+Atributo
+19 + Mod de
+Atributo
+22 + Mod de
+Atributo
+24 + Mod de
+Atributo
+ND 15
+25 + Mod de
+Atributo
+28 + Mod
+de Atributo
+30 + Mod de
+Atributo
+20 + Mod de
+Atributo
+23 + Mod de
+Atributo
+25 + Mod de
+Atributo
+ND 16
+26 + Mod de
+Atributo
+29 + Mod
+de Atributo
+31 + Mod de
+Atributo
+21 + Mod de
+Atributo
+24 + Mod de
+Atributo
+26 + Mod de
+Atributo
+ND 17
+27 + Mod de
+Atributo
+31 + Mod
+de Atributo
+33 + Mod de
+Atributo
+23 + Mod de
+Atributo
+26 + Mod de
+Atributo
+28 + Mod de
+Atributo
+ND 18
+28 + Mod de
+Atributo
+32 + Mod
+de Atributo
+34 + Mod de
+Atributo
+24 + Mod de
+Atributo
+27 + Mod de
+Atributo
+29 + Mod de
+Atributo
+ND 19
+29 + Mod de
+Atributo
+33 + Mod
+de Atributo
+35 + Mod de
+Atributo
+25 + Mod de
+Atributo
+28 + Mod de
+Atributo
+30 + Mod de
+Atributo
+ND 20
+30 + Mod de
+Atributo
+34 + Mod
+de Atributo
+36 + Mod de
+Atributo
+26 + Mod de
+Atributo
+29 + Mod de
+Atributo
+31 + Mod de
+Atributo
+CDs e TRs — DESAFIOS
+
+--- Página 43 ---
+43
+ND
+Dano Médio
+Dados de Dano
+Acerto (Inic.)
+Acerto (Inter.)
+Acerto (Exp.)
+ND 3
+11 de Dano
+1d10+6
+8 + Mod de
+Atributo
+12 + Mod de
+Atributo
+17 + Mod de
+Atributo
+ND 4
+14 de Dano
+2d6+7
+9 + Mod de
+Atributo
+13 + Mod de
+Atributo
+18 + Mod de
+Atributo
+ND 5
+22 de Dano
+2d10+11
+11 + Mod de
+Atributo
+15 + Mod de
+Atributo
+20 + Mod de
+Atributo
+ND 6
+26 de Dano
+2d12+13
+ 12 + Mod de
+Atributo
+ 16 + Mod de
+Atributo
+ 21 + Mod de
+Atributo
+ND 7
+30 de Dano
+3d10+14
+13 + Mod de
+Atributo
+17 + Mod de
+Atributo
+22 + Mod de
+Atributo
+ND 8
+34 de Dano
+3d12+15
+14 + Mod de
+Atributo
+18 + Mod de
+Atributo
+23 + Mod de
+Atributo
+ND 9
+38 de Dano
+4d8+20
+16 + Mod de
+Atributo
+20 + Mod de
+Atributo
+25 + Mod de
+Atributo
+ND 10
+42 de Dano
+4d8+24
+17 + Mod de
+Atributo
+21 + Mod de
+Atributo
+26 + Mod de
+Atributo
+ND 11
+47 de Dano
+4d10+25
+18 + Mod de
+Atributo
+22 + Mod de
+Atributo
+27 + Mod de
+Atributo
+ND 12
+52 de Dano
+4d12+26
+19 + Mod de
+Atributo
+23 + Mod de
+Atributo
+28 + Mod de
+Atributo
+ND 13
+57 de Dano
+5d10+30
+21 + Mod de
+Atributo
+25 + Mod de
+Atributo
+30 + Mod de
+Atributo
+ND 14
+62 de Dano
+5d12+30
+22 + Mod de
+Atributo
+26 + Mod de
+Atributo
+31 + Mod de
+Atributo
+ND 15
+67 de Dano
+6d10+34
+23 + Mod de
+Atributo
+27 + Mod de
+Atributo
+32 + Mod de
+Atributo
+ND 16
+72 de Dano
+6d10+39
+24 + Mod de
+Atributo
+28 + Mod de
+Atributo
+33 + Mod de
+Atributo
+ND 17
+77 de Dano
+6d10+44
+26 + Mod de
+Atributo
+30 + Mod de
+Atributo
+35 + Mod de
+Atributo
+ND 18
+82 de Dano
+6d12+43
+27 + Mod de
+Atributo
+31 + Mod de
+Atributo
+36 + Mod de
+Atributo
+ND 19
+87 de Dano
+7d10+49
+28 + Mod de
+Atributo
+32 + Mod de
+Atributo
+37 + Mod de
+Atributo
+ND 20
+90 de Dano
+7d10+52
+29 + Mod de
+Atributo
+33 + Mod de
+Atributo
+38 + Mod de
+Atributo
+DANO E ACERTO — DESAFIOS
+
+--- Página 44 ---
+44
+Como uma ação bônus a criatura pode aumentar seus status e receber alguns valores
+diversos, lembrando que deve ser usado uma ação bônus e o custo de pontos de energia
+citado abaixo:
+BT
+Custo
+Dano Fixo
+Acerto
+CD
+Alcance
+Área
+Vantagem
++2
+PE
+ND-1
++1
++1
+3 Metros
+1,5 Metros
+PE
++3
+PE
+ND
++2
++2
+4,5 Metros
+3 Metros
+PE
++4
+PE
++5
++3
++3
+6 Metros
+ 3 Metros
+PE
++5
+PE
++9
++4
++4
+7,5 Metros
+4,5 Metros
+PE
++6
+PE
++10
++5
++5
+9 Metros
+4,5 Metros
+PE
+Caso não queira utilizar PE, o narrador perde a ação bônus padrão e  pode aplicar
+os bônus via ação rápida x1 no seu turno.
+Como ação bônus ou reação pode receber também benefícios para resistir mais aos
+ataques, caso use uma ação bônus o bônus dura a rodada toda, caso seja uma reação
+dura apenas 1 turno.
+BT
+Custo
+TR (Especificar)
+Defesa
+Perícias
+Vantagem
++2
+PE
++1
++1
++1
+PE
++3
+PE
++2
++2
++2
+PE
++4
+PE
++3
++3
++3
+PE
++5
+PE
++4
++4
++4
+PE
++6
+PE
++5
++5
++5
+PE
+O custo de PE já é pré-definido por BT, então uma criatura que possui BT +6, deve
+gastar 5 PE para executar suas ações bônus e reações.
+Unificar 2 ações comuns não concede bônus de dano, nem bônus de outras fontes.
+Outras reações são desbloqueadas conforme sobem seus treinamentos, o custo de PE
+para usá-las é igual ao seu BT:
+•
+Treinamento +2: Evitar 1 ataque de oportunidade.
+•
+Treinamento +3: Desengajar.
+•
+Treinamento +4: TR de reflexo contra o acerto, se passar reduz o dano à metade.
+•
+Treinamento +5: Reduzir o dano a metade x1 por rodada
+•
+Treinamento +6: Uma esquiva garantida x1 por rodada.
+Caso não queira utilizar PE, o narrador perde a sua ação bônus durante o turno e
+pode aplicar os bônus via ação rápida x1 no seu turno.
+Caso não queira usar PE na reação, deve usar uma ação rápida no seu lugar e o
+narrador perde tanto a ação rápida quanto a reação, não sendo possível utilizar
+dessa forma caso tenha gasto sua ação rápida previamente.
+
+--- Página 45 ---
+45
+CRIAÇÃO DE INIMIGOS CALAMIDADE
+Um Inimigo Calamidade possui certas considerações gerais:
+•
+Os Atributos possuem um limite de 32.
+•
+A Atenção utiliza o bônus de Percepção + 15 até a ND19 e Percepção + 20 a partir da
+ND 20 e a Iniciativa utiliza a ND do inimigo somado à metade do Mod. de Destreza,
+até um máximo de 20 + metade do Mod.
+ND
+Vida
+RD
+(Geral)
+Ignorar
+RD
+Atributos
+PE
+Deslocamento
+ND 5
+900 +  valor de Constituição * 3
+—
+—
+41
+15
+Deslocamento Padrão * 1,5
+ND 6
+1080 +  valor de Constituição * 3
+4
+—
+43
+18
+Deslocamento Padrão * 1,5
+ND 7
+1260 +  valor de Constituição * 3
+5
+—
+45
+21
+Deslocamento Padrão * 1,5
+ND 8
+1440 +  valor de Constituição * 3
+6
+—
+47
+24
+Deslocamento Padrão *1,5
+ND 9
+1620 +  valor de Constituição * 3
+7
+4
+51
+27
+Deslocamento Padrão * 2
+ND 10
+1800 +  valor de Constituição * 3
+10
+4
+53
+30
+Deslocamento Padrão * 2
+ND 11
+1980 +  valor de Constituição * 3
+10
+4
+55
+33
+Deslocamento Padrão * 2
+ND 12
+2160 +  valor de Constituição * 3
+10
+4
+57
+36
+Deslocamento Padrão * 2
+ND 13
+2340 +  valor de Constituição * 3
+10
+10
+61
+39
+Deslocamento Padrão * 2
+ND 14
+2520 +  valor de Constituição * 3
+11
+10
+63
+42
+Deslocamento Padrão * 2
+ND 15
+2700 +  valor de Constituição * 3
+12
+10
+65
+45
+Deslocamento Padrão * 2
+ND 16
+2880 +  valor de Constituição * 3
+13
+10
+67
+48
+Deslocamento Padrão * 2
+ND 17
+3060 +  valor de Constituição * 3
+20
+15
+71
+51
+Deslocamento Padrão * 3
+ND 18
+3240 +  valor de Constituição * 3
+20
+15
+73
+54
+Deslocamento Padrão * 3
+ND 19
+3420 +  valor de Constituição * 3
+20
+15
+75
+57
+Deslocamento Padrão * 3
+ND 20
+3600 +  valor de Constituição * 3
+20
+15
+77
+60
+Deslocamento Padrão * 3
+ND 21
+3780 +  valor de Constituição * 3
+25
+15
+79
+63
+Deslocamento Padrão * 3
+ND 22
+3960 +  valor de Constituição * 3
+25
+15
+81
+66
+Deslocamento Padrão * 3
+ND 23
+4140 +  valor de Constituição * 3
+25
+20
+83
+69
+Deslocamento Padrão * 3
+ND 24
+4320 +  valor de Constituição * 3
+25
+20
+85
+72
+Deslocamento Padrão * 3
+ND 25
+4500 +  valor de Constituição * 3
+30
+25
+85
+75
+Deslocamento Padrão * 3
+ND 26
+4680 +  valor de Constituição * 3
+30
+25
+85
+78
+Deslocamento Padrão * 3
+ND 27
+4860 +  valor de Constituição * 3
+30
+25
+85
+81
+Deslocamento Padrão * 3
+ND 28
+5040 +  valor de Constituição * 3
+30
+25
+85
+84
+Deslocamento Padrão * 3
+ND 29
+5220 +  valor de Constituição * 3
+30
+30
+85
+87
+Deslocamento Padrão * 3
+ND 30
+5400 +  valor de Constituição * 3
+50
+30
+90
+90
+Deslocamento Padrão * 3
+VIDA, RD, ATRIBUTO, PE E DESLOCAMENTO — CALAMIDADE
+
+--- Página 46 ---
+46
+ND
+Quantidade de Perícias
+Perícias Não Dom.
+Perícias Dom.
+ND 5
+Maior Mod Mental
+5 + Mod de Atributo
+7 + Mod de Atributo
+ND 6
+Maior Mod Mental
+6 + Mod de Atributo
+8 + Mod de Atributo
+ND 7
+Maior Mod Mental
+8 + Mod de Atributo
+11 + Mod de Atributo
+ND 8
+Maior Mod Mental
+9 + Mod de Atributo
+12 + Mod de Atributo
+ND 9
+Maior Mod Mental
+10 + Mod de Atributo
+13 + Mod de Atributo
+ND 10
+Maior Mod Mental
+11 + Mod de Atributo
+14 + Mod de Atributo
+ND 11
+Maior Mod Mental
+13 + Mod de Atributo
+17 + Mod de Atributo
+ND 12
+Maior Mod Mental
+14 + Mod de Atributo
+18 + Mod de Atributo
+ND 13
+Maior Mod Mental
+15 + Mod de Atributo
+19 + Mod de Atributo
+ND 14
+Maior Mod Mental
+16 + Mod de Atributo
+20 + Mod de Atributo
+ND 15
+Maior Mod Mental
+18 + Mod de Atributo
+23 + Mod de Atributo
+ND 16
+Maior Mod Mental
+19 + Mod de Atributo
+24 + Mod de Atributo
+ND 17
+Maior Mod Mental
+20 + Mod de Atributo
+25 + Mod de Atributo
+ND 18
+Maior Mod Mental
+21 + Mod de Atributo
+26 + Mod de Atributo
+ND 19
+Maior Mod Mental
+23 + Mod de Atributo
+29 + Mod de Atributo
+ND 20
+5 + Maior Mod Mental
+24 + Mod de Atributo
+30 + Mod de Atributo
+ND 21
+5 + Maior Mod Mental
+26 + Mod de Atributo
+30 + Mod de Atributo
+ND 22
+5 + Maior Mod Mental
+28 + Mod de Atributo
+30 + Mod de Atributo
+ND 23
+5 + Maior Mod Mental
+30 + Mod de Atributo
+30 + Mod de Atributo
+ND 24
+5 + Maior Mod Mental
+34 + Mod de Atributo
+30 + Mod de Atributo
+ND 25
+5 + Maior Mod Mental
+36 + Mod de Atributo
+30 + Mod de Atributo
+ND 26
+5 + Maior Mod Mental
+38 + Mod de Atributo
+30 + Mod de Atributo
+ND 27
+5 + Maior Mod Mental
+40 + Mod de Atributo
+45 + Mod de Atributo
+ND 28
+5 + Maior Mod Mental
+40 + Mod de Atributo
+45 + Mod de Atributo
+ND 29
+5 + Maior Mod Mental
+40 + Mod de Atributo
+45 + Mod de Atributo
+ND 30
+5 + Maior Mod Mental
+40 + Mod de Atributo
+45 + Mod de Atributo
+PERÍCIAS — CALAMIDADES
+
+--- Página 47 ---
+47
+ND
+RD (Irredutível)
+Vida
+Temporária
+por Ataque
+Imunidade
+(Condição)
+Vantagem
+(Condição)
+Resistências
+Imunidades
+ND 5
+—
+—
+2
+2
+2
+1
+ND 6
+—
+—
+2
+2
+2
+1
+ND 7
+—
+—
+2
+2
+2
+1
+ND 8
+—
+5
+2
+2
+2
+1
+ND 9
+—
+5
+3
+3
+2
+1
+ND 10
+—
+5
+3
+3
+2
+1
+ND 11
+5
+5
+3
+3
+2
+1
+ND 12
+6
+6
+3
+3
+2
+1
+ND 13
+7
+6
+4
+4
+3
+1
+ND 14
+8
+6
+4
+4
+3
+1
+ND 15
+9
+8
+4
+4
+3
+1
+ND 16
+10
+8
+4
+4
+3
+2
+ND 17
+11
+8
+5
+5
+3
+2
+ND 18
+12
+8
+5
+5
+3
+2
+ND 19
+15
+10
+5
+5
+3
+2
+ND 20
+15
+10
+5
+5
+3
+2
+ND 21
+16
+10
+5
+5
+3
+2
+ND 22
+18
+10
+5
+5
+3
+2
+ND 23
+22
+10
+5
+5
+3
+2
+ND 24
+26
+10
+5
+5
+3
+2
+ND 25
+30
+15
+5
+5
+3
+2
+ND 26
+34
+15
+5
+5
+3
+2
+ND 27
+36
+15
+5
+5
+3
+2
+ND 28
+38
+15
+5
+5
+3
+2
+ND 29
+40
+15
+5
+5
+3
+2
+ND 30
+40
+15
+5
+5
+3
+2
+RESISTÊNCIAS ESPECIAIS — CALAMIDADES
+
+--- Página 48 ---
+48
+ND
+Guarda
+Inabalável
+Resistência Parcial
+Resistência Total
+Dotes
+Aptidões
+Nível de
+Aptidão
+ND 5
+9
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+2
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ND 6
+12
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+2
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ND 7
+15
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+2
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ND 8
+18
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+2
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ND 9
+21
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+3
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ND 10
+24
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+3
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ND 11
+27
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+3
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ND 12
+30
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+3
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ND 13
+33
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+4
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ND 14
+36
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+4
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ND 15
+39
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+4
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ND 16
+42
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+4
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ND 17
+45
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+5
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ND 18
+48
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+5
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ND 19
+51
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+5
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ND 20
+54
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+6
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ND 21
+57
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+6
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ND 22
+60
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+6
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ND 23
+66
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+6
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ND 24
+72
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+6
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ND 25
+80
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+6
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ND 26
+86
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+6
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ND 27
+92
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+7
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ND 28
+98
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+7
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ND 29
+100
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+7
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ND 30
+110
+2 + 1 a cada 5 Níveis
+2 + 1 a cada 10 Níveis
+7
+1 a cada 2 Níveis
+1 a cada 2 Níveis
+ASPECTOS DE COMBATE — CALAMIDADES
+
+--- Página 49 ---
+49
+ND
+Defesa (Iniciante)
+Defesa (Intermediário)
+Defesa (Experiente)
+ND 5
+10 + Mod de Dex
+18 + Mod de Dex
+23 + Mod de Dex
+ND 6
+11 + Mod de Dex
+19 + Mod de Dex
+24 + Mod de Dex
+ND 7
+12 + Mod de Dex
+20 + Mod de Dex
+25 + Mod de Dex
+ND 8
+13 + Mod de Dex
+21 + Mod de Dex
+26 + Mod de Dex
+ND 9
+14 + Mod de Dex
+22 + Mod de Dex
+27 + Mod de Dex
+ND 10
+15 + Mod de Dex
+23 + Mod de Dex
+28 + Mod de Dex
+ND 11
+16 + Mod de Dex
+24 + Mod de Dex
+29 + Mod de Dex
+ND 12
+17 + Mod de Dex
+25 + Mod de Dex
+30 + Mod de Dex
+ND 13
+20 + Mod de Dex
+26 + Mod de Dex
+31 + Mod de Dex
+ND 14
+21 + Mod de Dex
+27 + Mod de Dex
+32 + Mod de Dex
+ND 15
+22 + Mod de Dex
+28 + Mod de Dex
+33 + Mod de Dex
+ND 16
+23 + Mod de Dex
+29 + Mod de Dex
+34 + Mod de Dex
+ND 17
+24 + Mod de Dex
+30 + Mod de Dex
+35 + Mod de Dex
+ND 18
+25 + Mod de Dex
+31 + Mod de Dex
+36 + Mod de Dex
+ND 19
+27 + Mod de Dex
+32 + Mod de Dex
+37 + Mod de Dex
+ND 20
+28 + Mod de Dex
+33 + Mod de Dex
+38 + Mod de Dex
+ND 21
+29 + Mod de Dex
+34 + Mod de Dex
+39 + Mod de Dex
+ND 22
+30 + Mod de Dex
+35 + Mod de Dex
+40 + Mod de Dex
+ND 23
+35 + Mod de Dex
+40 + Mod de Dex
+45 + Mod de Dex
+ND 24
+40 + Mod de Dex
+45 + Mod de Dex
+50 + Mod de Dex
+ND 25
+45 + Mod de Dex
+50 + Mod de Dex
+51 + Mod de Dex
+ND 26
+50 + Mod de Dex
+51 + Mod de Dex
+52 + Mod de Dex
+ND 27
+51 + Mod de Dex
+52 + Mod de Dex
+53 + Mod de Dex
+ND 28
+52 + Mod de Dex
+53 + Mod de Dex
+54 + Mod de Dex
+ND 29
+53 + Mod de Dex
+54 + Mod de Dex
+56 + Mod de Dex
+ND 30
+54 + Mod de Dex
+56 + Mod de Dex
+58 + Mod de Dex
+DEFESA — CALAMIDADES
+
+--- Página 50 ---
+50
+ND
+CD (Inic.)
+CD (Inter.)
+CD (Exp.)
+TR (Inic.)
+TR (Inter.)
+TR (Exp.)
+ND 5
+11 + Mod de
+Atributo
+13 + Mod de
+Atributo
+15 + Mod de
+Atributo
+5 + Mod de
+Atributo
+6 + Mod de
+Atributo
+7 + Mod de Atri­
+buto
+ND 6
+12 + Mod de
+Atributo
+14 + Mod de
+Atributo
+16 + Mod de
+Atributo
+6 + Mod de
+Atributo
+7 + Mod de
+Atributo
+8 + Mod de Atri­
+buto
+ND 7
+13 + Mod de
+Atributo
+16 + Mod de
+Atributo
+18 + Mod de
+Atributo
+8 + Mod de
+Atributo
+9 + Mod de
+Atributo
+11 + Mod de
+Atributo
+ND 8
+14 + Mod de
+Atributo
+17 + Mod de
+Atributo
+19 + Mod de
+Atributo
+9 + Mod de
+Atributo
+10 + Mod de
+Atributo
+12 + Mod de
+Atributo
+ND 9
+15 + Mod de
+Atributo
+18 + Mod de
+Atributo
+20 + Mod de
+Atributo
+10 + Mod de
+Atributo
+11 + Mod de
+Atributo
+13 + Mod de
+Atributo
+ND 10
+17 + Mod de
+Atributo
+19 + Mod de
+Atributo
+21 + Mod de
+Atributo
+11 + Mod de
+Atributo
+12 + Mod de
+Atributo
+14 + Mod de
+Atributo
+ND 11
+19 + Mod de
+Atributo
+19 + Mod de
+Atributo
+23 + Mod de
+Atributo
+13 + Mod de
+Atributo
+16 + Mod de
+Atributo
+18 + Mod de
+Atributo
+ND 12
+19 + Mod de
+Atributo
+20 + Mod de
+Atributo
+24 + Mod de
+Atributo
+14 + Mod de
+Atributo
+17 + Mod de
+Atributo
+19 + Mod de
+Atributo
+ND 13
+21 + Mod de
+Atributo
+23 + Mod de
+Atributo
+25 + Mod de
+Atributo
+15 + Mod de
+Atributo
+18 + Mod de
+Atributo
+20 + Mod de
+Atributo
+ND 14
+22 + Mod de
+Atributo
+24 + Mod de
+Atributo
+26 + Mod de
+Atributo
+16 + Mod de
+Atributo
+19 + Mod de
+Atributo
+21 + Mod de
+Atributo
+ND 15
+23 + Mod de
+Atributo
+26 + Mod de
+Atributo
+28 + Mod de
+Atributo
+18 + Mod de
+Atributo
+21 + Mod de
+Atributo
+23 + Mod de
+Atributo
+ND 16
+24 + Mod de
+Atributo
+27 + Mod de
+Atributo
+29 + Mod de
+Atributo
+19 + Mod de
+Atributo
+22 + Mod de
+Atributo
+24 + Mod de
+Atributo
+ND 17
+25 + Mod de
+Atributo
+28 + Mod de
+Atributo
+30 + Mod de
+Atributo
+20 + Mod de
+Atributo
+23 + Mod de
+Atributo
+25 + Mod de
+Atributo
+ND 18
+26 + Mod de
+Atributo
+29 + Mod de
+Atributo
+31 + Mod de
+Atributo
+21 + Mod de
+Atributo
+24 + Mod de
+Atributo
+26 + Mod de
+Atributo
+ND 19
+27 + Mod de
+Atributo
+31 + Mod de
+Atributo
+33 + Mod de
+Atributo
+23 + Mod de
+Atributo
+26 + Mod de
+Atributo
+28 + Mod de
+Atributo
+ND 20
+28 + Mod de
+Atributo
+32 + Mod de
+Atributo
+34 + Mod de
+Atributo
+24 + Mod de
+Atributo
+27 + Mod de
+Atributo
+29 + Mod de
+Atributo
+ND 21
+29 + Mod de
+Atributo
+33 + Mod de
+Atributo
+35 + Mod de
+Atributo
+25 + Mod de
+Atributo
+28 + Mod de
+Atributo
+30 + Mod de
+Atributo
+ND 22
+30 + Mod de
+Atributo
+34 + Mod de
+Atributo
+36 + Mod de
+Atributo
+26 + Mod de
+Atributo
+29 + Mod de
+Atributo
+31 + Mod de
+Atributo
+ND 23
+30 + Mod de
+Atributo
+34 + Mod de
+Atributo
+36 + Mod de
+Atributo
+26 + Mod de
+Atributo
+29 + Mod de
+Atributo
+31 + Mod de
+Atributo
+ND 24
+30 + Mod de
+Atributo
+34 + Mod de
+Atributo
+36 + Mod de
+Atributo
+26 + Mod de
+Atributo
+29 + Mod de
+Atributo
+31 + Mod de
+Atributo
+ND 25
+30 + Mod de
+Atributo
+34 + Mod de
+Atributo
+36 + Mod de
+Atributo
+26 + Mod de
+Atributo
+29 + Mod de
+Atributo
+31 + Mod de
+Atributo
+ND 26
+30 + Mod de
+Atributo
+34 + Mod de
+Atributo
+36 + Mod de
+Atributo
+26 + Mod de
+Atributo
+29 + Mod de
+Atributo
+31 + Mod de
+Atributo
+ND 27
+30 + Mod de
+Atributo
+34 + Mod de
+Atributo
+36 + Mod de
+Atributo
+26 + Mod de
+Atributo
+29 + Mod de
+Atributo
+31 + Mod de
+Atributo
+ND 28
+30 + Mod de
+Atributo
+34 + Mod de
+Atributo
+36 + Mod de
+Atributo
+26 + Mod de
+Atributo
+29 + Mod de
+Atributo
+31 + Mod de
+Atributo
+ND 29
+30 + Mod de
+Atributo
+34 + Mod de
+Atributo
+36 + Mod de
+Atributo
+26 + Mod de
+Atributo
+29 + Mod de
+Atributo
+31 + Mod de
+Atributo
+ND 30
+30 + Mod de
+Atributo
+34 + Mod de
+Atributo
+36 + Mod de
+Atributo
+26 + Mod de
+Atributo
+29 + Mod de
+Atributo
+31 + Mod de
+Atributo
+CDs e TRs — CALAMIDADES
+
+--- Página 51 ---
+51
+ND
+Dano Médio
+Dados de Dano
+Acerto (Inic.)
+Acerto (Inter.)
+Acerto (Exp.)
+ND 5
+26 de Dano
+2d12+13
+11 + Mod de
+Atributo
+15 + Mod de
+Atributo
+20 + Mod de
+Atributo
+ND 6
+30 de Dano
+3d10+14
+ 12 + Mod de
+Atributo
+ 16 + Mod de
+Atributo
+ 21 + Mod de
+Atributo
+ND 7
+34 de Dano
+3d12+15
+13 + Mod de
+Atributo
+17 + Mod de
+Atributo
+22 + Mod de
+Atributo
+ND 8
+38 de Dano
+4d8+20
+14 + Mod de
+Atributo
+18 + Mod de
+Atributo
+23 + Mod de
+Atributo
+ND 9
+42 de Dano
+4d8+24
+16 + Mod de
+Atributo
+20 + Mod de
+Atributo
+25 + Mod de
+Atributo
+ND 10
+45 de Dano
+4d10+23
+17 + Mod de
+Atributo
+21 + Mod de
+Atributo
+26 + Mod de
+Atributo
+ND 11
+50 de Dano
+4d12+24
+18 + Mod de
+Atributo
+22 + Mod de
+Atributo
+27 + Mod de
+Atributo
+ND 12
+55 de Dano
+5d10+28
+19 + Mod de
+Atributo
+23 + Mod de
+Atributo
+28 + Mod de
+Atributo
+ND 13
+60 de Dano
+5d10+33
+21 + Mod de
+Atributo
+25 + Mod de
+Atributo
+30 + Mod de
+Atributo
+ND 14
+65 de Dano
+5d12+33
+22 + Mod de
+Atributo
+26 + Mod de
+Atributo
+31 + Mod de
+Atributo
+ND 15
+70 de Dano
+6d10+37
+23 + Mod de
+Atributo
+27 + Mod de
+Atributo
+32 + Mod de
+Atributo
+ND 16
+75 de Dano
+6d12+36
+24 + Mod de
+Atributo
+28 + Mod de
+Atributo
+33 + Mod de
+Atributo
+ND 17
+80 de Dano
+6d12+41
+26 + Mod de
+Atributo
+30 + Mod de
+Atributo
+35 + Mod de
+Atributo
+ND 18
+85 de Dano
+7d10+47
+27 + Mod de
+Atributo
+31 + Mod de
+Atributo
+36 + Mod de
+Atributo
+ND 19
+90 de Dano
+7d10+52
+28 + Mod de
+Atributo
+32 + Mod de
+Atributo
+37 + Mod de
+Atributo
+ND 20
+95 de Dano
+7d12+50
+29 + Mod de
+Atributo
+33 + Mod de
+Atributo
+38 + Mod de
+Atributo
+ND 21
+100 de Dano
+8d10+56
+35 + Mod de
+Atributo
+36 + Mod de
+Atributo
+40 + Mod de
+Atributo
+ND 22
+105 de Dano
+8d10+61
+36 + Mod de
+Atributo
+37 + Mod de
+Atributo
+42 + Mod de
+Atributo
+ND 23
+110 de Dano
+8d12+58
+37 + Mod de
+Atributo
+38 + Mod de
+Atributo
+44 + Mod de
+Atributo
+ND 24
+115 de Dano
+8d12+63
+38 + Mod de
+Atributo
+39 + Mod de
+Atributo
+46 + Mod de
+Atributo
+ND 25
+120 de Dano
+9d10+71
+39 + Mod de
+Atributo
+40 + Mod de
+Atributo
+48 + Mod de
+Atributo
+ND 26
+125 de Dano
+9d10+76
+40 + Mod de
+Atributo
+41 + Mod de
+Atributo
+50 + Mod de
+Atributo
+ND 27
+130 de Dano
+9d12+72
+41 + Mod de
+Atributo
+42 + Mod de
+Atributo
+52 + Mod de
+Atributo
+ND 28
+140 de Dano
+10d12+75
+42 + Mod de
+Atributo
+43 + Mod de
+Atributo
+54 + Mod de
+Atributo
+ND 29
+150 de Dano
+12d10+84
+43 + Mod de
+Atributo
+44 + Mod de
+Atributo
+56 + Mod de
+Atributo
+ND 30
+150 de Dano
+12d10+84
+44 + Mod de
+Atributo
+45 + Mod de
+Atributo
+58 + Mod de
+Atributo
+DANO E ACERTO — CALAMIDADES
+
+--- Página 52 ---
+52
+Como uma ação bônus a criatura pode aumentar seus status e receber alguns valores
+diversos, lembrando que deve ser usado uma ação bônus e o custo de pontos de energia
+citado abaixo:
+BT
+Custo
+Dano Fixo
+Acerto
+CD
+Alcance
+Área
+Vantagem
++3
+PE
+ND+1
++2
++2
+4,5 Metros
+3 Metros
+PE
++4
+PE
++12
++3
++3
+6 Metros
+ 3 Metros
+PE
++5
+PE
++12
++4
++4
+7,5 Metros
+4,5 Metros
+PE
++6
+PE
++15
++5
++5
+9 Metros
+4,5 Metros
+PE
+Caso não queira utilizar PE, o narrador perde a ação bônus padrão e  pode aplicar
+os bônus via ação rápida x1 no seu turno.
+Como ação bônus ou reação pode receber também benefícios para resistir mais aos
+ataques, caso use uma ação bônus o bônus dura a rodada toda, caso seja uma reação
+dura apenas 1 turno.
+BT
+Custo
+TR (Especificar)
+Defesa
+Perícias
+Vantagem
++2
+PE
++1
++1
++1
+PE
++3
+PE
++2
++2
++2
+PE
++4
+PE
++3
++3
++3
+PE
++5
+PE
++4
++4
++4
+PE
++6
+PE
++5
++5
++5
+PE
+O custo de PE já é pré-definido por BT, então uma criatura que possui BT +6, deve
+gastar 5 PE para executar suas ações bônus e reações.
+Unificar 2 ações comuns não concede bônus de dano, nem bônus de outras fontes.
+Outras reações são desbloqueadas conforme sobem seus treinamentos, o custo de PE
+para usá-las é igual ao seu BT:
+•
+Treinamento +2: Evitar 1 ataque de oportunidade.
+•
+Treinamento +3: Desengajar.
+•
+Treinamento +4: TR de reflexo contra o acerto, se passar reduz o dano à metade.
+•
+Treinamento +5: Reduzir o dano a metade x1 por rodada
+•
+Treinamento +6: Uma esquiva garantida x1 por rodada.
+Caso não queira utilizar PE, o narrador perde a sua ação bônus durante o turno e
+pode aplicar os bônus via ação rápida x1 no seu turno.
+Caso não queira usar PE na reação, deve usar uma ação rápida no seu lugar e o
+narrador perde tanto a ação rápida quanto a reação, não sendo possível utilizar
+dessa forma caso tenha gasto sua ação rápida previamente.
+
+--- Página 53 ---
+53
+PASSO 3: CRIANDO AÇÕES E CARACTERÍSTICAS
+Após preencher a ficha, é preciso criar as ações e as características.
+GUIA PARA AÇÕES
+Aquicomeçamos a criação de nossas ações ofensivas e defensivas, as quais partem do
+conceito do inimigo juntamente de sua origem, sendo preciso começar a planejar o
+que ela irá fazer no combate, podendo ser uma criatura elemental (assim causando,
+por exemplo, dano queimante ou congelante), um ser divino, um restringido focado
+em combate físico e manobras ou o que for, sendo que o mais importante é que esse
+conceito não deve conceder bônus, mas sim ser narrativo.
+Após definirmos os conceitos de nossa criatura, iremos criar nossas ações ofensivas e
+estilos de combate!
+QUANTIDADE DE AÇÕES
+Um inimigo pode realizar uma certa quantidade de ações durante seu turno, o que é
+definido pelo seu Patamar e ND.
+Patamar
+Total de Ações
+Lacaio e Capanga
+1 Ação, 1 Ação Bônus, 1 Ação de Movimento e 1 Reação
+Comum
+1 ação comum + 1 a cada 5 níveis, 1 Ação Rápida + 1 a cada a 10
+níveis, 1 Ação Bônus, 1 Ação de Movimento e 1 Reação
+Desafio
+2 ações comuns + 1 a cada 8 níveis, 1 Ação Rápida + 1 a cada 8
+níveis, 1 Ação Bônus, 1 Ação de Movimento e 1 Reação
+Calamidade
+3 ações comuns + 1 a cada 10 níveis, 1 Ação Rápida + 1 a cada a 10
+níveis, 1 Ação Bônus, 1 Ação de Movimento e 1 Reação
+PARÂMETROS PARA AÇÕES
+Ao criar uma ação que cause dano, siga o que está listado abaixo.
+Treinamento
+Alcance Máximo
+Área Máxima
+Redução para CaC
++2
+12 Metros
+4,5 Metros
+1 dados
++3
+18 Metros
+6 Metros
+1 dados
++4
+24 Metros
+9 Metros
+2 dados
++5
+30 Metros
+12 Metros
+2 dados
++6
+48 Metros
+18 Metros
+3 dados
+Caso deseje reduzir o alcance para receber mais dano/acerto/cd deve reduzir o alcance
+diretamente para corpo-a-corpo e converter os bônus:
+1 Dado de dano = +2 Acerto = +1 CD.
+Após definirmos nossas ações ofensivas com alcance ou alcance e área, poderemos
+preparar nosso tipo de ataque:
+•
+Teste de Acerto. Levam o valor cheio da tabela de dano de criaturas demonstrada
+acima. Exemplo - Acerto: Jogo conjura uma bola de fogo na palma de sua mão e
+realiza um teste de Acerto contra a Defesa da criatura a uma distância de 18 metros,
+em um sucesso causa 4d10+23 de dano Queimante.
+
+--- Página 54 ---
+54
+•
+Teste de Resistência Individual. Tem seu valor reduzido em 1 nível de desafio
+(ND), caso seja uma calamidade 5 reduza o dano em 4 de dano fixo. Exemplo - TR:
+Jogo conjura uma bola de fogo na palma de sua mão forçando a criatura que esteja
+a uma distância de 18 metros realizar um teste de resistência de “Fortitude”, em
+uma falha a criatura recebe 4d10+19 de dano Queimante, em um sucesso recebe
+metade do dano.
+•
+Teste de Resistência em Área. Tem seu valor reduzido pela metade. Exemplo -
+TR em área: Jogo conjura uma bola de fogo na palma de sua mão forçando todas
+as criaturas em uma área de 6 metros que estejam a uma distância de 18 metros
+realizar um teste de resistência de “Fortitude”, em uma falha a criatura recebe
+2d10+11 de dano Queimante, em um sucesso recebe metade do dano.
+Caso seja um ataque com uma arma mantenha o dano normal, caso seja um ataque
+com narrativa física (Soco, chute, mordida, etc) reduza em 2 dados de dano.
+APLICANDO CONDIÇÕES
+Para uma criatura adicionar condição às suas técnicas é necessário reduzir o dano de
+acordo com o nível da condição causada: para causar uma condição leve, reduz-se o dano
+para o de um ND abaixo; para uma média, duas NDs abaixo; para uma forte, três NDs
+abaixo; para uma extrema, quatro NDs abaixo ou pagar seu valor em pontos de energia
+amaldiçoados. NÃO podendo mesclar os gastos deve se escolher pagar um ou outro.
+Condições podem ser aplicadas de acordo com seu BT:
+BT
+Nível de Condição
+Pontos de Energia
+Níveis de ND
++2
+Fraca
+2 Pontos de Energia
+1 Nível de ND
++3
+Média
+5 Pontos de Energia
+2 Nível de ND
++4
+Forte
+8 Pontos de Energia
+3 Nível de ND
++5
+Extrema
+10 Pontos de Energia
+4 Nível de ND
+
+--- Página 55 ---
+55
+NÍVEL DAS CONDIÇÕES
+Para facilitar o balanceamento com a aplicação de condições, elas foram divididas em
+níveis, baseado no seu poder e impacto no combate.
+CONDIÇÕES FRACAS
+•
+Abalado. O personagem sofre -1 em jogadas de ataque e testes de perícia.
+•
+Caído. O personagem sofre -3 em ataques corpo a corpo e só pode se mover 4,5
+metros, rastejando, ou utilizar uma ação de movimento para se levantar. Além
+disso, se estiver caído no chão você tem -3 de Defesa contra ataques corpo a corpo,
+mas recebe +3 de Defesa contra ataques a distância. Um personagem caído que
+esteja voando imediatamente perde seu deslocamento de voo até que fique de pé.
+•
+Desarmar. Realiza um teste de atletismo contra o atletismo ou acrobacia da criatura,
+em um sucesso você remove a arma dele.
+•
+Desorientado. Fica incapaz de utilizar reações contra a próxima ação ofensiva
+realizada contra você ou ataques de oportunidade. A condição se encerra após seu
+efeito ser realizado.
+•
+Desprevenido. O personagem sofre -3 na Defesa e em Testes de Resistência de
+Reflexos. Você fica desprevenido contra inimigos que não possa ver mas saiba que
+estão perto.
+•
+Empurrar. Para cada dado de dano pago você empurra a criatura 6 metros, caso
+ela passe no teste ela é empurrada a metade do valor total pago.
+•
+Sangramento. Um personagem com sangramento recebe perda de vida no início de
+seu turno, e deve realizar um teste de resistência de Fortitude no final dele. Em uma
+falha, a condição persiste; em um sucesso, a condição se encerra. A CD e a perda de
+vida do sangramento dependem do causador da condição (veja página 213).
+•
+Sofrendo. Você está sofrendo de uma dor horrível. Você recebe -5 em testes de
+concentração e em testes de Prestidigitação para realizar rituais e perde 3 metros
+de movimento.
+CONDIÇÕES MÉDIAS
+•
+Agarrado. Enquanto agarrado, o personagem fica desprevenido e imóvel. Um
+personagem fazendo um ataque à distância contra uma criatura envolvida em uma
+ação de agarrar, tem 50% de chance de acertar o alvo errado (1 a 5 em 1d10). Se um
+personagem agarrando se mover a criatura agarrada acompanha ele.
+•
+Amedrontado. O personagem sofre -3 em jogadas de ataque e testes de perícia. Os
+prejuízos desta condição não se acumulam com os de Abalado, sendo uma evolução
+direta dela.
+•
+Condenado. Um personagem condenado tem o custo em PE de todas as suas
+habilidades aumentado em 1.
+•
+Confuso. Um personagem confuso se comporta da maneira aleatória. Você sofre -4
+em testes de Fortitude e Atletismo para se manter de pé e, logo após se movimentar
+1,5 metros rode 1d4 (1: frente, 2: atrás, 3: direita ou 4: esquerda) você se move
+3 metros nessa direção. Repita o processo em um intervalo de 1,5 metros de
+movimento voluntário entre as rolagens. Se sua movimentação permitir, rode 1d6
+ao invés de 1d4 (onde 5 é para baixo e 6 para cima).
+•
+Enfeitiçado. A criatura enfeitiçada recebe um prejuízo de -2 em todos os testes que
+realizar contra quem a enfeitiçou.
+
+--- Página 56 ---
+56
+•
+Engasgando. O alvo fica mudo e precisa segurar o Ar. Segurar o Ar: A criatura tem
+30 segundos (5 turnos) para tentar recuperar o fôlego, caso não consiga terá que
+prender a respiração por uma quantidade de rodadas igual a 1 + seu modificador
+de constituição, caso não consiga recuperar o fôlego a criatura cai nos portões da
+morte. Se NÃO for uma cena de combate, cada ponto no modificador de constituição
+terá sua duração igual a 5 minutos.
+•
+Enjoado. Um personagem enjoado não pode converter suas ações dentro da
+Hierarquia de Ações.
+•
+Enredado. Tem o deslocamento reduzido à metade e recebe -2 na sua Defesa e em
+rolagens de ataque.
+•
+Envenenado. Recebe -2 em jogadas de ataque, testes de resistência e testes de
+perícia enquanto o veneno durar.
+•
+Lento. Toda forma de movimento do personagem como seu valor de deslocamento
+é reduzida pela metade.
+•
+Surdo. O personagem falha em qualquer teste envolvendo a audição e sofre -5
+em rolagens de Iniciativa. Caso já esteja em combate, seu valor atual de Iniciativa
+também é reduzido em -5, alterando a ordem dos turnos.
+CONDIÇÕES FORTES
+•
+Aterrorizado. Não pode se aproximar voluntariamente da criatura que infligiu a
+condição.
+•
+Cego. O personagem fica surpreso e lento, falha em qualquer teste envolvendo a
+visão e sofre -5 em Percepção. Todos os alvos de seus ataques recebem Camuflagem
+Total (50% de chance de desviar do ataque automaticamente). Você é considerado
+cego enquanto estiver em uma área de Escuridão Total, a menos que algo lhe
+permita ver no escuro.
+•
+Exposto. Jogadas de Ataque contra a criatura recebem +4 e, caso acertem, seus
+ataques causam dano adicional igual ao nível do atacante, em cada rolagem de
+dano.
+•
+Imóvel. A criatura se torna incapaz de utilizar as Ações de Movimento Andar,
+Esgueirar, Levantar e Pular, porém pode usar Sacar e ações que gastem seu
+movimento, mas que não te deslocam para outro ponto, como a aptidão Canalizar
+em Golpe. Além disso, você não pode receber Deslocamento de qualquer fonte.
+•
+Invisível (Especial). O personagem não pode ser visto, recebe +10 em testes de
+Furtividade e, ao receber a condição, pode utilizar Esconder como uma Ação Livre.
+Caso esteja invisível durante a rolagem de Iniciativa, você possui vantagem nela.
+•
+Surpreso (Especial). O personagem fica desprevenido e não pode realizar reações
+contra uma criatura que o deixou surpreso. Uma criatura Surpreendida ou que não
+saiba da existência do perigo fica surpresa contra ele. Só pode ser usado a partir da
+FURTIVIDADE.
+
+--- Página 57 ---
+57
+CONDIÇÕES EXTREMAS
+•
+Atordoado. O personagem fica desprevenido e não pode realizar ações ou reações.
+•
+Desmembramento (Especial). É uma condição extremamente perigosa e que
+causa muitos problemas dentro de um combate, para desmembrar uma criatura
+deve ser dado dano massivo (50% da vida ou mais em apenas 1 único ataque e o
+dano tem que ter o valor 50 ou mais no resultado final).
+•
+Fragilizado. Suas resistências são anuladas (imunidades não são anuladas).
+Enquanto possuir esta condição, você não pode se tornar resistente a nada.
+•
+Fragmentado. Ao receber essa condição a criatura tem suas reduções de dano
+reduzidas a metade, essa condição NÃO se acumula com “ignorar redução de dano”
+das criaturas do grimório, prevalecendo o maior valor.
+•
+Inconsciente. O personagem não pode realizar ações ou reações e fica caído. Larga
+tudo que estiver segurando e não pode falar. Falha automaticamente em testes de
+resistência de Reflexos, todo ataque realizado contra ela acerta e é considerado
+um acerto crítico. Uma criatura inconsciente que não esteja nas portas da morte é
+desperta se tomar dano ou uma criatura gastar uma ação comum para a chacoalhar
+•
+Paralisado. O personagem não pode realizar ações ou reações, exceto ações
+completamente mentais. O personagem recebe -10 de Defesa, falha automaticamente
+em testes de resistência de Reflexos e todo ataque corpo a corpo que acerte o
+personagem é considerado um acerto crítico.
+
+--- Página 58 ---
+58
+VERSATILIDADE
+Caso abra mão de 1 ação comum para uma mesma habilidade recebe um benefício de
+ritual. Rituais de criaturas são diferentes das dos jogadores, levando em consideração o
+balanceamento de ambos.
+•
+Ajuste de Alvos. Você pode aplicar
+esta melhoria em um Feitiço em
+área, prevenindo certas criaturas de
+serem alvos. Ao escolher Ajuste de
+Alvos, escolha uma quantidade de
+criaturas igual a 2 + o seu BT para
+terem um sucesso garantido no Teste
+de Resistência dele.
+•
+Aumento de Alcance. O alcance do
+Feitiço é aumentado em um valor igual
+a 1,5 metros multiplicado pelo seu BT.
+•
+Aumento de Dano. Você aumenta o
+dano causado pelo feitiço. Para cada
+vez que colocar esta melhoria, seu
+feitiço causará dano adicional igual a
+4 multiplicado pelo seu BT.
+•
+Aumento de Precisão. Você aumenta
+a precisão do feitiço. Para cada vez que
+escolher esta melhoria, você recebe +2
+na rolagem de ataque do Feitiço.
+•
+Conversão de Sustento. Você modifica
+o método para manter o feitiço.
+Quando utilizar um feitiço sustentado,
+caso escolha essa melhoria, ele deixa
+de ser Sustentado mas exige passa a
+exigir Concentração.
+•
+Expansão de Área. Você expande a
+área afetada pelo feitiço. Um feitiço em
+área com esta melhoria tem a sua área
+expandida em 1,5 metros multiplicado
+pelo seu BT ou 4,5 metros caso seja em
+linha sem multiplicação.
+•
+Potencialização
+de
+Dificuldade.
+Você potencializa o feitiço, de maneira
+a ser mais difícil resistir aos seus
+efeitos. Para cada vez que escolher
+esta melhoria, a CD do feitiço aumenta
+em 2.
+
+--- Página 59 ---
+59
+ALMA
+Mexer com alma e sanidade são mecânicas muito poderosas que podem matar
+jogadores sem que eles tenham a chance de se defender, por isso sugiro que utilizem
+essas mecânicas em situações específicas e criaturas selecionadas a dedo!
+Caso queira aplicar dano de na alma de uma criatura faça a rolagem de dano normal
+das tabelas acima e divida o dano total por 3. Por exemplo, o dano médio de uma
+calamidade ND 15 é 70, se o ataque for na alma o dano médio é reduzido para 23.
+ESTADOS DA ALMA. Conforme sua Integridade da Alma é reduzida, ela atinge estados
+diferentes, representando o declínio e destruição de seu próprio ser. São eles:
+•
+Estável [100%]. Enquanto sua alma estiver acima de 75% (3/4) do valor total, ela
+está Estável. Não há nenhum prejuízo neste estado, sendo o padrão.
+•
+Danificado [75%]. Ao chegar abaixo de 75% (3/4) do seu total de Integridade, sua
+alma está danificada, começando a ser perturbada. Enquanto nesse estado, você
+recebe -3 em todos seus testes e rolagens, assim como tem o custo em energia/
+stamina de todas suas habilidades aumentado em 2.
+•
+Instável [50%]. Ao chegar abaixo de 50% (2/4) do seu total de Integridade, sua
+alma está Instável, deixando-lhe mais fraco e exposto. Enquanto nesse estado, você
+recebe -6 em todos seus testes e rolagens, tem o custo em energia/stamina de todas
+suas habilidades aumentado em 3 e está Exposto enquanto não sair do estado.
+•
+Crítico [25%]. Ao chegar abaixo de 25% (1/4) do seu total de Integridade, sua alma
+está em estado Crítico, deixando-o próximo da perdição completa de sua própria
+forma e consciência. Enquanto nesse estado, você recebe -8 e desvantagem em todos
+seus testes e rolagens, tem o custo em energia/stamina de todas suas habilidades
+aumentado em 5 e está Exposto e Fragilizado enquanto não sair do estado.
+Caso chegue a 0 de Integridade, sua alma perde o formato por completo, com seu corpo
+desmanchando e distorcendo, sua consciência esvaindo e sua individualidade sumindo:
+um personagem com 0 de Integridade está morto.
+
+--- Página 60 ---
+60
+GUIA PARA CARACTERÍSTICAS
+Nesta etapa, daremos os retoques finais à nossa criatura! É importante lembrar que os
+exemplos fornecidos são variados, visando cobrir o maior número possível de tipos e
+conceitos. No entanto, eles não são regras rígidas. Os mestres têm total liberdade para
+criar características únicas que se harmonizem com suas próprias criaturas.
+É recomendado que um inimigo possua uma quantidade de Características baseadas
+em seu Patamar:
+Patamar
+Características
+Lacaio
+Recomendado ter 1.
+Capanga
+Recomendado ter 2.
+Comum
+Recomendado ter 3.
+Desafio
+Recomendado ter 4.
+Calamidade
+Recomendado ter 5.
+A diferença entre características gerais e características especiais de criaturas serve
+para separar o que é comum e esperado do que torna a criatura única, perigosa ou
+memorável. Eis uma explicação clara, prática e fácil de aplicar em sistemas próprios ou
+adaptações. São os atributos básicos que quase toda criatura possui. Definem como ela
+existe no mundo e como interage com as regras padrão do jogo.
+
+--- Página 61 ---
+61
+PASSO 4: DETALHES FINAIS
+Após preencher a ficha, é preciso criar as ações e as características.
+TREINAMENTOS
+Treinamentos são a cereja do bolo, o famoso toque final em nossas criaturas, aquele
+detalhe que pode desbalancear ou balancear o combate contra jogadores, criaturas
+recebem 1 ponto de treinamento + 1 ponto para cada grau, para poder escolher entre
+as opções abaixo:
+TREINO DE AGILIDADE
+Com grande velocidade e agilidade, você se
+torna rápido e capaz de um nível superior
+de mobilidade e esquivas. Sua margem
+necessária para conseguir um sucesso
+crítico em um TR de Reflexos reduz em 2.
+TREINO DE BARREIRA
+Você domina a técnica de barreiras,
+conseguindo as conferir uma resistência
+elevada. Toda parede que você criar com
+Técnicas de Barreira recebe RD igual ao
+seu Nível de Aptidão em Barreiras,recebe a
+capacidade de criar 2 barreiras adicionais
+e +1 Nível de Aptidão em Barreira.
+TREINO DE COMPREENSÃO
+Você chega muito perto de compreender
+profundamente a energia amaldiçoada,
+tornando-se familiar com ela e entendendo
+melhor uma parte dela. Você aumenta um
+nível de aptidão a sua escolha em 1.
+TREINO DE DOMÍNIO
+Você se torna um mestre das expansões,
+entendo o como conseguir a moldar
+perfeitamente diante a sua vontade e
+necessidade do momento. Você recebe
+a
+aptidão
+amaldiçoada
+Modificação
+Completa e recebe +4 em confrontos.
+TREINO DE ENERGIA
+Você já estabeleceu uma profunda conexão
+com a energia amaldiçoada, assim como a
+conhece cada vez mais completamente. Em
+uma situação de combate, imerso no fervor
+da batalha, você consegue gerar energia:
+durante uma cena de combate, no começo
+de toda rodada, você ganha PE temporário
+igual a metade do seu BT.
+TREINO DE ENERGIA REVERSA
+Sua maestria sobre a energia reversa te
+permite recuperar até mesmo aquilo que
+parece impossível: você pode usar a aptidão
+amaldiçoada
+Regeneração
+Aprimorada
+para curar sua exaustão de técnica após
+usar expansão de domínio, reduzindo em
+um turno para 2 pontos de energia reversa
+gastos.
+TREINO DE INTELIGÊNCIA
+Cálculos matemáticos, equações complexas
+e noções de espaço são meras conveniências
+para você. Sua margem necessária para
+conseguir um sucesso crítico em um TR de
+Astúcia reduz em 2.
+TREINO DE LUTA
+Você se torna altamente proficiente em
+luta, conseguindo extrair ao máximo de
+seu corpo e manobras. Você recebe acesso
+ao efeito de crítico de ataques desarmados
+(pugilato). Além disso, você pode, uma vez
+por rodada, escolher realizar uma rolagem
+de Acrobacia ou Atletismo com vantagem.
+TREINO DE MANEJO DE ARMA
+Você se torna um mestre no manejo da arma
+para qual se dedicou a treinar e dominar.
+Enquanto estiver manuseando a arma
+escolhida, ela recebe um encantamento de
+ferramenta amaldiçoada adicional.
+TREINO DE PERÍCIA
+Você treinou e se dedicou tanto a uma
+perícia específica, que ela se tornou algo
+no qual você é quase incapaz de falhar,
+mantendo uma consistência invejável.
+Caso realize um teste da perícia escolhida
+e obtenha um resultado menor do que 5 no
+d20, você pode rolar novamente e manter
+o melhor resultado e pode suceder em um
+teste automaticamente caso não seja um
+teste competido.
+
+--- Página 62 ---
+62
+TREINO DE POTENCIAL FÍSICO
+Você conseguiu chegar em um ponto onde
+seu corpo constantemente se renova e sua
+energia parece nunca ter fim. Durante uma
+cena de combate, no começo de toda rodada,
+você recebe uma quantidade de pontos de
+estamina temporários igual a metade do
+seu bônus de treinamento [Apenas para
+Restringidos Celestes].
+TREINO DE PRESENÇA
+Você se torna uma celebridade. Toda vez
+que você começar uma conversa com
+alguém, uma vez por pessoa, rode um
+1d20. Caso caia 15 ou maior, a pessoa te
+conhece e todos os seus testes de carisma
+contra ela recebem +5.
+TREINO DE RESISTÊNCIA
+Seu físico atinge um nível superior,
+concedendo-o uma grande resistência
+e vigor. Sua margem necessária para
+conseguir um sucesso crítico em um TR de
+Fortitude reduz em 2.
+TREINO DE VONTADE
+Seus estudos finalmente deram frutos.
+Sua margem necessária para conseguir
+um sucesso crítico em um TR de Vontade
+reduz em 2.
+
+--- Página 63 ---
+63
+
+--- Página 64 ---
+64
+GALERIA
+Durante a criação dos inimigos, é comum que elas recebam Aptidões, Ações,
+Características e muito mais.
+Além de criar as próprias, você pode escolher as que estão listadas na Galeria.
+APTIDÕES PARA INIMIGOS
+A energia amaldiçoada é responsável por abastecer e amplificar a força da maioria
+dos feiticeiros, sendo a base do seu poder e um aspecto importante do mundo de
+Jujutsu. Dentro do sistema Feiticeiros e Maldições, Aptidões Amaldiçoadas são uma
+linha de habilidades focada no desenvolvimento da energia amaldiçoada e do seu uso,
+de diferentes maneiras. Um personagem, a menos que seja um Restringido, recebe
+uma aptidão amaldiçoada sempre que subir de nível. Ao obter uma nova aptidão
+amaldiçoada, você pode escolher qualquer uma delas, dentro de qualquer categoria,
+desde que atinja os requisitos necessários. As categorias são:
+•
+Aptidões de Aura, que alteram as propriedades da própria energia do usuário,
+concedendo-a vários aspectos imbuídos na sua aura.
+•
+Aptidões de Controle e Leitura, que abordam o controle bruto da energia, assim
+como a sua leitura e percepção.
+•
+Aptidões de Domínio, que utilizam das diferentes manifestações de domínio.
+•
+Aptidões de Barreira, usando da energia para criar barreiras protetivas.
+•
+Aptidões de Energia Reversa, que permitem curar e regenerar o próprio corpo.
+•
+Aptidões Especiais e Anatomia, que possuem um funcionamento distinto e único
+envolvendo a energia e as técnicas interagindo
+Além disso, os níveis de aptidão também fortalecem certas aptidões amaldiçoadas,
+representando o como seu treinamento e conhecimento refinam elas.
+
+--- Página 65 ---
+65
+APTIDÕES DE AURA
+AURA DE RESTRIÇÃO
+Com foco em conter, tem-se uma aura mais
+pesada e densa. Sempre que for agarrar um
+alvo, você adiciona seu Nível de Aptidão em
+Aura na rolagem de Atletismo, assim como
+na rolagem para evitar que uma criatura
+escape. Uma quantidade de vezes por cena
+igual ao Nível de Aptidão em Aura, você
+pode também gastar 1 ponto de energia
+amaldiçoada para receber vantagem para
+agarrar ou impor desvantagem na criatura
+que tentar escapar.
+AURA DE ROMPIMENTO
+Sua aura é afiada, causando danos apenas
+com o contato. Você pode ativar sua aura
+lacerante por 1 rodada, como ação livre.
+Enquanto ativa, uma criatura que iniciar
+seu turno dentro de 3 metros de você
+deve realizar um teste de resistência de
+Fortitude. Em uma falha, ela recebe 1d6 de
+“Um tipo de dano a sua escolha adquirido
+na escolha desta aptidão” ignorando
+resistência e redução de dano. No Nível de
+Aptidão em Aura 3, o dado aumenta para
+2d8; no nível 5, aumenta para 3d10. [PréRequisito: ND 8]
+AURA DO GENERAL
+Refletindo uma personalidade ou presença
+forte, estar coberto pela sua aura parece
+ser uma grande motivação para aliados.
+Você pode, como uma Ação Bônus,
+expandir sua aura para cobrir todo aliado
+dentro de 9 metros, os quais recebem 1 +
+metade do seu Nível de Aptidão em Aura
+em rolagens de dano e testes de perícia
+dentro do combate. Para cada turno que
+você manter a aura ativa, você paga 2
+pontos de energia amaldiçoada. [PréRequisito: Líder da Horda]
+AURA NEFASTA
+Maldita e vil, sua aura é macabra e perturba
+aqueles que estejam sendo afetados por ela.
+Toda criatura agressiva que começar um
+turno dentro de 3 metros de você precisa
+realizar um teste de resistência de vontade
+(atributo principal da técnica). Em uma
+falha, ela fica aterrorizada, podendo repetir
+o teste no próximo turno dela, deixando de
+estar aterrorizada em um sucesso. Como
+uma ação livre, você pode pagar 1 ponto de
+energia amaldiçoada para expandir esse
+alcance para 6 metros por 1 rodada.
+
+--- Página 66 ---
+66
+APTIDÕES DE CONTROLE E LEITURA
+DETECÇÃO AMALDIÇOADA
+Treinando e se adaptando a ler rapidamente
+auras, você adquire uma maior capacidade
+de prever a próxima ação dos usuários de
+energia amaldiçoada, o que te favorece não
+só ofensivamente, mas defensivamente
+também. Você pode, como uma Ação de
+Movimento, realizar um teste de Percepção
+contra a CD Amaldiçoada de uma criatura,
+recebendo um bônus igual ao seu CL.
+Caso suceda, você não pode receber
+desvantagem ou prejuízos para acertar
+o inimigo enquanto estiver vendo ele e
+ignorar aumentos de Defesa fornecidos por
+habilidades ou aptidões durante um turno
+de combate.
+ESTÍMULO AMALDIÇOADO
+Você se torna proficiente em utilizar da
+energia para estimular e reforçar o seu
+corpo, apurando força e agilidade. Quando
+realizar uma ação de movimento ou
+uma ação com as perícias Acrobacia ou
+Atletismo você pode, como parte da mesma
+ação, utilizar energia para os seguintes
+estímulos:
+•
+Caso seja uma ação de movimento,
+você pode gastar 1 PE para aumentar a
+distância em um valor igual a metade
+do seu deslocamento.
+•
+Caso seja um teste (comum ou oposto),
+você pode gastar até uma quantidade
+de PE igual a seu Nível de Aptidão em
+Controle e Leitura, recebendo um bônus
+de +1 para cada PE gasto. O bônus dura
+até o começo do seu próximo turno.
+RASTREIO DE ENERGIA
+Você refina e amplia suas capacidades de
+detectar e rastrear energia amaldiçoada.
+Quando estiver em uma cena em que energia
+amaldiçoada tenha sido usada ou deixada
+(Feitiços, aptidões, presença de maldições),
+você consegue detectar imediatamente
+vestígios e, caso já conheça de quem eles
+originam, você descobre na hora. Caso
+não conheça, você pode realizar um teste
+de Investigação ou Percepção contra a CD
+Amaldiçoada de quem originou o vestígio
+e, em um sucesso, ignora a invisibilidade e
+você recebe +5 para localizar o alvo.
+
+--- Página 67 ---
+67
+APTIDÕES DE DOMÍNIO
+ACERTO GARANTIDO
+Você alcança o ápice das técnicas de
+domínio, conseguindo usar o acerto
+garantido, que define uma expansão de
+domínio letal. Ao obter esta aptidão, você
+pode adicionar o efeito Acerto Garantido
+em sua expansão de domínio, o qual não
+conta para o máximo, imbuindo sua técnica
+nas barreiras criadas. O funcionamento
+do Acerto Garantido deve ser elaborado
+de acordo com o guia de criação de
+domínios. Adicionar acerto garantido em
+uma expansão completa aumenta o seu
+custo em 5 pontos de energia amaldiçoada.
+[Pré-Requisito: Expansão de Domínio
+Completa, Nível de Aptidão em Barreira
+e Domínio 4 e Nível 14]
+MODIFICAÇÃO COMPLETA
+Seu controle sobre os domínios é tão
+refinado
+que,
+mesmo
+no
+imediato
+momento de expandir seu domínio, você
+consegue o modificar. Ao utilizar uma
+expansão de domínio, você pode aplicar
+as seguintes modificações:
+•
+Inversão de Resistência. Você inverte
+a resistência interna e externa da sua
+expansão de domínio, conseguindo
+lidar melhor com ataques que venham
+de fora. Ao utilizar essa modificação,
+troque os pontos de vida do lado
+interno pelos do lado externo.
+•
+Mudança de Tamanho. Você muda e
+controla o tamanho da expansão. Você
+pode expandir ou encolher o espaço da
+expansão: para cada 1,5m que encolher
+a expansão, ela recebe 20 pontos de vida
+adicionais em sua resistência interna e
+externa; para cada 1,5m que expandir,
+a resistência interna e externa diminui
+em 20 pontos de vida. Uma expansão
+não pode ser encolhida para menos
+de 3 metros e nem expandida para
+mais que o triplo do tamanho comum.
+Ambas as mudanças de tamanho são
+consideradas na área da expansão, a
+qual por padrão é de 9 metros.
+Além disso, a Expansão sem Barreiras
+possui uma interação única com o
+Treinamento de Domínios. Caso possua
+a
+aptidão
+amaldiçoada
+Modificação
+Completa, ela pode ser usada para, ao
+utilizar uma expansão sem barreiras,
+dobrar a área afetada por ela. Não há
+nenhum custo adicional ou limitação,
+sendo este apenas o resultado de uma
+expansão
+divina
+e
+um
+treinamento
+completo,
+permitindo
+alcançar
+um
+espaço próximo ao do próprio Santuário
+Malevolente, que é capaz de devastar
+extensas áreas.
+
+--- Página 68 ---
+68
+APTIDÕES DE BARREIRA
+BARREIRA RÁPIDA
+Com treino e repetição, você se torna capaz
+de erguer barreiras de maneira ainda
+mais ágil. Erguer ou manipular barreiras
+se torna Ação Livre. [Pré-Requisito:
+Técnicas de Barreira, Nível de Aptidão
+em Barreira 3]
+CESTA OCA DE VIME
+Uma antiga e esotérica técnica amaldiçoada
+utilizada contra domínios, antes mesmo
+do Domínio Simples ser criado. Como
+ação bônus ou reação a uma expansão
+de domínio, você pode gastar 3 PE para
+criar um trançado de vime ao seu redor e
+receber os efeitos desta aptidão. Enquanto
+estiver com a Cesta Oca de Vime ativa,
+você não é afetado pelo efeito de acerto
+garantido de uma expansão de domínio.
+Esta aptidão usa de Concentração e possui
+Durabilidade igual ao seu Nível de BAR
++ 1. Sempre que falhar em um teste de
+concentração, a Durabilidade da sua Cesta
+Oca de Vime desce em 1. No início do seu
+turno, caso você tenha sido atingido por
+um Acerto Garantido, sua Cesta Oca de
+Vime perde 1 de durabilidade. No início do
+seu turno, você pode manter o selo desta
+aptidão, ocupando as suas duas mãos, ao
+fazer isso, a Cesta Oca de Vime não pode
+perder durabilidade por qualquer efeito
+que não seja a falha de concentração.
+Caso a Cesta Oca de Vime quebre, você
+recebe o efeito do Acerto Garantido
+instantaneamente. [Pré-Requisito: Nível
+de Aptidão em Barreira 1 e Nível 5]
+CORTINA
+A cortina é uma técnica de barreira
+comum, sendo um grande campo de
+força negro que isola uma área específica,
+impossibilitando pessoas de fora de ver
+seu interior. Seu funcionamento básico
+é de ocultamento, mas podem ser postas
+condições que expandem sua utilidade. Ao
+criar uma cortina, você gasta 1 ponto de
+energia para cada 9 metros que a área dela
+irá cobrir, e não há um custo para mantêla. Você também pode colocar condições
+em uma cortina, ao criá-la, de acordo com
+as regras sobre cortinas. [Pré-Requisito:
+Técnicas de Barreira]
+TÉCNICAS DE BARREIRA
+Você se torna capaz de erguer e manipular
+barreiras, as quais podem ser usadas para
+defender o usuário ou prender oponentes.
+Você pode criar, como uma Ação Livre, até
+6 paredes ao seu redor, com cada parede
+custando 1 ponto de energia amaldiçoada.
+Cada parede erguida tem 1,5 metros de
+tamanho, e vida igual a 15 + seu nível de
+aptidão em Barreiras multiplicado por
+metade do seu ND. Podem servir tanto
+como obstáculo como uma maneira de
+prender seus inimigos. Você pode as
+manipular e mover usando outra Ação
+Livre. [Pré-Requisito: Nível de Aptidão
+em Barreira 1]
+
+--- Página 69 ---
+69
+APTIDÕES ESPECIAIS
+RAIO NEGRO
+O raio negro - ou kokusen - é um fenômeno
+no jujutsu, onde o golpe de um feiticeiro
+é altamente amplificado devido a uma
+distorção no espaço que ocorre quando a
+energia amaldiçoada é aplicada 0.000001
+segundos antes dele acertar. Quando um
+feiticeiro o acerta, sua energia brilha
+em negro e o poder destrutivo é maior.
+Usar o kokusen também aumenta a
+compreensão da energia amaldiçoada
+permanentemente. Todos os efeitos da
+habilidade são:
+•
+Raio Negro. Usar o Kokusen não é
+algo consciente, ocorrendo apenas em
+certos momentos. Quando tirar 20 em
+uma rolagem de ataque corpo-a-corpo,
+o seu golpe é coberto por raios negros,
+utilizando o Kokusen. Um golpe com
+Kokusen causa dano adicional igual
+a metade do total obtido na rolagem
+do dano (1.5x). O Dano Após Ataque é
+aplicado após o Kokusen. Além disso,
+ele ignora qualquer tipo de resistência
+ou redução de danos.
+•
+Estado de Consciência Absoluta.
+Após usar os raios negros, um feiticeiro
+adentra em um estado de foco, onde
+torna-se mais fácil acertar golpes,
+extraindo 120% de seu potencial.
+Durante 1 rodada, após conseguir
+um kokusen, o valor necessário para
+o kokusen reduzirá em um. Caso
+acerte outro kokusen, a duração será
+renovada e o valor necessário reduzirá
+novamente. Ele pode ser reduzido uma
+quantidade de vezes igual a metade
+do seu Nível de Aptidão em Controle
+e Leitura. [Pré-Requisito: Nível de
+Aptidão em Controle e Leitura 3,
+Força ou Destreza 16 e ND 10 desafio
+ou ND 8 Calamidade]
+ABENÇOADO PELAS FAÍSCAS NEGRAS
+Embora o raio negro seja algo incontrolável,
+você se foca tanto nisso que parece
+começar a conseguir cativar as faíscas
+negras, as quais te abençoam. Você passa
+a usar o kokusen, por padrão, em um 19 e
+em um 20 no dado. Ao estar em Estado de
+Consciência Absoluta, você pode reduzir
+o valor necessário para Kokusen 1 vez a
+mais. [Pré-Requisito: Raio Negro, Nível
+de Aptidão em Controle e Leitura 3]
+TÉCNICA MÁXIMA
+Dentre os feiticeiros jujutsu, existe a
+possibilidade de levar o potencial da
+sua técnica ao máximo, criando uma
+habilidade definitiva a partir dela. É uma
+arte suprema, com grande complexidade
+e necessidade de conhecimento sobre a
+própria técnica. Ao obter esta habilidade,
+você se torna capaz de criar uma Técnica
+Máxima: você recebe um novo Feitiço o
+qual é indefensável. Uma Técnica Máxima
+custa 20 PE e após ser usada, você deve
+esperar uma quantidade de rodadas igual
+a 4. A técnica máxima ignora resistência e
+redução de dano. [Pré-Requisito: Mestre
+em Feitiçaria e ser no mínimo ND 15
+Desafio, Comum ou ND 10 Calamidade]
+Patamar
+Técnica Máxima
+Lacaio
+Não Recebe Nada
+Capanga
+Não Recebe Nada
+Comum
+Não Recebe Nada
+Desafio
+Recebe +5 Dados de
+Dano no dano Padrão da
+Técnica
+Calamidade
+Recebe +7 Dados de
+Dano no dano Padrão da
+Técnica
+
+--- Página 70 ---
+70
+REVERSÃO DE TÉCNICA
+Em um processo complexo, você passa a
+ser capaz de utilizar energia reversa para
+abastecer a sua técnica, possibilitando
+assim um efeito contrário ao padrão e
+com maior potência. Quando obtiver um
+novo Feitiço, você pode escolher criar
+uma Reversão de Técnica no lugar: uma
+Reversão tem o seu custo aumentado em
+um valor igual ao nível do Feitiço e deve,
+também, ser criada como algo que reverte
+o conceito da sua técnica (o Vermelho,
+Reversão de Técnica do Ilimitado, empurra
+ao invés de puxar). Ao obter esta aptidão,
+você recebe um Feitiço adicional, o qual
+obrigatoriamente deve ser uma reversão.
+[Pré-Requisito: Ser feiticeiro, ser no
+mínimo ND 10 Desafio, Comum ou ND 8
+Calamidade]
+ENERGIA REVERSA
+Essa tabela diz a capacidade de um
+feiticeiro se curar a partir da conversão
+de energia amaldiçoada para energia
+reversa.
+Curar é uma ação “Rápida” ou “Comum”
+para uma criatura, para cada vez que
+ela se curar, ela deve pagar 2 pontos de
+energia amaldiçoada.
+Para “Regenerar um Membro” deve ser
+pago 10 pontos de energia por “Membro”
+ou 8 pontos de energia para “Ferida
+Interna”.
+CURA DE EXAUSTÃO
+Você se torna capaz de curar sua exaustão
+de técnica ao custo de 8PE. [Pré-Requisito:
+Energia
+Reversa
+ou
+Regeneração
+Corporal]
+FLUXO IMPARÁVEL
+A energia flui constantemente por todo o
+seu corpo, ao ponto da sua regeneração
+ser quase imparável. No começo do seu
+turno, você pode se curar com regeneração
+corporal como uma ação livre. Caso não o
+faça, você pode se curar como reação ao
+ter a sua vida reduzida. [Pré-Requisito:
+ND 12 Desafio ou Calamidade,  Energia
+Reversa ou Regeneração Corporal]
+Patamar
+BT +2
+BT +3
+BT +4
+BT +5
+BT +6
+Lacaio
+Não Recebe
+Não Recebe
+Não Recebe
+Não Recebe
+Não Recebe
+Capanga
+Não Recebe
+Não Recebe
+Mod de Con *
+Treinamento
+Mod de Con *
+Treinamento
+Mod de Con *
+Treinamento
+Comum
+Não Recebe
+Mod de Con *
+Treinamento
+Mod de Con *
+Treinamento
+Mod de Con *
+(Trein * 1,5)
+Mod de Con *
+(Trein * 2)
+Desafio
+Não Recebe
+Mod de Con *
+Treinamento
+Mod de Con *
+(Trein * 1,5)
+Mod de Con *
+(Trein * 2)
+Mod de Con *
+(Trein * 2)
+Calamidade
+Não Recebe
+Mod de Con *
+Treinamento
+Mod de Con *
+(Trein * 1,5)
+Mod de Con *
+(Trein * 2)
+Mod de Con *
+(Trein * 2)
+
+--- Página 71 ---
+71
+APTIDÕES DE ANATOMIA
+(MALDIÇÕES E FETOS AMALDIÇOADOS)
+ABSORÇÃO ELEMENTAL
+Você consegue absorver o elemento que
+o compõe, em prol de se revigorar. Ao
+receber dano do seu elemento escolhido
+em Composição Elemental, você pode
+utilizar sua reação para receber pontos
+de vida temporários igual a metade do
+dano recebido. [Pré-Requisito: Ter um
+elemento como funcionamento básico,
+Composição Elemental]
+ARMA NATURAL
+Com uma fisionomia estranha, você possui
+garras, dentes afiados, cauda ou outro
+apêndice corporal próprio para ataques.
+Você recebe um ataque natural que causa
+1d8 de dano Cortante, Perfurante ou de
+Impacto com os traços: Fineza e Enérgica.
+Esta arma natural conta como um ataque
+desarmado e se beneficia de efeitos que
+afetariam ataques desarmados. Caso seu
+dano desarmado seja superior ao da arma
+natural, ao invés disso aumente o seu dano
+desarmado em 1 nível.
+ARTICULAÇÕES EXTENSAS
+Suas juntas são mais longas, ou suas garras
+são estendidas, aumentando a distância com
+que pode atacar. O alcance dos seus ataques
+corpo a corpo aumenta em 1,5 metros.
+BRAÇOS EXTRAS
+Seu corpo possui um par de braços
+adicionais. Você recebe +2 em testes de
+prestidigitação e, se tiver pelo menos duas
+mãos livres, aplica esse bônus em testes
+de atletismo. E recebe um par adicional
+de
+mãos,
+permitindo
+você
+equipar
+dois equipamentos de uma mão ou um
+equipamento de duas mãos adicional,
+assim como agarrar duas criaturas e
+outros benefícios à discrição do Narrador.
+COMPOSIÇÃO ELEMENTAL
+Você é composto por um elemento, o qual
+dita muito sobre sua própria existência. Ao
+obter esta aptidão, você deve escolher um
+tipo de dano elemental para ser composto
+de: você recebe imunidade ao tipo de
+dano escolhido, além de poder o causar
+em ataques desarmados ou com arma.
+[Pré-Requisito: Ter um elemento como
+funcionamento básico]
+CORPO ESPECIALIZADO
+Seu corpo se desenvolve de maneira a
+possuir um foco. Escolha uma perícia:
+você recebe um bônus de 1d4 nela.
+DESENVOLVIMENTO EXAGERADO
+Seu corpo se desenvolve de maneira
+exagerada, ultrapassando o formato e o
+porte padrão. Você aumenta sua categoria
+de tamanho em 1 e recebe 1 ponto de vida
+adicional por nível.
+OLHOS ADICIONAIS
+Estranhamente, mais olhos começam
+a surgir em seu corpo, apurando o seu
+sentido da visão. Você recebe um bônus de
++2 em Percepção, o qual aumenta em +1
+nos níveis 5, 10, 15 e 20; além disso, sua
+atenção passa a ter como base 12 ao invés
+de 10.
+PERNAS EXTRAS
+No seu corpo cresce um par de pernas
+extras. Seu deslocamento aumenta em
+1,5 metros para cada 2 pontos no seu
+modificador de destreza e você passa a
+ignorar terreno difícil que esteja no solo.
+
+--- Página 72 ---
+72
+CARACTERÍSTICAS PARA INIMIGOS
+Abaixo você encontrará uma lista padrão de características que podem ser colocadas
+nos inimigos.
+CARACTERÍSTICAS GERAIS
+Servem como base mecânica, facilitam comparação entre criaturas e são usadas
+constantemente em combate e testes
+ARENA ELEMENTAL
+Criaturas que possuam elementos em sua
+composição ou em seu feitiço, recebem um
+aumento igual a metade do seu bônus de
+treinamento em seu acerto, seu bônus de
+treinamento no dano e uma melhoria de
+ritual caso seu elemento principal esteja
+presente em pelo menos um raio de 9
+metros do usuário, consumido a área para
+receber a melhoria durante o turno.
+AURA
+A criatura tem auras que podem aplicar
+desvantagem em jogadores.
+DEMOLIÇÃO
+Danos causados a estruturas contam a
+estrutura como vulnerável ao tipo de dano,
+ataques em área de criaturas que tenham
+demolição causam +1 de dano a estruturas
+a cada dado de dano que seja rolado.
+DESLOCAMENTO AÉREO
+A criatura tem a capacidade de voar devido
+ao seu feitiço ou capacidade corporal,
+recebendo seu valor de deslocamento
+no chão como deslocamento de voo,
+recebendo aumento em ambos caso
+alguma forma de deslocamento receba
+bônus.
+FLUXO
+Quando a criatura errar três ataques
+seguidos em um único turno, ele receberá
+no turno seguinte um acerto aumento de
+acerto igual a +5 contra o alvo de seus
+ataques.
+GULOSO
+Quando a criatura agarra outra criatura
+pode gastar uma ação de movimento para
+poder engolir, ao engolir recebe 1d4+2
+aumentando em +1 dado para cada grau
+de dano ácido. (Exclusivo de Maldições e
+Fetos Amaldiçoados)
+IGNORAR TERRENO DIFÍCIL
+A criatura tem a capacidade de ignorar
+um tipo de terreno específico, devido a
+sua familiaridade com o terreno ou físico
+especial, escolha entre urbano (Cidades),
+Ermos (Florestas), Aquática (Submerso/
+Inundado) ou Subterrâneo (Cavernas e etc…)
+sendo incapaz de receber os malefícios de
+terreno difícil dentro dessa zona.
+ÍMPETO GRADUAL
+A criatura recebe uma ação a mais para
+poder realizar uma ação específica,
+devido ao feitiço que possui ou uma
+condição especial dentro de sua criação.
+Pode-se escolher entre uma Reação, Ação
+Bônus ou de Movimento, mas nunca uma
+Ação Comum.
+Grau
+Acerto
+Defesa
+TR
+Perícia
+Crítico
+Terreno
+4º Grau
+0
+0
+0
+0
+0
+0
+3º Grau
+0
+0
+0
+0
+0
+1,5m
+2º Grau
+-1
+-1
+-1
+-1
++1
+3m
+1º Grau
+-2
+-2
+-2
+-2
++2
+4,5m
+Grau Esp.
+ -3
+ -3
+ -3
+ -3
+ +3
+6m
+EFEITOS DE AURA
+
+--- Página 73 ---
+73
+MARCA
+A criatura tem a capacidade de colocar
+uma marca em quem ela acerta com um
+feitiço, ataque ou utilizando uma ação
+própria para isso. As marcas podem
+causar dano extra, debuffs ou condições
+garantidas.
+PAVIO CURTO
+Provocações são seu ponto fraco, seu sangue
+ferve e sua vontade de matar aumenta,
+com a adrenalina e ódio fortalecendo seu
+corpo. Você recebe desvantagem contra
+a ação provocar, porém causa metade de
+sua ND como dano extra contra criaturas
+que tenham provocado você.
+RASTRO AMALDIÇOADO
+Ao se deslocar, a criatura deixa um rastro
+do tamanho dele no chão ao qual pode ser
+usado para deixar uma habilidade nela,
+causar dano de terreno ou usar para algo
+muito específico do feitiço.
+Bônus de Treinamento
+Dano de Terreno
+Treinamento +2
+1d4+1
+Treinamento +3
+2d4+3
+Treinamento +4
+3d4+5
+Treinamento +5
+3d6+8
+Treinamento +6
+4d6+10
+TERRENO FAVORITO
+Enquanto a criatura estiver em seu
+ambiente de conforto ou em um ambiente
+que tenha pleno domínio, ela recebe
+bonificações de acordo com as bonificações
+do interior de um domínio da página xx do
+livro básico.
+TROCAR ATRIBUTO DE UMA PERÍCIA
+A criatura tem a capacidade de trocar o
+atributo de uma perícia, desde que seja
+coerente a troca de atributos, exemplo:
+Realizar atletismo com destreza para
+testes de correr.
+Grau
+Dano Fixo
+Prejuízos
+Condições
+4º Grau
++1
+-1
+Nenhuma
+3º Grau
++2
+-2
+Nenhuma
+2º Grau
++3
+-3
+1 Fraca
+1º Grau
++4
+-4
+1 Fraca
+Grau Esp.
+ +5
+ -5
+ 2 Fracas
+EFEITOS DE MARCA
+
+--- Página 74 ---
+74
+CARACTERÍSTICAS ESPECIAIS
+São habilidades, efeitos ou traços únicos que quebram ou alteram regras normais.
+Elas definem a identidade da criatura. Tornar encontros memoráveis, criar desafios
+específicos e forçar estratégias diferentes dos jogadores
+ADAPTABILIDADE
+Ao ser acertada a criatura consegue se
+adaptar a apenas 1 ataque causado contra
+ela. (Necessidade de um feitiço com esse
+funcionamento ou item amaldiçoado que
+funcionará para apenas um único tipo de
+dano)
+ALTERAR TAMANHO
+Tem a capacidade de alterar seu tamanho
+livremente: Até ND5 pequeno, médio
+e grande, a partir da ND10 todos os
+tamanhos. (recebe os bônus e os ônus do
+aumento ou redução)
+ANULAÇÃO
+A criatura tem a capacidade de anular
+a energia de um ataque por cena,
+necessitando gastar o PE gasto pelo
+atacante e possuir uma ação de reação.
+ARMAZÉM
+A criatura consegue guardar o dano
+recebido por um total de três rodadas e
+não sofre das desvantagens que receberia
+(dano, condição etc), mas após a terceira
+rodada recebe o dano x1,5 ou a condição
+dura duas rodadas a mais, danos causados
+direto como perda de vida ou raios negros
+não podem ser guardados.
+ARSENAL
+A criatura utiliza armas não naturais, as
+armas não possuem dano próprio, mas
+elas alteram o tipo de dano, alcance, e caso
+tenha uma característica especial, aplicam
+nos golpes utilizados com ela. (ex: lança
+invertida celeste)
+ATRAVESSAR ESTRUTURAS
+A criatura tem a capacidade de atravessar
+qualquer tipo de estrutura, exceto cortinas
+com a regra de não atravessar e expansões
+de domínio já fechadas. (Maldições de
+ND até 4 recebem gratuitamente essa
+característica)
+ATRAÇÃO
+A criatura tem a capacidade de 1x por
+rodada, forçar uma criatura a gastar sua
+ação de movimento na sua direção caso
+ela falhe em um TR de vontade.
+ATRAÇÃO DE ARMA
+A criatura tem a capacidade de atrair armas
+de um grupo específico e mesmo que a arma
+tenha retorno ela não volta ao seu dono
+uma vez que chegue na criatura, a classe de
+dificuldade é 15 + 5 para cada grau.
+BRECHAS
+Caso o ataque de uma criatura seja 5
+ou abaixo de sua Defesa, ou seja uma
+falha crítica, a criatura poderá realizar
+um teste de percepção contra a CD do
+atacante, podendo realizar um ataque de
+oportunidade caso suceda no teste.
+CONTROLE CORPORAL/MENTAL
+A criatura tem a capacidade de impedir
+desmembramentos uma quantidade de
+vezes igual ao seu bônus de treinamento
+ou após acertar uma quantidade x de
+ataques ou aplicar uma quantidade x de
+condições consegue o controle do corpo ou
+mente de uma criatura. (O controle mental
+é indicado apenas para feitiços com essa
+funcionalidade ou criaturas que tenham
+esse tema.)
+DIMENSÃO DE BOLSO
+A criatura tem a capacidade de criar uma
+dimensão própria onde pode usar para
+esconder algo, sequestrar alguém ou
+fugir. (Necessário um feitiço caso queira
+adentrar com ou sem outras pessoas)
+
+--- Página 75 ---
+75
+DUPLA PERSONALIDADE
+A criatura tem 2 personalidades, onde uma
+é boa e a outra é ruim, onde ela realmente
+passa dizendo a verdade em testes de
+intuição e a sua parte ruim sabe de todas
+as informações da personalidade boa.
+EQUIPE
+A criatura é composta por mais de 1
+unidade, o que permite que ela tenha
+resistência a ataques individuais, mas é
+vulnerável a ataques em área.
+EXPANSÃO DE DOMÍNIO
+A criatura possui a aptidão expansão de
+domínio, utilizando o guia de criação
+do livro básico pág. xxx, ND8 a criatura
+possui a incompleta, ND10 completa e
+ND20 sem barreira, recebe o bônus de
+rolagem na disputa de domínio também.
+Custa 2 Ações.
+FALÁCIA
+A criatura tem a capacidade de mentir
+em testes de intuição uma quantidade de
+vezes igual ao seu bônus de treinamento,
+essa característica não pode ser utilizada
+contra críticos naturais.
+IGNORAR CORTINAS
+A criatura tem a capacidade de ignorar
+cortinas, independentemente de suas regras.
+IMPACTO ATRASADO
+A criatura tem a capacidade de bater onde
+anteriormente outro ser estava, podendo
+realizar a jogada de acerto considerando
+a criatura surpresa. Essa característica
+funciona apenas para o local onde o alvo
+estava em sua última rodada, a partir
+da segunda utilização contra a mesma
+criatura, ela deve realizar um TR de
+reflexos para não ser considerada surpresa
+a jogada de ataque.
+LIGAÇÃO DO DESTINO
+A criatura se aproxima de outra criatura e
+prepara um ataque, se outra criatura que
+tiver um vínculo muito forte com o alvo
+avisar sobre o ataque, o ataque é anulado,
+caso não avise o ataque é garantido.
+LINGUAGEM MÍSTICA
+A criatura força às criaturas a mudarem
+seu idioma impedindo a comunicação
+entre eles, impedindo rituais e anulando
+percepção sonora.
+MIRAGEM TEMPORAL
+Caso os jogadores tenham se movido na
+última rodada. Você pode alvejar o lugar
+onde eles estavam no turno passado assim
+os considerando desprevenidos.
+PARTENOGÊNESE
+A criatura tem a capacidade de gastar
+PE para dividir uma parte do seu corpo
+para poder ressuscitar após um descanso
+longo caso essa parte dividida não tenha
+sido destruída (Exclusivo de Maldições).
+PERCEBER O TRAÇADO DA ALMA
+Tem a capacidade de ver, entender, curar
+e causar dano na alma, necessitando de
+possuir
+Integridade
+como
+resistência
+dominada, um feitiço capaz de manipular
+a alma ou ND 12 e acima.
+PING PONG
+Ao acertar um ataque corpo a corpo em
+alguém, empurre a pessoa uma quantidade
+de metros igual ao seu modificador de
+força  *1,5 e siga ela, a criatura empurrada
+não gera ataque de oportunidade.
+REPLAY
+A primeira vez que acertar uma criatura,
+ela deve realizar um TR de vontade, numa
+falha deve realizar as mesmas ações, nos
+mesmos alvos/mesmo lugar.
+REVERSÃO
+A criatura tem a capacidade de inverter os
+bônus concedidos entre jogadores, ou seja
++1 de acerto se transforma -1 de acerto. OBS:
+Muito cuidado, essa característica é muito
+forte e requer um nível de balanceamento
+muito preciso, podendo afetar uma única
+criatura por vez por 1 rodada, recebendo
+um tempo de recarga no mesmo alvo igual
+a metade do treinamento em rodadas,
+além de gastar uma ação de reação.
+
+--- Página 76 ---
+76
+REVERSÃO ELEMENTAL
+Ao ser alvo de um ataque que seja uma
+variação de um dos 4 elementos (Fogo,
+água, terra e ar) o ataque regride ao seu
+elemento oposto e tem sua efetividade
+reduzida (reduz o dano em 1/3), ativar essa
+característica exige uma ação de reação.
+SENTIDO ÀS CEGAS
+Ignora
+a
+escuridão
+parcial
+e
+total,
+possuindo olhos especiais ou a capacidade
+de utilizar seus outros sentidos de forma
+aguçada para localizar, você recebe acesso
+aos tipos de percepção especial da página
+296 do livro básico.
+SLIME
+Quando a criatura recebe um ataque
+corpo-a-corpo ou um projétil o acertar a
+arma/projétil fica preso nele tendo que
+fazer um teste de atletismo com a classe
+de dificuldade 15 + 3 por grau para tirar a
+arma/projétil.
+TALISMÃ
+Usuários de Invocações que possuírem
+essa característica, são capazes de trazer
+novamente ao campo de batalha suas
+invocações com metade dos seus pontos
+de vida e defesa após serem derrotadas,
+apenas podendo ser exorcizadas caso
+seu talismã seja destruído. Caso seja uma
+maldição e possua essa característica,
+você deverá possuir um objeto núcleo que
+estará fixo e exposto em uma distância
+de até 3 metros multiplicado por seu
+treinamento. Você não pode ser morto ou
+levado aos portões da morte até que seu
+talismã seja destruído.
+TRANSFORMAÇÃO
+A
+criatura
+tem
+a
+capacidade
+de
+se
+transformar
+e
+ganhar
+algumas
+bonificações como, vantagem em testes de
+ataque, vantagem em testes de resistência
+e bônus igual as tabelas acima igual ao seu
+bônus de treinamento.
+TRANSFORMAÇÃO ESPECIAL
+Uma vez por cena, a criatura possuirá
+uma ação especial para se transformar,
+ignorando a iniciativa e sendo ativa assim
+que for anunciada, essa transformação
+durará a cena e não poderá ser regredida
+com exceção da derrota ou vontade
+da criatura transformada, recebendo
+benefícios de acordo com o narrador.
+TRANSMISSÃO
+A criatura tem a capacidade de aplicar
+um efeito de dano contínuo em 1 criatura
+específica e todas as criaturas que
+estiverem a 1,5 metros do alvo recebem
+também caso não passem em um teste de
+resistência.
+VÍNCULO
+A criatura no início do combate se vincula
+a uma outra criatura, ao receber dano,
+condição, cura, vida temporária ou etc,
+a criatura vinculada recebe os mesmos
+bônus, caso a criatura seja oposta ao
+vínculo, deve realizar um TR de vontade
+contra o vinculador.
+ZONA FESTEIRA
+Todo início de turno, realize uma BATALHA
+DE DANÇA contra algum voluntário. Caso
+várias pessoas sejam voluntárias, você
+escolhe quem. Quem ganhar, recebe
+vantagem nas próximas 2 rolagens de
+atributos de presença.
+
+--- Página 77 ---
+77
+DOTES GERAIS
+Como dito anteriormente, os Dotes Gerais são o equivalente às habilidades de
+especialização dos jogadores, mas isso não quer dizer que ambas as coisas são idênticas.
+Os Dotes gerais estão sim relacionados à forma da criatura lutar, a sua natureza com a
+Energia Amaldiçoada e/ou o conhecimento estratégico do inimigo, mas não funcionam
+de forma idêntica às habilidades de Especialização.
+Caso algum Dote peça algum tipo de TR, será usado a CD base do inimigo, ou seja, a CD
+que ele normalmente usaria em suas ações, sem contar uma ação com aumento de PE,
+ao invés de ter um cálculo específico para a CD.
+Apesar dos Dotes Gerais não serem o equivalente direto de aptidões, alguns ainda terão
+sim relação com a Energia Amaldiçoada, fazendo com que não possam ser escolhidos
+por inimigos que sejam restringidos. Entretanto, inimigos que são Restritos Celestes
+também terão seus próprios Dotes Especiais, que estarão listados ao final dos Dotes
+Gerais.
+Obviamente, para os Dotes que possuem algum requisito, isso significa que é apenas
+o requisito mínimo necessário para possuir aquele Dote. Agora que isso foi informado,
+segue a seguir os Dotes Gerais que podem ser adquiridos:
+ABENÇOADO PELA SORTE
+Você tem uma sorte inexplicável, a qual
+o favorece nos momentos mais críticos.
+Você tem 3 pontos de sorte. Sempre que
+fizer uma rolagem, você pode gastar
+um ponto de sorte para rolar outro d20,
+podendo escolher usar qualquer um
+dos dois resultados. Você pode escolher
+rolar o outro dado após ver o resultado
+da primeira rolagem, mas antes de ver
+as consequências. Quando um inimigo
+conseguir um 20 em uma jogada de ataque
+para acertar, você recupera 1 ponto de
+sorte. Você recupera seus pontos de sorte
+após um descanso longo.
+APARAR ATAQUE
+Uma vez por rodada você rebate um ataque
+com outro ataque, assim conseguindo
+aparar um golpe. Quando for alvo de um
+ataque corpo a corpo, você pode gastar sua
+reação para realizar uma jogada de ataque
+contra o atacante. Caso seu teste supere
+o do inimigo, você evita o ataque, caso
+tenha mais de uma reação você consegue
+redirecionar um golpe direcionado a você,
+mudando o alvo gastando 2PE e mais
+reação para tentar redirecionar o ataque:
+Escolha outra criatura dentro do alcance
+do golpe e caso o resultado da jogada de
+ataque dela seja superior à Defesa do novo
+alvo, ele recebe o ataque.
+ASSUMIR POSTURA
+A postura que uma pessoa mantém
+em combate molda suas capacidades,
+fornecendo grandes benefícios. Ao obter
+esta habilidade, você recebe acesso às
+posturas, explicadas e listadas no final da
+especialização. Entrar em uma postura é
+uma ação bônus.
+•
+Postura da Fortuna. Enquanto estiver
+na postura da fortuna, ao rodar um
+d20 e conseguir um resultado igual ou
+menor ao seu bônus de treinamento,
+você pode escolher o rolar novamente,
+ficando
+com
+o
+maior
+resultado.
+Você pode utilizar este efeito uma
+quantidade de vezes igual a metade do
+seu bônus de treinamento por rodada
+e apenas uma vez no mesmo dado.
+•
+Postura da Tempestade. Enquanto
+na postura da tempestade, sempre
+que acertar um ataque o alvo realiza
+um TR de Fortitude, sendo derrubado
+em uma falha. Caso acerte um ataque
+em um alvo já caído, ele deve repetir
+o teste e, caso falhe, fica imóvel até o
+começo do seu turno. [Pré-Requisito:
+ND 10]
+
+--- Página 78 ---
+78
+ATRAÇÃO EM COMBATE
+Não só provocar, mas você é capaz de se
+transformar no centro da atenção daquele
+que você deseja desafiar. Uma criatura
+que seja afetada por uma ação de Provocar
+sua, ao invés de receber desvantagem para
+atacar outras criaturas, só pode realizar
+ataques contra você, até que suceda em um
+teste para escapar da provocação. [PréRequisito: 20 de Presença e dominância
+em Intimidação.]
+BELA TENTATIVA
+Caso esteja utilizando armas, elas são
+basicamente extensões do seu corpo e um
+desarme é uma oportunidade de destruir
+seus inimigos. Ao suceder em desarmar
+um alvo, você pode gastar 2 pontos de
+energia amaldiçoada para, como uma
+reação, realizar um ataque com a arma
+desarmada contra o mesmo alvo do
+desarme. Caso esteja com a arma de seu
+inimigo como uma ação comum pode
+realizar um teste de feitiçaria com CD: 25
++ 10 para cada grau da arma, caso passe
+pode danificar a arma, caso suceda em 3
+testes você quebra a arma da criatura.
+DESTRUINDO TUDO
+O ambiente é apenas uma ferramenta
+para você, sendo utilizado apenas para
+machucar ainda mais seus inimigos. Uma
+vez por rodada, ao acertar um ataque
+desarmado ou armado, você empurra o
+alvo por 1,5m + 1,5m multiplicado pela
+metade do seu BT, forçando-o a realizar
+um TR de fortitude, reduzindo a distância a
+metade em um sucesso. Se o objeto ter sua
+vida zerada pelo dano, o alvo empurrado
+continua sendo empurrado, mas a distância
+restante é reduzida à metade.
+DOMÍNIO DOS FUNDAMENTOS
+Você tem uma maior dominância sobre os
+fundamentos da energia amaldiçoada e
+das suas habilidades. Você pode escolher
+uma das mudanças de Fundamento
+abaixo.
+•
+Feitiço Cruel. Quando usar um Feitiço
+que força um Teste de Resistência
+você pode gastar 1 ponto de energia
+amaldiçoada para aumentar a CD do teste
+em 2 ou 2 pontos para aumentar em 4.
+•
+Feitiço Duplicado. Uma vez por
+rodada,
+quando
+usar
+um
+Feitiço
+de dano cujo alvo seja apenas uma
+criatura, você pode gastar pontos de
+energia para dar um segundo alvo à
+habilidade. O custo para reproduzir a
+habilidade em outra criatura é 5PE.
+ESTUDO AMALDIÇOADO
+Você estuda sobre a energia amaldiçoada
+ao máximo, conseguindo descobrir uma
+nova maneira de a utilizar. Ao obter
+este talento, você pode escolher dois
+Níveis de Aptidão diferentes para serem
+aumentados em 1.  [Pré-Requisito: ND 10
+Comum, Desafio ou Calamidade]
+EXPANSÃO MAESTRAL
+Você pode utilizar expansões de domínio
+possuindo apenas uma mão livre e
+expandir o domínio não causa ataques de
+oportunidade em você. [Pré-Requisito:
+Expansão de Domínio Completa]
+
+--- Página 79 ---
+79
+EXPLOSÃO EM CADEIA
+Um bom desempenho em uma conjuração
+o permite aumentar o poder destrutivo,
+encadeando a força. Ao rolar o dano
+máximo em um dado de dano de um
+Feitiço de dano, você rola mais um dado
+de dano de mesmo valor, adicionando o
+resultado ao total de dano. Tal habilidade
+funciona apenas uma vez por dado do
+Feitiço: caso role-se um dado adicional
+por causa de Explosão Encadeada e
+tal seja dano máximo, não se ativa
+novamente. Focando em sobrecarregar
+as suas habilidades, você pode consumir
+energia para a deixar quase impossível de
+resistir. Quando usar um Feitiço que força
+um teste de resistência você pode gastar
+pontos de energia amaldiçoada igual ao
+seu bônus de treinamento para aumentar
+a dificuldade do teste. Para cada ponto
+gasto, a dificuldade aumenta em 1.
+FÚRIA BERSERKER
+Durante uma cena de combate uma
+criatura pode entrar em fúria e liberar
+seu potencial bestial, se tornando imune a
+condições que o imobilizam ou que façam
+ele perder a consciência, porém, a criatura
+só poderá ter como alvo uma única criatura
+até que um dos dois cheguem a 0 pontos
+de vida. Recebe 2 pontos de exaustão caso
+esteja de pé e a criatura alvo caia. Você
+consegue sempre perceber um ponto cego
+na guarda do inimigo, se posicionando em
+tal. Se mover pelo espaço de um inimigo
+não conta como terreno difícil, e sempre
+que você estiver no espaço de um inimigo,
+faz com que ataques contra você tenham
+40% de chance de falhar (1 a 4 em 1d10).
+A partir do patamar desafio, você pode
+realizar uma rolagem de furtividade
+contra um alvo ao qual esteja dentro
+do espaço dele; caso seu resultado seja
+superior ao valor de atenção dele, faz com
+que os ataques da criatura alvo tenha 60%
+de chance de falhar (1 a 6 em 1d10).
+IMITAÇÃO
+Você consegue imitar técnicas e estilos
+de combate de outras pessoas, uma vez
+que você consegue enxergar a técnica/
+estilo de combate consegue a reproduzir
+perfeitamente recebendo um bônus de +2
+para acertar, causa +5 de dano fixo e +3
+na Defesa. Uma vez por turno, ao realizar
+um ataque surpresa ou contra um inimigo
+desprevenido, você pode adicionar +1
+dado de dano.
+MEMBRO FANTASMA
+Atacar a uma distância grande não impõe
+desvantagem no seu ataque. Seus ataques a
+distância ignoram meia cobertura e 3/4 de
+cobertura. Antes de fazer um ataque você
+pode escolher receber uma penalidade de
+-10 para acertar em troca de desabilitar
+um membro do corpo de uma criatura por
+1 rodada (aura anuladora pode remover
+ao custo de 10PE). Caso esteja usando uma
+arma a distância a desvantagem de atirar
+corpo-a-corpo é removida. [Pré-requisito:
+ND 10 Desafio e Calamidade.]
+MENTE E CORPO EM EQUILÍBRIO
+Sua mente é imperturbável durante uma
+boa luta. Você recebe uma quantidade
+de vantagens igual ao seu bônus de
+treinamento para resistir a condições
+mentais e físicas.
+POSICIONAMENTO AMEAÇADOR
+Você sabe se posicionar de maneira
+estratégica, fazendo com que um inimigo
+que possa o ver te reconheça como uma
+constante ameaça, mesmo distante. A
+menos que esteja furtivo, toda criatura
+que estiver a 3 metros de você tem sua
+defesa reduzida em 2. Ao acertar uma
+criatura com um ataque de oportunidade,
+o movimento dela é reduzido em 0 até o
+final do turno dela.
+
+--- Página 80 ---
+80
+PRESENÇA ATERRORIZANTE
+Seus inimigos não possuem apenas medo
+ao olhar para você, eles sentem algo
+que nunca sentiram antes, um pavor
+inestimável por você estar do outro lado
+do tabuleiro. Todos aqueles que te verem
+pela primeira vez devem realizar um TR
+de vontade, aqueles que falharem ficam
+com a condição de  Apavorado, aqueles
+que tiverem um sucesso ficam com a
+condição de amedrontado e aqueles que
+tiverem um sucesso crítico ignoram ambas
+as condições. Aqueles que estiverem
+Apavorados ou Amedrontados repetem o
+teste no início de seus turnos, ao obterem
+sucesso, reduzem o nível da condição em
+1 (apavorado -> amedrontado -> abalado
+-> nada), em um sucesso crítico removem
+duas etapas. [Pré-requisito: Calamidade
+de Grau 1]
+PURIFICAÇÃO DA ALMA
+Você entende seu eu verdadeiro por
+inteiro, sendo capaz de enxergar até
+mesmo o traçado de uma alma. Ao utilizar
+uma ação de cura com energia reversa ou
+não, você pode abdicar de metade dessa
+cura e passar para sua integridade, sendo
+limitado a utilizar este dote apenas uma
+vez por descanso longo.
+REAÇÃO NECESSÁRIA
+Você sabe que, em certos momentos,
+sua reação é necessária, mesmo que isso
+signifique ir além do esperado. Uma vez
+por rodada, caso não possua uma reação,
+você pode gastar 3 pontos de energia
+amaldiçoada para realizar uma reação
+adicional. Se você receber dano de um
+inimigo que esteja dentro de seu alcance,
+você pode gastar 2 pontos de estamina e
+usar sua reação para realizar um ataque
+contra ele.
+SENTIDOS AFIADOS
+Sua atenção para os arredores nunca
+falha, usando da energia amaldiçoada
+para sentir seus arredores e perceber
+coisas que os outros não conseguem. Sua
+Atenção aumenta em um valor igual a sua
+ND, assim como você soma metade desse
+valor em rolagens de Percepção. Além
+disso, você pode gastar 2 PE para que, ao
+estar no ar, você o use como plataforma,
+se mantendo de pé no ar, você não pode
+ativamente subir enquanto manter esse
+efeito, mas pode saltar para subir mais.
+Esse efeito também pode ser usado como
+reação ao sofrer dano de queda, o anulando
+completamente. [Pré-requisito: Não pode
+ter o talento SENTIDOS ATENTOS]
+SENTIDOS ATENTOS
+Sua atenção para os arredores nunca
+falha, mantendo seus sentidos afiados.
+Você recebe um bônus de +5 em sua
+Atenção e não pode ser surpreendido caso
+esteja consciente. Preparado para agir sob
+pressão e urgência, você sabe como reagir
+o mais rápido possível. Você recebe +5 de
+Iniciativa. Após a rolagem de iniciativa,
+caso você não seja o primeiro, você pode
+rolar novamente, ficando com o melhor
+resultado. [Pré-requisito: Não pode ter o
+talento SENTIDOS AFIADOS]
+ÚLTIMA INVESTIDA
+Ao reconhecer que em breve você irá cair,
+você entrega toda sua força e energia antes
+da derrota inevitável. Se você for cair para
+0 de vida, pode gastar uma reação para
+realizar um ataque ou feitiço de alvo único,
+causando dano máximo contra uma criatura
+a até 6 metros de você. [Pré-requisito: Não
+possuir Desafiando a Morte]
+VOTO MALEVOLENTE
+Você sabe como manter sua cabeça
+fria mesmo nos momentos mais tensos,
+lembrando-se da malícia ao criar votos.
+Ao realizar votos emergenciais, o voto
+não precisa ter um malefício maior que o
+benefício, sendo realizado normalmente.
+[Pré-Requisito: ND 8 Comum, Desafio,
+ou Calamidade]
+

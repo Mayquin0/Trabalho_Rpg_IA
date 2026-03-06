@@ -1,0 +1,2156 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ficha — Ordem Paranormal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+/* ─── TOKENS ─── */
+:root{
+  --bg:#0b0b0f;--panel:#0f0f14;--card:#15151b;--card2:#1b1b24;--card3:#222230;
+  --border:#1e1e2a;--border2:#2c2c3d;--border3:#3a3a52;
+  --text:#cdd6f4;--text2:#a6adc8;--muted:#585b82;--dim:#2f2f45;
+  --pv:#e55;--pv2:#ff6b6b;--pvbg:rgba(229,85,85,.1);
+  --san:#a855f7;--san2:#c084fc;--sanbg:rgba(168,85,247,.1);
+  --pe:#f97316;--pe2:#fb923c;--pebg:rgba(249,115,22,.1);
+  --accent:#e8953a;--accent2:#f7a95a;--accdim:rgba(232,149,58,.1);--accbdr:rgba(232,149,58,.3);
+  --agi:#22c55e;--agidim:rgba(34,197,94,.12);
+  --str:#ef4444;--strdim:rgba(239,68,68,.12);
+  --int:#3b82f6;--intdim:rgba(59,130,246,.12);
+  --pre:#a855f7;--predim:rgba(168,85,247,.12);
+  --vig:#eab308;--vigdim:rgba(234,179,8,.12);
+  --combat:#14b8a6;--combatdim:rgba(20,184,166,.12);
+  --r:8px;--sm:4px;--xs:2px;
+  --shadow:0 2px 12px rgba(0,0,0,.6);
+  --shadow2:0 4px 24px rgba(0,0,0,.8);
+}
+/* ─── RESET ─── */
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%;overflow:hidden}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);font-size:13px;line-height:1.4}
+input,select,textarea,button{font-family:inherit;font-size:13px;color:inherit}
+button{cursor:pointer}
+::-webkit-scrollbar{width:4px;height:4px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--dim);border-radius:2px}
+
+/* ─── TOP BAR ─── */
+.top-bar{
+  height:3px;
+  background:linear-gradient(90deg,var(--pv) 0%,var(--san) 35%,var(--accent) 60%,var(--pe) 80%,var(--int) 100%);
+}
+
+/* ─── MAIN TABS (Arquivista style) ─── */
+.main-tabs{
+  display:flex;align-items:stretch;gap:0;
+  background:var(--panel);border-bottom:1px solid var(--border);
+  height:42px;flex-shrink:0;padding:0 12px;
+}
+.main-tab{
+  display:flex;align-items:center;gap:5px;
+  padding:0 14px;border:none;background:none;
+  color:var(--muted);font-family:'Rajdhani',sans-serif;font-weight:600;
+  font-size:.8rem;letter-spacing:.8px;text-transform:uppercase;
+  border-bottom:2px solid transparent;margin-bottom:-1px;
+  transition:color .15s,border-color .15s;
+}
+.main-tab:hover{color:var(--text2)}
+.main-tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+.main-tab .mi{font-size:1rem}
+.main-tab-actions{margin-left:auto;display:flex;align-items:center;gap:5px}
+.brand{font-family:'Rajdhani',sans-serif;font-weight:700;font-size:1rem;color:var(--muted);letter-spacing:1px;margin-right:6px;user-select:none;white-space:nowrap}
+
+/* ─── BTN ─── */
+.btn{
+  display:inline-flex;align-items:center;gap:4px;
+  padding:5px 11px;border-radius:var(--sm);
+  border:1px solid var(--border2);background:var(--card2);
+  color:var(--text2);cursor:pointer;transition:all .14s;white-space:nowrap;
+  font-size:.78rem;font-weight:500;
+}
+.btn:hover{background:var(--card3);border-color:var(--border3);color:var(--text)}
+.btn-accent{background:var(--accdim);border-color:var(--accbdr);color:var(--accent);font-weight:600}
+.btn-accent:hover{background:rgba(232,149,58,.2);color:var(--accent2)}
+.btn-ghost{background:transparent;border-color:transparent;color:var(--muted)}
+.btn-ghost:hover{background:var(--card2);border-color:var(--border);color:var(--text2)}
+.btn-sm{padding:3px 8px;font-size:.72rem}
+.btn-xs{padding:1px 6px;font-size:.68rem}
+.btn-icon{padding:4px;border-radius:var(--sm)}
+.btn-danger:hover{background:rgba(239,68,68,.12);border-color:rgba(239,68,68,.3);color:#ef4444}
+
+/* ─── PAGE VIEWS ─── */
+.page{display:none;flex:1;overflow:hidden}
+.page.active{display:flex}
+
+/* ─── PAGE FICHA: 3-col layout ─── */
+#page-ficha{flex-direction:row}
+.col-left{
+  width:250px;flex-shrink:0;
+  background:var(--panel);border-right:1px solid var(--border);
+  overflow-y:auto;padding:10px 8px;
+  display:flex;flex-direction:column;gap:7px;
+}
+.col-center{
+  flex:1;overflow-y:auto;padding:10px 12px;
+  display:flex;flex-direction:column;gap:8px;
+}
+.col-right{
+  width:355px;flex-shrink:0;
+  background:var(--panel);border-left:1px solid var(--border);
+  display:flex;flex-direction:column;overflow:hidden;
+}
+
+/* ─── CARD ─── */
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--r)}
+.card-pad{padding:8px 10px}
+.card-title{
+  font-family:'Rajdhani',sans-serif;font-weight:600;font-size:.72rem;
+  text-transform:uppercase;letter-spacing:.7px;color:var(--muted);
+  margin-bottom:6px;display:flex;align-items:center;gap:5px;
+}
+.card-title::before{content:'';width:2px;height:10px;background:var(--accent);border-radius:1px}
+
+/* ─── PORTRAIT ─── */
+.portrait-row{display:flex;gap:8px;align-items:center}
+.portrait-wrap{position:relative;width:58px;height:58px;cursor:pointer;flex-shrink:0}
+.portrait-img{width:58px;height:58px;border-radius:var(--sm);object-fit:cover;border:2px solid var(--border2);background:var(--card2)}
+.portrait-badge{
+  position:absolute;bottom:-3px;right:-3px;
+  background:var(--accent);border-radius:50%;width:16px;height:16px;
+  display:flex;align-items:center;justify-content:center;font-size:.6rem;color:#fff;
+  box-shadow:var(--shadow);
+}
+.port-info{flex:1;overflow:hidden;display:flex;flex-direction:column;gap:3px}
+.port-name{
+  font-family:'Rajdhani',sans-serif;font-weight:700;font-size:.95rem;
+  color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap
+}
+.port-player{font-size:.68rem;color:var(--muted)}
+
+/* ─── ATTRIBUTES PENTAGON ─── */
+.attrs-card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:6px 4px}
+.attrs-container{position:relative;width:232px;height:210px;margin:0 auto}
+#penta-canvas{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:0}
+.attr-wrap{position:absolute;z-index:1;display:flex;flex-direction:column;align-items:center;gap:2px}
+.attr-wrap-agi{top:0;left:50%;transform:translateX(-50%)}
+.attr-wrap-str{top:35%;left:0}
+.attr-wrap-int{top:35%;right:0}
+.attr-wrap-pre{bottom:0;left:10%}
+.attr-wrap-vig{bottom:0;right:10%}
+.attr-ring{
+  width:50px;height:50px;border-radius:50%;
+  border:2px solid var(--dim);background:var(--bg);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  position:relative;transition:box-shadow .2s;
+}
+.attr-ring:hover{box-shadow:0 0 16px rgba(255,255,255,.07)}
+.attr-num{font-family:'Rajdhani',sans-serif;font-weight:700;font-size:1.45rem;line-height:1}
+.attr-btns{position:absolute;bottom:-10px;display:flex;gap:2px}
+.attr-btn{
+  background:var(--card2);border:1px solid var(--border2);border-radius:50%;
+  width:16px;height:16px;cursor:pointer;font-size:.7rem;color:var(--muted);
+  display:flex;align-items:center;justify-content:center;transition:all .1s;
+}
+.attr-btn:hover{color:var(--text);background:var(--card3)}
+.attr-lbl{font-size:.5rem;font-weight:700;letter-spacing:.5px;color:var(--muted);text-align:center;margin-top:10px;line-height:1.2}
+
+/* ─── NEX / STATS ROW ─── */
+.nex-row{
+  display:flex;justify-content:space-between;align-items:center;
+  background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:6px 8px;
+}
+.stat-group{display:flex;flex-direction:column;align-items:center;gap:1px}
+.stat-val{font-family:'Rajdhani',sans-serif;font-weight:700;font-size:.9rem;color:var(--accent)}
+.stat-lbl{font-size:.55rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+.stat-inp{
+  background:transparent;border:none;border-bottom:1px dotted var(--dim);
+  color:var(--accent);width:26px;text-align:center;
+  font-family:'Rajdhani',sans-serif;font-weight:700;font-size:.9rem;outline:none;
+}
+
+/* ─── RESOURCE BARS (C.R.I.S. style) ─── */
+.res-bar{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:5px 7px}
+.res-header{display:flex;align-items:center;gap:6px;margin-bottom:3px}
+.res-name{font-family:'Rajdhani',sans-serif;font-weight:700;font-size:.68rem;letter-spacing:1px;text-transform:uppercase;min-width:48px}
+.res-track{flex:1;height:7px;background:var(--bg);border-radius:3px;overflow:hidden}
+.res-fill{height:100%;border-radius:3px;transition:width .35s ease}
+.pv-fill{background:linear-gradient(90deg,#b91c1c,var(--pv2))}
+.san-fill{background:linear-gradient(90deg,#7e22ce,var(--san2))}
+.pe-fill{background:linear-gradient(90deg,#c2410c,var(--pe2))}
+.res-controls{display:flex;align-items:center;justify-content:center;gap:3px}
+.res-btn{
+  width:19px;height:19px;background:var(--card2);border:1px solid var(--border);
+  border-radius:var(--sm);color:var(--muted);cursor:pointer;font-size:.78rem;
+  display:flex;align-items:center;justify-content:center;transition:all .12s;
+}
+.res-btn:hover{color:var(--text);background:var(--card3);border-color:var(--border2)}
+.res-val{font-family:'Rajdhani',sans-serif;font-weight:700;font-size:.87rem;min-width:75px;text-align:center}
+.pv-color{color:var(--pv2)}.san-color{color:var(--san2)}.pe-color{color:var(--pe2)}
+
+/* ─── DEFESA BLOCK ─── */
+.def-block{
+  background:var(--card);border:1px solid var(--border);border-radius:var(--r);
+  padding:7px 9px;display:flex;align-items:center;gap:10px;
+}
+.def-badge{
+  display:flex;flex-direction:column;align-items:center;
+  padding:6px 14px;border:2px solid var(--accent);border-radius:var(--r);
+  background:var(--accdim);flex-shrink:0;
+}
+.def-big{font-family:'Rajdhani',sans-serif;font-weight:700;font-size:2rem;color:var(--accent);line-height:1}
+.def-label{font-size:.55rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-top:1px}
+.def-formula{font-size:.55rem;color:var(--dim)}
+.def-extras{flex:1;display:flex;flex-direction:column;gap:4px}
+.def-row{display:flex;justify-content:space-between;align-items:center}
+.def-row-lbl{font-size:.6rem;color:var(--muted);text-transform:uppercase;letter-spacing:.4px}
+.def-row-val{font-family:'Rajdhani',sans-serif;font-weight:700;font-size:.87rem}
+.def-inp{
+  background:transparent;border:none;border-bottom:1px dotted var(--dim);
+  color:var(--text);width:28px;text-align:center;outline:none;
+  font-family:'Rajdhani',sans-serif;font-size:.78rem;font-weight:700;
+}
+
+/* ─── MINI FIELDS ─── */
+.mini-card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:5px 8px}
+.mini-lbl{font-size:.55rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;display:block;margin-bottom:3px}
+.mini-inp{width:100%;background:transparent;border:none;border-bottom:1px dotted var(--dim);color:var(--text);padding:1px 0;outline:none;font-size:.75rem}
+.prof-tags{display:flex;flex-wrap:wrap;gap:3px;min-height:14px}
+.prof-tag{font-size:.6rem;padding:1px 6px;border-radius:10px;background:var(--accdim);color:var(--accent);border:1px solid var(--accbdr)}
+
+/* ─── ORIGIN BOX ─── */
+.origin-box{
+  background:var(--card);border:1px solid var(--border);border-radius:var(--r);
+  padding:7px 9px;display:none;
+}
+/* ficha.js generates: origin-src, origin-power, origin-skills */
+.origin-src,.origin-box-src{font-family:'Rajdhani',sans-serif;font-weight:700;font-size:.78rem;color:var(--accent);display:block}
+.origin-power,.origin-box-power{font-size:.72rem;color:var(--text2);margin-top:3px;line-height:1.55}
+.origin-skills,.origin-box-skills{font-size:.67rem;color:var(--muted);margin-top:2px}
+
+/* ─── CENTER PANEL header fields ─── */
+.char-fields-row{
+  display:flex;gap:8px;flex-wrap:wrap;
+  background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:7px 10px;
+  align-items:flex-end;
+}
+.char-field{display:flex;flex-direction:column;gap:2px}
+.char-field label{font-size:.58rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+.char-field input,.char-field select{
+  background:var(--card2);border:1px solid var(--border2);color:var(--text);
+  padding:4px 8px;border-radius:var(--sm);outline:none;transition:border-color .18s;
+}
+.char-field input:focus,.char-field select:focus{border-color:var(--accent)}
+
+/* ─── SKILLS TABLE ─── */
+.skills-section{flex:1}
+.skills-hdr{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
+.skills-hdr h2{font-family:'Rajdhani',sans-serif;font-size:.95rem;font-weight:600}
+.trained-badge{
+  font-size:.7rem;padding:2px 9px;border-radius:10px;
+  background:var(--accdim);color:var(--accent);border:1px solid var(--accbdr);
+}
+.skills-table{width:100%;border-collapse:collapse}
+.skills-table thead th{
+  font-family:'Rajdhani',sans-serif;font-size:.6rem;font-weight:600;color:var(--muted);
+  text-transform:uppercase;letter-spacing:.5px;padding:4px 5px;
+  border-bottom:1px solid var(--border);text-align:left;
+  position:sticky;top:0;background:var(--bg);z-index:2;
+}
+.skills-table thead th.tc{text-align:center}
+.skills-table td{padding:2px 5px;border-bottom:1px solid rgba(30,30,42,.9);font-size:.77rem;vertical-align:middle}
+.skills-table td.tc{text-align:center}
+.skills-table tr:hover{background:rgba(255,255,255,.02)}
+/* ficha.js generates these class names */
+.skills-table tr.trained-row td,.skills-table tr.sk-trained td{color:var(--text)}
+.skills-table tr.disabled-skill td,.skills-table tr.sk-disabled td{opacity:.28}
+.skills-table tr.origin-row .skill-name-cell,.skills-table tr.sk-origin .sk-name{color:var(--accent);font-weight:600}
+.skill-name-cell{font-weight:500;min-width:88px;cursor:default}
+.mark-carga,.sk-mark-c{font-size:.58rem;vertical-align:super;margin-left:1px;color:var(--pe2)}
+.mark-trained,.sk-mark-t{font-size:.58rem;vertical-align:super;margin-left:1px;color:var(--san2)}
+.attr-pip{
+  font-family:'Rajdhani',sans-serif;font-weight:700;font-size:.6rem;
+  padding:1px 4px;border-radius:2px;display:inline-block;min-width:26px;text-align:center;
+}
+.attr-pip-agi{background:var(--agidim);color:var(--agi)}
+.attr-pip-str{background:var(--strdim);color:var(--str)}
+.attr-pip-int{background:var(--intdim);color:var(--int)}
+.attr-pip-pre{background:var(--predim);color:var(--pre)}
+.attr-pip-vig{background:var(--vigdim);color:var(--vig)}
+.dice-cell{font-family:'Share Tech Mono',monospace;font-size:.72rem;color:var(--muted)}
+.train-sel{
+  background:var(--card);border:1px solid var(--border);color:var(--text);
+  padding:1px 3px;border-radius:var(--xs);font-size:.68rem;cursor:pointer;outline:none;width:100%;
+  transition:border-color .15s;
+}
+.train-sel:focus{border-color:var(--accent)}
+.bonus-cell{color:var(--muted);font-size:.73rem}
+.outros-inp{
+  background:var(--card);border:1px solid var(--border);color:var(--text);
+  width:34px;padding:1px 3px;border-radius:var(--xs);font-size:.73rem;text-align:center;outline:none;
+}
+.outros-inp:focus{border-color:var(--accent)}
+.total-cell{font-family:'Rajdhani',sans-serif;font-weight:700;font-size:.87rem;color:var(--muted)}
+.total-trained{color:var(--accent2)}
+.roll-btn{background:none;border:none;cursor:pointer;font-size:.8rem;opacity:.35;transition:opacity .12s;padding:2px}
+.roll-btn:hover{opacity:1}
+.roll-btn:disabled{opacity:.1;cursor:not-allowed}
+.skills-legend{font-size:.6rem;color:var(--muted);margin-top:5px;padding-top:5px;border-top:1px solid var(--border)}
+
+/* ─── COMBAT PANEL (Arquivista rodada) ─── */
+.combat-panel{
+  background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:8px 10px;
+  display:flex;flex-direction:column;gap:7px;
+}
+.combat-row-inner{display:flex;align-items:center;gap:8px}
+.round-ctrl{display:flex;align-items:center;gap:5px}
+.round-lbl{font-family:'Rajdhani',sans-serif;font-size:.7rem;color:var(--muted);letter-spacing:.5px;text-transform:uppercase}
+.round-val{font-family:'Rajdhani',sans-serif;font-weight:700;font-size:1.1rem;color:var(--accent);min-width:30px;text-align:center}
+.round-btn{
+  width:22px;height:22px;background:var(--card2);border:1px solid var(--border2);
+  border-radius:var(--sm);color:var(--muted);cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  font-size:.85rem;transition:all .1s;
+}
+.round-btn:hover{color:var(--accent);border-color:var(--accbdr)}
+.init-row{display:flex;align-items:center;gap:6px;flex:1}
+.init-inp{
+  background:var(--card2);border:1px solid var(--border2);color:var(--text);
+  width:46px;padding:3px 6px;border-radius:var(--sm);font-size:.8rem;text-align:center;outline:none;
+  font-family:'Rajdhani',sans-serif;font-weight:700;
+}
+.init-inp:focus{border-color:var(--accent)}
+.order-list{display:flex;gap:4px;flex-wrap:wrap;padding:3px 0}
+.order-chip{
+  font-size:.65rem;padding:2px 8px;border-radius:10px;
+  background:var(--card2);border:1px solid var(--border2);color:var(--text2);cursor:pointer;
+}
+.order-chip:hover{border-color:var(--accbdr);color:var(--accent)}
+.order-chip.current{background:var(--accdim);border-color:var(--accbdr);color:var(--accent);font-weight:600}
+.order-chip.add{color:var(--muted)}
+
+/* ─── RIGHT PANEL TABS ─── */
+.rpanel-tabs{display:flex;border-bottom:1px solid var(--border);background:var(--card);flex-shrink:0}
+.rpanel-tab{
+  flex:1;padding:8px 2px;border:none;background:none;color:var(--muted);
+  font-family:'Rajdhani',sans-serif;font-weight:600;font-size:.65rem;cursor:pointer;
+  border-bottom:2px solid transparent;transition:all .15s;text-transform:uppercase;letter-spacing:.6px;
+}
+.rpanel-tab:hover{color:var(--text2);background:var(--card2)}
+.rpanel-tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+.rpanel-pane{flex:1;overflow-y:auto;padding:9px;display:none;flex-direction:column;gap:6px}
+.rpanel-pane.active{display:flex}
+.pane-hdr{display:flex;justify-content:space-between;align-items:center;margin-bottom:2px}
+.pane-hdr h3{font-family:'Rajdhani',sans-serif;font-size:.9rem;font-weight:600}
+
+/* Category tabs (abilities) */
+.cat-bar{display:flex;gap:3px;flex-wrap:wrap;padding-bottom:2px}
+.cat-btn{
+  padding:3px 9px;border-radius:10px;font-size:.68rem;
+  border:1px solid var(--border);background:var(--card);color:var(--muted);cursor:pointer;transition:all .15s;
+}
+.cat-btn.active{background:var(--accdim);border-color:var(--accbdr);color:var(--accent)}
+
+/* ─── ITEM CARDS ─── */
+.item-card{
+  background:var(--card);border:1px solid var(--border);border-radius:var(--r);
+  padding:7px 9px;transition:border-color .15s;
+}
+.item-card:hover{border-color:var(--border2)}
+/* ficha.js uses item-card-header, ficha.html also uses item-card-hdr */
+.item-card-header,.item-card-hdr{display:flex;align-items:center;justify-content:space-between;margin-bottom:3px}
+.item-name{font-weight:600;font-size:.84rem}
+.item-actions{display:flex;gap:1px}
+.ic-btn{background:none;border:none;cursor:pointer;font-size:.82rem;padding:2px 5px;opacity:.45;transition:all .14s;border-radius:3px}
+.ic-btn:hover{opacity:1}
+.ic-btn.danger:hover{background:rgba(239,68,68,.12);color:#ef4444}
+/* ficha.js uses item-detail and detail-tag; aliases for item-tags and tag */
+.item-detail,.item-tags{display:flex;flex-wrap:wrap;gap:3px;margin-bottom:2px}
+.detail-tag,.tag{font-size:.6rem;padding:1px 6px;border-radius:10px;background:var(--card2);color:var(--muted);border:1px solid var(--border)}
+.pe-tag,.tag-pe{background:rgba(249,115,22,.1);color:var(--pe2);border-color:rgba(249,115,22,.28)}
+.elem-tag,.tag-elem{background:var(--accdim);color:var(--accent);border-color:var(--accbdr)}
+.src-tag,.tag-src{background:rgba(59,130,246,.08);color:#60a5fa;border-color:rgba(59,130,246,.2)}
+.tag-combat{background:var(--combatdim);color:var(--combat);border-color:rgba(20,184,166,.25)}
+.item-notes{font-size:.72rem;color:var(--muted);line-height:1.45;margin-top:2px}
+.collapse-toggle{cursor:pointer;user-select:none;display:flex;flex-wrap:wrap;gap:3px;align-items:center}
+.collapse-arrow{margin-left:auto;color:var(--muted);font-size:.62rem;flex-shrink:0}
+.item-desc-body{display:none;margin-top:5px;padding-top:5px;border-top:1px solid var(--border);font-size:.75rem;color:var(--text2);line-height:1.55}
+.item-desc-body.open{display:block}
+.empty-state{text-align:center;padding:26px 10px;color:var(--muted);font-size:.77rem}
+.empty-state span{font-size:1.8rem;display:block;margin-bottom:5px}
+.empty-state .es-icon{font-size:1.8rem;display:block;margin-bottom:5px}
+.dominio-slot{padding:6px 0}
+.dominio-card{background:rgba(168,85,247,.08);border:1px solid rgba(168,85,247,.3);border-radius:var(--r);padding:8px}
+/* ficha.js uses equip-label, ficha.html uses equip-check */
+.equip-label,.equip-check{display:flex;align-items:center;gap:6px;cursor:pointer}
+.equip-label input[type=checkbox],.equip-check input[type=checkbox]{accent-color:var(--accent);cursor:pointer}
+.equipped-card{border-left:3px solid var(--accent)}
+
+/* ─── PATENTE ─── */
+.patente-card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:6px 10px}
+.patente-row{display:flex;justify-content:space-between;align-items:center}
+.patente-rank{font-family:'Rajdhani',sans-serif;font-weight:700;font-size:.88rem;color:var(--accent)}
+.prestgio-inp{background:var(--card2);border:1px solid var(--border);color:var(--text);width:50px;padding:2px 5px;border-radius:var(--sm);font-size:.77rem;text-align:center;outline:none}
+.patente-sub{font-size:.66rem;color:var(--muted);margin-top:2px}
+
+/* ─── DESCRIPTION ─── */
+.desc-grp{display:flex;flex-direction:column;gap:2px}
+.desc-lbl{font-size:.6rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+.desc-ta{width:100%;min-height:58px;background:var(--card);border:1px solid var(--border);border-radius:var(--sm);color:var(--text);padding:5px 8px;font-size:.77rem;resize:vertical;outline:none;line-height:1.5}
+.desc-ta:focus{border-color:var(--accent)}
+
+/* ─── GRIMÓRIO (Rituais full page) ─── */
+#page-grimorio{flex-direction:column;padding:12px 16px;gap:10px;overflow-y:auto}
+#page-grimorio h2{font-family:'Rajdhani',sans-serif;font-size:1.1rem}
+
+/* ─── HABILIDADES full page ─── */
+#page-habilidades{flex-direction:column;padding:12px 16px;gap:10px;overflow-y:auto}
+#page-habilidades h2{font-family:'Rajdhani',sans-serif;font-size:1.1rem}
+
+/* ─── ITENS full page ─── */
+#page-itens{flex-direction:column;padding:12px 16px;gap:10px;overflow-y:auto}
+#page-itens h2{font-family:'Rajdhani',sans-serif;font-size:1.1rem}
+
+/* ─── COMBATE full page ─── */
+#page-combate{flex-direction:column;padding:12px 16px;gap:10px;overflow-y:auto}
+
+/* ─── GRIMOIRE GRID ─── */
+.grimoire-grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px;
+}
+
+/* ─── MODAL ─── */
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.8);display:none;align-items:center;justify-content:center;z-index:300;backdrop-filter:blur(2px)}
+.modal-overlay.active{display:flex}
+.modal{background:var(--panel);border:1px solid var(--border2);border-radius:var(--r);width:500px;max-height:88vh;overflow-y:auto;box-shadow:var(--shadow2)}
+/* ─── BROWSER MODAL ─── */
+#browser-overlay{position:fixed;inset:0;background:rgba(0,0,0,.82);display:none;align-items:flex-start;justify-content:center;z-index:310;backdrop-filter:blur(3px);padding:32px 16px;overflow-y:auto}
+#browser-overlay.active{display:flex}
+.browser-box{background:var(--panel);border:1px solid var(--border2);border-radius:var(--r);width:min(760px,96vw);box-shadow:var(--shadow2);display:flex;flex-direction:column;max-height:84vh}
+.browser-hdr{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid var(--border);position:sticky;top:0;background:var(--panel);z-index:1;gap:8px}
+.browser-hdr h3{font-family:'Rajdhani',sans-serif;font-size:1.05rem;font-weight:700;flex:1}
+.browser-search{background:var(--card);border:1px solid var(--border);color:var(--text);padding:5px 10px;border-radius:var(--sm);outline:none;width:200px;font-size:.8rem}
+.browser-search:focus{border-color:var(--accent)}
+.browser-filters{display:flex;flex-wrap:wrap;gap:4px;padding:8px 16px;border-bottom:1px solid var(--border);background:var(--panel)}
+.browser-filters select{background:var(--card);border:1px solid var(--border);color:var(--text);padding:4px 8px;border-radius:var(--sm);font-size:.75rem;outline:none}
+.browser-filters select:focus{border-color:var(--accent)}
+.browser-body{overflow-y:auto;padding:10px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
+.brow-item{background:var(--card);border:1px solid var(--border);border-radius:var(--sm);overflow:hidden}
+.brow-item-hdr{display:flex;align-items:center;gap:6px;padding:7px 10px;cursor:pointer}
+.brow-item-hdr:hover{background:rgba(255,255,255,.03)}
+.brow-item-name{font-weight:600;font-size:.85rem;flex:1}
+.brow-item-badge{font-size:.67rem;padding:2px 7px;border-radius:10px;background:var(--accdim);color:var(--accent);border:1px solid var(--accbdr);white-space:nowrap}
+.brow-item-badge.mf{background:rgba(59,130,246,.12);color:#60a5fa;border-color:rgba(59,130,246,.3)}
+.brow-item-badge.fm{background:rgba(168,85,247,.12);color:#c084fc;border-color:rgba(168,85,247,.3)}
+.brow-item-add{padding:3px 10px;font-size:.72rem;border:1px solid var(--border);border-radius:var(--sm);background:transparent;color:var(--accent);cursor:pointer;white-space:nowrap}
+.brow-item-add:hover{background:var(--accdim)}
+.brow-item-body{padding:0 10px 8px;font-size:.77rem;color:var(--muted);line-height:1.5;display:none;border-top:1px solid var(--border)}
+.brow-item-body.open{display:block}
+.brow-item-meta{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:4px}
+.brow-item-meta span{background:rgba(255,255,255,.04);border:1px solid var(--border);border-radius:4px;padding:1px 6px;font-size:.68rem;color:var(--text2)}
+.browser-empty{text-align:center;color:var(--muted);font-size:.82rem;padding:28px 0}
+.brow-cat-tabs{display:flex;gap:2px;padding:6px 14px;border-bottom:1px solid var(--border);background:var(--panel)}
+.brow-cat-tab{padding:4px 12px;border-radius:10px;font-size:.72rem;border:1px solid var(--border);background:var(--card);color:var(--muted);cursor:pointer}
+.brow-cat-tab.active{background:var(--accdim);border-color:var(--accbdr);color:var(--accent)}
+.modal-hdr{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid var(--border);position:sticky;top:0;background:var(--panel);z-index:1}
+.modal-hdr h3{font-family:'Rajdhani',sans-serif;font-size:1rem;font-weight:600}
+.modal-body{padding:14px 16px;display:flex;flex-direction:column;gap:10px}
+.modal-ftr{display:flex;justify-content:flex-end;gap:6px;padding:10px 16px;border-top:1px solid var(--border);position:sticky;bottom:0;background:var(--panel)}
+.mf-row{display:flex;gap:10px}
+.mf-col{flex:1;display:flex;flex-direction:column;gap:3px}
+.mf-col label{font-size:.67rem;color:var(--muted);text-transform:uppercase;letter-spacing:.3px}
+.mf-col input,.mf-col select,.mf-col textarea{background:var(--card);border:1px solid var(--border);color:var(--text);padding:6px 9px;border-radius:var(--sm);outline:none;width:100%;transition:border-color .15s}
+.mf-col input:focus,.mf-col select:focus,.mf-col textarea:focus{border-color:var(--accent)}
+.mf-col textarea{resize:vertical;min-height:52px;line-height:1.5}
+.dano-extra-row{display:flex;gap:5px;align-items:center;margin-top:4px}
+.dano-extra-row input{flex:1;background:var(--card);border:1px solid var(--border);color:var(--text);padding:4px 8px;border-radius:var(--sm);outline:none}
+.dano-extra-row input:focus{border-color:var(--accent)}
+/* Ability browser */
+.filter-bar{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:7px}
+.filter-btn{padding:3px 9px;border-radius:10px;font-size:.7rem;border:1px solid var(--border);background:var(--card);color:var(--muted);cursor:pointer}
+.filter-btn.active{background:var(--accdim);border-color:var(--accbdr);color:var(--accent)}
+.ab-item{border:1px solid var(--border);border-radius:var(--sm);margin-bottom:3px;overflow:hidden}
+.ab-hdr{padding:7px 10px;display:flex;justify-content:space-between;align-items:center;cursor:pointer;background:var(--card);transition:background .1s}
+.ab-hdr:hover{background:var(--card2)}
+.ab-name{font-weight:600;font-size:.82rem}
+.ab-arrow{color:var(--muted);font-size:.62rem}
+.ab-desc{padding:0;max-height:0;overflow:hidden;font-size:.75rem;color:var(--muted);line-height:1.5;background:var(--bg);transition:all .2s}
+.ab-desc.open{max-height:220px;padding:8px 10px}
+
+/* ─── TOAST ─── */
+.toast-wrap{position:fixed;bottom:14px;right:14px;z-index:400;display:flex;flex-direction:column-reverse;gap:5px}
+.toast{background:var(--panel);border:1px solid var(--border2);border-left:3px solid var(--accent);border-radius:var(--r);padding:8px 14px;font-size:.8rem;max-width:350px;animation:tIn .2s ease;line-height:1.5;box-shadow:var(--shadow)}
+.toast.fade-out{animation:tOut .22s ease forwards}
+@keyframes tIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@keyframes tOut{from{opacity:1}to{opacity:0;transform:translateY(-5px)}}
+.roll-result{color:var(--accent);font-size:1.05em}
+.crit{color:var(--pv2);font-weight:700}
+
+/* ─── ROLL POPUP ─── */
+.roll-popup{
+  position:fixed;bottom:70px;left:50%;transform:translateX(-50%);
+  background:var(--card2);border:1px solid var(--accent);border-radius:var(--r);
+  padding:10px 24px;font-family:'Share Tech Mono',monospace;font-size:.85rem;
+  color:var(--accent);box-shadow:0 0 30px rgba(232,149,58,.35),0 4px 16px rgba(0,0,0,.6);
+  opacity:0;pointer-events:none;transition:opacity .22s,transform .22s;z-index:200;
+  text-align:center;min-width:200px;transform:translateX(-50%) translateY(8px);
+}
+.roll-popup.visible{opacity:1;transform:translateX(-50%) translateY(0)}
+.roll-popup .rp-total{font-size:1.8rem;font-family:'Rajdhani',sans-serif;font-weight:700;display:block;line-height:1}
+.roll-popup .rp-detail{font-size:.72rem;color:var(--text2);margin-top:3px}
+.roll-popup .rp-label{font-size:.63rem;color:var(--muted);letter-spacing:.5px;text-transform:uppercase;margin-bottom:2px;display:block}
+
+/* ─── DIVIDER ─── */
+.section-div{height:1px;background:var(--border);margin:2px 0}
+
+/* ─── MISC utils ─── */
+.flex-row{display:flex;gap:6px;align-items:center}
+.flex-col{display:flex;flex-direction:column;gap:4px}
+.ml-auto{margin-left:auto}
+.text-accent{color:var(--accent)}
+.text-muted{color:var(--muted)}
+.mono{font-family:'Share Tech Mono',monospace}
+/* Responsive column sizes */
+@media(max-width:1300px){
+  .col-left{width:230px}
+  .col-right{width:320px}
+}
+
+/* ─── CLASS BANNER (C.R.I.S. style) ─── */
+.class-banner{height:5px;border-radius:3px;margin:2px 0 8px;transition:background .4s,box-shadow .4s;box-shadow:0 1px 8px rgba(0,0,0,.3)}
+
+/* ─── QUICK DICE & HISTÓRICO ─── */
+.dice-bar{display:flex;gap:5px;align-items:center;flex-wrap:wrap;padding:7px 10px;background:var(--card);border:1px solid var(--border);border-radius:var(--r);margin-bottom:6px}
+.dice-bar-lbl{font-size:.63rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;white-space:nowrap;margin-right:2px}
+.dice-die{min-width:28px;font-family:'Share Tech Mono',monospace;font-weight:700;font-size:.73rem}
+.dice-expr-inp{width:65px;padding:3px 6px;background:var(--bg);border:1px solid var(--border2);color:var(--text);border-radius:var(--sm);font-size:.74rem;outline:none;font-family:'Share Tech Mono',monospace}
+.hist-hdr{display:flex;justify-content:space-between;align-items:center;padding:3px 0 5px}
+.hist-list{max-height:240px;overflow-y:auto;display:flex;flex-direction:column;gap:2px}
+.hist-item{display:grid;grid-template-columns:1fr 2fr auto auto;align-items:center;gap:5px;padding:4px 8px;background:var(--card);border:1px solid var(--border);border-radius:var(--sm)}
+.hist-lbl{font-size:.72rem;font-weight:600;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hist-det{font-size:.62rem;color:var(--muted);font-family:'Share Tech Mono',monospace;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hist-tot{font-size:.88rem;font-weight:700;color:var(--accent);font-family:'Share Tech Mono',monospace;text-align:right;min-width:28px}
+.hist-time{font-size:.58rem;color:var(--muted);text-align:right;min-width:44px}
+
+/* ─── RITUAIS ATIVOS ─── */
+.rit-ativo-section{background:linear-gradient(135deg,rgba(188,140,255,.08),transparent);border:1px solid rgba(188,140,255,.25);border-radius:var(--r);padding:7px 10px;margin-bottom:8px}
+.rit-ativo-hdr{display:flex;justify-content:space-between;align-items:center;margin-bottom:5px}
+.rit-ativo-card{display:flex;align-items:center;gap:7px;padding:3px 0;font-size:.72rem}
+.rit-ativo-name{flex:1;color:#bc8cff;font-weight:600}
+.rit-ativo-pe{color:var(--muted);font-size:.65rem;font-family:'Share Tech Mono',monospace}
+.rit-ativo-active{border-color:rgba(188,140,255,.5)!important;background:linear-gradient(135deg,rgba(188,140,255,.07),var(--card))!important}
+.active-btn{background:rgba(188,140,255,.2)!important;color:#bc8cff!important}
+
+/* ─── COMBATANTS TRACKER ─── */
+.combatant-list{display:flex;flex-direction:column;gap:2px;max-height:130px;overflow-y:auto}
+.combatant-row{display:flex;align-items:center;gap:5px;padding:3px 7px;background:var(--card);border:1px solid var(--border);border-radius:var(--sm);font-size:.7rem}
+.comb-pos{min-width:16px;text-align:center;color:var(--muted);font-size:.6rem}
+.comb-init{min-width:26px;text-align:center;font-weight:700;color:var(--accent);font-family:'Share Tech Mono',monospace}
+.comb-name{flex:1;color:var(--text)}
+.comb-del{background:none;border:none;color:#ff5c5c;cursor:pointer;font-size:.8rem;padding:0 2px;line-height:1}
+.add-comb-row{display:flex;gap:4px;align-items:center;margin-top:4px}
+.add-comb-inp{flex:1;padding:3px 7px;background:var(--bg);border:1px solid var(--border2);color:var(--text);border-radius:var(--sm);font-size:.72rem;outline:none}
+.add-comb-num{width:40px;padding:3px 5px;background:var(--bg);border:1px solid var(--border2);color:var(--text);border-radius:var(--sm);font-size:.72rem;outline:none;text-align:center}
+
+/* ─── DADOS GUARDADOS ─── */
+.saved-dice-grid{display:flex;flex-wrap:wrap;gap:5px;min-height:22px;padding:2px 0}
+.saved-die-chip{display:inline-flex;align-items:center;gap:4px;padding:3px 10px;background:var(--card);border:1px solid var(--border2);border-radius:10px;font-size:.72rem;cursor:pointer;transition:all .15s;font-family:'Share Tech Mono',monospace;color:var(--text2)}
+.saved-die-chip:hover{border-color:var(--accbdr);color:var(--accent);background:var(--accdim)}
+.saved-die-del{background:none;border:none;color:var(--muted);cursor:pointer;font-size:.75rem;padding:0 0 0 3px;line-height:1;opacity:.7}
+.saved-die-del:hover{color:#ff5c5c;opacity:1}
+.save-dice-form{display:flex;gap:5px;align-items:center;margin-top:5px;flex-wrap:wrap}
+.save-dice-inp{padding:3px 7px;background:var(--bg);border:1px solid var(--border2);color:var(--text);border-radius:var(--sm);font-size:.72rem;outline:none;transition:border-color .15s}
+.save-dice-inp:focus{border-color:var(--accent)}
+
+/* ─── ÚLTIMAS CONJURAÇÕES ─── */
+.conj-section{background:linear-gradient(135deg,rgba(249,115,22,.07),transparent);border:1px solid rgba(249,115,22,.22);border-radius:var(--r);padding:7px 10px;margin-bottom:8px}
+.conj-hdr{display:flex;justify-content:space-between;align-items:center;margin-bottom:5px}
+.conj-list{display:flex;flex-direction:column;gap:3px;max-height:120px;overflow-y:auto}
+.conj-item{display:flex;align-items:center;gap:6px;padding:3px 8px;background:var(--card);border:1px solid var(--border);border-radius:var(--sm)}
+.conj-name{flex:1;color:#fb923c;font-size:.72rem;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.conj-pe{color:var(--pe2);font-family:'Share Tech Mono',monospace;font-size:.65rem;flex-shrink:0}
+.conj-time{color:var(--muted);font-size:.6rem;flex-shrink:0;min-width:38px;text-align:right}
+
+/* ─── COMBATENTE ATIVO ─── */
+.comb-row-active{border-color:var(--accbdr)!important;background:var(--accdim)!important}
+.comb-row-active .comb-name{color:var(--accent);font-weight:600}
+.comb-row-active .comb-pos::before{content:'▶ ';color:var(--accent)}
+
+/* ─── PORTRAIT CLASS BADGE ─── */
+.port-class{font-size:.62rem;font-weight:700;font-family:'Rajdhani',sans-serif;letter-spacing:.5px;text-transform:uppercase;opacity:.9}
+
+/* ─── SKILLS SEARCH ─── */
+.skills-search-wrap{display:flex;align-items:center;gap:6px;margin-bottom:6px}
+.skills-search-inp{flex:1;padding:4px 9px;background:var(--card);border:1px solid var(--border2);color:var(--text);border-radius:var(--sm);font-size:.77rem;outline:none;transition:border-color .15s}
+.skills-search-inp:focus{border-color:var(--accent)}
+.skills-search-inp::placeholder{color:var(--muted)}
+.skills-tr-hidden{display:none}
+
+/* ─── SAN WARNING ─── */
+@keyframes sanPulse{0%,100%{box-shadow:0 0 0 0 rgba(168,85,247,0)}50%{box-shadow:0 0 0 3px rgba(168,85,247,.55)}}
+.san-warn{animation:sanPulse 1.6s ease-in-out infinite;border-color:rgba(168,85,247,.5)!important}
+@keyframes pvPulse{0%,100%{box-shadow:0 0 0 0 rgba(255,107,107,0)}50%{box-shadow:0 0 0 3px rgba(255,107,107,.55)}}
+.pv-warn{animation:pvPulse 1.6s ease-in-out infinite;border-color:rgba(255,107,107,.5)!important}
+
+/* ─── NEX PROGRESS BAR ─── */
+.nex-prog-wrap{height:4px;background:var(--bg);border-radius:2px;overflow:hidden;margin:-5px 0 2px}
+.nex-prog-bar{height:100%;background:linear-gradient(90deg,var(--accent),var(--pe2));border-radius:2px;transition:width .45s ease}
+
+/* ─── CONDIÇÕES DE STATUS ─── */
+.conditions-block{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:6px 8px}
+.conditions-hdr{display:flex;justify-content:space-between;align-items:center;margin-bottom:5px;font-size:.6rem;text-transform:uppercase;letter-spacing:.5px;color:var(--muted)}
+.cond-chips{display:flex;flex-wrap:wrap;gap:3px}
+/* ─── CONDITION TOOLTIPS ─── */
+.cond-chip{position:relative}
+.cond-chip::after{content:attr(data-tip);position:absolute;bottom:calc(100% + 5px);left:50%;transform:translateX(-50%);background:#1e1e2a;border:1px solid var(--border2);border-radius:5px;padding:5px 9px;font-size:.68rem;color:var(--text2);white-space:nowrap;max-width:220px;white-space:normal;text-align:left;pointer-events:none;opacity:0;transition:opacity .15s;z-index:400;line-height:1.4}
+.cond-chip:hover::after{opacity:1}
+.cond-chip{
+  padding:2px 8px;border-radius:10px;font-size:.62rem;cursor:pointer;
+  border:1px solid var(--border);background:var(--card2);color:var(--muted);
+  transition:all .14s;line-height:1.4;user-select:none;font-weight:500;
+}
+.cond-chip:hover{border-color:var(--border2);color:var(--text2)}
+.cond-chip.active{font-weight:700}
+.cond-abalado.active{background:rgba(234,179,8,.15);border-color:rgba(234,179,8,.4);color:#eab308}
+.cond-amedrontado.active{background:rgba(168,85,247,.15);border-color:rgba(168,85,247,.4);color:#c084fc}
+.cond-cego.active{background:rgba(156,163,175,.15);border-color:rgba(156,163,175,.4);color:#9ca3af}
+.cond-paralisado.active{background:rgba(59,130,246,.15);border-color:rgba(59,130,246,.4);color:#60a5fa}
+.cond-sangrando.active{background:rgba(239,68,68,.15);border-color:rgba(239,68,68,.4);color:#f87171}
+.cond-lento.active{background:rgba(20,184,166,.15);border-color:rgba(20,184,166,.4);color:#2dd4bf}
+.cond-inconsciente.active{background:rgba(100,100,120,.2);border-color:rgba(100,100,120,.4);color:#94a3b8}
+.cond-agarrado.active{background:rgba(217,119,6,.15);border-color:rgba(217,119,6,.4);color:#fbbf24}
+
+/* ─── PE SUSTENTAR BUTTON ─── */
+.btn-sustain{background:rgba(188,140,255,.15);border-color:rgba(188,140,255,.4);color:#bc8cff;font-size:.63rem;padding:2px 8px}
+.btn-sustain:hover{background:rgba(188,140,255,.28);color:#d4aaff}
+
+/* ─── CLASS BANNER APRIMORADO ─── */
+.class-banner{
+  height:26px;border-radius:var(--sm);margin:2px 0 8px;
+  transition:background .4s,box-shadow .4s;
+  display:flex;align-items:center;padding:0 10px;gap:8px;overflow:hidden;position:relative;
+}
+.class-banner::after{content:'';position:absolute;inset:0;background:linear-gradient(to right,transparent 40%,var(--card) 100%);pointer-events:none}
+.banner-class-lbl{font-family:'Rajdhani',sans-serif;font-weight:700;font-size:.72rem;letter-spacing:1px;text-transform:uppercase;color:#fff;text-shadow:0 1px 4px rgba(0,0,0,.5);position:relative;z-index:1;opacity:.9}
+.banner-nex-lbl{font-size:.6rem;color:rgba(255,255,255,.55);font-family:'Rajdhani',sans-serif;letter-spacing:.5px;z-index:1;position:relative}
+
+/* ─── DADOS GUARDADOS NA COMBATE PAGE ─── */
+.combat-saved-dice-section{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:7px 10px}
+.combat-saved-dice-hdr{font-size:.63rem;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);margin-bottom:5px;display:flex;justify-content:space-between;align-items:center}
+</style>
+</head>
+<body>
+<div class="top-bar"></div>
+
+<!-- ═══ MAIN TABS (Arquivista style) ═══ -->
+<div class="main-tabs">
+  <span class="brand">◈ OP</span>
+  <button class="main-tab active" onclick="switchPage('ficha',this)">
+    <span class="mi material-icons" style="font-size:.9rem">fingerprint</span>FICHA
+  </button>
+  <button class="main-tab" onclick="switchPage('grimorio',this)">
+    <span class="mi material-icons" style="font-size:.9rem">menu_book</span>GRIMÓRIO
+  </button>
+  <button class="main-tab" onclick="switchPage('habilidades',this)">
+    <span class="mi material-icons" style="font-size:.9rem">biotech</span>HABILIDADES
+  </button>
+  <button class="main-tab" onclick="switchPage('itens',this)">
+    <span class="mi material-icons" style="font-size:.9rem">inventory_2</span>ITENS
+  </button>
+  <button class="main-tab" onclick="switchPage('combate',this)">
+    <span class="mi material-icons" style="font-size:.9rem">gps_fixed</span>COMBATE
+  </button>
+  <div class="main-tab-actions">
+    <button class="btn btn-sm" onclick="exportChar()">⬇ Exportar</button>
+    <button class="btn btn-sm" onclick="document.getElementById('import-file').click()">⬆ Importar</button>
+    <input type="file" id="import-file" accept=".json" style="display:none" onchange="importChar(this)">
+  </div>
+</div>
+
+<!-- ═══ WRAPPER ═══ -->
+<div style="display:flex;flex-direction:column;height:calc(100vh - 45px);overflow:hidden">
+
+<!-- ═══ PAGE: FICHA ═══ -->
+<div class="page active" id="page-ficha" style="height:100%">
+
+  <!-- LEFT -->
+  <div class="col-left">
+    <!-- Portrait -->
+    <div class="portrait-row">
+      <div class="portrait-wrap" onclick="changePortrait()" title="Alterar foto">
+        <img id="portrait-img" class="portrait-img"
+          src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 58'%3E%3Crect width='58' height='58' fill='%2315151b'/%3E%3Ccircle cx='29' cy='22' r='11' fill='%232f2f45'/%3E%3Cellipse cx='29' cy='54' rx='19' ry='14' fill='%232f2f45'/%3E%3C/svg%3E" alt="Foto">
+        <div class="portrait-badge">✏</div>
+      </div>
+      <div class="port-info">
+        <span class="port-name" id="port-name-display">Novo Agente</span>
+        <span class="port-player" id="port-player-display">Jogador —</span>
+        <span class="port-class" id="port-class-display" style="color:var(--accent)">Combatente</span>
+      </div>
+      <input type="file" id="portrait-file" accept="image/*" style="display:none" onchange="onPortraitFile(this)">
+    </div>
+
+    <!-- Attribute Pentagon -->
+    <div class="attrs-card">
+      <div class="attrs-container">
+        <canvas id="penta-canvas" width="196" height="196"></canvas>
+        <div class="attr-wrap attr-wrap-agi">
+          <div class="attr-ring" id="ring-agi" style="border-color:var(--agi)">
+            <span class="attr-num" id="val-agi" style="color:var(--agi)">1</span>
+            <div class="attr-btns">
+              <button class="attr-btn" onclick="changeAttr('agi',-1)">−</button>
+              <button class="attr-btn" onclick="changeAttr('agi',1)">+</button>
+            </div>
+          </div>
+          <span class="attr-lbl" style="color:var(--agi)">AGILIDADE<br>AGI</span>
+        </div>
+        <div class="attr-wrap attr-wrap-str">
+          <div class="attr-ring" id="ring-str" style="border-color:var(--str)">
+            <span class="attr-num" id="val-str" style="color:var(--str)">1</span>
+            <div class="attr-btns">
+              <button class="attr-btn" onclick="changeAttr('str',-1)">−</button>
+              <button class="attr-btn" onclick="changeAttr('str',1)">+</button>
+            </div>
+          </div>
+          <span class="attr-lbl" style="color:var(--str)">FORÇA<br>FOR</span>
+        </div>
+        <div class="attr-wrap attr-wrap-int">
+          <div class="attr-ring" id="ring-int" style="border-color:var(--int)">
+            <span class="attr-num" id="val-int" style="color:var(--int)">1</span>
+            <div class="attr-btns">
+              <button class="attr-btn" onclick="changeAttr('int',-1)">−</button>
+              <button class="attr-btn" onclick="changeAttr('int',1)">+</button>
+            </div>
+          </div>
+          <span class="attr-lbl" style="color:var(--int)">INTELECTO<br>INT</span>
+        </div>
+        <div class="attr-wrap attr-wrap-pre">
+          <div class="attr-ring" id="ring-pre" style="border-color:var(--pre)">
+            <span class="attr-num" id="val-pre" style="color:var(--pre)">1</span>
+            <div class="attr-btns">
+              <button class="attr-btn" onclick="changeAttr('pre',-1)">−</button>
+              <button class="attr-btn" onclick="changeAttr('pre',1)">+</button>
+            </div>
+          </div>
+          <span class="attr-lbl" style="color:var(--pre)">PRESENÇA<br>PRE</span>
+        </div>
+        <div class="attr-wrap attr-wrap-vig">
+          <div class="attr-ring" id="ring-vig" style="border-color:var(--vig)">
+            <span class="attr-num" id="val-vig" style="color:var(--vig)">1</span>
+            <div class="attr-btns">
+              <button class="attr-btn" onclick="changeAttr('vig',-1)">−</button>
+              <button class="attr-btn" onclick="changeAttr('vig',1)">+</button>
+            </div>
+          </div>
+          <span class="attr-lbl" style="color:var(--vig)">VIGOR<br>VIG</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- NEX / PE / Speed -->
+    <div class="nex-row">
+      <div class="stat-group">
+        <span class="stat-val" id="nex-pct">5%</span>
+        <span class="stat-lbl">NEX</span>
+      </div>
+      <div class="stat-group">
+        <span class="stat-val" id="pe-round-val">1</span>
+        <span class="stat-lbl">PE/Turno</span>
+      </div>
+      <div class="stat-group">
+        <input type="number" class="stat-inp" id="speed-input" value="9" min="0" onchange="updateStats()">
+        <span class="stat-lbl">m Desl.</span>
+      </div>
+    </div>
+    <!-- NEX Progress Bar -->
+    <div class="nex-prog-wrap"><div class="nex-prog-bar" id="nex-progress-bar" style="width:5%"></div></div>
+
+    <!-- VIDA -->
+    <div class="res-bar">
+      <div class="res-header">
+        <span class="res-name pv-color">VIDA</span>
+        <div class="res-track"><div class="res-fill pv-fill" id="pv-fill" style="width:100%"></div></div>
+      </div>
+      <div class="res-controls">
+        <button class="res-btn" onclick="changeStat('pv',-10)">«</button>
+        <button class="res-btn" onclick="changeStat('pv',-1)">‹</button>
+        <span class="res-val pv-color" id="pv-display">0 / 0</span>
+        <button class="res-btn" onclick="changeStat('pv',1)">›</button>
+        <button class="res-btn" onclick="changeStat('pv',10)">»</button>
+      </div>
+    </div>
+
+    <!-- SANIDADE -->
+    <div class="res-bar">
+      <div class="res-header">
+        <span class="res-name san-color">SANIDADE</span>
+        <div class="res-track"><div class="res-fill san-fill" id="san-fill" style="width:100%"></div></div>
+      </div>
+      <div class="res-controls">
+        <button class="res-btn" onclick="changeStat('san',-10)">«</button>
+        <button class="res-btn" onclick="changeStat('san',-1)">‹</button>
+        <span class="res-val san-color" id="san-display">0 / 0</span>
+        <button class="res-btn" onclick="changeStat('san',1)">›</button>
+        <button class="res-btn" onclick="changeStat('san',10)">»</button>
+      </div>
+    </div>
+
+    <!-- PE -->
+    <div class="res-bar">
+      <div class="res-header">
+        <span class="res-name pe-color">P. ESFORÇO</span>
+        <div class="res-track"><div class="res-fill pe-fill" id="pe-fill" style="width:100%"></div></div>
+      </div>
+      <div class="res-controls">
+        <button class="res-btn" onclick="changeStat('pe',-10)">«</button>
+        <button class="res-btn" onclick="changeStat('pe',-1)">‹</button>
+        <span class="res-val pe-color" id="pe-display">0 / 0</span>
+        <button class="res-btn" onclick="changeStat('pe',1)">›</button>
+        <button class="res-btn" onclick="changeStat('pe',10)">»</button>
+      </div>
+    </div>
+
+    <!-- Condições de Status -->
+    <div class="conditions-block">
+      <div class="conditions-hdr">
+        <span>⚡ Condições</span>
+        <button class="btn btn-xs btn-ghost" onclick="clearAllConditions()" style="font-size:.58rem">Limpar</button>
+      </div>
+      <div class="cond-chips" id="cond-chips">
+        <button class="cond-chip cond-abalado"      onclick="toggleCondition('Abalado',this)"      data-tip="−1 dado em todos os testes de ataque e perícias. Fortitude (DT variável) ao final da cena para remover.">Abalado</button>
+        <button class="cond-chip cond-amedrontado"  onclick="toggleCondition('Amedrontado',this)"  data-tip="Não pode se aproximar voluntariamente da fonte do medo. −1 dado em testes enquanto a fonte estiver visível. Vontade DT variável para remover.">Amedrontado</button>
+        <button class="cond-chip cond-cego"         onclick="toggleCondition('Cego',this)"         data-tip="Não enxerga. −1 dado em ataques, Defesa e testes visuais. Atacantes vs você têm +1 dado.">Cego</button>
+        <button class="cond-chip cond-paralisado"   onclick="toggleCondition('Paralisado',this)"   data-tip="Incapaz de agir fisicamente. Não pode gastar ações. Atacantes têm +1 dado. Acertos são automaticamente críticos.">Paralisado</button>
+        <button class="cond-chip cond-sangrando"    onclick="toggleCondition('Sangrando',this)"    data-tip="Perde 1d6 PV no início de cada turno. Medicina DT 15 (ação padrão) ou cura mágica para estabilizar.">Sangrando</button>
+        <button class="cond-chip cond-lento"        onclick="toggleCondition('Lento',this)"        data-tip="Deslocamento pela metade. Não pode fazer reações. Não pode usar ação bônus.">Lento</button>
+        <button class="cond-chip cond-agarrado"     onclick="toggleCondition('Agarrado',this)"     data-tip="Não pode se mover. −1 dado em ataques e Defesa. Atletismo ou Acrobacia (DT Luta do agarrador) para se libertar.">Agarrado</button>
+        <button class="cond-chip cond-inconsciente" onclick="toggleCondition('Inconsciente',this)" data-tip="Incapacitado. Não pode realizar nenhuma ação. Atacantes têm +1 dado e acertos são críticos automaticamente.">Inconsciente</button>
+      </div>
+    </div>
+
+    <!-- Defesa block -->
+    <div class="def-block">
+      <div class="def-badge">
+        <span class="def-big" id="def-val">10</span>
+        <span class="def-label">Defesa</span>
+        <span class="def-formula" id="def-formula">10+AGI</span></div>
+      <div class="def-extras">
+        <div class="def-row">
+          <span class="def-row-lbl">Bôn. Def.</span>
+          <input type="number" class="def-inp" id="def-bonus-input" value="0" min="0" onchange="updateStats()">
+        </div>
+        <div class="def-row">
+          <span class="def-row-lbl">Bloqueio</span>
+          <span class="def-row-val" id="blq-val">—</span>
+        </div>
+        <div class="def-row">
+          <span class="def-row-lbl">Esquiva</span>
+          <span class="def-row-val" id="esq-val">—</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Proteção / Resistências -->
+    <div class="mini-card">
+      <span class="mini-lbl">Proteção</span>
+      <input type="text" class="mini-inp" id="protection-input" placeholder="Prot. Leve, +2 Def..." onchange="updateStats()">
+    </div>
+    <div class="mini-card">
+      <span class="mini-lbl">Resistências</span>
+      <input type="text" class="mini-inp" id="resistances-input" placeholder="5 de dano de fogo..." onchange="updateStats()">
+    </div>
+    <div class="mini-card">
+      <span class="mini-lbl">Proficiências</span>
+      <div class="prof-tags" id="prof-tags"></div>
+    </div>
+  </div><!-- /col-left -->
+
+  <!-- CENTER -->
+  <div class="col-center">
+
+    <!-- Char info fields -->
+    <div class="char-fields-row">
+      <div class="char-field">
+        <label>Personagem</label>
+        <input id="char-name" type="text" style="width:155px" oninput="onHeaderChange()">
+      </div>
+      <div class="char-field">
+        <label>Jogador</label>
+        <input id="player-name" type="text" style="width:120px" placeholder="Seu nome" oninput="onHeaderChange()">
+      </div>
+      <div class="char-field">
+        <label>Origem</label>
+        <select id="char-origin" style="width:185px" onchange="onOriginChange()"></select>
+      </div>
+      <div class="char-field">
+        <label>Classe</label>
+        <select id="char-class" style="width:165px" onchange="onClassChange()"></select>
+      </div>
+      <div class="char-field">
+        <label>NEX</label>
+        <select id="char-nex" style="width:72px" onchange="onNexChange()"></select>
+      </div>
+    </div>
+    <!-- Class Color Banner (C.R.I.S. style) -->
+    <div class="class-banner" id="class-banner"></div>
+
+    <!-- Skills -->
+    <div class="skills-section">
+      <div class="skills-hdr">
+        <h2>Perícias</h2>
+        <span class="trained-badge">Treinadas: <span id="trained-count">0 / 0</span></span>
+      </div>
+      <div class="skills-search-wrap">
+        <input type="text" id="skills-search" class="skills-search-inp" placeholder="🔍 Filtrar perícias..." oninput="filterSkillsTable()">
+      </div>
+      <table class="skills-table">
+        <thead>
+          <tr>
+            <th>Perícia <span style="font-size:.55rem;opacity:.5">(clique p/ rolar)</span></th>
+            <th>Atr</th>
+            <th class="tc">Dados</th>
+            <th style="width:108px">Treino</th>
+            <th class="tc">Bôn</th>
+            <th class="tc">Outros</th>
+            <th class="tc">Total</th>
+            <th class="tc">🎲</th>
+          </tr>
+        </thead>
+        <tbody id="skills-body"></tbody>
+      </table>
+      <div class="skills-legend">♦ Penalidade de carga &nbsp;|&nbsp; ★ Somente treinada &nbsp;|&nbsp; <span class="text-accent">Nome laranja</span> = Perícia de Origem</div>
+    </div>
+
+    <!-- Origin box -->
+    <div class="origin-box" id="origin-info-box"></div>
+
+  </div><!-- /col-center -->
+
+  <!-- RIGHT -->
+  <div class="col-right">
+    <div class="rpanel-tabs">
+      <button class="rpanel-tab active" onclick="switchRTab('combate',this)">Combate</button>
+      <button class="rpanel-tab" onclick="switchRTab('habilidades',this)">Habilidades</button>
+      <button class="rpanel-tab" onclick="switchRTab('rituais',this)">Rituais</button>
+      <button class="rpanel-tab" onclick="switchRTab('inventario',this)">Inventário</button>
+      <button class="rpanel-tab" onclick="switchRTab('descricao',this)">Descrição</button>
+      <button class="rpanel-tab" onclick="switchRTab('dados',this)">Dados 🎲</button>
+    </div>
+
+    <!-- Combate pane -->
+    <div class="rpanel-pane active" id="tab-combate">
+      <!-- Round/Initiative (Arquivista style) -->
+      <div class="combat-panel">
+        <div class="combat-row-inner">
+          <div class="round-ctrl">
+            <span class="round-lbl">Rodada</span>
+            <button class="round-btn" onclick="changeRound(-1)">−</button>
+            <span class="round-val" id="round-val">1</span>
+            <button class="round-btn" onclick="changeRound(1)">+</button>
+          </div>
+          <div class="init-row">
+            <span style="font-size:.68rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px">⚡ Iniciativa</span>
+            <input type="number" class="init-inp" id="init-val" value="0" onchange="updateInitOrder()">
+            <button class="btn btn-xs btn-accent" onclick="rollInit()">🎲 Rolar</button>
+          </div>
+        </div>
+        <div id="init-order" class="order-list"><span style="font-size:.65rem;color:var(--muted)">— sem combatentes —</span></div>
+      </div>
+      <!-- Combatant tracker -->
+      <div class="add-comb-row">
+        <input type="text" id="comb-name-inp" class="add-comb-inp" placeholder="Combatente..." onkeydown="if(event.key==='Enter')addCombatant()">
+        <input type="number" id="comb-init-inp" class="add-comb-num" placeholder="Init" min="0">
+        <button class="btn btn-xs btn-accent" onclick="addCombatant()">+</button>
+        <button class="btn btn-xs btn-ghost" onclick="clearCombatants()" title="Limpar combatentes" style="padding:0 5px">✕</button>
+      </div>
+      <!-- Quick Dice Roller (Arquivista style) -->
+      <div class="dice-bar">
+        <span class="dice-bar-lbl">🎲</span>
+        <button class="btn btn-xs btn-ghost dice-die" onclick="quickRoll(4)">d4</button>
+        <button class="btn btn-xs btn-ghost dice-die" onclick="quickRoll(6)">d6</button>
+        <button class="btn btn-xs btn-ghost dice-die" onclick="quickRoll(8)">d8</button>
+        <button class="btn btn-xs btn-ghost dice-die" onclick="quickRoll(10)">d10</button>
+        <button class="btn btn-xs btn-ghost dice-die" onclick="quickRoll(12)">d12</button>
+        <button class="btn btn-xs btn-accent dice-die" onclick="quickRoll(20)">d20</button>
+        <input type="text" id="custom-dice" class="dice-expr-inp" placeholder="2d6+3" onkeydown="if(event.key==='Enter')quickRollExpr()">
+        <button class="btn btn-xs btn-accent" onclick="quickRollExpr()">↵</button>
+      </div>
+      <div class="pane-hdr">
+        <h3>Ataques</h3>
+        <button class="btn btn-sm btn-accent" onclick="openAttackModal()">+ Adicionar</button>
+      </div>
+      <div id="attacks-list"></div>
+    </div>
+
+    <!-- Habilidades pane -->
+    <div class="rpanel-pane" id="tab-habilidades">
+      <div class="cat-bar">
+        <button class="cat-btn active" onclick="switchAbilityCat('classe',this)">Habilidades de Classe</button>
+        <button class="cat-btn" onclick="switchAbilityCat('tecnica',this)">Técnicas Inatas</button>
+        <button class="cat-btn" onclick="switchAbilityCat('dominio',this)">Expansão de Domínio</button>
+      </div>
+      <div class="pane-hdr">
+        <h3 id="ability-cat-title">Habilidades de Classe</h3>
+        <div style="display:flex;gap:4px">
+          <button class="btn btn-sm btn-ghost" onclick="openCustomAbilityModal()">+ Personalizada</button>
+          <button class="btn btn-sm btn-accent" onclick="openAbilityBrowserModal()">+ Do Sistema</button>
+        </div>
+      </div>
+      <div id="abilities-list"></div>
+    </div>
+
+    <!-- Rituais pane -->
+    <div class="rpanel-pane" id="tab-rituais">
+      <!-- Rituais Ativos (Arquivista style) -->
+      <div class="rit-ativo-section">
+        <div class="rit-ativo-hdr">
+          <span style="font-size:.67rem;text-transform:uppercase;letter-spacing:.5px;color:#bc8cff;font-weight:600">🌀 Rituais Ativos</span>
+          <div style="display:flex;gap:4px">
+            <button class="btn btn-xs btn-sustain" onclick="deductPeAtivos()" title="Gastar PE para sustentar todos os rituais ativos">−PE/Rd</button>
+            <button class="btn btn-xs btn-ghost" onclick="clearRituaisAtivos()" style="font-size:.6rem">Limpar</button>
+          </div>
+        </div>
+        <div id="rituais-ativos-list"><span style="font-size:.65rem;color:var(--muted)">Nenhum ritual ativo. Ative na lista abaixo.</span></div>
+      </div>
+      <!-- Últimas Conjurações (Arquivista style) -->
+      <div class="conj-section">
+        <div class="conj-hdr">
+          <span style="font-size:.67rem;text-transform:uppercase;letter-spacing:.5px;color:#fb923c;font-weight:600">✨ Últimas Conjurações</span>
+          <button class="btn btn-xs btn-ghost" onclick="clearConjuracoes()" style="font-size:.6rem">Limpar</button>
+        </div>
+        <div id="ultimas-conjuracoes" class="conj-list">
+          <span style="font-size:.65rem;color:var(--muted)">Nenhuma conjuração recente.</span>
+        </div>
+      </div>
+      <div class="pane-hdr">
+        <h3>Rituais</h3>
+        <div style="display:flex;gap:4px">
+          <button class="btn btn-sm btn-ghost" onclick="openRitualBrowserModal()" title="Buscar rituais do sistema">📚 Do Sistema</button>
+          <button class="btn btn-sm btn-accent" onclick="openRitualModal()">+ Personalizado</button>
+        </div>
+      </div>
+      <div id="rituals-list"></div>
+    </div>
+
+    <!-- Inventário pane -->
+    <div class="rpanel-pane" id="tab-inventario">
+      <div class="patente-card">
+        <div class="patente-row">
+          <span>Patente: <span class="patente-rank" id="patente-name">Recruta</span></span>
+          <span style="font-size:.7rem;color:var(--muted)">Prestígio: <input type="number" class="prestgio-inp" id="prestigio-input" value="0" min="0" onchange="updatePatente()"></span>
+        </div>
+        <div class="patente-sub">Crédito: <strong id="patente-credito">Baixo</strong> &nbsp;|&nbsp; <span id="patente-limites">Cat I: 2</span></div>
+      </div>
+      <div class="pane-hdr" style="margin-top:2px">
+        <h3>Itens</h3>
+        <div style="display:flex;gap:4px">
+          <button class="btn btn-sm btn-ghost" onclick="openInventoryBrowserModal()" title="Catálogo de itens do sistema">📦 Do Sistema</button>
+          <button class="btn btn-sm btn-accent" onclick="openItemModal()">+ Personalizado</button>
+        </div>
+      </div>
+      <div id="inventory-list"></div>
+    </div>
+
+    <!-- Descrição pane -->
+    <div class="rpanel-pane" id="tab-descricao">
+      <div class="desc-grp">
+        <span class="desc-lbl">Anotações</span>
+        <textarea class="desc-ta" id="desc-notes" oninput="onDescChange()" placeholder="Lembretes de missão, observações..."></textarea>
+      </div>
+      <div class="desc-grp">
+        <span class="desc-lbl">Aparência</span>
+        <textarea class="desc-ta" id="desc-appearance" oninput="onDescChange()" placeholder="Altura, cor dos olhos, marcas físicas..."></textarea>
+      </div>
+      <div class="desc-grp">
+        <span class="desc-lbl">Personalidade</span>
+        <textarea class="desc-ta" id="desc-personality" oninput="onDescChange()" placeholder="Traços, ideais, vínculos..."></textarea>
+      </div>
+      <div class="desc-grp">
+        <span class="desc-lbl">Histórico</span>
+        <textarea class="desc-ta" id="desc-history" oninput="onDescChange()" placeholder="Contato com o Paranormal, eventos marcantes..."></textarea>
+      </div>
+      <div class="desc-grp">
+        <span class="desc-lbl">Objetivo</span>
+        <textarea class="desc-ta" id="desc-objective" oninput="onDescChange()" placeholder="Por que luta contra o Outro Lado?"></textarea>
+      </div>
+    </div>
+
+    <!-- Dados pane (Arquivista style) -->
+    <div class="rpanel-pane" id="tab-dados">
+      <div class="pane-hdr"><h3>Rolagem Rápida</h3></div>
+      <div class="dice-bar" style="flex-wrap:wrap">
+        <span class="dice-bar-lbl">Dado:</span>
+        <button class="btn btn-xs btn-ghost dice-die" onclick="quickRoll(4)">d4</button>
+        <button class="btn btn-xs btn-ghost dice-die" onclick="quickRoll(6)">d6</button>
+        <button class="btn btn-xs btn-ghost dice-die" onclick="quickRoll(8)">d8</button>
+        <button class="btn btn-xs btn-ghost dice-die" onclick="quickRoll(10)">d10</button>
+        <button class="btn btn-xs btn-ghost dice-die" onclick="quickRoll(12)">d12</button>
+        <button class="btn btn-xs btn-accent dice-die" onclick="quickRoll(20)">d20</button>
+      </div>
+      <div class="flex-row" style="margin-top:6px;gap:5px">
+        <input type="text" id="custom-dice2" class="dice-expr-inp" placeholder="ex: 2d6+3" style="flex:1;width:auto" onkeydown="if(event.key==='Enter')quickRollExpr2()">
+        <button class="btn btn-sm btn-accent" onclick="quickRollExpr2()">🎲 Rolar</button>
+      </div>
+      <!-- DADOS GUARDADOS (Arquivista style) -->
+      <div class="hist-hdr" style="margin-top:10px">
+        <span style="font-size:.67rem;text-transform:uppercase;letter-spacing:.5px;color:var(--muted)">💾 DADOS GUARDADOS</span>
+        <button class="btn btn-xs btn-ghost" onclick="clearSavedDice()">Limpar</button>
+      </div>
+      <div id="saved-dice-list" class="saved-dice-grid">
+        <span style="font-size:.65rem;color:var(--muted)">Nenhum dado salvo.</span>
+      </div>
+      <div class="save-dice-form">
+        <input type="text" id="save-dice-name" class="save-dice-inp" placeholder="Nome (ex: Dano Espada)" style="flex:1;min-width:80px">
+        <input type="text" id="save-dice-expr" class="save-dice-inp" placeholder="Expr. (2d6+3)" style="width:80px" onkeydown="if(event.key==='Enter')saveDicePreset()">
+        <button class="btn btn-xs btn-accent" onclick="saveDicePreset()" title="Salvar preset">💾</button>
+      </div>
+      <div class="hist-hdr" style="margin-top:12px">
+        <span style="font-size:.67rem;text-transform:uppercase;letter-spacing:.5px;color:var(--muted)">📜 HISTÓRICO</span>
+        <button class="btn btn-xs btn-ghost" onclick="clearHistory()">Limpar</button>
+      </div>
+      <div id="roll-history-list" class="hist-list">
+        <div class="empty-state" style="padding:8px"><span>📜</span><p>Nenhuma rolagem ainda.</p></div>
+      </div>
+    </div>
+  </div><!-- /col-right -->
+</div><!-- /page-ficha -->
+
+<!-- ═══ PAGE: GRIMÓRIO ═══ -->
+<div class="page" id="page-grimorio">
+  <div class="flex-row" style="justify-content:space-between;align-items:center">
+    <h2>📖 Grimório — Rituais</h2>
+    <button class="btn btn-accent" onclick="openRitualModal()">+ Adicionar Ritual</button>
+  </div>
+  <!-- filtros -->
+  <div class="flex-row" style="flex-wrap:wrap;gap:5px">
+    <input type="text" id="grim-search" placeholder="🔍 Buscar ritual..." oninput="filterGrimoire()"
+      style="background:var(--card);border:1px solid var(--border);color:var(--text);padding:4px 10px;border-radius:var(--sm);font-size:.77rem;outline:none;flex:1;min-width:140px">
+    <button class="cat-btn active" data-gf="all" onclick="pickGrimFilter(this,'all')">Todos</button>
+    <button class="cat-btn" data-gf="circ-0" onclick="pickGrimFilter(this,'circ-0')">1° Círc.</button>
+    <button class="cat-btn" data-gf="circ-1" onclick="pickGrimFilter(this,'circ-1')">2° Círc.</button>
+    <button class="cat-btn" data-gf="circ-2" onclick="pickGrimFilter(this,'circ-2')">3° Círc.</button>
+    <button class="cat-btn" data-gf="circ-3" onclick="pickGrimFilter(this,'circ-3')">4° Círc.</button>
+    <button class="cat-btn" data-gf="el-Sangue"       onclick="pickGrimFilter(this,'el-Sangue')">🩸</button>
+    <button class="cat-btn" data-gf="el-Morte"        onclick="pickGrimFilter(this,'el-Morte')">💀</button>
+    <button class="cat-btn" data-gf="el-Conhecimento" onclick="pickGrimFilter(this,'el-Conhecimento')">📚</button>
+    <button class="cat-btn" data-gf="el-Energia"      onclick="pickGrimFilter(this,'el-Energia')">⚡</button>
+    <button class="cat-btn" data-gf="el-Medo"         onclick="pickGrimFilter(this,'el-Medo')">😨</button>
+  </div>
+  <div class="grimoire-grid" id="grimoire-list"></div>
+</div>
+
+<!-- ═══ PAGE: HABILIDADES ═══ -->
+<div class="page" id="page-habilidades">
+  <div class="flex-row" style="justify-content:space-between;align-items:center">
+    <h2>✨ Habilidades</h2>
+    <div style="display:flex;gap:6px">
+      <button class="btn" onclick="openCustomAbilityModal()">+ Personalizada</button>
+      <button class="btn btn-accent" onclick="openAbilityBrowserModal()">+ Do Sistema</button>
+    </div>
+  </div>
+  <div class="flex-row" style="flex-wrap:wrap;gap:5px">
+    <input type="text" id="hab-search" placeholder="🔍 Buscar habilidade..." oninput="filterHabilidadesPage()"
+      style="background:var(--card);border:1px solid var(--border);color:var(--text);padding:4px 10px;border-radius:var(--sm);font-size:.77rem;outline:none;flex:1;min-width:140px">
+    <button class="cat-btn active" data-page-cat="classe" onclick="switchPageCat(this)">Habilidades de Classe</button>
+    <button class="cat-btn" data-page-cat="tecnica" onclick="switchPageCat(this)">Técnicas Inatas</button>
+    <button class="cat-btn" data-page-cat="dominio" onclick="switchPageCat(this)">Expansão de Domínio</button>
+  </div>
+  <div class="grimoire-grid" id="page-abilities-list"></div>
+</div>
+
+<!-- ═══ PAGE: ITENS ═══ -->
+<div class="page" id="page-itens">
+  <div class="flex-row" style="justify-content:space-between;align-items:center">
+    <h2>📦 Inventário</h2>
+    <button class="btn btn-accent" onclick="openItemModal()">+ Adicionar Item</button>
+  </div>
+  <div class="patch-card" style="background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:8px 12px">
+    <span>Patente: <strong class="text-accent" id="patente-name2">Recruta</strong> &nbsp;|&nbsp; Crédito: <strong id="patente-credito2">Baixo</strong> &nbsp;|&nbsp; <span id="patente-limites2">Cat I: 2</span></span>
+  </div>
+  <div class="grimoire-grid" id="page-items-list"></div>
+</div>
+
+<!-- ═══ PAGE: COMBATE ═══ -->
+<div class="page" id="page-combate">
+  <div class="flex-row" style="justify-content:space-between;align-items:center">
+    <h2>⚔️ Combate</h2>
+    <button class="btn btn-accent" onclick="openAttackModal()">+ Adicionar Ataque</button>
+  </div>
+  <!-- Enlarged round panel -->
+  <div style="background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:12px 16px;display:flex;gap:20px;align-items:center;flex-wrap:wrap">
+    <div class="round-ctrl" style="gap:10px">
+      <span style="font-family:'Rajdhani',sans-serif;font-weight:700;font-size:.85rem;color:var(--muted);letter-spacing:.8px;text-transform:uppercase">▲ RODADA</span>
+      <button class="round-btn" style="width:28px;height:28px;font-size:1rem" onclick="changeRound(-1)">−</button>
+      <span style="font-family:'Rajdhani',sans-serif;font-weight:700;font-size:1.6rem;color:var(--accent);min-width:38px;text-align:center" id="round-val2">1</span>
+      <button class="round-btn" style="width:28px;height:28px;font-size:1rem" onclick="changeRound(1)">+</button>
+    </div>
+    <div style="display:flex;align-items:center;gap:8px">
+      <span style="font-family:'Rajdhani',sans-serif;font-size:.8rem;color:var(--muted);letter-spacing:.5px;text-transform:uppercase">⚡ INICIATIVA</span>
+      <input type="text" id="init-val2" style="background:var(--card2);border:1px solid var(--border2);color:var(--text);width:55px;padding:4px 8px;border-radius:var(--sm);font-size:.9rem;text-align:center;outline:none;font-family:'Rajdhani',sans-serif;font-weight:700" value="0">
+      <button class="btn btn-sm btn-accent" onclick="rollInitPage()">🎲 ROLAR</button>
+    </div>
+    <div style="display:flex;align-items:center;gap:8px">
+      <span style="font-size:.72rem;color:var(--muted)">Ordem:</span>
+      <div id="init-order2" style="font-size:.68rem;color:var(--muted)">— vazio —</div>
+    </div>
+  </div>
+
+  <!-- Dice Roller + Combatant Tracker (Arquivista style) -->
+  <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px">
+    <div class="dice-bar" style="flex:1;min-width:280px">
+      <span class="dice-bar-lbl">🎲 DADO:</span>
+      <button class="btn btn-xs btn-ghost dice-die" onclick="quickRoll(4)">d4</button>
+      <button class="btn btn-xs btn-ghost dice-die" onclick="quickRoll(6)">d6</button>
+      <button class="btn btn-xs btn-ghost dice-die" onclick="quickRoll(8)">d8</button>
+      <button class="btn btn-xs btn-ghost dice-die" onclick="quickRoll(10)">d10</button>
+      <button class="btn btn-xs btn-ghost dice-die" onclick="quickRoll(12)">d12</button>
+      <button class="btn btn-xs btn-accent dice-die" onclick="quickRoll(20)">d20</button>
+      <input type="text" id="custom-dice-page" class="dice-expr-inp" placeholder="2d6+3" style="flex:1;width:auto" onkeydown="if(event.key==='Enter')quickRollExprPage()">
+      <button class="btn btn-xs btn-accent" onclick="quickRollExprPage()">Rolar</button>
+    </div>
+    <div style="background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:8px 12px;min-width:220px">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:5px">
+        <span style="font-size:.67rem;text-transform:uppercase;letter-spacing:.5px;color:var(--muted)">👥 Combatentes</span>
+        <button class="btn btn-xs btn-ghost" onclick="clearCombatants()" style="font-size:.6rem">Limpar</button>
+      </div>
+      <div id="combatants-list2" class="combatant-list" style="max-height:100px"></div>
+      <div class="add-comb-row">
+        <input type="text" id="comb-name-inp2" class="add-comb-inp" placeholder="Nome..." onkeydown="if(event.key==='Enter')addCombatant2()">
+        <input type="number" id="comb-init-inp2" class="add-comb-num" placeholder="Init" min="0">
+        <button class="btn btn-xs btn-accent" onclick="addCombatant2()">+</button>
+        <button class="btn btn-xs btn-ghost" onclick="nextCombatant()" title="Próximo turno">⏭</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dados Guardados (atalho na página combate) -->
+  <div class="combat-saved-dice-section">
+    <div class="combat-saved-dice-hdr">
+      <span>💾 DADOS GUARDADOS</span>
+    </div>
+    <div id="saved-dice-list-page" class="saved-dice-grid">
+      <span style="font-size:.65rem;color:var(--muted)">Nenhum dado salvo.</span>
+    </div>
+  </div>
+
+  <div class="grimoire-grid" id="page-attacks-list"></div>
+</div>
+
+</div><!-- /wrapper -->
+
+<!-- ═══ MODAL ═══ -->
+<div class="modal-overlay" id="modal-overlay" onclick="closeModalOutside(event)">
+  <div class="modal">
+    <div class="modal-hdr">
+      <h3 id="modal-title">Modal</h3>
+      <button class="btn btn-sm btn-ghost" onclick="closeModal()">✕</button>
+    </div>
+    <div class="modal-body" id="modal-body"></div>
+    <div class="modal-ftr">
+      <button class="btn btn-sm" onclick="closeModal()">Cancelar</button>
+      <button class="btn btn-sm btn-accent" id="modal-save-btn" onclick="saveModal()">Salvar</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ BROWSER MODAL ═══ -->
+<div id="browser-overlay" onclick="closeBrowserOutside(event)">
+  <div class="browser-box" id="browser-box">
+    <div class="browser-hdr">
+      <h3 id="browser-title">Catálogo</h3>
+      <input class="browser-search" id="browser-search" type="text" placeholder="Buscar..." oninput="filterBrowserItems()">
+      <button class="btn btn-sm btn-ghost" onclick="closeBrowser()">✕</button>
+    </div>
+    <div class="browser-filters" id="browser-filters"></div>
+    <div class="browser-body" id="browser-body"></div>
+  </div>
+</div>
+
+<!-- Roll popup (Arquivista style) -->
+<div class="roll-popup" id="roll-popup">
+  <span class="rp-label" id="rp-label"></span>
+  <span class="rp-total" id="rp-total">0</span>
+  <span class="rp-detail" id="rp-detail"></span>
+</div>
+
+<!-- TOAST -->
+<div class="toast-wrap" id="toast-container"></div>
+
+<!-- SCRIPTS -->
+<script src="ficha-data.js"></script>
+<script src="ficha.js"></script>
+<script>
+'use strict';
+// ─── Page switcher (main tabs) ───
+function switchPage(id, btn) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.main-tab').forEach(b => b.classList.remove('active'));
+  const pg = document.getElementById('page-' + id);
+  if (pg) pg.classList.add('active');
+  if (btn) btn.classList.add('active');
+  // Sync full page lists when switching
+  if (id === 'grimorio')    syncFullPageRituals();
+  if (id === 'habilidades') syncFullPageAbilities('classe');
+  if (id === 'itens')       syncFullPageItems();
+  if (id === 'combate')     syncFullPageCombat();
+}
+
+// ─── Right-panel tab switcher (alias to keep ficha.js compat) ───
+function switchTab(id, btn) {
+  document.querySelectorAll('.rpanel-pane').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.rpanel-tab').forEach(b => b.classList.remove('active'));
+  const pane = document.getElementById('tab-' + id);
+  if (pane) pane.classList.add('active');
+  if (btn) btn.classList.add('active');
+}
+function switchRTab(id, btn) { switchTab(id, btn); }
+
+// ─── Ability cat for page ───
+let _pageCat = 'classe';
+function switchPageCat(btn) {
+  document.querySelectorAll('[data-page-cat]').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  _pageCat = btn.dataset.pageCat;
+  syncFullPageAbilities(_pageCat);
+}
+
+// ─── Round counter ───
+let _round = 1;
+function changeRound(d) {
+  _round = Math.max(1, _round + d);
+  ['round-val','round-val2'].forEach(id => {
+    const el = document.getElementById(id); if(el) el.textContent = _round;
+  });
+}
+
+// ─── Initiative (simple) ───
+let _initOrder = [];  // [{name, init}]
+function rollInit() {
+  const roll = Math.floor(Math.random()*20)+1;
+  const bonus = (char.skills['iniciativa']?.outros || 0) + (window.TRAINING_BONUS ? TRAINING_BONUS[char.skills['iniciativa']?.training||0] : 0);
+  const total = roll + bonus + (char.attrs?.agi||0);
+  document.getElementById('init-val').value = total;
+  updateInitOrder();
+  toast(`⚡ Iniciativa: [${roll}] + ${bonus+char.attrs.agi} = <b class="roll-result">${total}</b>`);
+  if (typeof addToHistory==='function') addToHistory('Iniciativa', total, `[${roll}] + ${bonus+char.attrs.agi}`);
+}
+function rollInitPage() {
+  const roll = Math.floor(Math.random()*20)+1;
+  const bonus = (char.skills['iniciativa']?.outros || 0) + (window.TRAINING_BONUS ? TRAINING_BONUS[char.skills['iniciativa']?.training||0] : 0);
+  const total = roll + bonus + (char.attrs?.agi||0);
+  document.getElementById('init-val2').value = total;
+  updateInitOrder();
+  toast(`⚡ Iniciativa: [${roll}] + ${bonus+char.attrs.agi} = <b class="roll-result">${total}</b>`);
+  if (typeof addToHistory==='function') addToHistory('Iniciativa', total, `[${roll}] + ${bonus+char.attrs.agi}`);
+}
+function updateInitOrder() { if (typeof renderCombatants==='function') renderCombatants(); }
+
+// ─── Roll popup ───
+let _popupTimer;
+function showRollPopup(total, detail, label) {
+  clearTimeout(_popupTimer);
+  const pp = document.getElementById('roll-popup');
+  const tot = document.getElementById('rp-total');
+  const det = document.getElementById('rp-detail');
+  const lbl = document.getElementById('rp-label');
+  if (!pp) return;
+  if (lbl) lbl.textContent = label || '';
+  if (tot) tot.textContent = total;
+  if (det) det.textContent = detail || '';
+  pp.classList.add('visible');
+  _popupTimer = setTimeout(() => pp.classList.remove('visible'), 2400);
+}
+
+// ─── Sync full-page lists ───
+function syncFullPageRituals() {
+  const el = document.getElementById('grimoire-list');
+  if (!el) return;
+  if (!char.rituals.length) { el.innerHTML = '<div class="empty-state"><span class="es-icon">🔮</span><p>Nenhum ritual. Volte à aba Rituais para adicionar.</p></div>'; return; }
+  el.innerHTML = '';
+  char.rituals.forEach((r,i) => {
+    const div = document.createElement('div');
+    div.innerHTML = buildRitualCard(r, i);
+    el.appendChild(div.firstElementChild);
+  });
+  // reaplicar filtros se houver
+  if (typeof filterGrimoire === 'function') filterGrimoire();
+}
+function syncFullPageAbilities(cat) {
+  const el = document.getElementById('page-abilities-list');
+  if (!el) return;
+  const arr = cat==='tecnica' ? char.techniques : cat==='dominio' ? (char.dominio?[char.dominio]:[]) : char.abilities;
+  if (!arr.length) { el.innerHTML = '<div class="empty-state"><span class="es-icon">✨</span><p>Nenhuma habilidade nesta categoria.</p></div>'; return; }
+  el.innerHTML = '';
+  arr.forEach((a,i) => {
+    const div = document.createElement('div');
+    div.innerHTML = buildAbilityCard(a, i, cat==='tecnica'?'techniques':'abilities');
+    el.appendChild(div.firstElementChild);
+  });
+}
+function syncFullPageItems() {
+  const el = document.getElementById('page-items-list');
+  if (!el) return;
+  if (!char.inventory.length) { el.innerHTML = '<div class="empty-state"><span class="es-icon">📦</span><p>Nenhum item no inventário.</p></div>'; return; }
+  el.innerHTML = '';
+  char.inventory.forEach((it,i) => {
+    const div = document.createElement('div');
+    div.innerHTML = buildItemCard(it, i);
+    el.appendChild(div.firstElementChild);
+  });
+  // Sync patente2
+  ['patente-name2','patente-credito2','patente-limites2'].forEach(id => {
+    const src = id.replace('2','');
+    const s = document.getElementById(src), d = document.getElementById(id);
+    if(s&&d) d.innerHTML = s.innerHTML;
+  });
+}
+function syncFullPageCombat() {
+  const el = document.getElementById('page-attacks-list');
+  if (!el) return;
+  if (!char.attacks.length) { el.innerHTML = '<div class="empty-state"><span class="es-icon">⚔️</span><p>Nenhum ataque. Clique em + Adicionar.</p></div>'; return; }
+  el.innerHTML = '';
+  char.attacks.forEach((a,i) => {
+    const div = document.createElement('div');
+    div.innerHTML = buildAttackCard(a,i);
+    el.appendChild(div.firstElementChild);
+  });
+  // sync round
+  const rv = document.getElementById('round-val2');
+  if (rv) rv.textContent = _round;
+}
+function buildRitualCard(r, i) {
+  const pe = (window.CIRCLE_PE && CIRCLE_PE[parseInt(r.circulo)||0]) || 1;
+  const circ = (window.CIRCLES && CIRCLES[parseInt(r.circulo)||0]) || '1° Círculo';
+  return `<div class="item-card">
+    <div class="item-card-hdr"><span class="item-name">🔮 ${(window.sanitize||String)(r.name)}</span>
+    <div class="item-actions">
+      <button class="ic-btn" onclick="openRitualModal(${i});syncFullPageRituals()">✏️</button>
+      <button class="ic-btn danger" onclick="removeItem('rituals',${i});syncFullPageRituals()">🗑️</button>
+    </div></div>
+    <div class="item-tags">
+      <span class="tag tag-elem">${(window.sanitize||String)(r.elemento||'—')}</span>
+      <span class="tag">${circ}</span>
+      <span class="tag tag-pe">${pe} PE</span>
+      ${r.execucao?`<span class="tag">${(window.sanitize||String)(r.execucao)}</span>`:''}
+    </div>
+    <p class="item-notes">${(window.sanitize||String)(r.desc||'')}</p>
+  </div>`;
+}
+function buildAbilityCard(a, i, arr) {
+  return `<div class="item-card">
+    <div class="item-card-hdr"><span class="item-name">✨ ${(window.sanitize||String)(a.name)}</span>
+    <div class="item-actions">
+      <button class="ic-btn danger" onclick="removeItem('${arr}',${i});syncFullPageAbilities(_pageCat)">🗑️</button>
+    </div></div>
+    <div class="item-tags">
+      ${a.pe>0?`<span class="tag tag-pe">${a.pe} PE</span>`:''}
+      ${a.action?`<span class="tag">${(window.sanitize||String)(a.action)}</span>`:''}
+      ${a.source?`<span class="tag tag-src">${(window.sanitize||String)(a.source)}</span>`:''}
+    </div>
+    <p class="item-notes">${(window.sanitize||String)(a.desc||'')}</p>
+  </div>`;
+}
+function buildAttackCard(a, i) {
+  return `<div class="item-card">
+    <div class="item-card-hdr"><span class="item-name">⚔️ ${(window.sanitize||String)(a.name)}</span>
+    <div class="item-actions">
+      <button class="ic-btn" onclick="rollAttack(${i})" title="Rolar">🎲</button>
+      <button class="ic-btn" onclick="openAttackModal(${i});syncFullPageCombat()">✏️</button>
+      <button class="ic-btn danger" onclick="removeItem('attacks',${i});syncFullPageCombat()">🗑️</button>
+    </div></div>
+    <div class="item-tags">
+      <span class="tag tag-combat">${(window.sanitize||String)(a.damage||'—')}</span>
+      <span class="tag">Crit ${a.critico||20}/×${a.multiplicador||2}</span>
+      ${a.damage_type?`<span class="tag">${(window.sanitize||String)(a.damage_type)}</span>`:''}
+      ${a.alcance?`<span class="tag">${(window.sanitize||String)(a.alcance)}</span>`:''}
+    </div>
+    ${a.notes?`<p class="item-notes">${(window.sanitize||String)(a.notes)}</p>`:''}
+  </div>`;
+}
+function buildItemCard(it, i) {
+  const cats = ['Cat 0','Cat I','Cat II','Cat III','Cat IV'];
+  return `<div class="item-card${it.equipado?' equipped-card':''}">
+    <div class="item-card-hdr">
+      <label class="equip-check"><input type="checkbox" ${it.equipado?'checked':''} onchange="toggleEquip(${i});syncFullPageItems()"><span class="item-name">${(window.sanitize||String)(it.name)}</span></label>
+      <div class="item-actions">
+        <button class="ic-btn" onclick="openItemModal(${i});syncFullPageItems()">✏️</button>
+        <button class="ic-btn danger" onclick="removeItem('inventory',${i});syncFullPageItems()">🗑️</button>
+      </div>
+    </div>
+    <div class="item-tags">
+      <span class="tag">${cats[parseInt(it.categoria)||0]}</span>
+      <span class="tag">${it.espacos||1} espaço${(it.espacos||1)>1?'s':''}</span>
+    </div>
+    ${it.desc?`<p class="item-notes">${(window.sanitize||String)(it.desc)}</p>`:''}
+  </div>`;
+}
+
+// ─── Sync portrait / NEX display ───
+const _baseOnHC = onHeaderChange;
+function onHeaderChange(){
+  _baseOnHC();
+  _syncDisplays();
+}
+const _baseUS = updateStats;
+function updateStats(){
+  _baseUS();
+  _syncDisplays();
+}
+function _syncDisplays(){
+  const nd = document.getElementById('port-name-display');
+  const pd = document.getElementById('port-player-display');
+  const np = document.getElementById('nex-pct');
+  if(nd) nd.textContent = char.name||'Novo Agente';
+  if(pd) pd.textContent = char.player ? 'Jogador '+char.player : 'Jogador —';
+  if(np) np.textContent = (char.nex||5)+'%';
+  // NEX progress bar
+  const npb = document.getElementById('nex-progress-bar');
+  if(npb) npb.style.width = Math.min((char.nex||5)/99*100, 100)+'%';
+  // Class color banner (C.R.I.S. style — with name)
+  if (window.CLASSES_DATA) {
+    const c = CLASSES_DATA[char.class];
+    const col = c?.color || 'var(--accent)';
+    const banner = document.getElementById('class-banner');
+    if (banner) {
+      banner.style.background = `linear-gradient(90deg, ${col} 0%, ${col}88 55%, transparent 100%)`;
+      banner.style.boxShadow = `0 1px 8px ${col}44`;
+      banner.innerHTML = `<span class="banner-class-lbl">${c?.label||char.class||'Classe'}</span><span class="banner-nex-lbl">NEX ${char.nex||5}%</span>`;
+    }
+    const badge = document.getElementById('port-class-display');
+    if (badge) { badge.textContent = c?.label || char.class; badge.style.color = col; }
+  }
+  // PV / SAN visual warnings
+  if (typeof maxPV==='function') {
+    const pvBar = document.querySelector('.res-bar:has(#pv-fill)') || document.getElementById('pv-fill')?.closest('.res-bar');
+    if (pvBar) pvBar.classList.toggle('pv-warn', !!(maxPV() && char.currentPV / maxPV() < 0.2));
+  }
+  if (typeof maxSAN==='function') {
+    const sanBar = document.querySelector('.res-bar:has(#san-fill)') || document.getElementById('san-fill')?.closest('.res-bar');
+    if (sanBar) sanBar.classList.toggle('san-warn', !!(maxSAN() && char.currentSAN / maxSAN() < 0.2));
+  }
+}
+
+// ─── Override render functions to keep full pages in sync ───
+const _baseRenderAttacks   = renderAttacks;
+const _baseRenderRituals   = renderRituals;
+const _baseRenderAbilities = renderAbilities;
+const _baseRenderInventory = renderInventory;
+function renderAttacks()   { _baseRenderAttacks();   syncFullPageCombat(); }
+function renderRituals() {
+  // Full override: render rpanel with rituais-ativos toggle + keep full page in sync
+  const el = document.getElementById('rituals-list');
+  if (el) {
+    if (!char.rituals.length) {
+      el.innerHTML = empty('\ud83d\udd2e','Nenhum ritual. Clique em + Adicionar.');
+    } else {
+      const ativos = char.rituaisAtivos || [];
+      el.innerHTML = char.rituals.map((r,i) => {
+        const pe = (window.CIRCLE_PE && CIRCLE_PE[parseInt(r.circulo)||0]) || 1;
+        const circ = (window.CIRCLES && CIRCLES[parseInt(r.circulo)||0]) || '1° Círculo';
+        const isAtivo = ativos.includes(i);
+        return `<div class="item-card${isAtivo?' rit-ativo-active':''}">
+          <div class="item-card-header">
+            <span class="item-name">🔮 ${(window.sanitize||String)(r.name)}</span>
+            <div class="item-actions">
+              <button class="ic-btn" onclick="conjurarRitual(${i})" title="Conjurar (gasta PE)">\u2728</button>
+              <button class="ic-btn${isAtivo?' active-btn':''}" onclick="toggleRitualAtivo(${i})" title="${isAtivo?'Desativar ritual':'Ativar ritual'}">\u{1F300}</button>
+              <button class="ic-btn" onclick="openRitualModal(${i})">&#9999;&#65039;</button>
+              <button class="ic-btn danger" onclick="removeItem('rituals',${i})">&#128465;&#65039;</button>
+            </div>
+          </div>
+          <div class="item-detail">
+            <span class="detail-tag elem-tag">${(window.sanitize||String)(r.elemento||'\u2014')}</span>
+            <span class="detail-tag">${circ}</span>
+            <span class="detail-tag pe-tag">${pe} PE</span>
+            ${r.execucao?`<span class="detail-tag">${(window.sanitize||String)(r.execucao)}</span>`:''}
+            ${r.alcance?`<span class="detail-tag">${(window.sanitize||String)(r.alcance)}</span>`:''}
+          </div>
+          ${r.desc?`<p class="item-notes collapse-toggle" onclick="toggleCollapse(this)">${(window.sanitize||String)(r.desc)} <span class="collapse-arrow">▾</span></p>`:''}
+        </div>`;
+      }).join('');
+    }
+  }
+  syncFullPageRituals();
+  if (typeof renderRituaisAtivos==='function') renderRituaisAtivos();
+}
+function renderAbilities() { _baseRenderAbilities(); syncFullPageAbilities(_pageCat); }
+function renderInventory() { _baseRenderInventory(); syncFullPageItems(); }
+
+// ─── Grimório: filtro por círculo e elemento ───
+let _grimFilter = 'all';
+function pickGrimFilter(btn, val) {
+  document.querySelectorAll('[data-gf]').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  _grimFilter = val;
+  filterGrimoire();
+}
+function filterGrimoire() {
+  const q = (document.getElementById('grim-search')?.value || '').toLowerCase();
+  document.querySelectorAll('#grimoire-list .item-card').forEach((card, i) => {
+    const r = char.rituals[i];
+    if (!r) return;
+    const matchSearch = !q || r.name.toLowerCase().includes(q) || (r.desc||'').toLowerCase().includes(q) || (r.elemento||'').toLowerCase().includes(q);
+    let matchFilter = true;
+    if (_grimFilter !== 'all') {
+      if (_grimFilter.startsWith('circ-')) {
+        matchFilter = String(parseInt(r.circulo)||0) === _grimFilter.replace('circ-','');
+      } else if (_grimFilter.startsWith('el-')) {
+        matchFilter = (r.elemento||'') === _grimFilter.replace('el-','');
+      }
+    }
+    card.style.display = (matchSearch && matchFilter) ? '' : 'none';
+  });
+}
+
+// ─── Habilidades page: busca textual ───
+function filterHabilidadesPage() {
+  const q = (document.getElementById('hab-search')?.value || '').toLowerCase();
+  document.querySelectorAll('#page-abilities-list .item-card').forEach(card => {
+    const name = card.querySelector('.item-name')?.textContent.toLowerCase() || '';
+    const notes = card.querySelector('.item-notes')?.textContent.toLowerCase() || '';
+    card.style.display = (!q || name.includes(q) || notes.includes(q)) ? '' : 'none';
+  });
+}
+
+// ─── Override rollSkill: roll once, show toast + popup + history ───
+function rollSkill(id) {
+  const skill = SKILLS_DATA.find(s => s.id === id);
+  if (!skill) return;
+  const v = char.attrs[skill.attr] || 0;
+  const n = v === 0 ? 2 : v;
+  const rolls = Array.from({length:n}, () => Math.floor(Math.random()*20)+1);
+  const best  = v === 0 ? Math.min(...rolls) : Math.max(...rolls);
+  const bonus = skillBonus(id);
+  const total = best + bonus;
+  const tag   = v === 0 ? ' (pior)' : '';
+  const detail = `[${rolls.join(', ')}]${tag} +${bonus}`;
+  toast(`🎲 <strong>${skill.name}</strong>: ${detail} = <b class="roll-result">${total}</b>`);
+  showRollPopup(total, detail, skill.name);
+  if (typeof addToHistory==='function') addToHistory(skill.name, total, detail);
+}
+
+// ─── Quick Dice Roller (Arquivista style) ───
+function quickRoll(d) {
+  const r = Math.floor(Math.random()*d)+1;
+  const lbl = 'd'+d;
+  toast(`🎲 <b>${lbl}</b> = <b class="roll-result">${r}</b>`);
+  showRollPopup(r, `[${r}]`, lbl);
+  addToHistory(lbl, r, `[${r}]`);
+}
+function _doRollExpr(expr) {
+  if (!expr) return;
+  if (typeof rollDice !== 'function') return;
+  const res = rollDice(expr);
+  toast(`🎲 <b>${sanitize(expr)}</b> = <b class="roll-result">${res.total}</b> <span style="color:var(--muted)">${sanitize(res.detail||'')}</span>`);
+  showRollPopup(res.total, res.detail||'', expr);
+  addToHistory(expr, res.total, res.detail||'');
+}
+function quickRollExpr()     { _doRollExpr((document.getElementById('custom-dice')?.value||'').trim() || '1d20'); }
+function quickRollExpr2()    { _doRollExpr((document.getElementById('custom-dice2')?.value||'').trim() || '1d20'); }
+function quickRollExprPage() { _doRollExpr((document.getElementById('custom-dice-page')?.value||'').trim() || '1d20'); }
+
+// ─── Roll History ───
+let _rollHistory = [];
+function addToHistory(label, total, detail) {
+  const ts = new Date().toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
+  _rollHistory.unshift({ label, total, detail, ts });
+  if (_rollHistory.length > 30) _rollHistory.pop();
+  renderHistory();
+}
+function renderHistory() {
+  const el = document.getElementById('roll-history-list');
+  if (!el) return;
+  if (!_rollHistory.length) {
+    el.innerHTML = '<div class="empty-state" style="padding:8px"><span>📜</span><p>Nenhuma rolagem ainda.</p></div>';
+    return;
+  }
+  el.innerHTML = _rollHistory.map(h =>
+    `<div class="hist-item">
+      <span class="hist-lbl">${sanitize(h.label)}</span>
+      <span class="hist-det">${sanitize(h.detail)}</span>
+      <span class="hist-tot">${h.total}</span>
+      <span class="hist-time">${h.ts}</span>
+    </div>`
+  ).join('');
+}
+function clearHistory() { _rollHistory = []; renderHistory(); }
+
+// ─── Override rollAttack to add history ───
+const _baseRollAttack = rollAttack;
+window.rollAttack = function(idx) {
+  const atk = char.attacks[idx];
+  if (!atk) return;
+  const dmgRoll = rollDice(atk.damage || '1d4');
+  const critNum = parseInt(atk.critico) || 20;
+  const atkRoll = Math.floor(Math.random()*20)+1;
+  const isCrit  = atkRoll >= critNum;
+  const finalDmg = isCrit ? dmgRoll.total*(atk.multiplicador||2) : dmgRoll.total;
+  let msg = `⚔️ <strong>${sanitize(atk.name)}</strong>: ${isCrit?'<b class="crit">CRÍTICO!</b> ':''}<span>Ataque ${atkRoll}${atk.atk_bonus>0?` +${atk.atk_bonus}`:''}${isCrit?` × ${atk.multiplicador||2}`:''}</span> | Dano ${dmgRoll.detail} = <b class="roll-result">${finalDmg}</b>`;
+  if (atk.dano_extra && atk.dano_extra.length) {
+    atk.dano_extra.forEach(e => {
+      const er = rollDice(e.dado || '1d4');
+      msg += ` + <em>${sanitize(e.tipo)||'extra'}</em> ${er.detail}=<b>${isCrit?er.total*(atk.multiplicador||2):er.total}</b>`;
+    });
+  }
+  toast(msg);
+  showRollPopup(finalDmg, `Ataque: ${atkRoll}${isCrit?' 💥 CRÍTICO':''}`, sanitize(atk.name));
+  addToHistory(sanitize(atk.name), finalDmg, `Atq:${atkRoll}${isCrit?' CRIT':''} | ${dmgRoll.detail}`);
+};
+
+// ─── Rituais Ativos ───
+function toggleRitualAtivo(idx) {
+  if (!char.rituaisAtivos) char.rituaisAtivos = [];
+  const pos = char.rituaisAtivos.indexOf(idx);
+  if (pos >= 0) char.rituaisAtivos.splice(pos, 1);
+  else char.rituaisAtivos.push(idx);
+  renderRituaisAtivos();
+  renderRituals();
+  autoSave();
+}
+function renderRituaisAtivos() {
+  const el = document.getElementById('rituais-ativos-list');
+  if (!el) return;
+  const ativos = char.rituaisAtivos || [];
+  if (!ativos.length) {
+    el.innerHTML = '<span style="font-size:.65rem;color:var(--muted)">Nenhum ritual ativo. Ative na lista abaixo.</span>';
+    return;
+  }
+  el.innerHTML = ativos.map(idx => {
+    const r = char.rituals[idx];
+    if (!r) return '';
+    const pe = (window.CIRCLE_PE && CIRCLE_PE[parseInt(r.circulo)||0]) || 1;
+    return `<div class="rit-ativo-card">
+      <span class="rit-ativo-name">🌀 ${sanitize(r.name)}</span>
+      <span class="rit-ativo-pe">${pe} PE/rd</span>
+      <button class="ic-btn danger" onclick="toggleRitualAtivo(${idx})" style="font-size:.65rem" title="Desativar">✕</button>
+    </div>`;
+  }).filter(Boolean).join('');
+}
+function clearRituaisAtivos() {
+  char.rituaisAtivos = [];
+  renderRituaisAtivos();
+  renderRituals();
+  autoSave();
+}
+
+// ─── Combatant Tracker ───
+let _combatants = [];
+function _addCombatantData(name, init) {
+  if (!name.trim()) return;
+  _combatants.push({ name: name.trim(), init: parseInt(init)||0 });
+  _combatants.sort((a,b) => b.init - a.init);
+  renderCombatants();
+}
+function addCombatant() {
+  _addCombatantData(
+    document.getElementById('comb-name-inp')?.value || '',
+    document.getElementById('comb-init-inp')?.value || 0
+  );
+  const ni = document.getElementById('comb-name-inp'); if(ni) ni.value='';
+  const ii = document.getElementById('comb-init-inp'); if(ii) ii.value='';
+}
+function addCombatant2() {
+  _addCombatantData(
+    document.getElementById('comb-name-inp2')?.value || '',
+    document.getElementById('comb-init-inp2')?.value || 0
+  );
+  const ni = document.getElementById('comb-name-inp2'); if(ni) ni.value='';
+  const ii = document.getElementById('comb-init-inp2'); if(ii) ii.value='';
+}
+function removeCombatant(idx) {
+  _combatants.splice(idx, 1);
+  if (_currentCombatant >= _combatants.length) _currentCombatant = _combatants.length - 1;
+  renderCombatants();
+}
+function clearCombatants()    { _combatants = []; _currentCombatant = -1; renderCombatants(); }
+
+// ─── Next Combatant (initiative advance) ───
+let _currentCombatant = -1;
+function nextCombatant() {
+  if (!_combatants.length) return;
+  _currentCombatant = (_currentCombatant + 1) % _combatants.length;
+  renderCombatants();
+  const c = _combatants[_currentCombatant];
+  toast(`▶ Turno de <strong>${sanitize(c.name)}</strong> — Init ${c.init}`);
+  showRollPopup(_currentCombatant + 1, `Init: ${c.init}`, sanitize(c.name));
+}
+
+// ─── DADOS GUARDADOS (saved dice presets, persisted) ───
+let _savedDice = [];
+try { _savedDice = JSON.parse(localStorage.getItem('op_saved_dice') || '[]'); } catch(e) {}
+function saveDicePreset() {
+  const name = (document.getElementById('save-dice-name')?.value || '').trim();
+  const expr = (document.getElementById('save-dice-expr')?.value || '').trim();
+  if (!name || !expr) { toast('⚠️ Informe nome e expressão do dado.'); return; }
+  _savedDice.push({ name, expr });
+  try { localStorage.setItem('op_saved_dice', JSON.stringify(_savedDice)); } catch(e) {}
+  const ni = document.getElementById('save-dice-name'); if(ni) ni.value = '';
+  const ei = document.getElementById('save-dice-expr'); if(ei) ei.value = '';
+  renderSavedDice();
+  toast('💾 Dado salvo: ' + sanitize(name));
+}
+function deleteSavedDice(idx) {
+  _savedDice.splice(idx, 1);
+  try { localStorage.setItem('op_saved_dice', JSON.stringify(_savedDice)); } catch(e) {}
+  renderSavedDice();
+}
+function clearSavedDice() {
+  _savedDice = [];
+  try { localStorage.removeItem('op_saved_dice'); } catch(e) {}
+  renderSavedDice();
+  toast('Dados guardados limpos.');
+}
+function useSavedDice(idx) { if (_savedDice[idx]) _doRollExpr(_savedDice[idx].expr); }
+function renderSavedDice() {
+  const chipsHtml = !_savedDice.length
+    ? '<span style="font-size:.65rem;color:var(--muted)">Nenhum dado salvo.</span>'
+    : _savedDice.map((d, i) =>
+        `<span class="saved-die-chip" onclick="useSavedDice(${i})" title="Rolar: ${sanitize(d.expr)}">
+          ${sanitize(d.name)}
+          <button class="saved-die-del" onclick="event.stopPropagation();deleteSavedDice(${i})" title="Remover">✕</button>
+        </span>`
+      ).join('');
+  const el = document.getElementById('saved-dice-list');
+  if (el) el.innerHTML = chipsHtml;
+  const el2 = document.getElementById('saved-dice-list-page');
+  if (el2) el2.innerHTML = chipsHtml;
+}
+
+// ─── ÚLTIMAS CONJURAÇÕES ───
+let _conjuracoes = [];
+function conjurarRitual(idx) {
+  const r = char.rituals[idx];
+  if (!r) return;
+  const pe = (window.CIRCLE_PE && CIRCLE_PE[parseInt(r.circulo)||0]) || 1;
+  if (char.currentPE < pe) { toast('⚠️ PE insuficiente para conjurar esse ritual!'); return; }
+  char.currentPE = Math.max(0, char.currentPE - pe);
+  if (typeof _baseUS === 'function') _baseUS(); else if (typeof updateStats === 'function') updateStats();
+  autoSave();
+  const ts = new Date().toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});
+  _conjuracoes.unshift({ name: r.name, pe, ts });
+  if (_conjuracoes.length > 15) _conjuracoes.pop();
+  renderConjuracoes();
+  toast(`✨ <strong>${sanitize(r.name)}</strong> conjurado! −${pe} PE`);
+  addToHistory(`✨ ${r.name}`, pe, `−${pe} PE conjurado`);
+}
+function renderConjuracoes() {
+  const el = document.getElementById('ultimas-conjuracoes');
+  if (!el) return;
+  if (!_conjuracoes.length) {
+    el.innerHTML = '<span style="font-size:.65rem;color:var(--muted)">Nenhuma conjuração recente.</span>';
+    return;
+  }
+  el.innerHTML = _conjuracoes.map(c =>
+    `<div class="conj-item">
+      <span class="conj-name">✨ ${sanitize(c.name)}</span>
+      <span class="conj-pe">−${c.pe} PE</span>
+      <span class="conj-time">${c.ts}</span>
+    </div>`
+  ).join('');
+}
+function clearConjuracoes() { _conjuracoes = []; renderConjuracoes(); }
+
+// ─── Init on DOMContentLoaded: render saved dice ───
+document.addEventListener('DOMContentLoaded', () => renderSavedDice());
+// ─── Skills search filter ───
+function filterSkillsTable() {
+  const q = (document.getElementById('skills-search')?.value || '').toLowerCase();
+  document.querySelectorAll('#skills-body tr').forEach(tr => {
+    if (!q) { tr.classList.remove('skills-tr-hidden'); return; }
+    const name = tr.querySelector('.skill-name-cell,.sk-name')?.textContent.toLowerCase() || '';
+    tr.classList.toggle('skills-tr-hidden', !name.includes(q));
+  });
+}
+
+// ─── Sustentar todos os rituais ativos (gastar PE) ───
+function deductPeAtivos() {
+  const ativos = char.rituaisAtivos || [];
+  if (!ativos.length) { toast('⚠️ Nenhum ritual ativo para sustentar.'); return; }
+  const totalPE = ativos.reduce((sum, idx) => {
+    const r = char.rituals[idx];
+    return sum + ((window.CIRCLE_PE && CIRCLE_PE[parseInt(r?.circulo)||0]) || 1);
+  }, 0);
+  const semPE = char.currentPE < totalPE;
+  char.currentPE = Math.max(0, char.currentPE - totalPE);
+  if (typeof _baseUS === 'function') _baseUS(); else if (typeof updateStats === 'function') updateStats();
+  autoSave();
+  const warn = semPE ? ' ⚠️ PE insuficiente!' : '';
+  addToHistory('Sustentar Rituais', totalPE, `−${totalPE} PE (${ativos.length} ritual${ativos.length>1?'is':''})${warn}`);
+  toast(`🌀 Sustentando ${ativos.length} ritual${ativos.length>1?'is':''} — −${totalPE} PE${warn}`);
+}
+
+// ─── Condições de Status ───
+let _conditions = [];
+try { _conditions = JSON.parse(localStorage.getItem('op_conditions') || '[]'); } catch(e) { _conditions = []; }
+function _saveConditions() { try { localStorage.setItem('op_conditions', JSON.stringify(_conditions)); } catch(e) {} }
+function _restoreConditionChips() {
+  document.querySelectorAll('#cond-chips .cond-chip').forEach(chip => {
+    const name = chip.textContent.trim();
+    chip.classList.toggle('active', _conditions.includes(name));
+  });
+}
+function toggleCondition(name, btn) {
+  const idx = _conditions.indexOf(name);
+  if (idx >= 0) {
+    _conditions.splice(idx, 1);
+    btn.classList.remove('active');
+  } else {
+    _conditions.push(name);
+    btn.classList.add('active');
+    toast(`⚡ Condição aplicada: <strong>${sanitize(name)}</strong>`);
+  }
+  _saveConditions();
+}
+function clearAllConditions() {
+  _conditions = [];
+  _saveConditions();
+  _restoreConditionChips();
+  toast('Condições removidas.');
+}
+// Restore conditions on load
+document.addEventListener('DOMContentLoaded', () => { _restoreConditionChips(); });
+
+
+function renderCombatants() {
+  const makeCombRow = (c, i) => {
+    const isActive = i === _currentCombatant;
+    return `<div class="combatant-row${isActive?' comb-row-active':''}">
+      <span class="comb-pos">${i+1}°</span>
+      <span class="comb-init">${c.init}</span>
+      <span class="comb-name">${sanitize(c.name)}</span>
+      <button class="comb-del" onclick="removeCombatant(${i})" title="Remover">✕</button>
+    </div>`;
+  };
+  const emptyMsg = '<span style="font-size:.65rem;color:var(--muted)">— sem combatentes —</span>';
+  // rpanel init-order
+  const el = document.getElementById('init-order');
+  if (el) el.innerHTML = !_combatants.length ? emptyMsg : _combatants.map((c,i)=>makeCombRow(c,i)).join('');
+  // page-combate combatants-list2
+  const el2 = document.getElementById('combatants-list2');
+  if (el2) el2.innerHTML = !_combatants.length
+    ? '<span style="font-size:.65rem;color:var(--muted)">— vazio —</span>'
+    : _combatants.map((c,i)=>makeCombRow(c,i)).join('');
+  // init-order2: compact text in the round panel
+  const el3 = document.getElementById('init-order2');
+  if (el3) el3.textContent = _combatants.length
+    ? _combatants.map((c,i)=>`${i===_currentCombatant?'▶ ':''}${i+1}.${c.name}(${c.init})`).join(' ▸ ')
+    : '— vazio —';
+}
+
+// ═══════════════════════════════════════════════════════════
+// BROWSER MODAL — Rituais e Itens "Do Sistema"
+// ═══════════════════════════════════════════════════════════
+const API_BASE = 'http://localhost:8001/api';
+
+let _browserData = [];
+let _browserMode = 'ritual'; // 'ritual' | 'item'
+let _browserFilters = {};
+
+function openBrowser() {
+  document.getElementById('browser-overlay').classList.add('active');
+}
+function closeBrowser() {
+  document.getElementById('browser-overlay').classList.remove('active');
+}
+function closeBrowserOutside(e) {
+  if (e.target.id === 'browser-overlay') closeBrowser();
+}
+
+// ─── Rituais ───
+async function openRitualBrowserModal() {
+  _browserMode = 'ritual';
+  document.getElementById('browser-title').textContent = '📚 Rituais do Sistema';
+  document.getElementById('browser-search').value = '';
+  _browserFilters = { elemento: '', circulo: '' };
+
+  // Filtros
+  const filtersEl = document.getElementById('browser-filters');
+  filtersEl.innerHTML = `
+    <select id="bf-elemento" onchange="_browserFilters.elemento=this.value;renderBrowserItems()">
+      <option value="">Todos os Elementos</option>
+      ${['Sangue','Morte','Conhecimento','Energia','Medo'].map(e=>`<option value="${e}">${e}</option>`).join('')}
+    </select>
+    <select id="bf-circulo" onchange="_browserFilters.circulo=this.value;renderBrowserItems()">
+      <option value="">Todos os Círculos</option>
+      ${[1,2,3,4].map(c=>`<option value="${c}">${c}° Círculo</option>`).join('')}
+    </select>`;
+
+  document.getElementById('browser-body').innerHTML = '<div class="browser-empty">Carregando...</div>';
+  openBrowser();
+
+  try {
+    const res = await fetch(`${API_BASE}/rituals`);
+    _browserData = await res.json();
+    renderBrowserItems();
+  } catch(e) {
+    document.getElementById('browser-body').innerHTML = `<div class="browser-empty">⚠️ API offline. Inicie o servidor: <code>uvicorn backend.main:app --port 8001</code></div>`;
+  }
+}
+
+function _addRitualFromBrowser(idx) {
+  const r = _browserData[idx];
+  if (!r) return;
+  // Monta objeto compatível com ficha.js
+  const novo = {
+    name: r.name,
+    elemento: r.elemento || '',
+    circulo: r.circulo || 1,
+    pe: r.pe || (window.CIRCLE_PE ? CIRCLE_PE[(r.circulo||1)-1] : 1),
+    execucao: r.execucao || 'Padrão',
+    alcance: r.alcance || '—',
+    alvo: r.alvo || '—',
+    duracao: r.duracao || '—',
+    resistencia: r.resistencia || '—',
+    desc: r.desc || ''
+  };
+  if (!char.rituals) char.rituals = [];
+  char.rituals.push(novo);
+  if (typeof renderRituals === 'function') renderRituals();
+  if (typeof syncFullPageRituals === 'function') syncFullPageRituals();
+  autoSave();
+  toast(`🔮 Ritual <strong>${sanitize(r.name)}</strong> adicionado!`);
+}
+
+// ─── Itens ───
+const _ITEM_CATS = [
+  { key: 'arma',       label: '⚔️ Armas' },
+  { key: 'municao',    label: '🔫 Munições' },
+  { key: 'protecao',   label: '🛡️ Proteções' },
+  { key: 'geral',      label: '🎒 Geral' },
+  { key: 'amaldicado', label: '🌀 Amaldiçoados' },
+];
+let _itemCat = 'arma';
+
+async function openInventoryBrowserModal() {
+  _browserMode = 'item';
+  document.getElementById('browser-title').textContent = '📦 Catálogo de Itens';
+  document.getElementById('browser-search').value = '';
+  _itemCat = 'arma';
+
+  // Category tabs
+  const filtersEl = document.getElementById('browser-filters');
+  filtersEl.innerHTML = `<div class="brow-cat-tabs" style="padding:0">` +
+    _ITEM_CATS.map(c =>
+      `<button class="brow-cat-tab${c.key===_itemCat?' active':''}" onclick="_setItemCat('${c.key}',this)">${c.label}</button>`
+    ).join('') +
+    `</div>`;
+
+  document.getElementById('browser-body').innerHTML = '<div class="browser-empty">Carregando...</div>';
+  openBrowser();
+
+  try {
+    const res = await fetch(`${API_BASE}/items`);
+    _browserData = await res.json();
+    renderBrowserItems();
+  } catch(e) {
+    document.getElementById('browser-body').innerHTML = `<div class="browser-empty">⚠️ API offline. Inicie o servidor: <code>uvicorn backend.main:app --port 8001</code></div>`;
+  }
+}
+
+function _setItemCat(key, btn) {
+  _itemCat = key;
+  document.querySelectorAll('.brow-cat-tab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderBrowserItems();
+}
+
+function _addItemFromBrowser(idx) {
+  const it = _browserData[idx];
+  if (!it) return;
+  // Determina categoria de espaço (Cat 0-IV) baseado no campo categoria original
+  const catMap = { arma:1, municao:0, protecao:2, geral:1, amaldicado:1 };
+  const novo = {
+    name: it.name,
+    cat: catMap[it.type] !== undefined ? catMap[it.type] : 1,
+    espacos: it.spaces || 1,
+    desc: [
+      it.damage ? `Dano: ${it.damage} ${it.damage_type||''}` : '',
+      it.defense_bonus ? `+${it.defense_bonus} Defesa` : '',
+      it.dr ? `RD: ${it.dr}` : '',
+      it.proficiency && it.proficiency !== '—' ? `Proficiência: ${it.proficiency}` : '',
+      it.range && it.range !== '—' ? `Alcance: ${it.range}` : '',
+      it.desc || ''
+    ].filter(Boolean).join(' | '),
+    qtd: 1,
+    equipped: false
+  };
+  if (!char.inventory) char.inventory = [];
+  char.inventory.push(novo);
+  if (typeof renderInventory === 'function') renderInventory();
+  if (typeof syncFullPageItems === 'function') syncFullPageItems();
+  autoSave();
+  toast(`📦 <strong>${sanitize(it.name)}</strong> adicionado ao inventário!`);
+}
+
+// ─── Render comum ───
+function filterBrowserItems() { renderBrowserItems(); }
+
+function renderBrowserItems() {
+  const body = document.getElementById('browser-body');
+  const q = (document.getElementById('browser-search')?.value || '').toLowerCase();
+
+  let items = _browserData;
+
+  if (_browserMode === 'ritual') {
+    if (_browserFilters.elemento) items = items.filter(r => r.elemento === _browserFilters.elemento);
+    if (_browserFilters.circulo)  items = items.filter(r => r.circulo == _browserFilters.circulo);
+  } else {
+    items = items.filter(it => it.type === _itemCat);
+  }
+
+  if (q) items = items.filter(it =>
+    (it.name||'').toLowerCase().includes(q) ||
+    (it.desc||'').toLowerCase().includes(q)
+  );
+
+  if (!items.length) {
+    body.innerHTML = '<div class="browser-empty">Nenhum resultado encontrado.</div>';
+    return;
+  }
+
+  // Guardar índices reais no _browserData
+  const globalIdxMap = new Map(items.map(it => [it, _browserData.indexOf(it)]));
+
+  body.innerHTML = items.map(it => {
+    const gIdx = globalIdxMap.get(it);
+    const srcBadge = it.source ? `<span class="brow-item-badge ${(it.source||'').toLowerCase()}">${it.source}</span>` : '';
+    const subInfo = _browserMode === 'ritual'
+      ? `<span class="brow-item-badge">${it.elemento || '?'} · ${it.circulo}° Círculo</span> <span class="brow-item-badge">${it.pe || '?'} PE</span>`
+      : (it.damage ? `<span class="brow-item-badge">${it.damage} ${it.damage_type||''}</span>` : '') +
+        (it.defense_bonus ? `<span class="brow-item-badge">+${it.defense_bonus} Def</span>` : '') +
+        (it.spaces ? `<span class="brow-item-badge">${it.spaces} esp.</span>` : '');
+
+    const meta = _browserMode === 'ritual'
+      ? `<div class="brow-item-meta">
+          <span>Execução: ${it.execucao||'—'}</span>
+          <span>Alcance: ${it.alcance||'—'}</span>
+          <span>Alvo: ${it.alvo||'—'}</span>
+          <span>Duração: ${it.duracao||'—'}</span>
+          ${it.resistencia&&it.resistencia!=='—'?`<span>Resistência: ${it.resistencia}</span>`:''}
+         </div>`
+      : `<div class="brow-item-meta">
+          ${it.proficiency&&it.proficiency!=='—'?`<span>Prof.: ${it.proficiency}</span>`:''}
+          ${it.range&&it.range!=='—'?`<span>Alcance: ${it.range}</span>`:''}
+          ${it.dr?`<span>RD: ${it.dr}</span>`:''}
+         </div>`;
+
+    const addFn = _browserMode === 'ritual' ? `_addRitualFromBrowser(${gIdx})` : `_addItemFromBrowser(${gIdx})`;
+
+    return `<div class="brow-item">
+      <div class="brow-item-hdr" onclick="this.nextElementSibling.classList.toggle('open')">
+        <span class="brow-item-name">${sanitize(it.name)}</span>
+        ${subInfo}${srcBadge}
+        <button class="brow-item-add" onclick="event.stopPropagation();${addFn}">+ Adicionar</button>
+      </div>
+      <div class="brow-item-body">
+        ${meta}
+        <p style="margin:0">${sanitize(it.desc||'')}</p>
+      </div>
+    </div>`;
+  }).join('');
+}
+</script>
+</body>
+</html>
