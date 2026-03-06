@@ -16,5 +16,5 @@ app.include_router(rituals.router, prefix="/api", tags=["rituals"])
 app.include_router(items.router, prefix="/api", tags=["items"])
 app.include_router(abilities.router, prefix="/api", tags=["abilities"])
 
-# serve the whole RPG folder as static files
-app.mount("/", StaticFiles(directory=".", html=True), name="static")
+# serve the frontend/ folder as static files
+app.mount("/", StaticFiles(directory="frontend", html=True), name="static")
